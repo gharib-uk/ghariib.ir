@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Gharib Personal Blog</title>
+    <link>https://ghariib.ir/categories/</link>
+    <description>Recent content in Categories on Gharib Personal Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Alireza Gharib. All right reserved</copyright>
+    <lastBuildDate>Tue, 10 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ghariib.ir/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mastodon, Federation</title>
+      <link>https://ghariib.ir/categories/mastodon-federation/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/mastodon-federation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Matrix, Element, Federation</title>
+      <link>https://ghariib.ir/categories/matrix-element-federation/</link>
+      <pubDate>Tue, 10 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/matrix-element-federation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github, Actions, CI/CD</title>
+      <link>https://ghariib.ir/categories/github-actions-ci/cd/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/github-actions-ci/cd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Java</title>
+      <link>https://ghariib.ir/categories/java/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/java/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Self-Hosted</title>
+      <link>https://ghariib.ir/categories/self-hosted/</link>
+      <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/self-hosted/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Repositories, Repos</title>
+      <link>https://ghariib.ir/categories/repositories-repos/</link>
+      <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/repositories-repos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Go, Golang</title>
+      <link>https://ghariib.ir/categories/go-golang/</link>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/go-golang/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SystemDesign</title>
+      <link>https://ghariib.ir/categories/systemdesign/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/systemdesign/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>AI, Tools</title>
+      <link>https://ghariib.ir/categories/ai-tools/</link>
+      <pubDate>Sun, 18 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ai-tools/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Onion, TOR, OnionLinks</title>
+      <link>https://ghariib.ir/categories/onion-tor-onionlinks/</link>
+      <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/onion-tor-onionlinks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>App, Security</title>
+      <link>https://ghariib.ir/categories/app-security/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/app-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CFT, CaptureTheFlag</title>
+      <link>https://ghariib.ir/categories/cft-capturetheflag/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cft-capturetheflag/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSINT</title>
+      <link>https://ghariib.ir/categories/osint/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/osint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sec, Android, Security</title>
+      <link>https://ghariib.ir/categories/sec-android-security/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/sec-android-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SocialEngineering, Social</title>
+      <link>https://ghariib.ir/categories/socialengineering-social/</link>
+      <pubDate>Tue, 06 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/socialengineering-social/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSINT, Forensics</title>
+      <link>https://ghariib.ir/categories/osint-forensics/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/osint-forensics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Sec, Security</title>
+      <link>https://ghariib.ir/categories/sec-security/</link>
+      <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/sec-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hacking, Hack</title>
+      <link>https://ghariib.ir/categories/hacking-hack/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hacking-hack/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSINT, SocialMediaOSINT</title>
+      <link>https://ghariib.ir/categories/osint-socialmediaosint/</link>
+      <pubDate>Sun, 04 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/osint-socialmediaosint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>IncidentResponse</title>
+      <link>https://ghariib.ir/categories/incidentresponse/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/incidentresponse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSINT, OffensiveOSINT</title>
+      <link>https://ghariib.ir/categories/osint-offensiveosint/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/osint-offensiveosint/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>OSINT, OSINTCountries</title>
+      <link>https://ghariib.ir/categories/osint-osintcountries/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/osint-osintcountries/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>TON</title>
+      <link>https://ghariib.ir/categories/ton/</link>
+      <pubDate>Fri, 02 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ton/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Honeypots</title>
+      <link>https://ghariib.ir/categories/honeypots/</link>
+      <pubDate>Thu, 01 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/honeypots/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>InfoSec, Sec, Security</title>
+      <link>https://ghariib.ir/categories/infosec-sec-security/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/infosec-sec-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Proxy, VPN</title>
+      <link>https://ghariib.ir/categories/proxy-vpn/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/proxy-vpn/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MalwareAnalysis, Malware</title>
+      <link>https://ghariib.ir/categories/malwareanalysis-malware/</link>
+      <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/malwareanalysis-malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Pentest, PenetrationTest</title>
+      <link>https://ghariib.ir/categories/pentest-penetrationtest/</link>
+      <pubDate>Sat, 27 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/pentest-penetrationtest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>DNS, Acme.sh</title>
+      <link>https://ghariib.ir/categories/dns-acme.sh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/dns-acme.sh/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
