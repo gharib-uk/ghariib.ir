@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ghariib.ir/categories/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/tags/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/vps/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/tags/vps-vpn-vds-email-domain/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/vps-vpn-vds-email-domain/</loc>
+    <lastmod>2024-09-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/tags/mastodon-federation/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
@@ -20,16 +35,10 @@
     <loc>https://ghariib.ir/tags/matrix-federation-element/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ghariib.ir/posts/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ghariib.ir/posts/mastodon/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/element/</loc>
-    <lastmod>2024-09-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ghariib.ir/tags/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/tags/cicd-github-actions/</loc>
