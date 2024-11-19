@@ -3,13 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://ghariib.ir/categories/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/tags/rss/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/rss/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/freshrss/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/tags/</loc>
+    <lastmod>2024-11-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/sysadmin/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
@@ -18,9 +30,6 @@
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/categories/sysadmin-tools/</loc>
-    <lastmod>2024-10-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://ghariib.ir/tags/</loc>
     <lastmod>2024-10-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/rss/</loc>
