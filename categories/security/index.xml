@@ -7683,6 +7683,13 @@ Android Permissions Denial of Service</title>
       <description>&lt;p&gt;If you&amp;rsquo;ve never deployed a website with the Apache web server, you&amp;rsquo;re about to learn how.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
+      <title>IOS kernel flaws</title>
+      <link>https://ghariib.ir/posts/ios-kernel-flaws/</link>
+      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/ios-kernel-flaws/</guid>
+      <description>&lt;p&gt;Back in 2012, Mark and I detailed a number of iOS kernel mitigations that were introduced in iOS 6 to prevent an attacker from leveraging well-known exploitation techniques such as the zone free list pointer overwrite. Most of these mitigations rely on entropy (of varying degree) provided by the kernel, and are therefore supported by a separate random number generator known as the &lt;strong&gt;early_random()&lt;/strong&gt; PRNG. As this generator is fundamental to the robustness of these mitigations, and has received additional improvements in iOS 7, it is unarguably a very interesting target that deserves further study.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Ivanti Connect Secure Zero-Day Threat: 2,048 Vulnerable Devices and Critical Exploitation Details Unveiled</title>
       <link>https://ghariib.ir/posts/ivanti-connect-secure-zero-day-threat-2048-vulnerable-devices-and-critical-exploitation-details-unveiled/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
