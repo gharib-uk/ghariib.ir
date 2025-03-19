@@ -31,6 +31,13 @@
       <description></description>
     </item>
     <item>
+      <title>Work</title>
+      <link>https://ghariib.ir/tags/work/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/tags/work/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Cve</title>
       <link>https://ghariib.ir/tags/cve/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
@@ -441,20 +448,6 @@
       <link>https://ghariib.ir/tags/apple-intelligence/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/apple-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apple-Watch-Bands</title>
-      <link>https://ghariib.ir/tags/apple-watch-bands/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/apple-watch-bands/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apple-Watch-Straps</title>
-      <link>https://ghariib.ir/tags/apple-watch-straps/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/apple-watch-straps/</guid>
       <description></description>
     </item>
     <item>
@@ -1963,13 +1956,6 @@
       <description></description>
     </item>
     <item>
-      <title>Amd</title>
-      <link>https://ghariib.ir/tags/amd/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/amd/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Apple</title>
       <link>https://ghariib.ir/tags/apple/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
@@ -2453,13 +2439,6 @@
       <description></description>
     </item>
     <item>
-      <title>Pcs</title>
-      <link>https://ghariib.ir/tags/pcs/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/pcs/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Penetration-Testing</title>
       <link>https://ghariib.ir/tags/penetration-testing/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
@@ -2698,24 +2677,10 @@
       <description></description>
     </item>
     <item>
-      <title>Work</title>
-      <link>https://ghariib.ir/tags/work/</link>
-      <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/work/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Zero-Day</title>
       <link>https://ghariib.ir/tags/zero-day/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/zero-day/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>5g</title>
-      <link>https://ghariib.ir/tags/5g/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/5g/</guid>
       <description></description>
     </item>
     <item>
@@ -2747,17 +2712,10 @@
       <description></description>
     </item>
     <item>
-      <title>Almalinux</title>
-      <link>https://ghariib.ir/tags/almalinux/</link>
+      <title>Amd</title>
+      <link>https://ghariib.ir/tags/amd/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/almalinux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Amazon-Web-Services</title>
-      <link>https://ghariib.ir/tags/amazon-web-services/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/amazon-web-services/</guid>
+      <guid>https://ghariib.ir/tags/amd/</guid>
       <description></description>
     </item>
     <item>
@@ -2803,20 +2761,6 @@
       <description></description>
     </item>
     <item>
-      <title>Aws</title>
-      <link>https://ghariib.ir/tags/aws/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/aws/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Azure</title>
-      <link>https://ghariib.ir/tags/azure/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/azure/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Blackwell</title>
       <link>https://ghariib.ir/tags/blackwell/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -2856,13 +2800,6 @@
       <link>https://ghariib.ir/tags/call-routing/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/call-routing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Centos</title>
-      <link>https://ghariib.ir/tags/centos/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/centos/</guid>
       <description></description>
     </item>
     <item>
@@ -2950,20 +2887,6 @@
       <description></description>
     </item>
     <item>
-      <title>Codepen</title>
-      <link>https://ghariib.ir/tags/codepen/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/codepen/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Codespaces</title>
-      <link>https://ghariib.ir/tags/codespaces/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/codespaces/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Competition-and-Markets-Authority</title>
       <link>https://ghariib.ir/tags/competition-and-markets-authority/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3003,20 +2926,6 @@
       <link>https://ghariib.ir/tags/contact-centers/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/contact-centers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Containers</title>
-      <link>https://ghariib.ir/tags/containers/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/containers/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cryptomining</title>
-      <link>https://ghariib.ir/tags/cryptomining/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/cryptomining/</guid>
       <description></description>
     </item>
     <item>
@@ -3062,13 +2971,6 @@
       <description></description>
     </item>
     <item>
-      <title>Datarobot</title>
-      <link>https://ghariib.ir/tags/datarobot/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/datarobot/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Decentralized-Project-Teams</title>
       <link>https://ghariib.ir/tags/decentralized-project-teams/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3104,13 +3006,6 @@
       <description></description>
     </item>
     <item>
-      <title>Fedora</title>
-      <link>https://ghariib.ir/tags/fedora/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/fedora/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Finops</title>
       <link>https://ghariib.ir/tags/finops/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3125,24 +3020,10 @@
       <description></description>
     </item>
     <item>
-      <title>Google-Ai</title>
-      <link>https://ghariib.ir/tags/google-ai/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/google-ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Googlecloud</title>
       <link>https://ghariib.ir/tags/googlecloud/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/googlecloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>H2o-Ai</title>
-      <link>https://ghariib.ir/tags/h2o-ai/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/h2o-ai/</guid>
       <description></description>
     </item>
     <item>
@@ -3188,24 +3069,10 @@
       <description></description>
     </item>
     <item>
-      <title>Iam</title>
-      <link>https://ghariib.ir/tags/iam/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/iam/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ibm</title>
       <link>https://ghariib.ir/tags/ibm/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/ibm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ibm-Watson</title>
-      <link>https://ghariib.ir/tags/ibm-watson/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/ibm-watson/</guid>
       <description></description>
     </item>
     <item>
@@ -3342,13 +3209,6 @@
       <description></description>
     </item>
     <item>
-      <title>Microsoft-Azure</title>
-      <link>https://ghariib.ir/tags/microsoft-azure/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/microsoft-azure/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Microsoft-Copilot</title>
       <link>https://ghariib.ir/tags/microsoft-copilot/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3468,20 +3328,6 @@
       <description></description>
     </item>
     <item>
-      <title>Oracle-Cloud-Infrastructure</title>
-      <link>https://ghariib.ir/tags/oracle-cloud-infrastructure/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/oracle-cloud-infrastructure/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Oracle-Linux</title>
-      <link>https://ghariib.ir/tags/oracle-linux/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/oracle-linux/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Payroll</title>
       <link>https://ghariib.ir/tags/payroll/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3510,10 +3356,10 @@
       <description></description>
     </item>
     <item>
-      <title>Portainer</title>
-      <link>https://ghariib.ir/tags/portainer/</link>
+      <title>Pcs</title>
+      <link>https://ghariib.ir/tags/pcs/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/portainer/</guid>
+      <guid>https://ghariib.ir/tags/pcs/</guid>
       <description></description>
     </item>
     <item>
@@ -3538,27 +3384,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ransomware</title>
-      <link>https://ghariib.ir/tags/ransomware/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/ransomware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Red-Hat-Enterprise-Linux</title>
-      <link>https://ghariib.ir/tags/red-hat-enterprise-linux/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/red-hat-enterprise-linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Replit</title>
-      <link>https://ghariib.ir/tags/replit/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/replit/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Resource-Management</title>
       <link>https://ghariib.ir/tags/resource-management/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3573,38 +3398,10 @@
       <description></description>
     </item>
     <item>
-      <title>Rocky-Linux</title>
-      <link>https://ghariib.ir/tags/rocky-linux/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/rocky-linux/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Root-Password</title>
       <link>https://ghariib.ir/tags/root-password/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/root-password/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Royal</title>
-      <link>https://ghariib.ir/tags/royal/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/royal/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Royal-Ransomware</title>
-      <link>https://ghariib.ir/tags/royal-ransomware/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/royal-ransomware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Salesforce-Einstein</title>
-      <link>https://ghariib.ir/tags/salesforce-einstein/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/salesforce-einstein/</guid>
       <description></description>
     </item>
     <item>
@@ -3643,31 +3440,10 @@
       <description></description>
     </item>
     <item>
-      <title>Serverless</title>
-      <link>https://ghariib.ir/tags/serverless/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/serverless/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Servicenow-Aiops</title>
-      <link>https://ghariib.ir/tags/servicenow-aiops/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/servicenow-aiops/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Set-Mysql-Root-Password</title>
       <link>https://ghariib.ir/tags/set-mysql-root-password/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/set-mysql-root-password/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Smart-Cities</title>
-      <link>https://ghariib.ir/tags/smart-cities/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/smart-cities/</guid>
       <description></description>
     </item>
     <item>
@@ -3689,13 +3465,6 @@
       <link>https://ghariib.ir/tags/ssh-key/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/ssh-key/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Stackblitz</title>
-      <link>https://ghariib.ir/tags/stackblitz/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/stackblitz/</guid>
       <description></description>
     </item>
     <item>
@@ -3762,13 +3531,6 @@
       <description></description>
     </item>
     <item>
-      <title>Virtual-Machine</title>
-      <link>https://ghariib.ir/tags/virtual-machine/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/virtual-machine/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Virtual-Private-Network</title>
       <link>https://ghariib.ir/tags/virtual-private-network/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3780,20 +3542,6 @@
       <link>https://ghariib.ir/tags/virtual-private-network-vpn/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/virtual-private-network-vpn/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Visual-Studio-Code</title>
-      <link>https://ghariib.ir/tags/visual-studio-code/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/visual-studio-code/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Vmware-Workstation-Player</title>
-      <link>https://ghariib.ir/tags/vmware-workstation-player/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/vmware-workstation-player/</guid>
       <description></description>
     </item>
     <item>
@@ -3853,13 +3601,6 @@
       <description></description>
     </item>
     <item>
-      <title>Windows-11</title>
-      <link>https://ghariib.ir/tags/windows-11/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/windows-11/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Windows-Fax</title>
       <link>https://ghariib.ir/tags/windows-fax/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -3871,13 +3612,6 @@
       <link>https://ghariib.ir/tags/windows-fax-and-scan/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/windows-fax-and-scan/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Wireless-Connectivity</title>
-      <link>https://ghariib.ir/tags/wireless-connectivity/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/tags/wireless-connectivity/</guid>
       <description></description>
     </item>
     <item>
@@ -3976,6 +3710,20 @@
       <link>https://ghariib.ir/tags/author/</link>
       <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/author/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aws</title>
+      <link>https://ghariib.ir/tags/aws/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/tags/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>https://ghariib.ir/tags/azure/</link>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/tags/azure/</guid>
       <description></description>
     </item>
     <item>
@@ -4949,6 +4697,13 @@
       <link>https://ghariib.ir/tags/confluence/</link>
       <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/confluence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>https://ghariib.ir/tags/containers/</link>
+      <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/tags/containers/</guid>
       <description></description>
     </item>
     <item>
@@ -6100,6 +5855,13 @@
       <description></description>
     </item>
     <item>
+      <title>Iam</title>
+      <link>https://ghariib.ir/tags/iam/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/tags/iam/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Idss</title>
       <link>https://ghariib.ir/tags/idss/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
@@ -6419,6 +6181,13 @@
       <link>https://ghariib.ir/tags/quantumcryptography/</link>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/tags/quantumcryptography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ransomware</title>
+      <link>https://ghariib.ir/tags/ransomware/</link>
+      <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/tags/ransomware/</guid>
       <description></description>
     </item>
     <item>

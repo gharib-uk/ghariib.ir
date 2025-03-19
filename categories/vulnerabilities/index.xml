@@ -7,8 +7,127 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Alireza Gharib. All right reserved</copyright>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ghariib.ir/categories/vulnerabilities/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&lt;div&gt;The Role of WAF in Fintech &amp; Financial Services&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/the-role-of-waf-in-fintech-financial-services/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/the-role-of-waf-in-fintech-financial-services/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/07/CNAPP-Solution-blog.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The financial sector serves as the backbone of the global economy, making it one of the most targeted industries for cyber attacks. As online banking, mobile transactions, and fintech innovations expand, cyber threats continue to evolve. Cyber criminals continuously exploit vulnerabilities in financial applications, making strong security measures essential for protecting sensitive customer data, transactions, and business operations. To mitigate these risks, efficient web application firewalls (WAFs) have become a crucial security mechanism for financial services. In recent GigaOm Radar for Application and API Security report, GigaOm emphasizes the critical role of integrated security measures in today’s digital landscape. The […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Milestone in Hands-On Cyber Security Training: SecureAcademy’s First Global Cyber Range Challenge</title>
+      <link>https://ghariib.ir/posts/a-milestone-in-hands-on-cyber-security-training-secureacademys-first-global-cyber-range-challenge/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/a-milestone-in-hands-on-cyber-security-training-secureacademys-first-global-cyber-range-challenge/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/10/22690-blog_banner-Next_Big_SaaS_Leak-2000x700_v1dp-1.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;SecureAcademy recently hosted its first-ever Global Cyber Range Challenge, a virtual event designed to provide cyber security students and enthusiasts with real-world, hands-on experience. With participants from 11 countries and 12 academic institutions, the event showcased the power of immersive learning using one of Cyber Park’s gamified experiences to prepare the next generation of cyber defenders. These experiences include Red Team-Blue Team, CTF-style cyber ranges, and introductory escape rooms. The cyber ranges serve as a “flight simulator” for cyber security professionals, providing a gamified, lifelike environment to test and refine their skills. SecureAcademy, part of Infinity Global Services alongside Cyber […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Apple Disables Advanced Data Protection for iCloud in UK</title>
+      <link>https://ghariib.ir/posts/apple-disables-advanced-data-protection-for-icloud-in-uk/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/apple-disables-advanced-data-protection-for-icloud-in-uk/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.elcomsoft.com/wp-content/uploads/2019/07/EPBEPV_Accessing-iCloud2019_1200x630-1.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;In the beginning of February, Apple may have received a secret order requiring the company to create an encryption backdoor. According to a leak, the UK government demanded blanket, covert access to all sorts of encrypted data globally. After that demand, Apple decided to disable Advanced Data Protection for iCloud in the UK, issuing an official statement. What does that mean for the law enforcement, and what consequences are expected for the end users?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Beyond the Cloud | How Edge Computing is Unlocking IoT’s Full Potential</title>
+      <link>https://ghariib.ir/posts/beyond-the-cloud-how-edge-computing-is-unlocking-iots-full-potential/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/beyond-the-cloud-how-edge-computing-is-unlocking-iots-full-potential/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/06/blog.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The Internet of Things (IoT) is transforming industries like healthcare, manufacturing, smart cities, and even autonomous vehicles—making our daily lives hyperconnected. But as more devices come online, relying solely on cloud computing can lead to slow response times, high bandwidth costs and security risks. The traditional cloud-based infrastructure struggles to keep up with the demands of real-time data processing, low latency, and proactive, preventative security. Before we dive in, let me explain what is edge computing is about and how it applies to IoT. Simply put, edge computing processes data right where it’s generated instead of routing it to remote […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Check Point Named Gold Winner for Cloud Security in 2025 Globee Cybersecurity Awards</title>
+      <link>https://ghariib.ir/posts/check-point-named-gold-winner-for-cloud-security-in-2025-globee-cybersecurity-awards/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/check-point-named-gold-winner-for-cloud-security-in-2025-globee-cybersecurity-awards/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2025/03/Gold-Medal-Award-blog.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Check Point is honored to be featured as a Gold Winner for Cloud Security in the 2025 Globee Cybersecurity Awards. Check Point’s CloudGuard platform distinguished itself for its preventive approach to cloud security, focusing on stopping cyber attacks before they infiltrate cloud environments in the first place. CloudGuard’s end-to-end suite of advanced cloud security solutions, including web application firewall (WAF), automated network security, cloud detection and response (CDR), and code security, enables organizations to enact a unique, AI-powered approach that prioritizes risk management and threat prevention, reducing overall risk profiles for organizations globally. The Globee® Awards for Cybersecurity spotlight the […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Critical Zero-Day Vulnerabilities Found in These VMware Products</title>
+      <link>https://ghariib.ir/posts/critical-zero-day-vulnerabilities-found-in-these-vmware-products/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/critical-zero-day-vulnerabilities-found-in-these-vmware-products/</guid>
+      <description>&lt;p&gt;A year after VMware ESXi servers faced ransomware attacks, new zero-day vulnerabilities are being exploited, posing risks to organizations worldwide.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dark Storm Team Claims Responsibility for Cyber Attack on X Platform – What It Means for the Future of Digital Security</title>
+      <link>https://ghariib.ir/posts/dark-storm-team-claims-responsibility-for-cyber-attack-on-x-platform-what-it-means-for-the-future-of-digital-security/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/dark-storm-team-claims-responsibility-for-cyber-attack-on-x-platform-what-it-means-for-the-future-of-digital-security/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/11/shutterstock_1904951575.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;In a stark reminder of the growing threat posed by hacktivist groups, the pro-Palestinian Dark Storm Team has taken credit for a major distributed denial-of-service (DDoS) attack on X (formerly Twitter). This attack underscores the vulnerability of even the most well-established digital platforms to sophisticated, politically motivated cyber threats. With online platforms playing an increasingly crucial role in global communication, the attack on X is part of a larger campaign of cyber aggression targeting critical infrastructure, government agencies, and major corporations. But who is the Dark Storm Team, and why should organizations worldwide take notice? Who is the Dark Storm […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Enhancing CA Practices: Key Updates in Mozilla Root Store Policy, v3.0</title>
+      <link>https://ghariib.ir/posts/enhancing-ca-practices-key-updates-in-mozilla-root-store-policy-v3-0/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/enhancing-ca-practices-key-updates-in-mozilla-root-store-policy-v3-0/</guid>
+      <description>&lt;p&gt;Mozilla remains committed to fostering a secure, agile, and transparent Web PKI ecosystem. The new Mozilla Root Store Policy (MRSP) v3.0, effective March 15, 2025, introduces critical updates to strengthen Certificate Authority (CA) practices and enhance compliance.&lt;/p&gt;&#xA;&lt;p&gt;A major focus of &lt;strong&gt;MRSP v3.0&lt;/strong&gt; is tackling the long-standing challenge of &lt;strong&gt;delayed certificate revocation&lt;/strong&gt;—an issue that has historically weakened the security and reliability of TLS certificate management. The updated policy establishes &lt;strong&gt;clearer revocation expectations, improved incident reporting, subscriber education by CAs, revocation planning,&lt;/strong&gt; and &lt;strong&gt;automated certificate issuance&lt;/strong&gt; to ensure that certificate replacement and revocation can be handled promptly and at scale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>February 2025’s Malware Spotlight: AsyncRAT Emerges, Targeting Trusted Platforms</title>
+      <link>https://ghariib.ir/posts/february-2025s-malware-spotlight-asyncrat-emerges-targeting-trusted-platforms/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/february-2025s-malware-spotlight-asyncrat-emerges-targeting-trusted-platforms/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/07/muddywater-blog-2000x700-1.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Check Point’s latest threat index highlights a new campaign involving the malware, AsyncRAT, a remote access trojan targeting Windows systems since 2019. The fourth most prevalent malware of the month, AsyncRAT, enables data theft, command execution, and system compromise. The latest attacks utilized TryCloudflare tunnels and malicious Python packages, starting with phishing emails that contained Dropbox URLs. This led to a multi-step infection chain involving LNK, JavaScript, and BAT files, culminating in an obfuscated AsyncRAT payload deployment. This campaign reflects a growing trend of exploiting legitimate platforms like Dropbox and TryCloudflare to evade detection and establish persistence. The Increasing Threat […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forensic Implications of Apple’s “Stolen Device Protection”</title>
+      <link>https://ghariib.ir/posts/forensic-implications-of-apples-stolen-device-protection/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/forensic-implications-of-apples-stolen-device-protection/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.elcomsoft.com/wp-content/uploads/2023/04/passcodes.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;With the release of iOS 17.3, Apple introduced a new security feature called “Stolen Device Protection.” This functionality is designed to prevent unauthorized access to sensitive data in cases where a thief has gained knowledge of an iPhone’s passcode. While this feature significantly enhances security for end users, it simultaneously creates substantial obstacles for digital forensic experts, complicating lawful data extraction.&lt;/p&gt;&#xA;&lt;h2 id=&#34;a-roadblock-to-logical-extraction&#34;&gt;A Roadblock to Logical Extraction&lt;/h2&gt;&#xA;&lt;p&gt;Gaining access to data on Apple devices has historically been most feasible through standard mechanisms leveraged by many forensic tools, including iOS Forensic Toolkit, as part of an advanced logical extraction process. Alternative methods, such as low-level extraction, are either limited to older devices and iOS versions (currently, iOS 16.6.1 is the latest iOS build supported by iOS Forensic Toolkit) or legacy devices. Cloud-based analysis also presents challenges, as it requires full user credentials, and the device passcode is required on top of that to access end-to-end encrypted data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How Manufacturers Can Turn Security Into a Competitive Advantage</title>
+      <link>https://ghariib.ir/posts/how-manufacturers-can-turn-security-into-a-competitive-advantage/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/how-manufacturers-can-turn-security-into-a-competitive-advantage/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2025/03/blog-manufacturers.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Digitization has significantly changed manufacturing over the past 25 years. The benefits include reducing inventory costs and machine downtime, and boosting throughput and forecasting accuracy. But as digitization has grown in prevalence, so have the security challenges facing manufacturers. This includes ransomware, legacy systems that are hard to patch, and third-party risk, among other types of threats. At the turn of the 21st century, production facilities were using software in various areas, but these systems were rarely integrated, and departments often operated in silos. Robotic assembly lines were already well established – primarily in the automotive industry – but were […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Is Firebase Phishing a Threat to Your Organization?</title>
+      <link>https://ghariib.ir/posts/is-firebase-phishing-a-threat-to-your-organization/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/is-firebase-phishing-a-threat-to-your-organization/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/12/US-Treasury-Breach-blog-3-e1735684130878.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Check Point researchers have uncovered a sophisticated credential harvesting attack that leverages Firebase, a popular web application hosting service. This attack involves the creation of highly convincing and professionally designed phishing web pages that impersonate well-known services. The attackers also utilize a compromised vendor to send phishing links within existing email correspondences, making the scam even more deceptive. How it Works: The attackers leverage Firebase to host phishing web pages that mimic legitimate services. By compromising a vendor’s email account, cyber criminals then insert phishing links into ongoing email threads. This tactic increases the likelihood of the recipient trusting the […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NVIDIA Blackwell is Out: Should You Upgrade?</title>
+      <link>https://ghariib.ir/posts/nvidia-blackwell-is-out-should-you-upgrade/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/nvidia-blackwell-is-out-should-you-upgrade/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.elcomsoft.com/wp-content/uploads/2022/06/nvidia-rtx-article_1200x630.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Law enforcement and digital forensic specialists have long utilized GPUs for password recovery. GPUs excel at this task due to their thousands of parallel processing cores, enabling rapid hash computations. Tools like Elcomsoft Distributed Password Recovery leverage GPU acceleration to significantly outperform traditional CPUs in brute-force attacks. The new NVIDIA Blackwell architecture doubles the number of INT32 compute units compared to Ada and Ampere. How will this architectural change affect password recovery, and is it worth upgrading to a new GPU?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NVIDIA GeForce RTX 5090 Power Connectors Melting Again</title>
+      <link>https://ghariib.ir/posts/nvidia-geforce-rtx-5090-power-connectors-melting-again/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/nvidia-geforce-rtx-5090-power-connectors-melting-again/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.elcomsoft.com/wp-content/uploads/2025/03/rtx-5090-on-fire_1200x630-1.png&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Just a week ago, we published an article about NVIDIA’s new generation of Blackwell-based graphics cards. Despite a noticeable price hike, performance gains in this generation are minimal, with one notable exception: the flagship GeForce RTX 5090 significantly outperforms its predecessor in all key aspects. However, this GPU has also revealed a potential issue that could make its use in workstations running 24/7 problematic and potentially unsafe.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-new-connector&#34;&gt;The New Connector&lt;/h2&gt;&#xA;&lt;p&gt;Before diving into the root of the issue, let’s first understand how it arose. Modern GPUs require far more power than what can be delivered through the PCIe slot alone, forcing manufacturers to provide additional power via cables directly from the PSU. Antec, a well-known PSU manufacturer, has published a diagram illustrating the number of cables required to power high-performance graphics cards.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stealthy Apache Tomcat Critical Exploit Bypasses Security Filters: Are You at Risk?</title>
+      <link>https://ghariib.ir/posts/stealthy-apache-tomcat-critical-exploit-bypasses-security-filters-are-you-at-risk/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/stealthy-apache-tomcat-critical-exploit-bypasses-security-filters-are-you-at-risk/</guid>
+      <description>&lt;p&gt;By simply sending HTTP requests, attackers can trigger the deserialisation of malicious data in Tomcat&amp;rsquo;s session storage and gain control.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The Growing Danger of Blind Eagle: One of Latin America’s Most Dangerous Cyber Criminal Groups Targets Colombia</title>
+      <link>https://ghariib.ir/posts/the-growing-danger-of-blind-eagle-one-of-latin-americas-most-dangerous-cyber-criminal-groups-targets-colombia/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/the-growing-danger-of-blind-eagle-one-of-latin-americas-most-dangerous-cyber-criminal-groups-targets-colombia/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/12/blog-image.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Executive Summary  Check Point Research (CPR) has uncovered a series of ongoing, targeted cyber campaigns by Blind Eagle (APT-C-36)—one of Latin America’s most dangerous threat actors Days after Microsoft released a fix for CVE-2024-43451, the group began employing a comparable technique involving harmful .url files, showing how attackers can turn security updates into weapons against their victims CPR found over 9,000 infections in just one week Attacks leverage trusted platforms like Google Drive, Dropbox, GitHub, and Bitbucket to distribute payloads, bypassing traditional security defenses The final malware, Remcos RAT, enables data theft, remote execution, and persistent access Blind Eagle’s Cyber […]&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why a Value-Driven Approach Makes Women Strong Leaders</title>
+      <link>https://ghariib.ir/posts/why-a-value-driven-approach-makes-women-strong-leaders/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/why-a-value-driven-approach-makes-women-strong-leaders/</guid>
+      <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.checkpoint.com/wp-content/uploads/2024/12/blog-SASE.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;In business, the path to value creation requires more than strategic planning and execution—it demands an ability to connect the dots, anticipate needs, and understand the human elements that drive progress. Women often demonstrate these capabilities through their natural inclination to consider multiple perspectives and implications before making decisions. This approach, which emphasizes understanding the complete picture rather than just individual components, can lead to more sustainable and meaningful business outcomes. In honor of International Women’s Day, this blog post invites readers to take a closer look at how women move mountains in the corporate and technology landscapes, encouraging innovation […]&lt;/p&gt;</description>
+    </item>
     <item>
       <title>&lt;div&gt;AIs and Robots Should Sound Robotic&lt;/div&gt;</title>
       <link>https://ghariib.ir/posts/ais-and-robots-should-sound-robotic/</link>

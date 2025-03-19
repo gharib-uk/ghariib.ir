@@ -7,8 +7,36 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Alireza Gharib. All right reserved</copyright>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ghariib.ir/categories/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&lt;div&gt;5 Best Linux CentOS Replacement Options &amp; Alternatives&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/5-best-linux-centos-replacement-options-alternatives/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/5-best-linux-centos-replacement-options-alternatives/</guid>
+      <description>&lt;p&gt;Red Hat&amp;rsquo;s decision to end CentOS is forcing most developers and companies to find an alternative OS. In this guide, learn about the top competitors&amp;rsquo; features.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Google Wants You to Code in a Browser With Project IDX</title>
+      <link>https://ghariib.ir/posts/google-wants-you-to-code-in-a-browser-with-project-idx/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/google-wants-you-to-code-in-a-browser-with-project-idx/</guid>
+      <description>&lt;p&gt;Developers can sign up for a waitlist for the Google Cloud-supported project.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Royal ransomware spreads to Linux and VMware ESXi</title>
+      <link>https://ghariib.ir/posts/royal-ransomware-spreads-to-linux-and-vmware-esxi/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/royal-ransomware-spreads-to-linux-and-vmware-esxi/</guid>
+      <description>&lt;p&gt;A new Linux version of Royal ransomware is targeting VMware ESXi virtual machines. Learn more about this security threat and how to protect from it.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Stealthy Apache Tomcat Critical Exploit Bypasses Security Filters: Are You at Risk?</title>
+      <link>https://ghariib.ir/posts/stealthy-apache-tomcat-critical-exploit-bypasses-security-filters-are-you-at-risk/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/stealthy-apache-tomcat-critical-exploit-bypasses-security-filters-are-you-at-risk/</guid>
+      <description>&lt;p&gt;By simply sending HTTP requests, attackers can trigger the deserialisation of malicious data in Tomcat&amp;rsquo;s session storage and gain control.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
     <item>
       <title>&lt;div&gt;What is DevOps Automation? Best Practices &amp; Benefits&lt;/div&gt;</title>
       <link>https://ghariib.ir/posts/what-is-devops-automation-best-practices-benefits/</link>
@@ -178,20 +206,6 @@
       <description>&lt;p&gt;These steps walk you through the process of setting up an SFTP server on Linux for the secure transfer of files for specialized file transfer-only users.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
-      <title>&lt;div&gt;5 Best Linux CentOS Replacement Options &amp; Alternatives&lt;/div&gt;</title>
-      <link>https://ghariib.ir/posts/5-best-linux-centos-replacement-options-alternatives/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/posts/5-best-linux-centos-replacement-options-alternatives/</guid>
-      <description>&lt;p&gt;Red Hat&amp;rsquo;s decision to end CentOS is forcing most developers and companies to find an alternative OS. In this guide, learn about the top competitors&amp;rsquo; features.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Google Wants You to Code in a Browser With Project IDX</title>
-      <link>https://ghariib.ir/posts/google-wants-you-to-code-in-a-browser-with-project-idx/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/posts/google-wants-you-to-code-in-a-browser-with-project-idx/</guid>
-      <description>&lt;p&gt;Developers can sign up for a waitlist for the Google Cloud-supported project.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>How to Disable IPv6 on Linux</title>
       <link>https://ghariib.ir/posts/how-to-disable-ipv6-on-linux/</link>
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
@@ -225,13 +239,6 @@
       <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/how-to-use-the-apache-web-server-to-install-and-configure-a-website/</guid>
       <description>&lt;p&gt;If you&amp;rsquo;ve never deployed a website with the Apache web server, you&amp;rsquo;re about to learn how.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Royal ransomware spreads to Linux and VMware ESXi</title>
-      <link>https://ghariib.ir/posts/royal-ransomware-spreads-to-linux-and-vmware-esxi/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/posts/royal-ransomware-spreads-to-linux-and-vmware-esxi/</guid>
-      <description>&lt;p&gt;A new Linux version of Royal ransomware is targeting VMware ESXi virtual machines. Learn more about this security threat and how to protect from it.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
       <title>What’s Next for Open Source Software Security in 2025?</title>

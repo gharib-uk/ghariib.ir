@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Alireza Gharib. All right reserved</copyright>
-    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ghariib.ir/categories/blockchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to prove false statements? (Part 2)</title>
+      <link>https://ghariib.ir/posts/how-to-prove-false-statements-part-2/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/how-to-prove-false-statements-part-2/</guid>
+      <description>&lt;p&gt;&lt;em&gt;This is the second part of a two three four-part series, which covers some recent results on “verifiable computation” and possible pitfalls that could occur there. This post won’t make much sense on its own, so I urge you to start with the first part.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the previous post we introduced a handful of concepts, including (1) the notion of “verifiable computation” proof systems (sometimes inaccurately called “ZK” by the Ethereum community), (2) hash functions, and (3) some ideal models that we use for our security proofs, and (4) the idea that these “ideal models” are bogus — and sometimes they can make us confident in schemes that are totally insecure in the real world.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How to prove false statements? (Part 1)</title>
       <link>https://ghariib.ir/posts/how-to-prove-false-statements-part-1/</link>

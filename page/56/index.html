@@ -40,156 +40,45 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cisa-under-trump/">&lt;div&gt;CISA Under Trump&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-23973-silicon-labs-gecko-os-http-get-request-buffer-overflow-allows-arbitrary-code-execution-over-the-network/">CVE-2024-23973 - Silicon Labs Gecko OS HTTP GET Request Buffer Overflow Allows Arbitrary Code Execution over the Network</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>Jen Easterly is out as the Director of CISA. Read her final interview:</p>
-<blockquote>
-<p>There’s a lot of unfinished business. We have made an impact through our ransomware vulnerability warning pilot and our pre-ransomware notification initiative, and I’m really proud of that, because we work on preventing somebody from having their worst day. But ransomware is still a problem. We have been laser-focused on PRC cyber actors. That will continue to be a huge problem. I’m really proud of where we are, but there’s much, much more work to be done. There are things that I think we can continue driving, that the next administration, I hope, will look at, because, frankly, cybersecurity is a national security issue&hellip;</p>
+		<p><strong>CVE ID :</strong> CVE-2024-23973<br>
+<strong>Published :</strong> Jan. 31, 2025, 12:15 a.m. | 1 day, 3 hours ago<br>
+<strong>Description :</strong> This vulnerability allows network-adjacent attackers to execute arbitrary code on affected installations of Silicon Labs Gecko OS. Authentication is not required to exploit this vulnerability. </p>
+<p>The specific flaw exists within the handling of HTTP GET requests. The issue results from the lack of proper validation of the length of user-supplied data prior to copying it to a stack-based buffer. An attacker can leverage this vulnerability to execute code in the context of the device.<br>
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/cisa-under-trump/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-23973-silicon-labs-gecko-os-http-get-request-buffer-overflow-allows-arbitrary-code-execution-over-the-network/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/deploy-a-server-using-go-with-gitlab-google-cloud/">&lt;div&gt;Deploy a server using Go with GitLab &#43; Google Cloud&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-47891-apache-wxwidgets-gpu-use-after-free/">CVE-2024-47891 - Apache wxWidgets GPU Use-After-Free</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
 	
-	<a href="/tags/development">development</a>
+	<a href="/tags/cve">cve</a>
 	
-	<a href="/tags/git">git</a>
+	<a href="/tags/cybersecurity">cybersecurity</a>
 	
-	<a href="/tags/github">github</a>
-	
-	<a href="/tags/gitlab">gitlab</a>
-	
-	<a href="/tags/software">software</a>
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>Deploying an application to the cloud often requires assistance from production or DevOps engineers. GitLab&rsquo;s Google Cloud integration empowers developers to handle deployments independently. In this tutorial, you&rsquo;ll learn how to deploy a server to Google Cloud in less than 10 minutes using Go. Whether you’re a solo developer or part of a large team, this setup allows you to deploy applications efficiently.</p>
-<h2 id="youll-learn-how-to">You&rsquo;ll learn how to:</h2>
-<ol>
-<li>Create a new project in GitLab</li>
-<li>Create a Go server utilizing <code>main.go</code></li>
-<li>Use the Google Cloud integration to create a Service account</li>
-<li>Use the Google Cloud integration to create Cloud Run via a merge request</li>
-<li>Access your newly deployed Go server</li>
-<li>Clean up your environment</li>
-</ol>
-<h2 id="prerequisites">Prerequisites</h2>
-<ul>
-<li>Owner access on a Google Cloud Platform project</li>
-<li>Working knowledge of Golang</li>
-<li>Working knowledge of GitLab CI</li>
-<li>10 minutes</li>
-</ul>
-<h2 id="step-by-step-golang-server-deployment-to-google-cloud">Step-by-step Golang server deployment to Google Cloud</h2>
-<h3 id="1-create-a-new-blank-project-in-gitlab">1. Create a new blank project in GitLab.</h3>
-<p>We decided to call our project <code>golang-cloud-run</code> for simplicity.</p>
-		
-			<a href="https://ghariib.ir/posts/deploy-a-server-using-go-with-gitlab-google-cloud/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/dont-use-typescript-types-like-this-use-map-pattern-instead/">&lt;div&gt;Don&#39;t use TypeScript types like this. Use Map Pattern instead&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<h3 id="introduction">Introduction</h3>
-<p>While working on a real-life project, I came across a particular TypeScript implementation that was <em>functional</em> but lacked flexibility. In this blog, I&rsquo;ll walk you through the problem I encountered, and how I improved the design by making a more dynamic approach using the <strong>Map pattern</strong>.</p>
-<h2 id="table-of-contents">Table of Contents</h2>
-<ol>
-<li>The problem</li>
-<li>The issue with this approach</li>
-<li>Solution</li>
-<li>Clean code</li>
-<li>More secure solution</li>
-<li>Visual representation</li>
-<li>Conslusion</li>
-</ol>
-<h2 id="the-problem">The problem</h2>
-<p>I came across this TypeScript type:</p>
-		
-			<a href="https://ghariib.ir/posts/dont-use-typescript-types-like-this-use-map-pattern-instead/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/excels-latest-updates-have-something-for-everyone/">&lt;div&gt;Excel&#39;s latest updates have something for everyone&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Microsoft has introduced a diverse set of features in its latest updates for Excel.</p>
-<p>Towards the end of each month, Microsoft publishes a roundup of all the features it added to Excel in the previous four weeks. Now that we are wrapping up the month of January, the Redmond tech firm has detailed all the new capabilities it introduced to its popular spreadsheet software during the first month of 2025. This time around, the company has something in store for Excel customers for Windows, Mac, and the web.</p>
-		
-			<a href="https://ghariib.ir/posts/excels-latest-updates-have-something-for-everyone/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/from-code-to-production-a-guide-to-continuous-deployment-with-gitlab/">&lt;div&gt;From code to production: A guide to continuous deployment with GitLab&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<a href="/tags/development">development</a>
-	
-	<a href="/tags/git">git</a>
-	
-	<a href="/tags/github">github</a>
-	
-	<a href="/tags/gitlab">gitlab</a>
-	
-	<a href="/tags/software">software</a>
-	
-	<div>
-		<p>Continuous deployment is a game-changing practice that enables teams to deliver value faster, with higher confidence. However, diving into advanced deployment workflows — such as GitOps, container orchestration with Kubernetes, or dynamic environments — can be intimidating for teams just starting out.</p>
-<p>At GitLab, we&rsquo;re committed to making delivery seamless and scalable. By enabling teams to focus on the fundamentals, we empower them to build a strong foundation that supports growth into more complex strategies over time. This guide provides essential steps to begin implementing continuous deployment with GitLab, laying the foundation for your long-term success.</p>
-		
-			<a href="https://ghariib.ir/posts/from-code-to-production-a-guide-to-continuous-deployment-with-gitlab/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/getting-started-with-gitlab-how-to-import-your-projects-to-gitlab/">&lt;div&gt;Getting started with GitLab: How to import your projects to GitLab&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<a href="/tags/development">development</a>
-	
-	<a href="/tags/git">git</a>
-	
-	<a href="/tags/github">github</a>
-	
-	<a href="/tags/gitlab">gitlab</a>
-	
-	<a href="/tags/software">software</a>
-	
-	<div>
-		<p><em>Welcome to our &ldquo;Getting started with GitLab&rdquo; series, where we help newcomers get familiar with the GitLab DevSecOps platform.</em></p>
-<p>Knowing how to import your projects to GitLab is an essential skill to make the most of the GitLab DevSecOps platform. You’ve set up your account, invited users, and organized them based on your use case or team structure. Now, you need to bring your existing projects into GitLab and start collaborating. These projects can be local files on your computer or hosted on a different source code management platform. Let&rsquo;s explore the options.</p>
-		
-			<a href="https://ghariib.ir/posts/getting-started-with-gitlab-how-to-import-your-projects-to-gitlab/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-control-plane-what-it-is-how-it-works/">&lt;div&gt;Kubernetes Control Plane: What It Is &amp; How It Works&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Learn what Kubernetes control plane is, its purpose, components, and how it works with nodes. Control vs. master vs data plane.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-47891<br>
+<strong>Published :</strong> Jan. 31, 2025, 4:15 a.m. | 23 hours, 48 minutes ago<br>
+<strong>Description :</strong> Software installed and run as a non-privileged user may conduct improper GPU system calls to trigger use-after-free kernel exceptions.<br>
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -197,52 +86,167 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/new-vpn-backdoor/">&lt;div&gt;New VPN Backdoor&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-51534-dell-powerprotect-dd-path-traversal-vulnerability/">CVE-2024-51534 - Dell PowerProtect DD Path Traversal Vulnerability</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>A newly discovered VPN backdoor uses some interesting tactics to avoid detection:</p>
-<blockquote>
-<p>When threat actors use backdoor malware to gain access to a network, they want to make sure all their hard work can’t be leveraged by competing groups or detected by defenders. One countermeasure is to equip the backdoor with a passive agent that remains dormant until it receives what’s known in the business as a “magic packet.” On Thursday, researchers revealed that a never-before-seen backdoor that quietly took hold of dozens of enterprise VPNs running Juniper Network’s Junos OS has been doing just that&hellip;</p>
+		<p><strong>CVE ID :</strong> CVE-2024-51534<br>
+<strong>Published :</strong> Feb. 1, 2025, 4:15 a.m. | 1 hour, 11 minutes ago<br>
+<strong>Description :</strong> Dell PowerProtect DD versions prior to DDOS 8.3.0.0, 7.10.1.50, and 7.13.1.20 contain a path traversal vulnerability. A local low privileged could potentially exploit this vulnerability to gain unauthorized overwrite of OS files stored on the server filesystem. Exploitation could lead to denial of service.<br>
+<strong>Severity:</strong> 7.1 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/new-vpn-backdoor/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-51534-dell-powerprotect-dd-path-traversal-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/secure-compliant-and-ai-powered-get-to-know-3-new-gitlab-features/">&lt;div&gt;Secure, compliant, and AI-powered: Get to know 3 new GitLab features&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-52875-gfi-kerio-control-open-redirect-and-reflected-xss-vulnerability/">CVE-2024-52875 - GFI Kerio Control Open Redirect and Reflected XSS Vulnerability</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
 	
-	<a href="/tags/development">development</a>
+	<a href="/tags/cve">cve</a>
 	
-	<a href="/tags/git">git</a>
+	<a href="/tags/cybersecurity">cybersecurity</a>
 	
-	<a href="/tags/github">github</a>
-	
-	<a href="/tags/gitlab">gitlab</a>
-	
-	<a href="/tags/software">software</a>
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>AI capabilities are rapidly reshaping how teams build, secure, and deploy applications. As part of our ongoing commitment to helping you navigate the evolving marketplace, GitLab has introduced more than 440 improvements in the past three releases. We&rsquo;re excited to spotlight three standout features making an immediate impact on how teams approach AI-powered DevSecOps. In addition, we announced we are partnering with AWS to launch GitLab Duo with Amazon Q, combining our strengths to transform software development. We&rsquo;re creating an experience, together, that makes AI-powered development feel seamless and upholds the security, compliance, and reliability that enterprises require.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-52875<br>
+<strong>Published :</strong> Jan. 31, 2025, 8:15 a.m. | 19 hours, 48 minutes ago<br>
+<strong>Description :</strong> An issue was discovered in GFI Kerio Control 9.2.5 through 9.4.5. The dest GET parameter passed to the /nonauth/addCertException.cs and /nonauth/guestConfirm.cs and /nonauth/expiration.cs pages is not properly sanitized before being used to generate a Location HTTP header in a 302 HTTP response. This can be exploited to perform Open Redirect or HTTP Response Splitting attacks, which in turn lead to Reflected Cross-Site Scripting (XSS). Remote command execution can be achieved by leveraging the upgrade feature in the admin interface.<br>
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/secure-compliant-and-ai-powered-get-to-know-3-new-gitlab-features/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-52875-gfi-kerio-control-open-redirect-and-reflected-xss-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/this-cool-raspberry-pi-project-visualizes-your-boards-cpu-load-with-a-light-show/">&lt;div&gt;This cool Raspberry Pi project visualizes your board&#39;s CPU load with a light show&lt;/div&gt;</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-53296-dell-powerprotect-dd-stack-based-buffer-overflow-vulnerability/">CVE-2024-53296 - Dell PowerProtect DD Stack-based Buffer Overflow Vulnerability</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>The pretty lights mean you&rsquo;re torturing your processor.</p>
-<p>If you want to keep tabs on your Raspberry Pi&rsquo;s CPU usage, you can always use the built-in tools on your OS or download an app that can give you stats on how it&rsquo;s doing. However, where&rsquo;s the fun in that? Sometimes, the best use of a Raspberry Pi is to replicate what you could already do, but do it even cooler. Such is the case with this Raspberry Pi project that keeps an eye on how your Pi&rsquo;s CPU is doing and uses a light show to communicate how much load it&rsquo;s experiencing.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-53296<br>
+<strong>Published :</strong> Feb. 1, 2025, 4:15 a.m. | 1 hour, 11 minutes ago<br>
+<strong>Description :</strong> Dell PowerProtect DD versions prior to 7.10.1.50 and 7.13.1.20 contain a Stack-based Buffer Overflow vulnerability in the RestAPI. A high privileged attacker with remote access could potentially exploit this vulnerability, leading to Denial of service.<br>
+<strong>Severity:</strong> 2.7 | LOW<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/this-cool-raspberry-pi-project-visualizes-your-boards-cpu-load-with-a-light-show/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-53296-dell-powerprotect-dd-stack-based-buffer-overflow-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-0493-multivendorx-woocommerce-multivendor-marketplace-local-file-inclusion-vulnerability/">CVE-2025-0493 - MultiVendorX WooCommerce Multivendor Marketplace Local File Inclusion Vulnerability</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-0493<br>
+<strong>Published :</strong> Jan. 31, 2025, 5:15 a.m. | 22 hours, 48 minutes ago<br>
+<strong>Description :</strong> The MultiVendorX – The Ultimate WooCommerce Multivendor Marketplace Solution plugin for WordPress is vulnerable to Limited Local File Inclusion in all versions up to, and including, 4.2.14 via the tabname parameter. This makes it possible for unauthenticated attackers to include PHP files on the server, allowing the execution of any PHP code in those files. This can be used to bypass access controls, obtain sensitive data, or achieve code execution in cases where PHP files can be uploaded and included<br>
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2025-0493-multivendorx-woocommerce-multivendor-marketplace-local-file-inclusion-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-0929-teamcal-neo-sql-injection-vulnerability/">CVE-2025-0929 - TeamCal Neo SQL Injection Vulnerability</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-0929<br>
+<strong>Published :</strong> Jan. 31, 2025, 2:15 p.m. | 13 hours, 48 minutes ago<br>
+<strong>Description :</strong> SQL injection vulnerability in TeamCal Neo, version 3.8.2. This could allow an attacker to retrieve, update and delete all database information by injecting a malicious SQL statement via the ‘abs’ parameter in ‘/teamcal/src/index.php’.<br>
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2025-0929-teamcal-neo-sql-injection-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-24891-dumb-drop-root-file-overwrite-vulnerability/">CVE-2025-24891 - Dumb Drop Root File Overwrite Vulnerability</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-24891<br>
+<strong>Published :</strong> Jan. 31, 2025, 11:15 p.m. | 4 hours, 48 minutes ago<br>
+<strong>Description :</strong> Dumb Drop is a file upload application. Users with permission to upload to the service are able to exploit a path traversal vulnerability to overwrite arbitrary system files. As the container runs as root by default, there is no limit to what can be overwritten. With this, it&rsquo;s possible to inject malicious payloads into files ran on schedule or upon certain service actions. As the service is not required to run with authentication enabled, this may permit wholly unprivileged users root access. Otherwise, anybody with a PIN.<br>
+<strong>Severity:</strong> 9.6 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2025-24891-dumb-drop-root-file-overwrite-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cyber-hygiene-checklist-for-2025/">Cyber Hygiene Checklist for 2025</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<div>
+		<p>The digital world has become an inseparable part of our lives and so have the threats that come with it. Cyberattacks are getting smarter, faster, and harder to detect. In 2025, businesses and individuals alike must treat cybersecurity like personal hygiene, a regular routine to stay safe. Cyber hygiene is the practice of maintaining systems, […]</p>
+<p>The post Cyber Hygiene Checklist for 2025 appeared first on SecPod Blog.</p>
+<p>Go to Source</p>
+		
+			<a href="https://ghariib.ir/posts/cyber-hygiene-checklist-for-2025/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cybercrime-gets-a-few-punches-on-the-nose/">Cybercrime gets a few punches on the nose</a></h1>
+	<b><time>01.02.2025 00:00</time></b>
+	
+	<div>
+		<p>It’s not often that we get to share good news, so we wanted to grab this opportunity and showcase some progress made by law enforcement actions against cybercrime with you.</p>
+<p>Europol notified us about the take-down of two of the largest cybercrime forums in the world. With over 10 million users, Nulled and Cracked serviced cybercriminals from all over the world with a quick entry point into the cybercrime scene.</p>
+		
+			<a href="https://ghariib.ir/posts/cybercrime-gets-a-few-punches-on-the-nose/">Read more...</a>
 		
 	</div>
 </article>
@@ -252,7 +256,7 @@
 
 	<a href="/page/55/">Previous Page</a>
 
-56 of 423
+56 of 433
 
 	<a href="/page/57/">Next Page</a>
 

@@ -40,77 +40,127 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2024-57902-linux-kernel-af_packet-vlan-get-tci-vulnerability/">CVE-2024-57902 - Linux Kernel af_packet: VLAN Get TCI Vulnerability</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
+	<h1><a href="https://ghariib.ir/posts/plugx-malware-deleted-from-thousands-of-systems-by-fbi/">PlugX malware deleted from thousands of systems by FBI</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
 	
 	<div>
-		<p><strong>CVE ID :</strong> CVE-2024-57902<br>
-<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
-<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
-<p>af_packet: fix vlan_get_tci() vs MSG_PEEK</p>
-<p>Blamed commit forgot MSG_PEEK case, allowing a crash [1] as found by syzbot.</p>
-<p>Rework vlan_get_tci() to not touch skb at all, so that it can be used from many cpus on the same skb.</p>
-<p>Add a const qualifier to skb argument.</p>
+		<p>The FBI says it has removed PlugX malware from thousands of infected computers worldwide.</p>
+<p>The move came after suspicion that cybercriminals groups under control of the People’s Republic of China (PRC) used a version of PlugX malware to control, and steal information from victims’ computers.</p>
+<p>PlugX has been around since at least 2008 but is under constant development. With the remote access it provides criminals, it is often used to spy on users and plant additional malware on interesting systems.</p>
 		
-			<a href="https://ghariib.ir/posts/cve-2024-57902-linux-kernel-af_packet-vlan-get-tci-vulnerability/">Read more...</a>
+			<a href="https://ghariib.ir/posts/plugx-malware-deleted-from-thousands-of-systems-by-fbi/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2024-57903-linux-kernel-so_reuseport-inet-socket-restriction-comic-book-bug/">CVE-2024-57903 - Linux kernel SO_REUSEPORT Inet Socket Restriction Comic Book Bug</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
+	<h1><a href="https://ghariib.ir/posts/preventing-unintended-encryption-of-amazon-s3-objects/">Preventing unintended encryption of Amazon S3 objects</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
 	
 	<div>
-		<p><strong>CVE ID :</strong> CVE-2024-57903<br>
-<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
-<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
-<p>net: restrict SO_REUSEPORT to inet sockets</p>
-<p>After blamed commit, crypto sockets could accidentally be destroyed from RCU call back, as spotted by zyzbot [1].</p>
-<p>Trying to acquire a mutex in RCU callback is not allowed.</p>
-<p>Restrict SO_REUSEPORT socket option to inet sockets.</p>
+		<p>At Amazon Web Services (AWS), the security of our customers’ data is our top priority, and it always will be. Recently, the AWS Customer Incident Response Team (CIRT) and our automated security monitoring systems identified an increase in unusual encryption activity associated with Amazon Simple Storage Service (Amazon S3) buckets.</p>
+<p>Working with customers, our security teams detected an increase of data encryption events in S3 that used an encryption method known as <em>server-side encryption using client-provided keys (SSE-C)</em>. While this is a feature used by many customers, we detected a pattern where a large number of S3 <code>CopyObject</code> operations using SSE-C began to overwrite objects, which has the effect of re-encrypting customer data with a new encryption key. Our analysis uncovered that this was being done by malicious actors who had obtained valid customer credentials, and were using them to re-encrypt objects.</p>
 		
-			<a href="https://ghariib.ir/posts/cve-2024-57903-linux-kernel-so_reuseport-inet-socket-restriction-comic-book-bug/">Read more...</a>
+			<a href="https://ghariib.ir/posts/preventing-unintended-encryption-of-amazon-s3-objects/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-0147-zoom-fixes-high-severity-security-flaw/">CVE-2025-0147: Zoom Fixes High-Severity Security Flaw</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/psmt-private-segmented-membership-test-for-distributed-record-linkage/">PSMT: Private Segmented Membership Test for Distributed Record Linkage</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
 	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
+	<a href="/tags/cryptography">cryptography</a>
 	
 	<a href="/tags/security">security</a>
 	
 	<div>
-		<h3 id="cve-2025-0147-zoom-fixes-high-severity-security-flaw">CVE-2025-0147: Zoom Fixes High-Severity Security Flaw</h3>
-<p>
+		<p>ePrint Report: <strong>PSMT: Private Segmented Membership Test for Distributed Record Linkage</strong><br>
+<em>Nirajan Koirala, Jonathan Takeshita, Jeremy Stevens, Sam Martin, Taeho Jung</em></p>
+<p>In various real-world situations, a client may need to verify whether specific data elements they possess are part of a set segmented among numerous data holders. To maintain user privacy, it’s essential that both the client’s data elements and the data holders’ sets remain encrypted throughout the process. Existing approaches like Private Set Intersection (PSI), Multi-Party PSI (MPSI), Private Segmented Membership Test (PSMT), and Oblivious RAM (ORAM) face challenges in these contexts. They either require data holders to access the sets in plaintext, result in high latency when aggregating data from multiple holders, risk exposing the identity of the party with the matching element, cause a large communication overhead for multiple-element queries, or lead to high false positives.</p>
+		
+			<a href="https://ghariib.ir/posts/psmt-private-segmented-membership-test-for-distributed-record-linkage/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/punsearch-enabling-puncturable-encrypted-search-over-lattice-for-cloud-storage-systems/">PunSearch: Enabling Puncturable Encrypted Search over Lattice for Cloud Storage Systems</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
+	
+	<a href="/tags/cryptography">cryptography</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p>ePrint Report: <strong>PunSearch: Enabling Puncturable Encrypted Search over Lattice for Cloud Storage Systems</strong><br>
+<em>Yibo Cao, Shiyuan Xu, Gang Xu, Xiu-Bo Chen, Tao Shang, Yuling Chen, Zongpeng Li</em></p>
+<p>Searchable encryption (SE) has been widely studied for cloud storage systems, allowing data encrypted search and retrieval. However, existing SE schemes can not support the fine-grained searchability revocation, making it impractical for real applications. Puncturable encryption (PE) [Oakland'15] can revoke the decryption ability of a data receiver for a specific message, which can potentially alleviate this issue. Moreover, the threat of quantum computing remains an important and realistic concern, potentially leading to data privacy leakage for cloud storage systems. Consequently, designing a post-quantum puncturable encrypted search scheme is still far-reaching. In this paper, we propose PunSearch, the first puncturable encrypted search scheme over lattice for outsourced data privacy-preserving in cloud storage systems. PunSearch provides a fine-grained searchability revocation while enjoying quantum safety. Different from existing PE schemes, we construct a novel trapdoor generation mechanism through evaluation algorithms and lattice pre-image sampling technique. We then design a search permission verification method to revoke the searchability for specific keywords. Furthermore, we formalize a new IND-Pun-CKA security model, and utilize it to analyze the security of PunSearch. Comprehensive performance evaluation indicates that the computational overheads of Encrypt, Trapdoor, Search, and Puncture algorithms in PunSearch are just 0.06, 0.005, 0.05, and 0.31 times of other prior arts, respectively under the best cases. These results demonstrate that PunSearch is effective and secure for cloud storage systems.</p>
+		
+			<a href="https://ghariib.ir/posts/punsearch-enabling-puncturable-encrypted-search-over-lattice-for-cloud-storage-systems/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/quick-glossary-encryption/">Quick Glossary: Encryption</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The overall success of a business is often dependent on its ability to effectively share, transfer, and process vast amounts of data. Much of this shared data is sensitive and must be protected wherever it travels on and outside the enterprise network. The best way to accomplish the important task of securing business data is &hellip;</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/ransomhub-infection-facilitated-by-possible-ai-assisted-python-backdoor/">RansomHub infection facilitated by possible AI-assisted Python backdoor</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The backdoor spread laterally after initial access via a suspected SocGholish malware download.</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/ransomware-exposed-important-facts-for-2024-and-essential-protection-tips-for-2025/">Ransomware Exposed: Important Facts for 2024 and Essential Protection Tips for 2025</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
+	
+	<a href="/tags/mobile">mobile</a>
+	
+	<div>
+		<p>
 <figure>
-  <img src="https://upload.cvefeed.io/news/24191/thumbnail.jpg" alt="" />
+  <img src="https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Ffir6mml74musyyajelc2.jpg" alt="Image description" />
 </figure>
 
 
 </p>
-<p>Zoom has released six security bulletin addressing several vulnerabilities across its product ecosystem, ranging in severity from low to high. These vulnerabilities affect various platforms, including &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 15, 2025 (4 hours, 53 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
+<h2 id="what-is-ransomware">What is Ransomware?</h2>
+<p>Ransomware is a malicious application that locks a person’s data, which is impossible to access until they pay money. Cybercriminals get into systems through phishing emails, software weaknesses, or more sophisticated techniques such as session hijacking.</p>
+<h2 id="statistics-of-surge-in-ransomware-groups-and-attacks">Statistics of Surge in Ransomware Groups and Attacks</h2>
+<p>Ransomware is more of a threat in 2024 compared to the present. Such attacks are becoming more frequent, and so is their complexity. Moreover, the cost of such attacks is increasing. Here are some vital facts and insights about this looming threat:</p>
+		
+			<a href="https://ghariib.ir/posts/ransomware-exposed-important-facts-for-2024-and-essential-protection-tips-for-2025/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/ransomware-sanctions-software-security-among-key-points-in-new-biden-executive-order/">Ransomware sanctions, software security among key points in new Biden executive order</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The federal government will have more power to issue sanctions in response to ransomware incidents, and software vendors will have to do more to prove the security of their products under an executive order issued with just days left in the Biden administration.</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -118,154 +168,45 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-21309-microsoft-windows-remote-desktop-services-remote-code-execution/">CVE-2025-21309 - Microsoft Windows Remote Desktop Services Remote Code Execution</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
+	<h1><a href="https://ghariib.ir/posts/registration-for-red-hat-summit-and-ansiblefest-2025-now-open/">Registration for Red Hat Summit and AnsibleFest 2025 now open</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
 	
 	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-21309<br>
-<strong>Published :</strong> Jan. 14, 2025, 6:15 p.m. | 12 hours, 53 minutes ago<br>
-<strong>Description :</strong> Windows Remote Desktop Services Remote Code Execution Vulnerability<br>
-<strong>Severity:</strong> 8.1 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-<p>Go to Source</p>
+		<p>Red Hat Summit and AnsibleFest is taking over the Boston Convention Exhibition Center in Boston, MA, May 19-22, 2025 and we want you to be there. Registration is now open for the premier enterprise open source event for IT professionals.Every year we bring together thousands of customers, partners, open source community members and technology industry leaders from around the world for a high-energy week of innovation, education and collaboration.Red Hat Summit puts you right in the center of technology evolution, Red Hat Summit, puts you right in the center of the technology evolution, givin</p>
+		
+			<a href="https://ghariib.ir/posts/registration-for-red-hat-summit-and-ansiblefest-2025-now-open/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-21311-microsoft-windows-ntlm-privilege-escalation/">CVE-2025-21311 - Microsoft Windows NTLM Privilege Escalation</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
+	<h1><a href="https://ghariib.ir/posts/repairing-a-samsung-24-lcd-monitor-with-funky-color-issues/">Repairing a Samsung 24″ LCD Monitor With Funky Color Issues</a></h1>
+	<b><time>17.01.2025 00:00</time></b>
 	
 	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-21311<br>
-<strong>Published :</strong> Jan. 14, 2025, 6:15 p.m. | 12 hours, 53 minutes ago<br>
-<strong>Description :</strong> Windows NTLM V1 Elevation of Privilege Vulnerability<br>
-<strong>Severity:</strong> 9.8 | CRITICAL<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
+		<p>
+<figure>
+  <img src="https://hackaday.com/wp-content/uploads/2025/01/samsung_monitor_repair_misterhw_old_new_cable.jpg?w=800" alt="" />
+</figure>
 
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-21339-windows-telephony-service-remote-code-execution/">CVE-2025-21339 - Windows Telephony Service Remote Code Execution</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-21339<br>
-<strong>Published :</strong> Jan. 14, 2025, 6:15 p.m. | 12 hours, 53 minutes ago<br>
-<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
-<strong>Severity:</strong> 8.8 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
 
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-21354-microsoft-excel-remote-code-execution-vulnerability/">CVE-2025-21354 - Microsoft Excel Remote Code Execution Vulnerability</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-21354<br>
-<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
-<strong>Description :</strong> Microsoft Excel Remote Code Execution Vulnerability<br>
-<strong>Severity:</strong> 8.4 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
+</p>
+<!-- raw HTML omitted -->
+<p>
+<figure>
+  <img src="https://hackaday.com/wp-content/uploads/2025/01/samsung_monitor_repair_misterhw_thumb.jpg?w=400" alt="The old cable in place on the Samsung monitor. (Credit: MisterHW)" />
+</figure>
 
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-21362-microsoft-excel-remote-code-execution-vulnerability/">CVE-2025-21362 - Microsoft Excel Remote Code Execution Vulnerability</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-21362<br>
-<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
-<strong>Description :</strong> Microsoft Excel Remote Code Execution Vulnerability<br>
-<strong>Severity:</strong> 8.4 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
 
+</p>
+<!-- raw HTML omitted -->
+<p>The old cable in place on the Samsung monitor. (Credit: MisterHW)</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>Dumpster diving is one of those experiences that can net you some pretty cool gear for a reasonable price. Case in point the 24″ Samsung S24E650XW LCD monitor that [MisterHW] saved from being trashed. Apparently in very good condition with no visible external damage, the unit even powered up without issues. It seemed like a golden find until he got onto the Windows desktop and began to notice quaint red shimmering in darker areas and other issues that made it clear why the monitor had been tossed. Of course, the second best part about dumpster diving is seeing whether you can repair such issues.</p>
 		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-21409-windows-telephony-service-rce/">CVE-2025-21409 - Windows Telephony Service RCE</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-21409<br>
-<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
-<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
-<strong>Severity:</strong> 8.8 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-21411-microsoft-windows-telephony-rce/">CVE-2025-21411 - Microsoft Windows Telephony RCE</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-21411<br>
-<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
-<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
-<strong>Severity:</strong> 8.8 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-<p>Go to Source</p>
+			<a href="https://ghariib.ir/posts/repairing-a-samsung-24-lcd-monitor-with-funky-color-issues/">Read more...</a>
 		
 	</div>
 </article>
@@ -275,7 +216,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 
 	<a href="/page/174/">Previous Page</a>
 
-175 of 423
+175 of 433
 
 	<a href="/page/176/">Next Page</a>
 

@@ -7,62 +7,1693 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Alireza Gharib. All right reserved</copyright>
-    <lastBuildDate>Fri, 07 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ghariib.ir/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cve</title>
-      <link>https://ghariib.ir/categories/cve/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cve/</guid>
+      <title>5g</title>
+      <link>https://ghariib.ir/categories/5g/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/5g/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>6g</title>
+      <link>https://ghariib.ir/categories/6g/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/6g/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Advanced-Data-Protection</title>
+      <link>https://ghariib.ir/categories/advanced-data-protection/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/advanced-data-protection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ai</title>
+      <link>https://ghariib.ir/categories/ai/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Almalinux</title>
+      <link>https://ghariib.ir/categories/almalinux/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/almalinux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Alphabet</title>
+      <link>https://ghariib.ir/categories/alphabet/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/alphabet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon</title>
+      <link>https://ghariib.ir/categories/amazon/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/amazon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Amazon-Web-Services</title>
+      <link>https://ghariib.ir/categories/amazon-web-services/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/amazon-web-services/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Android</title>
+      <link>https://ghariib.ir/categories/android/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/android/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Announcements</title>
+      <link>https://ghariib.ir/categories/announcements/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/announcements/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache</title>
+      <link>https://ghariib.ir/categories/apache/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apache/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apache-Tomcat</title>
+      <link>https://ghariib.ir/categories/apache-tomcat/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apache-tomcat/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple</title>
+      <link>https://ghariib.ir/categories/apple/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple-Password-App</title>
+      <link>https://ghariib.ir/categories/apple-password-app/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple-password-app/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple-Password-Vulnerability</title>
+      <link>https://ghariib.ir/categories/apple-password-vulnerability/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple-password-vulnerability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple-Phishing</title>
+      <link>https://ghariib.ir/categories/apple-phishing/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple-phishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple-Security-Flaw</title>
+      <link>https://ghariib.ir/categories/apple-security-flaw/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple-security-flaw/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple-Watch</title>
+      <link>https://ghariib.ir/categories/apple-watch/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple-watch/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple-Watch-Bands</title>
+      <link>https://ghariib.ir/categories/apple-watch-bands/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple-watch-bands/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Apple-Watch-Straps</title>
+      <link>https://ghariib.ir/categories/apple-watch-straps/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/apple-watch-straps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Arc</title>
+      <link>https://ghariib.ir/categories/arc/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/arc/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Artificial-Intelligence</title>
+      <link>https://ghariib.ir/categories/artificial-intelligence/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/artificial-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Attacks</title>
+      <link>https://ghariib.ir/categories/attacks/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/attacks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Australia</title>
+      <link>https://ghariib.ir/categories/australia/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/australia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aws</title>
+      <link>https://ghariib.ir/categories/aws/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/aws/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Azure</title>
+      <link>https://ghariib.ir/categories/azure/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Backdoors</title>
+      <link>https://ghariib.ir/categories/backdoors/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/backdoors/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Big-Data</title>
+      <link>https://ghariib.ir/categories/big-data/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/big-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Bitrix24</title>
+      <link>https://ghariib.ir/categories/bitrix24/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/bitrix24/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blockchain</title>
+      <link>https://ghariib.ir/categories/blockchain/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/blockchain/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogs</title>
+      <link>https://ghariib.ir/categories/blogs/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/blogs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Brave</title>
+      <link>https://ghariib.ir/categories/brave/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/brave/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Broadcom</title>
+      <link>https://ghariib.ir/categories/broadcom/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/broadcom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Browsers</title>
+      <link>https://ghariib.ir/categories/browsers/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/browsers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ca-Program</title>
+      <link>https://ghariib.ir/categories/ca-program/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ca-program/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Capsule</title>
+      <link>https://ghariib.ir/categories/capsule/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/capsule/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Centos</title>
+      <link>https://ghariib.ir/categories/centos/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/centos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certificate-Authority</title>
+      <link>https://ghariib.ir/categories/certificate-authority/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/certificate-authority/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Certificates</title>
+      <link>https://ghariib.ir/categories/certificates/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/certificates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chrome</title>
+      <link>https://ghariib.ir/categories/chrome/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/chrome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chrome-Browser</title>
+      <link>https://ghariib.ir/categories/chrome-browser/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/chrome-browser/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Chromium</title>
+      <link>https://ghariib.ir/categories/chromium/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/chromium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Clickup</title>
+      <link>https://ghariib.ir/categories/clickup/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/clickup/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud</title>
+      <link>https://ghariib.ir/categories/cloud/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cloud-Security</title>
+      <link>https://ghariib.ir/categories/cloud-security/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cloud-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Codepen</title>
+      <link>https://ghariib.ir/categories/codepen/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/codepen/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Codespaces</title>
+      <link>https://ghariib.ir/categories/codespaces/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/codespaces/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Company-and-Culture</title>
+      <link>https://ghariib.ir/categories/company-and-culture/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/company-and-culture/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Containers</title>
+      <link>https://ghariib.ir/categories/containers/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/containers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crlite</title>
+      <link>https://ghariib.ir/categories/crlite/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/crlite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crm</title>
+      <link>https://ghariib.ir/categories/crm/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/crm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crm-Software</title>
+      <link>https://ghariib.ir/categories/crm-software/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/crm-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Crypto</title>
+      <link>https://ghariib.ir/categories/crypto/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/crypto/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptocurrencies</title>
+      <link>https://ghariib.ir/categories/cryptocurrencies/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cryptocurrencies/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptography</title>
+      <link>https://ghariib.ir/categories/cryptography/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cryptography/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cryptomining</title>
+      <link>https://ghariib.ir/categories/cryptomining/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cryptomining/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cxo</title>
+      <link>https://ghariib.ir/categories/cxo/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cxo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cyber-Security</title>
+      <link>https://ghariib.ir/categories/cyber-security/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cyber-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybercrime</title>
+      <link>https://ghariib.ir/categories/cybercrime/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cybercrime/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybercrime-Malcode</title>
+      <link>https://ghariib.ir/categories/cybercrime-malcode/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cybercrime-malcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cybermaniac</title>
+      <link>https://ghariib.ir/categories/cybermaniac/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cybermaniac/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity</title>
       <link>https://ghariib.ir/categories/cybersecurity/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/cybersecurity/</guid>
       <description></description>
     </item>
     <item>
       <title>Cybersecurity-Awareness</title>
       <link>https://ghariib.ir/categories/cybersecurity-awareness/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/cybersecurity-awareness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dashlane</title>
+      <link>https://ghariib.ir/categories/dashlane/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/dashlane/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Dashlane-Review</title>
+      <link>https://ghariib.ir/categories/dashlane-review/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/dashlane-review/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data</title>
+      <link>https://ghariib.ir/categories/data/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Centers</title>
+      <link>https://ghariib.ir/categories/data-centers/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/data-centers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Privacy</title>
+      <link>https://ghariib.ir/categories/data-privacy/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/data-privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data-Usage</title>
+      <link>https://ghariib.ir/categories/data-usage/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/data-usage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Datarobot</title>
+      <link>https://ghariib.ir/categories/datarobot/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/datarobot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developer</title>
+      <link>https://ghariib.ir/categories/developer/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/developer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Developers</title>
+      <link>https://ghariib.ir/categories/developers/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/developers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Economics</title>
+      <link>https://ghariib.ir/categories/economics/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/economics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edge</title>
+      <link>https://ghariib.ir/categories/edge/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/edge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Edpr</title>
+      <link>https://ghariib.ir/categories/edpr/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/edpr/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Eift</title>
+      <link>https://ghariib.ir/categories/eift/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/eift/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Elon-Musk</title>
+      <link>https://ghariib.ir/categories/elon-musk/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/elon-musk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Email-Security</title>
+      <link>https://ghariib.ir/categories/email-security/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/email-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Encryption</title>
+      <link>https://ghariib.ir/categories/encryption/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/encryption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>End-to-End-Encryption</title>
+      <link>https://ghariib.ir/categories/end-to-end-encryption/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/end-to-end-encryption/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Engagebay</title>
+      <link>https://ghariib.ir/categories/engagebay/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/engagebay/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Enterprise-Software</title>
+      <link>https://ghariib.ir/categories/enterprise-software/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/enterprise-software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fedora</title>
+      <link>https://ghariib.ir/categories/fedora/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/fedora/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Firefox</title>
+      <link>https://ghariib.ir/categories/firefox/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/firefox/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Forensics</title>
+      <link>https://ghariib.ir/categories/forensics/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/forensics/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free-Crm</title>
+      <link>https://ghariib.ir/categories/free-crm/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/free-crm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Fundamentals</title>
+      <link>https://ghariib.ir/categories/fundamentals/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/fundamentals/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>General</title>
+      <link>https://ghariib.ir/categories/general/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/general/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Generative-Ai</title>
+      <link>https://ghariib.ir/categories/generative-ai/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/generative-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Github</title>
+      <link>https://ghariib.ir/categories/github/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google</title>
+      <link>https://ghariib.ir/categories/google/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/google/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google-Ai</title>
+      <link>https://ghariib.ir/categories/google-ai/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/google-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google-Chrome</title>
+      <link>https://ghariib.ir/categories/google-chrome/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/google-chrome/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google-Cloud</title>
+      <link>https://ghariib.ir/categories/google-cloud/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/google-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Government</title>
+      <link>https://ghariib.ir/categories/government/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/government/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Government-Waste-Pork</title>
+      <link>https://ghariib.ir/categories/government-waste-pork/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/government-waste-pork/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gpu-Acceleration</title>
+      <link>https://ghariib.ir/categories/gpu-acceleration/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/gpu-acceleration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>H2o-Ai</title>
+      <link>https://ghariib.ir/categories/h2o-ai/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/h2o-ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hachicorp</title>
+      <link>https://ghariib.ir/categories/hachicorp/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hachicorp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>https://ghariib.ir/categories/hardware/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware-Acceleration</title>
+      <link>https://ghariib.ir/categories/hardware-acceleration/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hardware-acceleration/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harmony</title>
+      <link>https://ghariib.ir/categories/harmony/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/harmony/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Harmony-Sase</title>
+      <link>https://ghariib.ir/categories/harmony-sase/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/harmony-sase/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hashicorp-Terraform</title>
+      <link>https://ghariib.ir/categories/hashicorp-terraform/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hashicorp-terraform/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hiring-Kits</title>
+      <link>https://ghariib.ir/categories/hiring-kits/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hiring-kits/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>How-To</title>
+      <link>https://ghariib.ir/categories/how-to/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/how-to/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hr-Resources</title>
+      <link>https://ghariib.ir/categories/hr-resources/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hr-resources/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Https</title>
+      <link>https://ghariib.ir/categories/https/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/https/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hubspot</title>
+      <link>https://ghariib.ir/categories/hubspot/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hubspot/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hybrid-Cloud</title>
+      <link>https://ghariib.ir/categories/hybrid-cloud/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/hybrid-cloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iam</title>
+      <link>https://ghariib.ir/categories/iam/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/iam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ibm</title>
+      <link>https://ghariib.ir/categories/ibm/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ibm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ibm-Watson</title>
+      <link>https://ghariib.ir/categories/ibm-watson/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ibm-watson/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Icloud</title>
+      <link>https://ghariib.ir/categories/icloud/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/icloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Industry</title>
+      <link>https://ghariib.ir/categories/industry/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/industry/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infinity-Global-Services</title>
+      <link>https://ghariib.ir/categories/infinity-global-services/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/infinity-global-services/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Innovation</title>
+      <link>https://ghariib.ir/categories/innovation/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/innovation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intego-Mac-Podcast</title>
+      <link>https://ghariib.ir/categories/intego-mac-podcast/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/intego-mac-podcast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Intego-Mac-Security-Podcast</title>
+      <link>https://ghariib.ir/categories/intego-mac-security-podcast/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/intego-mac-security-podcast/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>International</title>
+      <link>https://ghariib.ir/categories/international/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/international/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Internet</title>
+      <link>https://ghariib.ir/categories/internet/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/internet/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Invoice-Scam</title>
+      <link>https://ghariib.ir/categories/invoice-scam/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/invoice-scam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ios</title>
+      <link>https://ghariib.ir/categories/ios/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ios/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ios-18</title>
+      <link>https://ghariib.ir/categories/ios-18/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ios-18/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ipad</title>
+      <link>https://ghariib.ir/categories/ipad/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ipad/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ipad-Pro</title>
+      <link>https://ghariib.ir/categories/ipad-pro/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ipad-pro/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ipados</title>
+      <link>https://ghariib.ir/categories/ipados/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ipados/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ipados-18</title>
+      <link>https://ghariib.ir/categories/ipados-18/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ipados-18/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iphone</title>
+      <link>https://ghariib.ir/categories/iphone/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/iphone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Iphone-16e</title>
+      <link>https://ghariib.ir/categories/iphone-16e/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/iphone-16e/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>It-Resources</title>
+      <link>https://ghariib.ir/categories/it-resources/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/it-resources/</guid>
       <description></description>
     </item>
     <item>
       <title>Kali</title>
       <link>https://ghariib.ir/categories/kali/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/kali/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knowbe4</title>
+      <link>https://ghariib.ir/categories/knowbe4/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/knowbe4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Knowbe4-Threat-Lab</title>
+      <link>https://ghariib.ir/categories/knowbe4-threat-lab/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/knowbe4-threat-lab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Learn-to-Code-Certification</title>
+      <link>https://ghariib.ir/categories/learn-to-code-certification/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/learn-to-code-certification/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Legal</title>
+      <link>https://ghariib.ir/categories/legal/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/legal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>https://ghariib.ir/categories/linux/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ma</title>
+      <link>https://ghariib.ir/categories/ma/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mac-Studio</title>
+      <link>https://ghariib.ir/categories/mac-studio/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/mac-studio/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macbook-Air</title>
+      <link>https://ghariib.ir/categories/macbook-air/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/macbook-air/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macos</title>
+      <link>https://ghariib.ir/categories/macos/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/macos/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macos-Sequoia</title>
+      <link>https://ghariib.ir/categories/macos-sequoia/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/macos-sequoia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macos-Sonoma</title>
+      <link>https://ghariib.ir/categories/macos-sonoma/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/macos-sonoma/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Macos-Ventura</title>
+      <link>https://ghariib.ir/categories/macos-ventura/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/macos-ventura/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Malware</title>
+      <link>https://ghariib.ir/categories/malware/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Math</title>
+      <link>https://ghariib.ir/categories/math/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/math/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mergers-and-Acquisitions</title>
+      <link>https://ghariib.ir/categories/mergers-and-acquisitions/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/mergers-and-acquisitions/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Messaging</title>
+      <link>https://ghariib.ir/categories/messaging/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/messaging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft</title>
+      <link>https://ghariib.ir/categories/microsoft/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/microsoft/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft-Azure</title>
+      <link>https://ghariib.ir/categories/microsoft-azure/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/microsoft-azure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft-Edge</title>
+      <link>https://ghariib.ir/categories/microsoft-edge/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/microsoft-edge/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft-Visual-Studio-Professional</title>
+      <link>https://ghariib.ir/categories/microsoft-visual-studio-professional/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/microsoft-visual-studio-professional/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobile-Security</title>
+      <link>https://ghariib.ir/categories/mobile-security/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/mobile-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mobility</title>
+      <link>https://ghariib.ir/categories/mobility/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/mobility/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monday</title>
+      <link>https://ghariib.ir/categories/monday/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/monday/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Monday-Sales-Crm</title>
+      <link>https://ghariib.ir/categories/monday-sales-crm/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/monday-sales-crm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mozilla</title>
+      <link>https://ghariib.ir/categories/mozilla/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/mozilla/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Mrsp</title>
+      <link>https://ghariib.ir/categories/mrsp/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/mrsp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Multicloud</title>
+      <link>https://ghariib.ir/categories/multicloud/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/multicloud/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>https://ghariib.ir/categories/networking/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>News</title>
+      <link>https://ghariib.ir/categories/news/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/news/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Nvidia</title>
+      <link>https://ghariib.ir/categories/nvidia/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/nvidia/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Odoo</title>
+      <link>https://ghariib.ir/categories/odoo/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/odoo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Online-Scams</title>
+      <link>https://ghariib.ir/categories/online-scams/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/online-scams/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Open-Source</title>
+      <link>https://ghariib.ir/categories/open-source/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/open-source/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Openai</title>
+      <link>https://ghariib.ir/categories/openai/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/openai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opera</title>
+      <link>https://ghariib.ir/categories/opera/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/opera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle-Cloud-Infrastructure</title>
+      <link>https://ghariib.ir/categories/oracle-cloud-infrastructure/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/oracle-cloud-infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Oracle-Linux</title>
+      <link>https://ghariib.ir/categories/oracle-linux/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/oracle-linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Pentest</title>
       <link>https://ghariib.ir/categories/pentest/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/pentest/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phishing</title>
+      <link>https://ghariib.ir/categories/phishing/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/phishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Phishing-App</title>
+      <link>https://ghariib.ir/categories/phishing-app/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/phishing-app/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Portainer</title>
+      <link>https://ghariib.ir/categories/portainer/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/portainer/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Privacy</title>
+      <link>https://ghariib.ir/categories/privacy/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>https://ghariib.ir/categories/programming/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/programming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Project-Management</title>
+      <link>https://ghariib.ir/categories/project-management/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/project-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Ransomware</title>
+      <link>https://ghariib.ir/categories/ransomware/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/ransomware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Red-Hat-Enterprise-Linux</title>
+      <link>https://ghariib.ir/categories/red-hat-enterprise-linux/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/red-hat-enterprise-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Remote-Code-Execution</title>
+      <link>https://ghariib.ir/categories/remote-code-execution/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/remote-code-execution/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Replit</title>
+      <link>https://ghariib.ir/categories/replit/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/replit/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>https://ghariib.ir/categories/research/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/research/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rocky-Linux</title>
+      <link>https://ghariib.ir/categories/rocky-linux/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/rocky-linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Root-Store-Policy</title>
+      <link>https://ghariib.ir/categories/root-store-policy/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/root-store-policy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Royal</title>
+      <link>https://ghariib.ir/categories/royal/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/royal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Royal-Ransomware</title>
+      <link>https://ghariib.ir/categories/royal-ransomware/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/royal-ransomware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rtx</title>
+      <link>https://ghariib.ir/categories/rtx/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/rtx/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Safari</title>
+      <link>https://ghariib.ir/categories/safari/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/safari/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salesforce-Einstein</title>
+      <link>https://ghariib.ir/categories/salesforce-einstein/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/salesforce-einstein/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scam</title>
+      <link>https://ghariib.ir/categories/scam/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/scam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Securing-the-Cloud</title>
+      <link>https://ghariib.ir/categories/securing-the-cloud/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/securing-the-cloud/</guid>
       <description></description>
     </item>
     <item>
       <title>Security</title>
       <link>https://ghariib.ir/categories/security/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security-Awareness</title>
+      <link>https://ghariib.ir/categories/security-awareness/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/security-awareness/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security-Awareness-3-0</title>
+      <link>https://ghariib.ir/categories/security-awareness-3-0/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/security-awareness-3-0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security-Awareness-Training</title>
+      <link>https://ghariib.ir/categories/security-awareness-training/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/security-awareness-training/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security-Culture</title>
+      <link>https://ghariib.ir/categories/security-culture/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/security-culture/</guid>
       <description></description>
     </item>
     <item>
       <title>Security-Privacy</title>
       <link>https://ghariib.ir/categories/security-privacy/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/security-privacy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security-Threats</title>
+      <link>https://ghariib.ir/categories/security-threats/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/security-threats/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Security-Updates</title>
+      <link>https://ghariib.ir/categories/security-updates/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/security-updates/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Serverless</title>
+      <link>https://ghariib.ir/categories/serverless/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/serverless/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Servicenow-Aiops</title>
+      <link>https://ghariib.ir/categories/servicenow-aiops/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/servicenow-aiops/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Servlets</title>
+      <link>https://ghariib.ir/categories/servlets/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/servlets/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Smart-Cities</title>
+      <link>https://ghariib.ir/categories/smart-cities/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/smart-cities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Social-Engineering</title>
+      <link>https://ghariib.ir/categories/social-engineering/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/social-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>https://ghariib.ir/categories/software/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software-Apps</title>
+      <link>https://ghariib.ir/categories/software-apps/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/software-apps/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stackblitz</title>
+      <link>https://ghariib.ir/categories/stackblitz/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/stackblitz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stealer-Malware</title>
+      <link>https://ghariib.ir/categories/stealer-malware/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/stealer-malware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stolen-Device-Protection</title>
+      <link>https://ghariib.ir/categories/stolen-device-protection/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/stolen-device-protection/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Storage</title>
+      <link>https://ghariib.ir/categories/storage/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/storage/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Support-Scam</title>
+      <link>https://ghariib.ir/categories/support-scam/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/support-scam/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech-Conferences</title>
+      <link>https://ghariib.ir/categories/tech-conferences/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/tech-conferences/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech-Events</title>
+      <link>https://ghariib.ir/categories/tech-events/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/tech-events/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tech-Work</title>
+      <link>https://ghariib.ir/categories/tech-work/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/tech-work/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Techrepublic-Premium</title>
+      <link>https://ghariib.ir/categories/techrepublic-premium/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/techrepublic-premium/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The-Beacon</title>
+      <link>https://ghariib.ir/categories/the-beacon/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/the-beacon/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Threat-Hunting</title>
+      <link>https://ghariib.ir/categories/threat-hunting/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/threat-hunting/</guid>
       <description></description>
     </item>
     <item>
       <title>Threat-Intelligence</title>
       <link>https://ghariib.ir/categories/threat-intelligence/</link>
-      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/threat-intelligence/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tips-Tricks</title>
+      <link>https://ghariib.ir/categories/tips-tricks/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/tips-tricks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tls</title>
+      <link>https://ghariib.ir/categories/tls/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/tls/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Top-Products</title>
+      <link>https://ghariib.ir/categories/top-products/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/top-products/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tr-Academy</title>
+      <link>https://ghariib.ir/categories/tr-academy/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/tr-academy/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tribunal</title>
+      <link>https://ghariib.ir/categories/tribunal/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/tribunal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Uk</title>
+      <link>https://ghariib.ir/categories/uk/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/uk/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>United-Kingdom</title>
+      <link>https://ghariib.ir/categories/united-kingdom/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/united-kingdom/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtual-Machine</title>
+      <link>https://ghariib.ir/categories/virtual-machine/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/virtual-machine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtual-Machines</title>
+      <link>https://ghariib.ir/categories/virtual-machines/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/virtual-machines/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Virtualization</title>
+      <link>https://ghariib.ir/categories/virtualization/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/virtualization/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Visual-Studio-Code</title>
+      <link>https://ghariib.ir/categories/visual-studio-code/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/visual-studio-code/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vivaldi</title>
+      <link>https://ghariib.ir/categories/vivaldi/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/vivaldi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vmware</title>
+      <link>https://ghariib.ir/categories/vmware/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/vmware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vmware-Esxi</title>
+      <link>https://ghariib.ir/categories/vmware-esxi/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/vmware-esxi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vmware-Workstation-Player</title>
+      <link>https://ghariib.ir/categories/vmware-workstation-player/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/vmware-workstation-player/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulnerabilities</title>
+      <link>https://ghariib.ir/categories/vulnerabilities/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/vulnerabilities/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Browsers</title>
+      <link>https://ghariib.ir/categories/web-browsers/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/web-browsers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Security</title>
+      <link>https://ghariib.ir/categories/web-security/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/web-security/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Servers</title>
+      <link>https://ghariib.ir/categories/web-servers/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/web-servers/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Windows-11</title>
+      <link>https://ghariib.ir/categories/windows-11/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/windows-11/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wireless-Connectivity</title>
+      <link>https://ghariib.ir/categories/wireless-connectivity/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/wireless-connectivity/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Wiz</title>
+      <link>https://ghariib.ir/categories/wiz/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/wiz/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zoho-Crm</title>
+      <link>https://ghariib.ir/categories/zoho-crm/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/zoho-crm/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Cve</title>
+      <link>https://ghariib.ir/categories/cve/</link>
+      <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/categories/cve/</guid>
       <description></description>
     </item>
     <item>
@@ -94,13 +1725,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ai</title>
-      <link>https://ghariib.ir/categories/ai/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Ai-Apps</title>
       <link>https://ghariib.ir/categories/ai-apps/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -115,13 +1739,6 @@
       <description></description>
     </item>
     <item>
-      <title>Apple</title>
-      <link>https://ghariib.ir/categories/apple/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/apple/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Applecare</title>
       <link>https://ghariib.ir/categories/applecare/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -129,31 +1746,10 @@
       <description></description>
     </item>
     <item>
-      <title>Artificial-Intelligence</title>
-      <link>https://ghariib.ir/categories/artificial-intelligence/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/artificial-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Australia</title>
-      <link>https://ghariib.ir/categories/australia/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/australia/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Automation</title>
       <link>https://ghariib.ir/categories/automation/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/automation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Aws</title>
-      <link>https://ghariib.ir/categories/aws/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/aws/</guid>
       <description></description>
     </item>
     <item>
@@ -168,13 +1764,6 @@
       <link>https://ghariib.ir/categories/benefits/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/benefits/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Big-Data</title>
-      <link>https://ghariib.ir/categories/big-data/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/big-data/</guid>
       <description></description>
     </item>
     <item>
@@ -203,20 +1792,6 @@
       <link>https://ghariib.ir/categories/bitbucket-pipelines/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/bitbucket-pipelines/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blockchain</title>
-      <link>https://ghariib.ir/categories/blockchain/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/blockchain/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blogs</title>
-      <link>https://ghariib.ir/categories/blogs/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/blogs/</guid>
       <description></description>
     </item>
     <item>
@@ -269,20 +1844,6 @@
       <description></description>
     </item>
     <item>
-      <title>Cloud</title>
-      <link>https://ghariib.ir/categories/cloud/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cloud/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud-Security</title>
-      <link>https://ghariib.ir/categories/cloud-security/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cloud-security/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cloudcomputing</title>
       <link>https://ghariib.ir/categories/cloudcomputing/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -322,13 +1883,6 @@
       <link>https://ghariib.ir/categories/collaboration/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/collaboration/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Company-and-Culture</title>
-      <link>https://ghariib.ir/categories/company-and-culture/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/company-and-culture/</guid>
       <description></description>
     </item>
     <item>
@@ -381,24 +1935,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cryptography</title>
-      <link>https://ghariib.ir/categories/cryptography/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cryptography/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Cryptography-Library</title>
       <link>https://ghariib.ir/categories/cryptography-library/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/cryptography-library/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cyber-Security</title>
-      <link>https://ghariib.ir/categories/cyber-security/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cyber-security/</guid>
       <description></description>
     </item>
     <item>
@@ -409,52 +1949,10 @@
       <description></description>
     </item>
     <item>
-      <title>Cybercrime</title>
-      <link>https://ghariib.ir/categories/cybercrime/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cybercrime/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybercrime-Malcode</title>
-      <link>https://ghariib.ir/categories/cybercrime-malcode/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cybercrime-malcode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cybermaniac</title>
-      <link>https://ghariib.ir/categories/cybermaniac/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cybermaniac/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data</title>
-      <link>https://ghariib.ir/categories/data/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/data/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Centers</title>
-      <link>https://ghariib.ir/categories/data-centers/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/data-centers/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Data-Centres</title>
       <link>https://ghariib.ir/categories/data-centres/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/data-centres/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Data-Privacy</title>
-      <link>https://ghariib.ir/categories/data-privacy/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/data-privacy/</guid>
       <description></description>
     </item>
     <item>
@@ -483,13 +1981,6 @@
       <link>https://ghariib.ir/categories/dependency/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/dependency/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Developer</title>
-      <link>https://ghariib.ir/categories/developer/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/developer/</guid>
       <description></description>
     </item>
     <item>
@@ -542,13 +2033,6 @@
       <description></description>
     </item>
     <item>
-      <title>Edge</title>
-      <link>https://ghariib.ir/categories/edge/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/edge/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Education</title>
       <link>https://ghariib.ir/categories/education/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -560,20 +2044,6 @@
       <link>https://ghariib.ir/categories/efficiency/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/efficiency/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Email-Security</title>
-      <link>https://ghariib.ir/categories/email-security/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/email-security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Encryption</title>
-      <link>https://ghariib.ir/categories/encryption/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/encryption/</guid>
       <description></description>
     </item>
     <item>
@@ -647,20 +2117,6 @@
       <description></description>
     </item>
     <item>
-      <title>Forensics</title>
-      <link>https://ghariib.ir/categories/forensics/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/forensics/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fundamentals</title>
-      <link>https://ghariib.ir/categories/fundamentals/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/fundamentals/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Gartner</title>
       <link>https://ghariib.ir/categories/gartner/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -668,31 +2124,10 @@
       <description></description>
     </item>
     <item>
-      <title>General</title>
-      <link>https://ghariib.ir/categories/general/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/general/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Generative-Ai</title>
-      <link>https://ghariib.ir/categories/generative-ai/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/generative-ai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Git</title>
       <link>https://ghariib.ir/categories/git/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Google</title>
-      <link>https://ghariib.ir/categories/google/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/google/</guid>
       <description></description>
     </item>
     <item>
@@ -707,34 +2142,6 @@
       <link>https://ghariib.ir/categories/google-search/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/google-search/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Government</title>
-      <link>https://ghariib.ir/categories/government/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/government/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hardware</title>
-      <link>https://ghariib.ir/categories/hardware/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/hardware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Harmony</title>
-      <link>https://ghariib.ir/categories/harmony/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/harmony/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Harmony-Sase</title>
-      <link>https://ghariib.ir/categories/harmony-sase/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/harmony-sase/</guid>
       <description></description>
     </item>
     <item>
@@ -773,20 +2180,6 @@
       <description></description>
     </item>
     <item>
-      <title>Innovation</title>
-      <link>https://ghariib.ir/categories/innovation/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/innovation/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Intego-Mac-Security-Podcast</title>
-      <link>https://ghariib.ir/categories/intego-mac-security-podcast/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/intego-mac-security-podcast/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Intel</title>
       <link>https://ghariib.ir/categories/intel/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -794,73 +2187,10 @@
       <description></description>
     </item>
     <item>
-      <title>International</title>
-      <link>https://ghariib.ir/categories/international/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/international/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Internet</title>
-      <link>https://ghariib.ir/categories/internet/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/internet/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Interviews</title>
       <link>https://ghariib.ir/categories/interviews/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/interviews/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ios</title>
-      <link>https://ghariib.ir/categories/ios/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ios/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ipad</title>
-      <link>https://ghariib.ir/categories/ipad/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ipad/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ipados</title>
-      <link>https://ghariib.ir/categories/ipados/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ipados/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Iphone</title>
-      <link>https://ghariib.ir/categories/iphone/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/iphone/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>It-Resources</title>
-      <link>https://ghariib.ir/categories/it-resources/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/it-resources/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Knowbe4</title>
-      <link>https://ghariib.ir/categories/knowbe4/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/knowbe4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linux</title>
-      <link>https://ghariib.ir/categories/linux/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/linux/</guid>
       <description></description>
     </item>
     <item>
@@ -906,13 +2236,6 @@
       <description></description>
     </item>
     <item>
-      <title>Microsoft</title>
-      <link>https://ghariib.ir/categories/microsoft/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/microsoft/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Microsoft-365</title>
       <link>https://ghariib.ir/categories/microsoft-365/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -948,13 +2271,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mobility</title>
-      <link>https://ghariib.ir/categories/mobility/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/mobility/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>My-Notes-Ai-Pro-Plan</title>
       <link>https://ghariib.ir/categories/my-notes-ai-pro-plan/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -969,13 +2285,6 @@
       <description></description>
     </item>
     <item>
-      <title>Networking</title>
-      <link>https://ghariib.ir/categories/networking/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/networking/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Note-Taking-Software</title>
       <link>https://ghariib.ir/categories/note-taking-software/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -983,31 +2292,10 @@
       <description></description>
     </item>
     <item>
-      <title>Nvidia</title>
-      <link>https://ghariib.ir/categories/nvidia/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/nvidia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open-Source</title>
-      <link>https://ghariib.ir/categories/open-source/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/open-source/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Patch-Management</title>
       <link>https://ghariib.ir/categories/patch-management/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/patch-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Phishing</title>
-      <link>https://ghariib.ir/categories/phishing/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/phishing/</guid>
       <description></description>
     </item>
     <item>
@@ -1029,13 +2317,6 @@
       <link>https://ghariib.ir/categories/pqc/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/pqc/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>https://ghariib.ir/categories/privacy/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/privacy/</guid>
       <description></description>
     </item>
     <item>
@@ -1074,20 +2355,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ransomware</title>
-      <link>https://ghariib.ir/categories/ransomware/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ransomware/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Research</title>
-      <link>https://ghariib.ir/categories/research/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/research/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Robotics-Ai</title>
       <link>https://ghariib.ir/categories/robotics-ai/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -1102,45 +2369,10 @@
       <description></description>
     </item>
     <item>
-      <title>Securing-the-Cloud</title>
-      <link>https://ghariib.ir/categories/securing-the-cloud/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/securing-the-cloud/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Securing-the-Network</title>
       <link>https://ghariib.ir/categories/securing-the-network/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/securing-the-network/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security-Awareness</title>
-      <link>https://ghariib.ir/categories/security-awareness/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/security-awareness/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security-Awareness-3-0</title>
-      <link>https://ghariib.ir/categories/security-awareness-3-0/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/security-awareness-3-0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security-Awareness-Training</title>
-      <link>https://ghariib.ir/categories/security-awareness-training/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/security-awareness-training/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security-Culture</title>
-      <link>https://ghariib.ir/categories/security-culture/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/security-culture/</guid>
       <description></description>
     </item>
     <item>
@@ -1151,31 +2383,10 @@
       <description></description>
     </item>
     <item>
-      <title>Security-Threats</title>
-      <link>https://ghariib.ir/categories/security-threats/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/security-threats/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Semiconductors</title>
       <link>https://ghariib.ir/categories/semiconductors/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/semiconductors/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Social-Engineering</title>
-      <link>https://ghariib.ir/categories/social-engineering/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/social-engineering/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Software</title>
-      <link>https://ghariib.ir/categories/software/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/software/</guid>
       <description></description>
     </item>
     <item>
@@ -1200,13 +2411,6 @@
       <description></description>
     </item>
     <item>
-      <title>Storage</title>
-      <link>https://ghariib.ir/categories/storage/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/storage/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Supply-Chain</title>
       <link>https://ghariib.ir/categories/supply-chain/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -1228,31 +2432,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tech-Work</title>
-      <link>https://ghariib.ir/categories/tech-work/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/tech-work/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Technology</title>
       <link>https://ghariib.ir/categories/technology/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>The-Beacon</title>
-      <link>https://ghariib.ir/categories/the-beacon/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/the-beacon/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Threat-Hunting</title>
-      <link>https://ghariib.ir/categories/threat-hunting/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/threat-hunting/</guid>
       <description></description>
     </item>
     <item>
@@ -1270,31 +2453,10 @@
       <description></description>
     </item>
     <item>
-      <title>Tr-Academy</title>
-      <link>https://ghariib.ir/categories/tr-academy/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/tr-academy/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Transcription-Software</title>
       <link>https://ghariib.ir/categories/transcription-software/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/transcription-software/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Uk</title>
-      <link>https://ghariib.ir/categories/uk/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/uk/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>United-Kingdom</title>
-      <link>https://ghariib.ir/categories/united-kingdom/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/united-kingdom/</guid>
       <description></description>
     </item>
     <item>
@@ -1326,13 +2488,6 @@
       <description></description>
     </item>
     <item>
-      <title>Vulnerabilities</title>
-      <link>https://ghariib.ir/categories/vulnerabilities/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/vulnerabilities/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Web-Authentication</title>
       <link>https://ghariib.ir/categories/web-authentication/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
@@ -1344,13 +2499,6 @@
       <link>https://ghariib.ir/categories/whatsapp/</link>
       <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/whatsapp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Windows-11</title>
-      <link>https://ghariib.ir/categories/windows-11/</link>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/windows-11/</guid>
       <description></description>
     </item>
     <item>
@@ -1543,24 +2691,10 @@
       <description></description>
     </item>
     <item>
-      <title>Industry</title>
-      <link>https://ghariib.ir/categories/industry/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/industry/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Infrastructureascode</title>
       <link>https://ghariib.ir/categories/infrastructureascode/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/infrastructureascode/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ios-18</title>
-      <link>https://ghariib.ir/categories/ios-18/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ios-18/</guid>
       <description></description>
     </item>
     <item>
@@ -1571,13 +2705,6 @@
       <description></description>
     </item>
     <item>
-      <title>Ipados-18</title>
-      <link>https://ghariib.ir/categories/ipados-18/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ipados-18/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Itoperations</title>
       <link>https://ghariib.ir/categories/itoperations/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
@@ -1585,45 +2712,10 @@
       <description></description>
     </item>
     <item>
-      <title>Macos</title>
-      <link>https://ghariib.ir/categories/macos/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/macos/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Macos-Sequoia</title>
-      <link>https://ghariib.ir/categories/macos-sequoia/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/macos-sequoia/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Macos-Sonoma</title>
-      <link>https://ghariib.ir/categories/macos-sonoma/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/macos-sonoma/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Macos-Ventura</title>
-      <link>https://ghariib.ir/categories/macos-ventura/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/macos-ventura/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Malvertising</title>
       <link>https://ghariib.ir/categories/malvertising/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/malvertising/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Malware</title>
-      <link>https://ghariib.ir/categories/malware/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/malware/</guid>
       <description></description>
     </item>
     <item>
@@ -1746,13 +2838,6 @@
       <description></description>
     </item>
     <item>
-      <title>Stealer-Malware</title>
-      <link>https://ghariib.ir/categories/stealer-malware/</link>
-      <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/stealer-malware/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Unlock</title>
       <link>https://ghariib.ir/categories/unlock/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
@@ -1841,13 +2926,6 @@
       <link>https://ghariib.ir/categories/azure-devops-server/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/azure-devops-server/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Backdoors</title>
-      <link>https://ghariib.ir/categories/backdoors/</link>
-      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/backdoors/</guid>
       <description></description>
     </item>
     <item>
@@ -1953,13 +3031,6 @@
       <link>https://ghariib.ir/categories/culture/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/culture/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cxo</title>
-      <link>https://ghariib.ir/categories/cxo/</link>
-      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/cxo/</guid>
       <description></description>
     </item>
     <item>
@@ -2194,13 +3265,6 @@
       <description></description>
     </item>
     <item>
-      <title>Openai</title>
-      <link>https://ghariib.ir/categories/openai/</link>
-      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/openai/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Pangea</title>
       <link>https://ghariib.ir/categories/pangea/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
@@ -2418,13 +3482,6 @@
       <description></description>
     </item>
     <item>
-      <title>Virtualization</title>
-      <link>https://ghariib.ir/categories/virtualization/</link>
-      <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/virtualization/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Voice-Over-Internet</title>
       <link>https://ghariib.ir/categories/voice-over-internet/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
@@ -2499,13 +3556,6 @@
       <link>https://ghariib.ir/categories/analytics-intelligence/</link>
       <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/analytics-intelligence/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Android</title>
-      <link>https://ghariib.ir/categories/android/</link>
-      <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/android/</guid>
       <description></description>
     </item>
     <item>
@@ -2656,13 +3706,6 @@
       <description></description>
     </item>
     <item>
-      <title>Github</title>
-      <link>https://ghariib.ir/categories/github/</link>
-      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/github/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Github-Actions</title>
       <link>https://ghariib.ir/categories/github-actions/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
@@ -2684,13 +3727,6 @@
       <description></description>
     </item>
     <item>
-      <title>Mergers-and-Acquisitions</title>
-      <link>https://ghariib.ir/categories/mergers-and-acquisitions/</link>
-      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/mergers-and-acquisitions/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Security-Strategy-Plan-Budget</title>
       <link>https://ghariib.ir/categories/security-strategy-plan-budget/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
@@ -2702,13 +3738,6 @@
       <link>https://ghariib.ir/categories/android-security/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/android-security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apple-Watch</title>
-      <link>https://ghariib.ir/categories/apple-watch/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/apple-watch/</guid>
       <description></description>
     </item>
     <item>
@@ -2793,13 +3822,6 @@
       <link>https://ghariib.ir/categories/mapt/</link>
       <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/mapt/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mobile-Security</title>
-      <link>https://ghariib.ir/categories/mobile-security/</link>
-      <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/mobile-security/</guid>
       <description></description>
     </item>
     <item>
@@ -2894,45 +3916,10 @@
       <description></description>
     </item>
     <item>
-      <title>Ca-Program</title>
-      <link>https://ghariib.ir/categories/ca-program/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/ca-program/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Certificates</title>
-      <link>https://ghariib.ir/categories/certificates/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/certificates/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Dga</title>
       <link>https://ghariib.ir/categories/dga/</link>
       <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/dga/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Firefox</title>
-      <link>https://ghariib.ir/categories/firefox/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/firefox/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mrsp</title>
-      <link>https://ghariib.ir/categories/mrsp/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/mrsp/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Root-Store-Policy</title>
-      <link>https://ghariib.ir/categories/root-store-policy/</link>
-      <pubDate>Sun, 19 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/root-store-policy/</guid>
       <description></description>
     </item>
     <item>
@@ -2975,13 +3962,6 @@
       <link>https://ghariib.ir/categories/password-recovery/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/categories/password-recovery/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Amazon</title>
-      <link>https://ghariib.ir/categories/amazon/</link>
-      <pubDate>Sun, 12 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>https://ghariib.ir/categories/amazon/</guid>
       <description></description>
     </item>
     <item>
