@@ -40,11 +40,133 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-announces-2024-baldrige-awards-for-performance-excellence/">NIST Announces 2024 Baldrige Awards for Performance Excellence</a></h1>
+	<h1><a href="https://ghariib.ir/posts/issue-with-aws-client-vpn-cve-2024-30164-cve-2024-30165/">Issue with AWS Client VPN - CVE-2024-30164, CVE-2024-30165</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>The Baldrige Award was redesigned earlier this year to focus on organizational resilience.</p>
+		<p>**Publication Date: 2024/07/16 3:30 PM PDT<br>
+**</p>
+<p>AWS is aware of CVE-2024-30164 and CVE-2024-30165 in AWS Client VPN. These issues could potentially allow an actor with access to an end user&rsquo;s device to escalate to root privilege and execute arbitrary commands on that device. We addressed these issues on all platforms. Customers using AWS Client VPN should upgrade to version 3.11.1 or higher for Windows, 3.9.2 or higher for MacOS, and 3.12.1 or higher for Linux.</p>
+		
+			<a href="https://ghariib.ir/posts/issue-with-aws-client-vpn-cve-2024-30164-cve-2024-30165/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/issue-with-data-all-multiple-cves/">Issue with data.all (Multiple CVEs)</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>**Publication Date: 2024/11/8 4:00 PM PDT<br>
+**</p>
+<p>Data.all is an open source development framework to help customers build a data marketplace on AWS.</p>
+<p>We have identified the following issues within data.all version 1.0.0 through 2.6.0. On November 8, 2024, we released a fix and recommend customers upgrade to version 2.6.1 or later and ensure any forked or derivative code are patched to incorporate the new fixes.</p>
+<ul>
+<li>CVE-2024-52311 relates to an issue where data.all does not invalidate authentication token upon user logout.</li>
+<li>CVE-2024-52312 relates to an issue where data.all authenticated users can perform restricted operations against DataSets and Environments.</li>
+<li>CVE-2024-52313 relates to an issue where data.all authenticated users can obtain incorrect object level authorizations.</li>
+<li>CVE-2024-52314 relates to an issue where data.all admin user may access potentially sensitive data stored by producers via logs.</li>
+<li>CVE-2024-10953 relates to an issue where data.all authenticated users can perform mutating update operations on persisted notification records.</li>
+</ul>
+<p>References:</p>
+		
+			<a href="https://ghariib.ir/posts/issue-with-data-all-multiple-cves/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/issue-with-dynamodb-local-cve-2022-1471/">Issue with DynamoDB local - CVE-2022-1471</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p><strong>Publication Date: 2024/12/11 2:00PM PST</strong></p>
+<p>AWS is aware of CVE-2022-1471 in SnakeYaml software, included in DynamoDB local jar and Docker distributions from version 1.21 and version 2.0. If leveraged, this issue could allow an actor to perform remote code execution using the SnakeYaml&rsquo;s Constructor(), as the software does not restrict the types that can be instantiated during deserialization. AWS has found no evidence that this issue has been leveraged, however, customers should still take action. On November 6, 2024, we released a fix for this issue. Customers should upgrade DynamoDB local to the latest version: v1.25.1 and above, or 2.5.3 and above.</p>
+		
+			<a href="https://ghariib.ir/posts/issue-with-dynamodb-local-cve-2022-1471/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/issue-with-iam-supporting-multiple-mfa-devices/">Issue With IAM Supporting Multiple MFA Devices</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p><strong>Initial Publication Date: 04/25/2023 10:00AM EST</strong></p>
+<p>A security researcher recently reported an issue with AWS’s recently-released (November 16th, 2022) support for multiple multi-factor authentication (MFA) devices for IAM user principals. The reported issue could have potentially arisen only when the following three conditions were met: (1) An IAM user had possession of long-term access key (AK)/secret key (SK) credentials, (2) that IAM user had the privilege to add an MFA to their own identity without using an MFA, and (3) that IAM user’s overall access privileges beyond console sign-in had been configured by an administrator to be greater after adding the MFA. Under those narrow conditions, possession of AK/SK alone was equivalent to possession of AK/SK and a previously configured MFA.</p>
+		
+			<a href="https://ghariib.ir/posts/issue-with-iam-supporting-multiple-mfa-devices/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/issue-with-nvidia-container-toolkit-cve-2024-0132-cve-2024-0133/">Issue with NVIDIA Container Toolkit (CVE-2024-0132, CVE-2024-0133)</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>**Publication Date: 2024/10/01 6:35 PM PDT<br>
+**</p>
+<p>AWS is aware of CVE-2024-0132 and CVE-2024-0133, issues affecting the NVIDIA container toolkit 1.16. At this time, the following services require customer action. If we become aware of additional impact, we will update this bulletin.</p>
+<p>Amazon Elastic Container Service (Amazon ECS)</p>
+<p>Amazon ECS has released updated ECS GPU-optimized Amazon Machine Images (AMIs) with the patched NVIDIA container toolkit v1.16.2. We recommend that ECS customers update to these AMIs (or the latest available). Additional information on the ECS-optimized AMI is available at in our &ldquo;Amazon ECS-optimized Linux AMIs&rdquo; developer guide.</p>
+		
+			<a href="https://ghariib.ir/posts/issue-with-nvidia-container-toolkit-cve-2024-0132-cve-2024-0133/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/issue-with-pytorch-torchserve-cve-2024-35198-cve-2024-35199/">Issue with PyTorch TorchServe - CVE-2024-35198, CVE-2024-35199</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>**Publication Date: 2024/07/18 2:50 PM PDT<br>
+**</p>
+<p>AWS is aware of the issues described in CVE-2024-35198 and CVE-2024-35199 in PyTorch TorchServe versions 0.3.0 to 0.10.0. Customers using PyTorch inference Deep Learning Containers (DLC) through Amazon SageMaker are not affected.</p>
+<p>CVE-2024-35198 does not prevent a model from being downloaded into the model store if the URL contains characters such as &ldquo;..&rdquo; when TorchServe model registration API is called. Customers using PyTorch inference Deep Learning Containers (DLC) through Amazon SageMaker and Amazon Elastic Kubernetes Service (Amazon EKS) are not affected by this issue.</p>
+		
+			<a href="https://ghariib.ir/posts/issue-with-pytorch-torchserve-cve-2024-35198-cve-2024-35199/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/issue-with-redshift-jdbc-driver-python-connector-and-odbc-driver-cve-2024-12744-cve-2024-12745-cve-2024-12746/">Issue with RedShift JDBC Driver, Python Connector and ODBC Driver - (CVE-2024-12744, CVE-2024-12745, CVE-2024-12746)</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p><strong>Publication Date: 2024/12/24 10:00AM PST</strong></p>
+<p>AWS has identified the following issues within the Amazon Redshift JDBC Driver, Amazon Redshift Python Connector, and Amazon Redshift ODBC Driver. On December 23, 2024, we released a fix and recommend customers upgrade to the latest version to address these issues.</p>
+<ul>
+<li>The Amazon Redshift JDBC Driver, version 2.1.0.31, is affected by CVE-2024-12744, a SQL injection issue when utilizing the getSchemas, getTables, or getColumns Metadata APIs. This issue has been addressed in driver version 2.1.0.32. We recommend customers upgrade to the driver version 2.1.0.32 or revert to driver version 2.1.0.30.</li>
+<li>The Amazon Redshift Python Connector, version 2.1.4, is affected by CVE-2024-12745, a SQL injection issue when utilizing the get_schemas, get_tables, or get_columns Metadata APIs. This issue has been addressed in driver version 2.1.5. We recommend customers upgrade to the driver version 2.1.5 or revert to driver version 2.1.3.</li>
+<li>The Amazon Redshift ODBC Driver, version v2.1.5.0 (Windows or Linux), is affected by CVE-2024-12746, a SQL injection issue when utilizing the SQLTables or SQLColumns Metadata APIs. This issue has been addressed in driver version 2.1.6.0. We recommend customers upgrade to the driver version 2.1.6.0 or revert to driver version 2.1.4.0.</li>
+</ul>
+<p><strong>Affected versions:</strong> Amazon Redshift JDBC Driver, version 2.1.0.31; Amazon Redshift Python Connector, version 2.1.4; Amazon Redshift ODBC Driver, version v2.1.5.0.</p>
+		
+			<a href="https://ghariib.ir/posts/issue-with-redshift-jdbc-driver-python-connector-and-odbc-driver-cve-2024-12744-cve-2024-12745-cve-2024-12746/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/jangow-1-0-1/">Jangow: 1.0.1</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Difficulty: easy</p>
+<p>The secret to this box is enumeration! Inquiries <a href="mailto:jangow2021@gmail.com">jangow2021@gmail.com</a></p>
+<p>VulnHub</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -52,107 +174,22 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-awards-15-million-to-astm-international-to-establish-standardization-center-of-excellence/">NIST Awards $15 Million to ASTM International to Establish Standardization Center of Excellence</a></h1>
+	<h1><a href="https://ghariib.ir/posts/javascript-arithmetic-is-awful/">JavaScript arithmetic is awful</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>The new center will support U.S. engagement in international standardization for critical and emerging technologies.</p>
-<p>Go to Source</p>
+		<p>JavaScript arithmetic is awful</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-develops-genetic-material-for-validating-h5n1-bird-flu-diagnostic-tests/">NIST Develops Genetic Material for Validating H5N1 Bird Flu Diagnostic Tests</a></h1>
+	<h1><a href="https://ghariib.ir/posts/jsql-automatic-sql-injection-tool-in-java/">jSQL – Automatic SQL Injection Tool In Java</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>To bolster the nation’s preparedness for a pandemic, the National Institute of Standards and Technology (NIST) has developed a synthetic, nonhazardous genetic material to support the development and validation of diagnostic tests for the H5N1 virus</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-engineer-presents-at-women-in-manufacturing-summit/">NIST Engineer Presents at Women in Manufacturing Summit</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>In October 2024, NIST Researcher Rosemary Astheimer presented at the 2024 Women in Manufacturing Summit in Boston, Massachusetts. The Summit, attended by over 2,100 women, serves as a platform for advancing the roles and impact of women in the</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-engineers-support-vendor-implementations-of-step-to-evolve-digital-manufacturing/">NIST Engineers Support Vendor Implementations of STEP to Evolve Digital Manufacturing</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>In September 2024, NIST Engineers Rosemary Astheimer and Allison Barnard Feeney participated in meetings held by the MBx Interoperability Forum - a collaborative testing initiative between AFNeT Services; PDES, Inc.; and prostep ivip since 1999. The</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-hosts-annual-meeting-for-the-technical-language-processing-community-of-interest/">NIST Hosts Annual Meeting for the Technical Language Processing Community of Interest</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>On 24-25 September 2024, NIST hosted the annual meeting for the Technical Language Processing Community of Interest (TLP COI) . This year’s meeting centered on the current landscape of language processing needs and emerging applications, with a focus</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-hosts-workshop-on-whole-community-preparedness-for-smart-cities-and-communities/">NIST Hosts Workshop on “Whole Community Preparedness for Smart Cities and Communities”</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>On 27-28 August 2024, NIST’s Smart Connected Systems Division hosted a workshop at the George H. W. Bush School of Government and Public Service in Washington D.C. to examine an approach to “Whole Community Preparedness for Smart Cities and</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-industrial-wireless-team-supports-kick-off-of-the-astm-f45-04-task-group-on-mitigation-of-interference-in-wireless-communication-systems/">NIST Industrial Wireless Team Supports Kick-off of the ASTM F45.04 Task Group on Mitigation of Interference in Wireless Communication Systems</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>NIST Industrial Wireless Systems Research Lead Dr. Richard (Rick) Candell participated in the kick-off meeting for the ASTM F45.04 System Communication and Interoperability for Robotics, Automation, and Autonomous Systems committee’s task group on</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-introduces-a-meta-framework-to-strengthen-supply-chain-traceability-in-critical-infrastructure-sectors/">NIST Introduces a Meta-Framework to Strengthen Supply Chain Traceability in Critical Infrastructure Sectors</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The security and stability of the United States’ national manufacturing and critical infrastructure supply chains are vital to the health, security, and growth of the economy. As global supply chains become more complex, the need for enhanced</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/nist-leader-provides-insights-on-connected-technologies-for-smart-infrastructures-at-imagine-nation-executive-leadership-conference-2024/">NIST Leader Provides Insights on Connected Technologies for Smart Infrastructures at Imagine Nation Executive Leadership Conference 2024</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>On October 28, 2024, NIST Leader Dr. David Wollman, Deputy Division Chief of NIST’s Smart Connected Systems Division, participated in an invited panel session at the Imagine Nation Executive Leadership Conference (ELC) 2024 in Hershey, Pennsylvania</p>
+		<p>jSQL is an automatic SQL Injection tool written in Java, it’s lightweight and supports 23 kinds of database. It is free, open source and cross-platform (Windows, Linux, Mac OS X) and is easily available in Kali, Pentest Box, Parrot Security OS, ArchStrike or BlackArch Linux. Features of jSQL Java SQL Injection Tool Automatic injection of […]</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -163,7 +200,7 @@
 
 	<a href="/page/460/">Previous Page</a>
 
-461 of 479
+461 of 492
 
 	<a href="/page/462/">Next Page</a>
 

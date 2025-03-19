@@ -388,6 +388,62 @@
       <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://lifeboat.com/blog.images/logo.x-hit-by-massive-cyberattack-amid-dark-storms-ddos-claims2.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;The Dark Storm hacktivist group claims to be behind DDoS attacks causing multiple X worldwide outages on Monday, leading the company to enable DDoS protections from Cloudflare.&lt;/p&gt;&#xA;&lt;p&gt;While X owner Elon Musk did not specifically state that DDoS attacks were behind the outages, he did confirm that it was caused by a “massive cyberattack.”&lt;/p&gt;&#xA;&lt;p&gt;“There was (still is) a massive cyberattack against X,” Musk posted on X.&lt;/p&gt;&#xA;&lt;p&gt;Read more | &amp;gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>BitM Up Session Stealing in Seconds Using the Browser-in-the-Middle Technique</title>
+      <link>https://ghariib.ir/posts/2025-03-17-bitm-up-session-stealing-in-seconds-usi/</link>
+      <pubDate>Mon, 17 Mar 2025 05:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-03-17-bitm-up-session-stealing-in-seconds-usi/</guid>
+      <description>&lt;h1 id=&#34;bitm-up-session-stealing-in-seconds-using-the-browser-in-the-middle-technique&#34;&gt;BitM Up Session Stealing in Seconds Using the Browser-in-the-Middle Technique&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;The Rise of Browser in the Middle (BitM):&lt;/strong&gt; BitM attacks offer a streamlined approach, allowing attackers to quickly compromise sessions across various web applications.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;MFA Remains Crucial, But Not Invulnerable:&lt;/strong&gt; Multi-factor authentication (MFA) is a vital security measure, yet sophisticated social engineering tactics now effectively bypass it by targeting session tokens.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ghost in the Router China-Nexus Espionage Actor UNC3886 Targets Juniper Routers</title>
+      <link>https://ghariib.ir/posts/2025-03-11-ghost-in-the-router-china-nexus-espiona/</link>
+      <pubDate>Tue, 11 Mar 2025 20:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-03-11-ghost-in-the-router-china-nexus-espiona/</guid>
+      <description>&lt;h1 id=&#34;ghost-in-the-router-china-nexus-espionage-actor-unc3886-targets-juniper-routers&#34;&gt;Ghost in the Router China-Nexus Espionage Actor UNC3886 Targets Juniper Routers&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;In mid 2024, Mandiant discovered threat actors deployed custom backdoors on Juniper Networks’ Junos OS routers. Mandiant attributed these backdoors to the China-nexus espionage group, UNC3886. Mandiant uncovered several TINYSHELL-based backdoors operating on Juniper Networks’ Junos OS routers. The backdoors had varying custom capabilities, including active and passive backdoor functions, as well as an embedded script that disables logging mechanisms on the target device.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Unraveling Time A Deep Dive into TTD Instruction Emulation Bugs</title>
+      <link>https://ghariib.ir/posts/2025-03-10-unraveling-time-a-deep-dive-into-ttd-in/</link>
+      <pubDate>Mon, 10 Mar 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-03-10-unraveling-time-a-deep-dive-into-ttd-in/</guid>
+      <description>&lt;h1 id=&#34;unraveling-time-a-deep-dive-into-ttd-instruction-emulation-bugs&#34;&gt;Unraveling Time A Deep Dive into TTD Instruction Emulation Bugs&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;p&gt;This blog post presents an in-depth exploration of Microsoft&amp;rsquo;s Time Travel Debugging (TTD) framework, a powerful record-and-replay debugging framework for Windows user-mode applications. TTD relies heavily on accurate CPU instruction emulation to faithfully replay program executions. However, subtle inaccuracies within this emulation process can lead to significant security and reliability issues, potentially masking vulnerabilities or misleading critical investigations—particularly incident response and malware analysis. This could cause analysts to overlook threats or draw incorrect conclusions. Furthermore, attackers can exploit these inaccuracies to intentionally evade detection or disrupt forensic analyses, severely compromising investigative outcomes. &lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>GoStringUngarbler Deobfuscating Strings in Garbled Binaries</title>
+      <link>https://ghariib.ir/posts/2025-03-05-gostringungarbler-deobfuscating-strings/</link>
+      <pubDate>Wed, 05 Mar 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-03-05-gostringungarbler-deobfuscating-strings/</guid>
+      <description>&lt;h1 id=&#34;gostringungarbler-deobfuscating-strings-in-garbled-binaries&#34;&gt;GoStringUngarbler Deobfuscating Strings in Garbled Binaries&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;In our day-to-day work, the FLARE team often encounters malware written in &lt;a href=&#34;https://go.dev/&#34;&gt;Go&lt;/a&gt; that is protected using &lt;a href=&#34;https://github.com/burrowers/garble&#34;&gt;garble&lt;/a&gt;. While recent advancements in Go analysis from tools like IDA Pro have simplified the analysis process, garble presents a set of unique challenges, including stripped binaries, function name mangling, and encrypted strings.&lt;/p&gt;&#xA;&lt;p&gt;Garble&amp;rsquo;s string encryption, while relatively straightforward, significantly hinders static analysis. In this blog post, we&amp;rsquo;ll detail garble’s string transformations and the process of automatically deobfuscating them.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Not Lost in Translation Rosetta 2 Artifacts in macOS Intrusions</title>
+      <link>https://ghariib.ir/posts/2025-03-03-not-lost-in-translation-rosetta-2-artif/</link>
+      <pubDate>Mon, 03 Mar 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-03-03-not-lost-in-translation-rosetta-2-artif/</guid>
+      <description>&lt;h1 id=&#34;not-lost-in-translation-rosetta-2-artifacts-in-macos-intrusions&#34;&gt;Not Lost in Translation Rosetta 2 Artifacts in macOS Intrusions&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Rosetta 2 is Apple&amp;rsquo;s translation technology for running x86-64 binaries on Apple Silicon (ARM64) macOS systems.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Rosetta 2 translation creates a cache of Ahead-Of-Time (AOT) files that can serve as valuable forensic artifacts.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Mandiant has observed sophisticated threat actors leveraging x86-64 compiled macOS malware, likely due to broader compatibility and relaxed execution policies compared to ARM64 binaries.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Phishing Campaigns Targeting Higher Education Institutions</title>
+      <link>https://ghariib.ir/posts/2025-02-24-phishing-campaigns-targeting-higher-edu/</link>
+      <pubDate>Mon, 24 Feb 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-02-24-phishing-campaigns-targeting-higher-edu/</guid>
+      <description>&lt;h1 id=&#34;phishing-campaigns-targeting-higher-education-institutions&#34;&gt;Phishing Campaigns Targeting Higher Education Institutions&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Beginning in August 2024, Mandiant observed a notable increase in phishing attacks targeting the education industry, specifically U.S.-based universities. A separate investigation conducted by the Google’s Workspace Trust and Safety team identified a long-term campaign spanning from at least October 2022, with a noticeable pattern of shared filenames, targeting thousands of educational institution users per month.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Signals of Trouble Multiple Russia-Aligned Threat Actors Actively Targeting Signal Messenger</title>
+      <link>https://ghariib.ir/posts/2025-02-19-signals-of-trouble-multiple-russia-alig/</link>
+      <pubDate>Wed, 19 Feb 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-02-19-signals-of-trouble-multiple-russia-alig/</guid>
+      <description>&lt;h1 id=&#34;signals-of-trouble-multiple-russia-aligned-threat-actors-actively-targeting-signal-messenger&#34;&gt;Signals of Trouble Multiple Russia-Aligned Threat Actors Actively Targeting Signal Messenger&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Google Threat Intelligence Group (GTIG) has observed increasing efforts from several Russia state-aligned threat actors to compromise Signal Messenger accounts used by individuals of interest to Russia&amp;rsquo;s intelligence services. While this emerging operational interest has likely been sparked by wartime demands to gain access to sensitive government and military communications in the context of Russia&amp;rsquo;s re-invasion of Ukraine, we anticipate the tactics and methods used to target Signal will grow in prevalence in the near-term and proliferate to additional threat actors and regions outside the Ukrainian theater of war.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cybercrime A Multifaceted National Security Threat</title>
+      <link>https://ghariib.ir/posts/2025-02-11-cybercrime-a-multifaceted-national-secu/</link>
+      <pubDate>Tue, 11 Feb 2025 20:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-02-11-cybercrime-a-multifaceted-national-secu/</guid>
+      <description>&lt;h1 id=&#34;cybercrime-a-multifaceted-national-security-threat&#34;&gt;Cybercrime A Multifaceted National Security Threat&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Cybercrime makes up a majority of the malicious activity online and occupies the majority of defenders&amp;rsquo; resources. In 2024, Mandiant Consulting responded to almost four times more intrusions conducted by financially motivated actors than state-backed intrusions. Despite this overwhelming volume, cybercrime receives much less attention from national security practitioners than the threat from state-backed groups. While the threat from state-backed hacking is rightly understood to be severe, it should not be evaluated in isolation from financially motivated intrusions. &lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CISA KEV Catalog Update Part III- February 2025</title>
       <link>https://ghariib.ir/posts/cisa-kev-catalog-update-part-iii-february-2025/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
@@ -456,6 +512,13 @@
       <pubDate>Fri, 07 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/cve-2025-22402-dell-update-manager-plugin-basic-cross-site-scripting-vulnerability/</guid>
       <description>&lt;p&gt;&lt;strong&gt;CVE ID :&lt;/strong&gt; CVE-2025-22402&lt;br&gt;&#xA;&lt;strong&gt;Published :&lt;/strong&gt; Feb. 7, 2025, 3:15 a.m. | 2 hours, 27 minutes ago&lt;br&gt;&#xA;&lt;strong&gt;Description :&lt;/strong&gt; Dell Update Manager Plugin, version(s) 1.5.0 through 1.6.0, contain(s) an Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability. A low privileged attacker with remote access could potentially exploit this vulnerability, leading to Information exposure.&lt;br&gt;&#xA;&lt;strong&gt;Severity:&lt;/strong&gt; 2.6 | LOW&lt;br&gt;&#xA;Visit the link for more details, such as CVSS details, affected products, timeline, and more&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Using capa Rules for Android Malware Detection</title>
+      <link>https://ghariib.ir/posts/2025-02-06-using-capa-rules-for-android-malware-de/</link>
+      <pubDate>Thu, 06 Feb 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-02-06-using-capa-rules-for-android-malware-de/</guid>
+      <description>&lt;h1 id=&#34;using-capa-rules-for-android-malware-detection&#34;&gt;Using capa Rules for Android Malware Detection&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Android takes a multi-layered approach to combating malware to help keep users safe (more later in the post), but while we continuously strengthen our defenses against malware, threat actors are persistently updating their malware to evade detection. Malware developers used to complete their entire malicious aggression using the common Android app development toolkits in Java, which is easier to detect by reversing the Java bytecode. In recent years, malware developers are increasing the use of native code to obfuscate some of the critical malware behaviors and putting their hopes on obscuration in compiled and symbol-stripped Executable and Linkable Format (ELF) files, which can be more difficult and time-consuming to reveal their true intentions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>&lt;div&gt;Fortinet meldt toename van aanvallen tegen PTZ-beveiligingscamera&#39;s&lt;/div&gt;</title>
@@ -794,6 +857,13 @@
       <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://lifeboat.com/blog.images/uac-0063-expands-cyber-attacks-to-european-embassies-using-stolen-documents2.jpg&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;UAC-0063, linked to APT28, expands beyond Central Asia, targeting European embassies with advanced malware.&lt;/p&gt;&#xA;&lt;p&gt;Read more | &amp;gt;&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
+      <title>CVE-2023-6080 A Case Study on Third-Party Installer Abuse</title>
+      <link>https://ghariib.ir/posts/2025-02-03-cve-2023-6080-a-case-study-on-third-par/</link>
+      <pubDate>Mon, 03 Feb 2025 13:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-02-03-cve-2023-6080-a-case-study-on-third-par/</guid>
+      <description>&lt;h1 id=&#34;cve-2023-6080-a-case-study-on-third-party-installer-abuse&#34;&gt;CVE-2023-6080 A Case Study on Third-Party Installer Abuse&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Mandiant exploited flaws in the Microsoft Software Installer (MSI) repair action of Lakeside Software&amp;rsquo;s SysTrack installer to obtain arbitrary code execution.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;An attacker with low-privilege access to a system running the vulnerable version of SysTrack could escalate privileges locally.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Mandiant responsibly disclosed this vulnerability to Lakeside Software, and the issue has been addressed in version 11.0.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>&lt;div&gt;CVE-2025-0366 - &#34;Jupiter X Core WordPress Remote Code Execution Vulnerability&#34;&lt;/div&gt;</title>
       <link>https://ghariib.ir/posts/cve-2025-0366-jupiter-x-core-wordpress-remote-code-execution-vulnerability/</link>
       <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
@@ -1116,6 +1186,13 @@
       <description>&lt;h6 id=&#34;how-ai-is-helping-mid-sized-organizations-boost-cybersecurity-and-cut-costs&#34;&gt;How AI is helping mid-sized organizations boost cybersecurity and cut costs&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;http://cybersecurityventures.com/wp-content/uploads/2025/01/Untitled-design-7.png&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/h6&gt;&#xA;&lt;p&gt;&lt;em&gt;– Subo Guha, Senior Vice President, Product Management,&lt;/em&gt; &lt;em&gt;Stellar Cyber&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;San Jose, Calif. – Jan. 28, 2025&lt;/p&gt;&#xA;&lt;p&gt;The concept of the Artificial Intelligence Security Operations Center, also known as the AI SOC, is getting a lot of buzz lately. With it comes the potential to deliver better cybersecurity outcomes for organizations of all sizes. Historically, the SOC has been the domain of the large enterprise. Traditional SOCs were built for larger, well-funded organizations with the resources to benefit from a real-time SecOps command center that can monitor, alert, and act upon suspicious or outright malicious activity across the network. Mid-sized organizations with lean security teams and smaller budgets were priced out. &lt;/p&gt;</description>
     </item>
     <item>
+      <title>Adversarial Misuse of Generative AI</title>
+      <link>https://ghariib.ir/posts/2025-01-29-adversarial-misuse-of-generative-ai/</link>
+      <pubDate>Wed, 29 Jan 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-01-29-adversarial-misuse-of-generative-ai/</guid>
+      <description>&lt;h1 id=&#34;adversarial-misuse-of-generative-ai&#34;&gt;Adversarial Misuse of Generative AI&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Much of the current discourse around cyber threat actors&amp;rsquo; misuse of AI is confined to theoretical research. While these studies demonstrate the potential for malicious exploitation of AI, they don&amp;rsquo;t necessarily reflect the reality of how AI is currently being used by threat actors in the wild. To bridge this gap, we are sharing a comprehensive analysis of how threat actors interacted with Google&amp;rsquo;s AI-powered assistant, Gemini. Our analysis was grounded by the expertise of Google&amp;rsquo;s Threat Intelligence Group (GTIG), which combines decades of experience tracking threat actors on the front lines and protecting Google, our users, and our customers from government-backed attackers, targeted 0-day exploits, coordinated information operations (IO), and serious cyber crime networks.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Beware: Fake CAPTCHA Campaign Spreads Lumma Stealer in Multi-Industry Attacks</title>
       <link>https://ghariib.ir/posts/beware-fake-captcha-campaign-spreads-lumma-stealer-in-multi-industry-attacks/</link>
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
@@ -1345,6 +1422,13 @@
       <pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/the-ultimate-guide-to-cybersecurity-for-small-businesses-and-consumers/</guid>
       <description>&lt;h6 id=&#34;this-week-in-cybersecurity-from-the-editors-at-cybercrime-magazine&#34;&gt;&lt;em&gt;This week in cybersecurity from the editors at Cybercrime Magazine&lt;/em&gt;&lt;/h6&gt;&#xA;&lt;p&gt;&lt;em&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;http://cybersecurityventures.com/wp-content/uploads/2020/09/icon-rss.png&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;–Read the Full Story in DEV&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Sausalito, Calif. – Jan. 28, 2025&lt;/p&gt;&#xA;&lt;p&gt;In our hyper-connected world, cybersecurity is more critical than ever. With increasing reliance on digital technologies, individuals and organizations face a growing array of cyber threats, ranging from data breaches to ransomware attacks.&lt;/p&gt;&#xA;&lt;p&gt;Cybercrime is projected to cost the world $10.5 trillion annually by 2025, according to Cybersecurity Ventures.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ScatterBrain Unmasking the Shadow of PoisonPlugs Obfuscator</title>
+      <link>https://ghariib.ir/posts/2025-01-28-scatterbrain-unmasking-the-shadow-of-po/</link>
+      <pubDate>Tue, 28 Jan 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-01-28-scatterbrain-unmasking-the-shadow-of-po/</guid>
+      <description>&lt;h1 id=&#34;scatterbrain-unmasking-the-shadow-of-poisonplugs-obfuscator&#34;&gt;ScatterBrain Unmasking the Shadow of PoisonPlugs Obfuscator&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Since 2022, Google Threat Intelligence Group (GTIG) has been tracking multiple cyber espionage operations conducted by China-nexus actors utilizing &lt;strong&gt;POISONPLUG.SHADOW&lt;/strong&gt;. These operations employ a custom obfuscating compiler that we refer to as &amp;ldquo;&lt;strong&gt;ScatterBrain&lt;/strong&gt;,&amp;rdquo; facilitating attacks against various entities across Europe and the Asia Pacific (APAC) region. ScatterBrain appears to be a substantial evolution of ScatterBee, an obfuscating compiler &lt;a href=&#34;https://www.pwc.co.uk/issues/cyber-security-services/research/chasing-shadows.html&#34;&gt;previously analyzed by PWC&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>&lt;div&gt;CVE-2024-10574 - &#34;Quiz Maker Business, Developer, and Agency WordPress Unauthorized Modification and Cross-Site Scripting Vulnerability&#34;&lt;/div&gt;</title>
@@ -2152,6 +2236,13 @@
       <description>&lt;p&gt;Threat actors leveraged a phishing webpage luring targets into downloading a legitimate software-spoofing Microsoft Installer package that conceals its malicious nature by launching the app while executing a malicious DLL to deploy the multi-stage PNGPlug loader, a report from Intezer showed.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Securing Cryptocurrency Organizations</title>
+      <link>https://ghariib.ir/posts/2025-01-21-securing-cryptocurrency-organizations/</link>
+      <pubDate>Tue, 21 Jan 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-01-21-securing-cryptocurrency-organizations/</guid>
+      <description>&lt;h1 id=&#34;securing-cryptocurrency-organizations&#34;&gt;Securing Cryptocurrency Organizations&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-rise-of-crypto-heists-and-the-challenges-in-preventing-them&#34;&gt;The Rise of Crypto Heists and the Challenges in Preventing Them&lt;/h2&gt;&#xA;&lt;p&gt;Cryptocurrency crime encompasses a wide range of illegal activities, from theft and hacking to fraud, money laundering, and even terrorist financing, all exploiting the unique characteristics of digital currencies. Cryptocurrency heists, specifically, refer to the large-scale theft of cryptocurrencies or digital assets through unauthorized access, exploitation, or deception.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>CVE-2025-0585 - aEnrich Technology a&#43;HRD SQL Injection</title>
       <link>https://ghariib.ir/posts/cve-2025-0585-aenrich-technology-ahrd-sql-injection/</link>
       <pubDate>Mon, 20 Jan 2025 00:00:00 +0000</pubDate>
@@ -2691,6 +2782,13 @@
       <description>&lt;p&gt;The U.S. Treasury Department said there are “thousands” of North Korean IT workers hired across the globe as part of the campaign and they use a variety of technology to hide their identities and locations while often using stolen identities of U.S. citizens.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Your Single-Page Applications Are Vulnerable Heres How to Fix Them</title>
+      <link>https://ghariib.ir/posts/2025-01-15-your-single-page-applications-are-vulne/</link>
+      <pubDate>Wed, 15 Jan 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-01-15-your-single-page-applications-are-vulne/</guid>
+      <description>&lt;h1 id=&#34;your-single-page-applications-are-vulnerable-heres-how-to-fix-them&#34;&gt;Your Single-Page Applications Are Vulnerable Heres How to Fix Them&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Due to their client-side nature, single-page applications (SPAs) will typically have multiple access control vulnerabilities&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;By implementing a robust access control policy on supporting APIs, the risks associated with client-side rendering can be largely mitigated&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Using server-side rendering within the SPA can prevent unauthorized users from modifying or even viewing pages and data that they are not authorized to see&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>&lt;div&gt;CVE-2024-54142 - &#34;Discourse AI HTML Entity Leaking Vulnerability&#34;&lt;/div&gt;</title>
       <link>https://ghariib.ir/posts/cve-2024-54142-discourse-ai-html-entity-leaking-vulnerability/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
@@ -3165,6 +3263,13 @@
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/why-every-employee-needs-cybersecurity-and-ai-training-today/</guid>
       <description>&lt;h6 id=&#34;this-week-in-cybersecurity-from-the-editors-at-cybercrime-magazine&#34;&gt;&lt;em&gt;This week in cybersecurity from the editors at Cybercrime Magazine&lt;/em&gt;&lt;/h6&gt;&#xA;&lt;p&gt;&lt;em&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;http://cybersecurityventures.com/wp-content/uploads/2020/09/icon-rss.png&#34; alt=&#34;&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;–Read the Full Story in OK! Magazine&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Sausalito, Calif. – Jan. 14, 2025&lt;/p&gt;&#xA;&lt;p&gt;According to Cybersecurity Ventures, the global cost of cybercrime is projected to reach $10.5 trillion annually by 2025. Despite the growing sophistication of cyberattacks, human error remains one of the most common vulnerabilities.&lt;/p&gt;&#xA;&lt;p&gt;Phishing scams, malware attacks, and social engineering tactics often target employees unaware of basic cyber security practices. This lack of awareness can result in breaches that cost companies millions.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Backscatter Automated Configuration Extraction</title>
+      <link>https://ghariib.ir/posts/2025-01-14-backscatter-automated-configuration-ext/</link>
+      <pubDate>Tue, 14 Jan 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-01-14-backscatter-automated-configuration-ext/</guid>
+      <description>&lt;h1 id=&#34;backscatter-automated-configuration-extraction&#34;&gt;Backscatter Automated Configuration Extraction&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;p&gt;Backscatter is a tool developed by the Mandiant FLARE team that aims to automatically extract malware configurations. It relies on static signatures and emulation to extract this information without dynamic execution, bypassing anti-analysis logic present in many modern families. This complements dynamic analysis, providing faster threat identification and high-confidence malware family attribution. &lt;a href=&#34;https://cloud.google.com/security/products/security-operations&#34;&gt;Google SecOps&lt;/a&gt; reverse engineers ensure precise indicators of compromise (IOC) extraction, empowering security teams with actionable threat intelligence to proactively neutralize attacks.&lt;/p&gt;</description>
     </item>
     <item>
       <title>&lt;div&gt;2025-01-09: CVE-2017-0199 XLS --&gt; HTA --&gt; VBS --&gt; steganography --&gt; DBatLoader/GuiLoader style malware&lt;/div&gt;</title>
@@ -3670,6 +3775,13 @@ Android Permissions Denial of Service</title>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/some-winston-salem-city-services-knocked-offline-by-cyberattack/</guid>
       <description>&lt;p&gt;Winston-Salem, one of North Carolina&amp;rsquo;s largest cities, says a late December cyberattack is still causing trouble for some digital services.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ivanti Connect Secure VPN Targeted in New Zero-Day Exploitation</title>
+      <link>https://ghariib.ir/posts/2025-01-08-ivanti-connect-secure-vpn-targeted-in-n/</link>
+      <pubDate>Wed, 08 Jan 2025 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-01-08-ivanti-connect-secure-vpn-targeted-in-n/</guid>
+      <description>&lt;h1 id=&#34;ivanti-connect-secure-vpn-targeted-in-new-zero-day-exploitation&#34;&gt;Ivanti Connect Secure VPN Targeted in New Zero-Day Exploitation&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Note: This is a developing campaign under active analysis by Mandiant and Ivanti. We will continue to add more indicators, detections, and information to this blog post as needed. See the Changelog at the bottom of this post for more details.&lt;/p&gt;&#xA;&lt;p&gt;On Wednesday, Jan. 8, 2025, Ivanti disclosed two vulnerabilities, &lt;a href=&#34;https://www.virustotal.com/gui/collection/vulnerability--cve-2025-0282&#34;&gt;CVE-2025-0282&lt;/a&gt; and &lt;a href=&#34;https://www.virustotal.com/gui/collection/vulnerability--cve-2025-0283&#34;&gt;CVE-2025-0283&lt;/a&gt;, impacting Ivanti Connect Secure (“ICS”) VPN appliances. Mandiant has identified zero-day exploitation of CVE-2025-0282 in the wild beginning mid-December 2024. CVE-2025-0282 is an unauthenticated stack-based buffer overflow. Successful exploitation could result in unauthenticated remote code execution, leading to potential downstream compromise of a victim network.&lt;/p&gt;</description>
     </item>
     <item>
       <title>‘Black Swan’ Event That Could Upend Life in 2025: The World’s Largest Cyberattack</title>
@@ -4811,6 +4923,34 @@ Android Permissions Denial of Service</title>
       <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/understanding-sleep-obfuscation/</guid>
       <description>&lt;p&gt;How Malware Uses Sleep Cycles to Avoid Detection&lt;/p&gt;&#xA;&lt;p&gt;The post Understanding Sleep Obfuscation appeared first on Binary Defense.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>XRefer The Gemini-Assisted Binary Navigator</title>
+      <link>https://ghariib.ir/posts/2024-12-13-xrefer-the-gemini-assisted-binary-navig/</link>
+      <pubDate>Fri, 13 Dec 2024 05:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-12-13-xrefer-the-gemini-assisted-binary-navig/</guid>
+      <description>&lt;h1 id=&#34;xrefer-the-gemini-assisted-binary-navigator&#34;&gt;XRefer The Gemini-Assisted Binary Navigator&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Here at Mandiant FLARE, malware reverse engineering is a regular part of our day jobs. At times we are required to perform basic triages on binaries, where every hour saved is critical to incident response timelines. At other times we examine complicated samples for days developing comprehensive analysis reports. As we face larger and more complex malware, often written in modern languages like Rust, knowing where to go, what to look at, and developing a &amp;ldquo;map&amp;rdquo; of the malware forms a significant effort that directly impacts our response times and triage effectiveness.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bridging the Gap Elevating Red Team Assessments with Application Security Testing</title>
+      <link>https://ghariib.ir/posts/2024-12-05-bridging-the-gap-elevating-red-team-ass/</link>
+      <pubDate>Thu, 05 Dec 2024 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-12-05-bridging-the-gap-elevating-red-team-ass/</guid>
+      <description>&lt;h1 id=&#34;bridging-the-gap-elevating-red-team-assessments-with-application-security-testing&#34;&gt;Bridging the Gap Elevating Red Team Assessments with Application Security Testing&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;p&gt;Whether through a comprehensive &lt;a href=&#34;https://cloud.google.com/security/consulting/mandiant-red-team&#34;&gt;Red Team engagement&lt;/a&gt; or a targeted external assessment, incorporating application security (AppSec) expertise enables organizations to better simulate the tactics and techniques of modern adversaries. This includes:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;Leveraging minimal access for maximum impact:&lt;/strong&gt; There is no need for high privilege escalation. Red Team objectives can often be achieved with limited access, highlighting the importance of securing all internet-facing assets.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>QR Coding My Way Out of Here C2 in Browser Isolation Environments</title>
+      <link>https://ghariib.ir/posts/2024-12-04-qr-coding-my-way-out-of-here-c2-in-brow/</link>
+      <pubDate>Wed, 04 Dec 2024 14:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-12-04-qr-coding-my-way-out-of-here-c2-in-brow/</guid>
+      <description>&lt;h1 id=&#34;qr-coding-my-way-out-of-here-c2-in-browser-isolation-environments&#34;&gt;QR Coding My Way Out of Here C2 in Browser Isolation Environments&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;executive-summary&#34;&gt;Executive Summary&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Browser isolation is a security technology where web browsing activity is separated from the user&amp;rsquo;s local device by running the browser in a secure environment, such as a cloud server or a virtual machine, and then streaming the visual content to the user&amp;rsquo;s device.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Browser isolation is often used by organizations to combat phishing threats, protect the device from browser-delivered attacks, and deter typical command-and-control (C2 or C&amp;amp;C) tactics used by attackers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Seeing Through a GLASSBRIDGE Understanding the Digital Marketing Ecosystem Spreading Pro-PRC Influence Operations</title>
+      <link>https://ghariib.ir/posts/2024-11-22-seeing-through-a-glassbridge-understand/</link>
+      <pubDate>Fri, 22 Nov 2024 10:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-11-22-seeing-through-a-glassbridge-understand/</guid>
+      <description>&lt;h1 id=&#34;seeing-through-a-glassbridge-understanding-the-digital-marketing-ecosystem-spreading-pro-prc-influence-operations&#34;&gt;Seeing Through a GLASSBRIDGE Understanding the Digital Marketing Ecosystem Spreading Pro-PRC Influence Operations&lt;/h1&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Special thanks to Mandiant&amp;rsquo;s Ryan Serabian for his contributions to this analysis.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;&lt;em&gt;UPDATE (December 4): This blog post was updated to include example domains associated with GLASSBRIDGE.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;This blog post details GLASSBRIDGE—an umbrella group of four different companies that operate networks of inauthentic news sites and newswire services tracked by the Google Threat Intelligence Group (consisting of Google’s Threat Analysis Group (TAG) and Mandiant). Collectively these firms bulk-create and operate hundreds of domains that pose as independent news websites from dozens of countries, but are in fact publishing thematically similar, inauthentic content that emphasizes narratives aligned to the political interests of the People’s Republic of China (PRC). Since 2022, Google has blocked more than a thousand GLASSBRIDGE-operated websites from eligibility to appear in Google News features and Google Discover because these sites violated our &lt;a href=&#34;https://support.google.com/news/publisher-center/answer/6204050?hl=en&#34;&gt;policies&lt;/a&gt; that prohibit deceptive behavior and require editorial transparency. &lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

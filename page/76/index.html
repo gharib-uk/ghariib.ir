@@ -40,130 +40,11 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-23114-critical-vulnerability-in-veeam-backup-products/">CVE-2025-23114: Critical Vulnerability in Veeam Backup Products</a></h1>
+	<h1><a href="https://ghariib.ir/posts/australia-divided-on-deepseek-response-industry-groups-call-for-action-minister-urges-caution/">Australia Divided on DeepSeek Response: Industry Groups Call for Action, Minister Urges Caution</a></h1>
 	<b><time>06.02.2025 00:00</time></b>
 	
 	<div>
-		<p>A critical security vulnerability identified as CVE-2025-23114 affects multiple Veeam backup products. This vulnerability resides within the Veeam Updater component and allows attackers to execute arbitrary code on the affected server through a Man-in-the-Middle (MitM) attack. The issue arises from a failure to properly validate TLS certificates during the update process. Understanding the Vulnerability CVE-2025-23114 […]</p>
-<p>The post CVE-2025-23114: Critical Vulnerability in Veeam Backup Products appeared first on SecPod Blog.</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2025-23114-critical-vulnerability-in-veeam-backup-products/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-23236-cisco-defense-platform-home-edition-buffer-overflow-elevates-privileges/">CVE-2025-23236 - Cisco Defense Platform Home Edition Buffer Overflow Elevates Privileges</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-23236<br>
-<strong>Published :</strong> Feb. 6, 2025, 8:15 a.m. | 11 hours, 50 minutes ago<br>
-<strong>Description :</strong> Buffer overflow vulnerability exists in Defense Platform Home Edition Ver.3.9.51.x and earlier. If an attacker performs a specific operation, SYSTEM privilege of the Windows system where the product is running may be obtained.<br>
-<strong>Severity:</strong> 8.8 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2025-23236-cisco-defense-platform-home-edition-buffer-overflow-elevates-privileges/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-24786-whodb-path-traversal-sql-injection-vulnerability/">CVE-2025-24786 - WhoDB Path Traversal SQL Injection Vulnerability</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-24786<br>
-<strong>Published :</strong> Feb. 6, 2025, 7:15 p.m. | 50 minutes ago<br>
-<strong>Description :</strong> WhoDB is an open source database management tool. While the application only displays Sqlite3 databases present in the directory `/db`, there is no path traversal prevention in place. This allows an unauthenticated attacker to open any Sqlite3 database present on the host machine that the application is running on. Affected versions of WhoDB allow users to connect to Sqlite3 databases. By default, the databases must be present in `/db/` (or alternatively `./tmp/` if development mode is enabled). If no databases are present in the default directory, the UI indicates that the user is unable to open any databases. The database file is an user-controlled value. This value is used in `.Join()` with the default directory, in order to get the full path of the database file to open. No checks are performed whether the database file that is eventually opened actually resides in the default directory `/db`. This allows an attacker to use path traversal (`../../`) in order to open any Sqlite3 database present on the system. This issue has been addressed in version 0.45.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.<br>
-<strong>Severity:</strong> 10.0 | CRITICAL<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2025-24786-whodb-path-traversal-sql-injection-vulnerability/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-24787-whodb-mysql-file-disclosure-vulnerability/">CVE-2025-24787 - WhoDB MySQL File Disclosure Vulnerability</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-24787<br>
-<strong>Published :</strong> Feb. 6, 2025, 7:15 p.m. | 50 minutes ago<br>
-<strong>Description :</strong> WhoDB is an open source database management tool. In affected versions the application is vulnerable to parameter injection in database connection strings, which allows an attacker to read local files on the machine the application is running on. The application uses string concatenation to build database connection URIs which are then passed to corresponding libraries responsible for setting up the database connections. This string concatenation is done unsafely and without escaping or encoding the user input. This allows an user, in many cases, to inject arbitrary parameters into the URI string. These parameters can be potentially dangerous depending on the libraries used. One of these dangerous parameters is `allowAllFiles` in the library `github.com/go-sql-driver/mysql`. Should this be set to `true`, the library enables running the `LOAD DATA LOCAL INFILE` query on any file on the host machine (in this case, the machine that WhoDB is running on). By injecting `&amp;allowAllFiles=true` into the connection URI and connecting to any MySQL server (such as an attacker-controlled one), the attacker is able to read local files. This issue has been addressed in version 0.45.0 and all users are advised to upgrade. There are no known workarounds for this vulnerability.<br>
-<strong>Severity:</strong> 8.6 | HIGH<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2025-24787-whodb-mysql-file-disclosure-vulnerability/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2025-24981-vue-markdown-converter-mdc-angular-javascript-xss/">CVE-2025-24981 - Vue Markdown Converter (MDC) Angular JavaScript XSS</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2025-24981<br>
-<strong>Published :</strong> Feb. 6, 2025, 6:15 p.m. | 1 hour, 50 minutes ago<br>
-<strong>Description :</strong> MDC is a tool to take regular Markdown and write documents interacting deeply with a Vue component. In affected versions unsafe parsing logic of the URL from markdown can lead to arbitrary JavaScript code due to a bypass to the existing guards around the `javascript:` protocol scheme in the URL. The parsing logic implement in `props.ts` maintains a deny-list approach to filtering potential malicious payload. It does so by matching protocol schemes like `javascript:` and others. These security guards can be bypassed by an adversarial that provides JavaScript URLs with HTML entities encoded via hex string. Users who consume this library and perform markdown parsing from unvalidated sources could result in rendering vulnerable XSS anchor links. This vulnerability has been addressed in version 0.13.3 and all users are advised to upgrade. There are no known workarounds for this vulnerability.<br>
-<strong>Severity:</strong> 9.3 | CRITICAL<br>
-Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2025-24981-vue-markdown-converter-mdc-angular-javascript-xss/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cyberheistnews-vol-15-05-eye-opener-is-deepseek-the-next-threat-in-social-engineering/">CyberheistNews [Vol 15 #05 Eye Opener] Is DeepSeek The Next Threat in Social Engineering?</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://blog.knowbe4.com/hubfs/CHN-Social.jpg" alt="CyberheistNews Vol 15 #05" />
-</figure>
-
-
-</p>
-<p>
-<figure>
-  <img src="https://track.hubspot.com/__ptq.gif?a=241394&amp;k=14&amp;r=https%3A%2F%2Fblog.knowbe4.com%2Fcyberheistnews-vol-15-05-eye-opener-is-deepseek-the-next-threat-in-social-engineering&amp;bu=https%253A%252F%252Fblog.knowbe4.com&amp;bvt=rss" alt="" />
-</figure>
-
-
-</p>
+		<p>Australian authorities disagree over the response the country should take to the runaway success of the Chinese AI app DeepSeek.</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -171,47 +52,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/data-centres-can-cut-energy-use-by-up-to-30-with-just-about-30-lines-of-code-research-shows/">Data Centres Can Cut Energy Use By Up To 30% With Just About 30 Lines of Code, Research Shows</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<div>
-		<p>New research has found that data centres can reduce their energy usage by up to 30% simply by altering around 30 lines of code in the Linux kernel’s network stack.</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/deepseek-applecare-and-did-apple-approve-a-porn-app-in-the-eu/">DeepSeek, AppleCare, and Did Apple Approve a Porn App in the EU?</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<div>
-		<p>A change may be coming in the way you&rsquo;ll be paying for Apple Care. Apple doesn&rsquo;t approve of an app that it has approved—semantics are at the heart of a porn app problem. DeepSeek is this past week&rsquo;s big artificial intelligence story. What&rsquo;s different about this new AI contender? Does it secure your data? And Apple&rsquo;s new Invites app doesn&rsquo;t seem to be too inviting.</p>
-<p>The post DeepSeek, AppleCare, and Did Apple Approve a Porn App in the EU? appeared first on The Mac Security Blog.</p>
-		
-			<a href="https://ghariib.ir/posts/deepseek-applecare-and-did-apple-approve-a-porn-app-in-the-eu/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/driving-innovation-together-palo-alto-networks-2024-partner-awards/">Driving Innovation Together — Palo Alto Networks 2024 Partner Awards</a></h1>
-	<b><time>06.02.2025 00:00</time></b>
-	
-	<div>
-		<p>In today&rsquo;s rapidly evolving threat landscape, partnerships are more critical than ever. Our partners, of all types, are instrumental in helping us stay ahead of these threats and deliver cutting-edge security solutions to protect our customers’ digital transformation journeys. By collaborating with our partners, we can achieve greater operational efficiencies, enhance the end-user experience, and improve security outcomes.</p>
-<p>To recognize the exceptional contributions of our partners, we&rsquo;re proud to announce the winners of the 2024 Palo Alto Networks Partner Awards. Their unwavering commitment to delivering exceptional security solutions for our joint customers drives continued innovation and solidifies our position as a leader in cybersecurity. These award winners embody the spirit of collaboration and customer-centricity. By strengthening our partnerships, we empower our customers to face emerging threats with confidence.</p>
-		
-			<a href="https://ghariib.ir/posts/driving-innovation-together-palo-alto-networks-2024-partner-awards/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/elber-communications-equipment/">Elber Communications Equipment</a></h1>
+	<h1><a href="https://ghariib.ir/posts/automationdirect-c-more-ea9-hmi/">AutomationDirect C-more EA9 HMI</a></h1>
 	<b><time>06.02.2025 00:00</time></b>
 	
 	<div>
@@ -219,28 +60,190 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 <h2 id="1-executive-summary">1. EXECUTIVE SUMMARY</h2>
 <ul>
 <li><strong>CVSS v4 9.3</strong></li>
-<li><strong>ATTENTION</strong>: Exploitable remotely/low attack complexity/public exploits are available</li>
-<li><strong>Vendor</strong>: Elber</li>
-<li><strong>Equipment</strong>: Communications Equipment</li>
-<li><strong>Vulnerabilities</strong>: Authentication Bypass Using an Alternate Path or Channel, Hidden Functionality</li>
+<li><strong>ATTENTION</strong>: Exploitable remotely/low attack complexity</li>
+<li><strong>Vendor</strong>: AutomationDirect</li>
+<li><strong>Equipment</strong>: C-more EA9 HMI</li>
+<li><strong>Vulnerability</strong>: Buffer Copy without Checking Size of Input (&lsquo;Classic Buffer Overflow&rsquo;)</li>
 </ul>
 <h2 id="2-risk-evaluation">2. RISK EVALUATION</h2>
-<p>Successful exploitation of these vulnerabilities could allow an attacker unauthorized administrative access to the affected device.</p>
+<p>Successful exploitation of this vulnerability could allow an attacker to cause a denial-of-service condition or achieve remote code execution on the affected device.</p>
 <h2 id="3-technical-details">3. TECHNICAL DETAILS</h2>
 <h3 id="31-affected-products">3.1 AFFECTED PRODUCTS</h3>
-<p>The following versions of Elber Communications Equipment are affected:</p>
+<p>The following Automation Direct products are affected:</p>
 <ul>
-<li>Signum DVB-S/S2 IRD: Versions 1.999 and prior</li>
-<li>Cleber/3 Broadcast Multi-Purpose Platform: Version 1.0</li>
-<li>Reble610 M/ODU XPIC IP-ASI-SDH: Version 0.01</li>
-<li>ESE DVB-S/S2 Satellite Receiver: Versions 1.5.179 and prior</li>
-<li>Wayber Analog/Digital Audio STL: Version 4</li>
+<li>C-more EA9 HMI EA9-T6CL: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T7CL-R: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T7CL: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T8CL: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T10CL: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T10WCL: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T12CL: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T15CL-R: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-T15CL: v6.79 and prior</li>
+<li>C-more EA9 HMI EA9-RHMI: v6.79 and prior</li>
 </ul>
 <h3 id="32-vulnerability-overview">3.2 VULNERABILITY OVERVIEW</h3>
-<h4 id="321-authentication-bypass-using-an-alternate-path-or-channel-cwe-288"><strong>3.2.1</strong> <strong>Authentication Bypass Using an Alternate Path or Channel CWE-288</strong></h4>
-<p>Multiple Elber products are affected by an authentication bypass vulnerability which allows unauthorized access to the password management functionality. Attackers can exploit this issue by manipulating the endpoint to overwrite any user&rsquo;s password within the system. This grants them unauthorized administrative access to protected areas of the application, compromising the device&rsquo;s system security.</p>
+<h4 id="321-buffer-copy-without-checking-size-of-input-"><strong>3.2.1</strong> <strong>Buffer Copy without Checking Size of Input (&lsquo;Classic Buffer Overflow&rsquo;) CWE-120</strong></h4>
+<p>AutomationDirect C-more EA9 HMI contains a function with bounds checks that can be skipped, which could result in an attacker abusing the function to cause a denial-of-service condition or achieving remote code execution on the affected device.</p>
 		
-			<a href="https://ghariib.ir/posts/elber-communications-equipment/">Read more...</a>
+			<a href="https://ghariib.ir/posts/automationdirect-c-more-ea9-hmi/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/aws-renews-mtcs-level-3-certification-under-the-ss5842020-standard/">AWS renews MTCS Level 3 certification under the SS584:2020 standard</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<div>
+		<p>Amazon Web Services (AWS) is pleased to announce the renewal of the Multi-Tier Cloud Security (MTCS) Level 3 certification under the SS584:2020 standard in December 2024 for the Asia Pacific (Singapore), Asia Pacific (Seoul), and United States AWS Regions, excluding AWS GovCloud (US) Regions. This achievement reaffirms our commitment to maintaining the highest security standards for our global customers, particularly those in Singapore and the Asia-Pacific.</p>
+<p>AWS was the first cloud service provider (CSP) to attain MTCS Level 3 certification for Singapore in 2014. We continued this leadership by being among the first CSPs certified under the updated SS584:2020 Level 3 standard in 2021. Our dedication to expanding our security coverage is evident in the significant increase of in-scope services from 145 to 184, representing a 27% growth since 2021.</p>
+		
+			<a href="https://ghariib.ir/posts/aws-renews-mtcs-level-3-certification-under-the-ss5842020-standard/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/beyond-the-ai-pilot-project-building-a-foundation-for-generative-ai/">Beyond the AI pilot project: Building a foundation for generative AI</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<div>
+		<p>In previous articles, we talked about developing concrete AI use cases for your organization and how to kick off your first AI pilot project. The next step? Evolving your artificial intelligence (AI) experiment from a science project into a full-fledged production AI application.There are a lot of factors to consider in this process, but it&rsquo;s important to remember that all this AI stuff is still software. The skills and disciplines you and your teams have developed over the years will all come to bear in this new era of AI, with a few new factors thrown in to keep things exciting.It&rsquo;s also imp</p>
+		
+			<a href="https://ghariib.ir/posts/beyond-the-ai-pilot-project-building-a-foundation-for-generative-ai/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/beyond-the-chatbot-meta-phishing-with-fake-live-support/">Beyond the Chatbot: Meta Phishing with Fake Live Support</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/penetration_testing">penetration_testing</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<a href="/tags/vulnerability">vulnerability</a>
+	
+	<div>
+		<p>In a previous Trustwave SpiderLabs’ blog, we explored how cybercriminals exploit Facebook Messenger chatbots to execute social engineering attacks, deceiving users into falling victim to scams and phishing schemes. These attacks often rely on the perceived legitimacy of automated systems to manipulate users into sharing sensitive information.</p>
+<p>
+<figure>
+  <img src="https://track.hubspot.com/__ptq.gif?a=21158977&amp;k=14&amp;r=https%3A%2F%2Fwww.trustwave.com%2Fen-us%2Fresources%2Fblogs%2Fspiderlabs-blog%2Fbeyond-the-chatbot-meta-phishing-with-fake-live-support%2F&amp;bu=https%253A%252F%252Fwww.trustwave.com%252Fen-us%252Fresources%252Fblogs%252Fspiderlabs-blog&amp;bvt=rss" alt="" />
+</figure>
+
+
+</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/bootstrapping-tfhe-ciphertexts-via-automorphisms-closing-the-gap-between-binary-and-gaussian-keys/">Bootstrapping (T)FHE Ciphertexts via Automorphisms: Closing the Gap Between Binary and Gaussian Keys</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<a href="/tags/cryptography">cryptography</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p>ePrint Report: <strong>Bootstrapping (T)FHE Ciphertexts via Automorphisms: Closing the Gap Between Binary and Gaussian Keys</strong><br>
+<em>Olivier Bernard, Marc Joye</em></p>
+<p>The GINX method in TFHE offers low-latency ciphertext bootstrapping with relatively small bootstrapping keys, but is limited to binary or ternary key distributions. In contrast, the AP method supports arbitrary key distributions, however at the cost of significantly large bootstrapping keys. Building on AP, automorphism-based methods (LMK⁺, EUROCRYPT 2023) achieve smaller keys, though each automorphism application necessitates a key switch, introducing computational overhead and noise. This paper advances automorphism-based methods in two important ways. First, it proposes a novel traversal blind rotation algorithm that optimizes the number of key switches for a given key material. Second, it introduces an automorphism-parametrized external product that seamlessly applies an automorphism to one of the input ciphertexts. Together, these techniques substantially reduce the number of key switches, resulting in faster bootstrapping and improved noise control. As an independent contribution, this paper also introduce a comprehensive theoretical framework for analyzing the expected number of automorphism key switches, whose predictions perfectly align with the results of extensive numerical experiments, demonstrating its practical relevance. In a typical setting, by utilizing additional key material, the LLW⁺ approach (TCHES 2024) reduces key switches by 17% compared to LMK⁺. Our combined techniques achieve a 46% reduction using similar key material and can eliminate an arbitrary large number (e.g., &gt; 99%) of key switches with only a moderate (9x) increase in key material size.</p>
+		
+			<a href="https://ghariib.ir/posts/bootstrapping-tfhe-ciphertexts-via-automorphisms-closing-the-gap-between-binary-and-gaussian-keys/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/building-a-cyber-resilient-public-sector-through-hands-on-security-training/">Building a Cyber-Resilient Public Sector Through Hands-on Security Training</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<div>
+		<p>Learn how hands-on cybersecurity training equips public sector teams to protect critical infrastructure, featuring real-world cases from Atlanta, Oldsmar, and Texas that demonstrate why practical experience trumps theoretical knowledge alone. Discover why agencies are moving beyond certifications to combat-ready security training.</p>
+<p>The post Building a Cyber-Resilient Public Sector Through Hands-on Security Training appeared first on OffSec.</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/building-a-strategic-human-risk-function-are-you-ready-for-the-shift/">Building a Strategic Human Risk Function: Are You Ready for the Shift?</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<a href="/tags/cyber_crime">cyber_crime</a>
+	
+	<a href="/tags/cyber_maniac">cyber_maniac</a>
+	
+	<div>
+		<p>
+<figure>
+  <img src="https://cybermaniacs.com/hubfs/Securing%20the%20Golden%20Age.png" alt="Building a Strategic Human Risk Function: Are You Ready for the Shift?" />
+</figure>
+
+
+</p>
+<p>For years, human risk has been synonymous with cybersecurity awareness training: phishing simulations, compliance courses, and annual reminders to “think before you click.” The landscape, thankfully, is changing. Human risk management is no longer a checkbox activity—it’s becoming a strategic pillar in enterprise risk management, essential for organizational resilience in an increasingly digital and complex world.</p>
+<p>
+<figure>
+  <img src="https://track.hubspot.com/__ptq.gif?a=20922849&amp;k=14&amp;r=https%3A%2F%2Fcybermaniacs.com%2Fcm-blog%2Fbuilding-a-strategic-human-risk-function-are-you-ready-for-the-shift&amp;bu=https%253A%252F%252Fcybermaniacs.com%252Fcm-blog&amp;bvt=rss" alt="" />
+</figure>
+
+
+</p>
+<p>Go to Source</p>
+		
+			<a href="https://ghariib.ir/posts/building-a-strategic-human-risk-function-are-you-ready-for-the-shift/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/building-an-ai-powered-financial-behavior-analyzer-with-nodejs-python-sveltekit-and-tailwindcss-part-3-transactions/">Building an AI-powered Financial Behavior Analyzer with NodeJS, Python, SvelteKit, and TailwindCSS - Part 3: Transactions</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<div>
+		<h2 id="introduction">Introduction</h2>
+<blockquote>
+<p>Part 4 is already here: <a href="https://johnowolabiidogun.dev/blogs/building-an-ai-powered-financial-behavior-analyzer-with-nodejs-python-sveltekit-and-tailwindcss-part-4-frontend-websocket-862be8/67a4fafe77db63877efad8cb">https://johnowolabiidogun.dev/blogs/building-an-ai-powered-financial-behavior-analyzer-with-nodejs-python-sveltekit-and-tailwindcss-part-4-frontend-websocket-862be8/67a4fafe77db63877efad8cb</a></p></blockquote>
+<p>This series&rsquo;s previous article saw us build an OAuth authentication flow via GitHub. In this article, we&rsquo;ll continue adding APIs to the backend and specifically, implementing all the APIs related to transaction management while sticking with &ldquo;our&rdquo; modified MVC design pattern. Let&rsquo;s dive in.</p>
+<h2 id="prerequite">Prerequite</h2>
+<p>We assume you&rsquo;ve gone through the previous articles in this series where we built the app&rsquo;s utility server and the authentication flow. If not, kindly check them out. Also, this article requires that some modules be installed:</p>
+		
+			<a href="https://ghariib.ir/posts/building-an-ai-powered-financial-behavior-analyzer-with-nodejs-python-sveltekit-and-tailwindcss-part-3-transactions/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/buying-tickets-for-beyonces-cowboy-carter-tour-dont-let-scammers-ruin-your-experience/">Buying Tickets for Beyoncé’s Cowboy Carter Tour? Don’t Let Scammers Ruin Your Experience</a></h1>
+	<b><time>06.02.2025 00:00</time></b>
+	
+	<div>
+		<p>
+<figure>
+  <img src="https://www.mcafee.com/blogs/wp-content/uploads/2025/02/1000x563_Blog_Beyoncee-300x169.jpg" alt="" />
+</figure>
+
+
+</p>
+<p>Beyoncé has officially announced her <em>Cowboy Carter</em> world tour, and the excitement is through the roof! With her last tour selling out in record time, fans know they need to act fast to secure their tickets. Unfortunately, that urgency is exactly what scammers prey on. </p>
+<p>In 2022 alone, Americans lost nearly <strong>$8.8 billion</strong> to fraud, and ticket scams are one of the most common ways scammers cash in on eager fans. But don’t worry—we’ve got you covered. Before you rush to buy tickets to Beyoncé’s latest tour, here’s how to spot and avoid ticket scams so you don’t get left outside the stadium with nothing but regret. </p>
+		
+			<a href="https://ghariib.ir/posts/buying-tickets-for-beyonces-cowboy-carter-tour-dont-let-scammers-ruin-your-experience/">Read more...</a>
 		
 	</div>
 </article>
@@ -250,7 +253,7 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 
 	<a href="/page/75/">Previous Page</a>
 
-76 of 479
+76 of 492
 
 	<a href="/page/77/">Next Page</a>
 

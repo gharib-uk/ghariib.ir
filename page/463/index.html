@@ -40,110 +40,126 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/open-sourcing-h3i-a-command-line-tool-and-library-for-low-level-http-3-testing-and-debugging/">Open sourcing h3i: a command line tool and library for low-level HTTP/3 testing and debugging</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Kubernetes 1.32: Moving Volume Group Snapshots to Beta</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Have you ever built a piece of IKEA furniture, or put together a LEGO set, by following the instructions closely and only at the end realized at some point you didn&rsquo;t <em>quite</em> follow them correctly? The final result might be close to what was intended, but there&rsquo;s a nagging thought that maybe, just maybe, it&rsquo;s not as rock steady or functional as it could have been.</p>
-<p>Internet protocol specifications are instructions designed for engineers to build things. Protocol designers take great care to ensure the documents they produce are clear. The standardization process gathers consensus and review from experts in the field, to further ensure document quality. Any reasonably skilled engineer should be able to take a specification and produce a performant, reliable, and secure implementation. The Internet is central to everyone&rsquo;s lives, and we depend on these implementations. Any deviations from the specification can put us at risk. For example, mishandling of malformed requests can allow attacks such as request smuggling.</p>
+		<p>Volume group snapshots were introduced as an Alpha feature with the Kubernetes 1.27 release. The recent release of Kubernetes v1.32 moved that support to <strong>beta</strong>. The support for volume group snapshots relies on a set of extension APIs for group snapshots. These APIs allow users to take crash consistent snapshots for a set of volumes. Behind the scenes, Kubernetes uses a label selector to group multiple PersistentVolumeClaims for snapshotting. A key aim is to allow you restore that set of snapshots to new volumes and recover your workload based on a crash consistent recovery point.</p>
 		
-			<a href="https://ghariib.ir/posts/open-sourcing-h3i-a-command-line-tool-and-library-for-low-level-http-3-testing-and-debugging/">Read more...</a>
+			<a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/openshot-3-3-released-with-ripple-edit-and-new-default-theme/">OpenShot 3.3 Released with Ripple Edit and New Default Theme</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Kubernetes v1.31: kubeadm v1beta4</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>
-<figure>
-  <img src="https://ubuntuhandbook.org/wp-content/uploads/2022/09/openshot-logo-250x250.webp" alt="" />
-</figure>
-
-
-</p>
-<p>OpenShot, the free open-source beginner friendly video editor, released new 3.3 version yesterday with exciting new features!</p>
-<p>This is a new major release that includes many new exciting features. First, the release uses <strong>new default “Cosmic Dusk” theme</strong> that works great for the dark style desktop environment.</p>
-<p>The new theme is more compact than the previous ‘Humanity: Dark’ (which is still available for choice) that has better support for small displays.</p>
+		<p>As part of the Kubernetes v1.31 release, <code>kubeadm</code> is adopting a new (v1beta4) version of its configuration file format. Configuration in the previous v1beta3 format is now formally deprecated, which means it&rsquo;s supported but you should migrate to v1beta4 and stop using the deprecated format. Support for v1beta3 configuration will be removed after a minimum of 3 Kubernetes minor releases.</p>
+<p>In this article, I&rsquo;ll walk you through key changes; I&rsquo;ll explain about the kubeadm v1beta4 configuration format, and how to migrate from v1beta3 to v1beta4.</p>
 		
-			<a href="https://ghariib.ir/posts/openshot-3-3-released-with-ripple-edit-and-new-default-theme/">Read more...</a>
+			<a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/openshot-video-editor-puts-out-an-effortless-seamless-etc-update/">OpenShot Video Editor Puts Out an Effortless, Seamless, Etc Update</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Kubernetes v1.31: New Kubernetes CPUManager Static Policy: Distribute CPUs Across Cores</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>
-<figure>
-  <img src="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2022/12/openshot-video-editor-logo-.jpg?resize=406%2C232&amp;ssl=1" alt="" />
-</figure>
-
-
-A new version of OpenShot video editor is out (a video editor which doesn’t have the best reputation for stability hence the nickname OpenShut). OpenShot—more accurately, ChatGPT or similar—says “OpenShot 3.3 is here to transform your editing experience! This release is as powerful as it is beautiful […] Take your video editing to the next level with OpenShot 3.3. Download it now and see the difference”. The headline change in OpenShot 3.3 is the use of a new default theme called Cosmic Dust. This apparently offers a “modern editing experience”. The new theme looks nice, it I’m not sure it […]</p>
+		<p>In Kubernetes v1.31, we are excited to introduce a significant enhancement to CPU management capabilities: the <code>distribute-cpus-across-cores</code> option for the CPUManager static policy. This feature is currently in alpha and hidden by default, marking a strategic shift aimed at optimizing CPU utilization and improving system performance across multi-core processors.</p>
+<h2 id="understanding-the-feature">Understanding the feature</h2>
+<p>Traditionally, Kubernetes&rsquo; CPUManager tends to allocate CPUs as compactly as possible, typically packing them onto the fewest number of physical cores. However, allocation strategy matters, CPUs on the same physical host still share some resources of the physical core, such as the cache and execution units, etc.</p>
 		
-			<a href="https://ghariib.ir/posts/openshot-video-editor-puts-out-an-effortless-seamless-etc-update/">Read more...</a>
+			<a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/our-top-ai-articles-of-2024/">Our top AI articles of 2024</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Kubernetes v1.32 Adds A New CPU Manager Static Policy Option For Strict CPU Reservation</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>As we close out the year, we&rsquo;re rounding up the articles that resonated the most with our readers on Linux, Kubernetes and OpenShift, Ansible automation, programming languages and runtimes, and more. </p>
-<p>Love it or hate it, artificial intelligence (AI) continued to gain momentum across industries in 2024. This enthusiasm was reflected on the blog this year, with a focus on building technical skills for learning and working with AI.</p>
-<p>This year brought many enhancements to the Red Hat OpenShift AI platform for building AI-enabled applications as well as other new AI solutions. At Red Hat Summit, we announced Podman AI Lab, an extension for Podman Desktop that lets you build, test, and run generative AI-powered applications within containers on a local environment. And in September, there was the general availability release of Red Hat Enterprise Linux (RHEL) AI, a foundation model platform that makes it easy for users with little to no data science expertise to experiment with large language models. </p>
+		<p>In Kubernetes v1.32, after years of community discussion, we are excited to introduce a <code>strict-cpu-reservation</code> option for the CPU Manager static policy. This feature is currently in alpha, with the associated policy hidden by default. You can only use the policy if you explicitly enable the alpha behavior in your cluster.</p>
+<h2 id="understanding-the-feature">Understanding the feature</h2>
+<p>The CPU Manager static policy is used to reduce latency or improve performance. The <code>reservedSystemCPUs</code> defines an explicit CPU set for OS system daemons and kubernetes system daemons. This option is designed for Telco/NFV type use cases where uncontrolled interrupts/timers may impact the workload performance. you can use this option to define the explicit cpuset for the system/kubernetes daemons as well as the interrupts/timers, so the rest CPUs on the system can be used exclusively for workloads, with less impact from uncontrolled interrupts/timers. More details of this parameter can be found on the Explicitly Reserved CPU List page.</p>
 		
-			<a href="https://ghariib.ir/posts/our-top-ai-articles-of-2024/">Read more...</a>
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/our-top-application-development-articles-of-2024/">Our top application development articles of 2024</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Kubernetes v1.32 sneak peek</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>2025 is fast approaching, but we have just enough time left to take a look at 2024&rsquo;s most popular articles on application development, as well as some standout learning paths and e-books.</p>
-<h2 id="the-top-10-most-popular-app-dev-articles-of-2024">The top 10 most popular app dev articles of 2024</h2>
-<p>This year&rsquo;s most popular topics include Kafka data storage and migration, API management, simplifying software security and identity access management. Solutions like Red Hat Developer Hub also garnered a lot of attention as engineering teams continue to seek ways to eliminate friction in the development process.</p>
+		<p>As we get closer to the release date for Kubernetes v1.32, the project develops and matures. Features may be deprecated, removed, or replaced with better ones for the project&rsquo;s overall health.</p>
+<p>This blog outlines some of the planned changes for the Kubernetes v1.32 release, that the release team feels you should be aware of, for the continued maintenance of your Kubernetes environment and keeping up to date with the latest changes. Information listed below is based on the current status of the v1.32 release and may change before the actual release date.</p>
 		
-			<a href="https://ghariib.ir/posts/our-top-application-development-articles-of-2024/">Read more...</a>
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/our-top-learning-paths-of-2024/">Our top learning paths of 2024</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Kubernetes v1.32: Memory Manager Goes GA</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>It can&rsquo;t be almost January yet. As the new year approaches, it&rsquo;s time to reflect on the top learning paths Red Hat Developer published this year, along with highlighting key paths that were too new to make the list.</p>
-<p>No matter what kind of developer you are, it can be difficult enough to keep up with the technologies you already work with. Learning new areas, tools, and products can be daunting on top of managing heavy workloads, so structured self-service developer learning has come to the forefront as an important option for skilling up and learning new things. That explains the strong success of our beginner content, as you will see.</p>
+		<p>With Kubernetes 1.32, the memory manager has officially graduated to General Availability (GA), marking a significant milestone in the journey toward efficient and predictable memory allocation for containerized applications. Since Kubernetes v1.22, where it graduated to beta, the memory manager has proved itself reliable, stable and a good complementary feature for the CPU Manager.</p>
+<p>As part of kubelet&rsquo;s workload admission process, the memory manager provides topology hints to optimize memory allocation and alignment. This enables users to allocate exclusive memory for Pods in the Guaranteed QoS class. More details about the process can be found in the memory manager goes to beta blog.</p>
 		
-			<a href="https://ghariib.ir/posts/our-top-learning-paths-of-2024/">Read more...</a>
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/owasp-owtf-offensive-web-testing-framework/">OWASP OWTF – Offensive Web Testing Framework</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Kubernetes v1.32: Penelope</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>OWASP Offensive Web Testing Framework is a project focused on penetration testing efficiency and alignment of security tests to security standards like: The OWASP Testing Guide (v3 and v4), the OWASP Top 10, PTES and NIST. The purpose of this tool is to automate the manual and uncreative parts of pen testing. For example, Figuring […]</p>
+		<p><strong>Editors:</strong> Matteo Bianchi, Edith Puclla, William Rizzo, Ryota Sawada, Rashan Smith</p>
+<p>Announcing the release of Kubernetes v1.32: Penelope!</p>
+<p>In line with previous releases, the release of Kubernetes v1.32 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 44 enhancements in total. Of those enhancements, 13 have graduated to Stable, 12 are entering Beta, and 19 have entered in Alpha.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Kubernetes v1.32: QueueingHint Brings a New Possibility to Optimize Pod Scheduling</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The Kubernetes scheduler is the core component that selects the nodes on which new Pods run. The scheduler processes these new Pods <strong>one by one</strong>. Therefore, the larger your clusters, the more important the throughput of the scheduler becomes.</p>
+<p>Over the years, Kubernetes SIG Scheduling has improved the throughput of the scheduler in multiple enhancements. This blog post describes a major improvement to the scheduler in Kubernetes v1.32: a scheduling context element named <em>QueueingHint</em>. This page provides background knowledge of the scheduler and explains how QueueingHint improves scheduling throughput.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/lateral-movement-visual-studio-dte/">Lateral Movement – Visual Studio DTE</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>A lot of organizations have some sort of application development program and it is highly likely that developers will utilize Visual Studio for their development…</p>
+<p>Continue reading → Lateral Movement – Visual Studio DTE</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -151,39 +167,13 @@ A new version of OpenShot video editor is out (a video editor which doesn’t ha
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/persistence-disk-clean-up/">Persistence – Disk Clean-up</a></h1>
+	<h1><a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Life at Canonical: Victoria Antipova’s perspective as a new joiner in Product Marketing</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Disk Clean-up is a utility which is part of Windows operating systems and can free up hard drive disk space by deleting mainly cache and…</p>
-<p>Continue reading → Persistence – Disk Clean-up</p>
-<p>Go to Source</p>
+		<p>Canonical is continuously hiring new talent. Being a remote- first company, Canonical’s new joiners receive a unique onboarding experience. In their first weeks, they are introduced to the different departments and the various tools they use to work asynchronously across the globe. New hires develop a good understanding of the open-source technologies that the company deploys and supports such as Openstack, Kubernetes, Kubeflow and OpenSearch – in addition of course to Ubuntu, the world’s most famous OS, which they install on their laptops. </p>
 		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/persistence-dll-proxy-loading/">Persistence – DLL Proxy Loading</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>DLL Proxy Loading is a technique which an arbitrary DLL exports the same functions as the legitimate DLL and forwards the calls to the legitimate…</p>
-<p>Continue reading → Persistence – DLL Proxy Loading</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/persistence-event-log/">Persistence – Event Log</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Windows Event logs are the main source of information for defensive security teams to identify threats and for administrators to troubleshoot errors. The logs are…</p>
-<p>Continue reading → Persistence – Event Log</p>
-<p>Go to Source</p>
+			<a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Read more...</a>
 		
 	</div>
 </article>
@@ -193,7 +183,7 @@ A new version of OpenShot video editor is out (a video editor which doesn’t ha
 
 	<a href="/page/462/">Previous Page</a>
 
-463 of 479
+463 of 492
 
 	<a href="/page/464/">Next Page</a>
 

@@ -40,146 +40,156 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kicking-off-with-a-december-4th-workshop-nist-is-revisiting-and-revising-foundational-cybersecurity-activities-for-iot-device-manufacturers-nist-ir-8259/">Kicking-Off with a December 4th Workshop, NIST is Revisiting and Revising Foundational Cybersecurity Activities for IoT Device Manufacturers, NIST IR 8259!</a></h1>
+	<h1><a href="https://ghariib.ir/posts/from-legacy-to-cloud-native-how-docker-simplifies-complexity-and-boosts-developer-productivity/">From Legacy to Cloud-Native: How Docker Simplifies Complexity and Boosts Developer Productivity</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>In May 2020, NIST published Foundational Cybersecurity Activities for IoT Device Manufacturers (NIST IR 8259), which describes recommended cybersecurity activities that manufacturers should consider performing before their IoT devices are sold to customers. These foundational cybersecurity activities can help manufacturers lessen the cybersecurity-related efforts needed by customers, which in turn can reduce the prevalence and severity of IoT device compromises and the attacks performed using compromised devices. In the nearly five years since this document was released, it has been published</p>
+		<p>Modern application development has evolved dramatically. Gone are the days when a couple of developers, a few machines, and some pizza were enough to launch an app. As the industry grew, DevOps revolutionized collaboration, and Docker popularized containerization, simplifying workflows and accelerating delivery. </p>
+<p>Later, DevSecOps brought security into the mix. Fast forward to today, and the demand for software has never been greater, with more than 750 million cloud-native apps expected by 2025.</p>
 		
-			<a href="https://ghariib.ir/posts/kicking-off-with-a-december-4th-workshop-nist-is-revisiting-and-revising-foundational-cybersecurity-activities-for-iot-device-manufacturers-nist-ir-8259/">Read more...</a>
+			<a href="https://ghariib.ir/posts/from-legacy-to-cloud-native-how-docker-simplifies-complexity-and-boosts-developer-productivity/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-autoconfiguration-for-node-cgroup-driver-beta/">Kubernetes 1.31: Autoconfiguration For Node Cgroup Driver (beta)</a></h1>
+	<h1><a href="https://ghariib.ir/posts/gain-confidence-with-hosted-control-planes-and-openshift-virtualization-using-public-cloud/">Gain confidence with hosted control planes and OpenShift Virtualization using public cloud</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Historically, configuring the correct cgroup driver has been a pain point for users running new Kubernetes clusters. On Linux systems, there are two different cgroup drivers: <code>cgroupfs</code> and <code>systemd</code>. In the past, both the kubelet and CRI implementation (like CRI-O or containerd) needed to be configured to use the same cgroup driver, or else the kubelet would exit with an error. This was a source of headaches for many cluster admins. However, there is light at the end of the tunnel!</p>
+		<p>Hosted control planes (HCP) is the name of the Red Hat product for the upstream HyperShift project. It allows you to deploy the control plane of a Red Hat OpenShift cluster into an OpenShift project instead of requiring dedicated (master) nodes and attach worker nodes managed via the nodePool API to it.</p>
+<p>Hosted control planes architecture has several advantages when managing a fleet of clusters. It allows you to save infrastructure compute resources that would have been necessary for a standalone OpenShift topology and boosts the hosted OpenShift cluster provisioning time and day 2 automation (the provisioning time of a complete hosted cluster lasted 13 minutes in the lab used in this article, including the nodepools virtual machines (VMs) provisioning on Red Hat OpenShift Virtualization).</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-1-31-autoconfiguration-for-node-cgroup-driver-beta/">Read more...</a>
+			<a href="https://ghariib.ir/posts/gain-confidence-with-hosted-control-planes-and-openshift-virtualization-using-public-cloud/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-custom-profiling-in-kubectl-debug-graduates-to-beta/">Kubernetes 1.31: Custom Profiling in Kubectl Debug Graduates to Beta</a></h1>
+	<h1><a href="https://ghariib.ir/posts/gateway-api-v1-2-websockets-timeouts-retries-and-more/">Gateway API v1.2: WebSockets, Timeouts, Retries, and More</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>There are many ways of troubleshooting the pods and nodes in the cluster. However, <code>kubectl debug</code> is one of the easiest, highly used and most prominent ones. It provides a set of static profiles and each profile serves for a different kind of role. For instance, from the network administrator&rsquo;s point of view, debugging the node should be as easy as this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>$ kubectl debug node/mynode -it --image<span style="color:#f92672">=</span>busybox --profile<span style="color:#f92672">=</span>netadmin
-</span></span></code></pre></div><p>On the other hand, static profiles also bring about inherent rigidity, which has some implications for some pods contrary to their ease of use. Because there are various kinds of pods (or nodes) that all have their specific necessities, and unfortunately, some can&rsquo;t be debugged by only using the static profiles.</p>
+		<p>
+<figure>
+  <img src="https://kubernetes.io/blog/2024/11/21/gateway-api-v1-2/gateway-api-logo.svg" alt="Gateway API logo" />
+</figure>
+
+
+</p>
+<p>Kubernetes SIG Network is delighted to announce the general availability of Gateway API v1.2! This version of the API was released on October 3, and we&rsquo;re delighted to report that we now have a number of conformant implementations of it for you to try out.</p>
+<p>Gateway API v1.2 brings a number of new features to the <em>Standard channel</em> (Gateway API&rsquo;s GA release channel), introduces some new experimental features, and inaugurates our new release process — but it also brings two breaking changes that you&rsquo;ll want to be careful of.</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-1-31-custom-profiling-in-kubectl-debug-graduates-to-beta/">Read more...</a>
+			<a href="https://ghariib.ir/posts/gateway-api-v1-2-websockets-timeouts-retries-and-more/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-fine-grained-supplementalgroups-control/">Kubernetes 1.31: Fine-grained SupplementalGroups control</a></h1>
+	<h1><a href="https://ghariib.ir/posts/generative-ai-adoption-and-compliance-simplifying-the-path-forward-with-aws-audit-manager/">Generative AI adoption and compliance: Simplifying the path forward with AWS Audit Manager</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>This blog discusses a new feature in Kubernetes 1.31 to improve the handling of supplementary groups in containers within Pods.</p>
-<h2 id="motivation-implicit-group-memberships-defined-in-etcgroup-in-the-container-image">Motivation: Implicit group memberships defined in <code>/etc/group</code> in the container image</h2>
-<p>Although this behavior may not be popular with many Kubernetes cluster users/admins, kubernetes, by default, <em>merges</em> group information from the Pod with information defined in <code>/etc/group</code> in the container image.</p>
-<p>Let&rsquo;s see an example, below Pod specifies <code>runAsUser=1000</code>, <code>runAsGroup=3000</code> and <code>supplementalGroups=4000</code> in the Pod&rsquo;s security context.</p>
+		<p>As organizations increasingly use generative AI to streamline processes, enhance efficiency, and gain a competitive edge in today’s fast-paced business environment, they seek mechanisms for measuring and monitoring their use of AI services.</p>
+<p>To help you navigate the process of adopting generative AI technologies and proactively measure your generative AI implementation, AWS developed the AWS Audit Manager generative AI best practices framework. This framework provides a structured approach to evaluating and adopting generative AI technologies and addresses important aspects such as strategy alignment, governance, risk assessment, and security and operational best practices. You can use the framework within AWS Audit Manager as you implement generative AI workloads, to measure and monitor existing workloads through Audit Manager capabilities such as automated evidence collection and customized assessment reports.</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-1-31-fine-grained-supplementalgroups-control/">Read more...</a>
+			<a href="https://ghariib.ir/posts/generative-ai-adoption-and-compliance-simplifying-the-path-forward-with-aws-audit-manager/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/">Kubernetes 1.31: Pod Failure Policy for Jobs Goes GA</a></h1>
+	<h1><a href="https://ghariib.ir/posts/get-valkey-security-patching-and-support-with-ubuntu-pro/">Get Valkey security patching and support with Ubuntu Pro</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>This post describes <em>Pod failure policy</em>, which graduates to stable in Kubernetes 1.31, and how to use it in your Jobs.</p>
-<h2 id="about-pod-failure-policy">About Pod failure policy</h2>
-<p>When you run workloads on Kubernetes, Pods might fail for a variety of reasons. Ideally, workloads like Jobs should be able to ignore transient, retriable failures and continue running to completion.</p>
-<p>To allow for these transient failures, Kubernetes Jobs include the <code>backoffLimit</code> field, which lets you specify a number of Pod failures that you&rsquo;re willing to tolerate during Job execution. However, if you set a large value for the <code>backoffLimit</code> field and rely solely on this field, you might notice unnecessary increases in operating costs as Pods restart excessively until the backoffLimit is met.</p>
+		<p>Canonical is pleased to announce security patching and support for Valkey through the Ubuntu Pro subscription. Ubuntu Pro is a subscription for open source software security, compliance and support that expands the maintenance period for all packages distributed in Ubuntu repositories. This extension applies to all the open source software on Ubuntu, including Valkey.</p>
+<p>This means that Valkey users can now benefit from the following features offered with Ubuntu Pro:</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/">Read more...</a>
+			<a href="https://ghariib.ir/posts/get-valkey-security-patching-and-support-with-ubuntu-pro/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-streaming-transitions-from-spdy-to-websockets/">Kubernetes 1.31: Streaming Transitions from SPDY to WebSockets</a></h1>
+	<h1><a href="https://ghariib.ir/posts/ghostty-new-open-source-terminal-thats-spookily-good/">Ghostty: New Open Source Terminal That’s Spookily Good</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>In Kubernetes 1.31, by default kubectl now uses the WebSocket protocol instead of SPDY for streaming.</p>
-<p>This post describes what these changes mean for you and why these streaming APIs matter.</p>
-<h2 id="streaming-apis-in-kubernetes">Streaming APIs in Kubernetes</h2>
-<p>In Kubernetes, specific endpoints that are exposed as an HTTP or RESTful interface are upgraded to streaming connections, which require a streaming protocol. Unlike HTTP, which is a request-response protocol, a streaming protocol provides a persistent connection that&rsquo;s bi-directional, low-latency, and lets you interact in real-time. Streaming protocols support reading and writing data between your client and the server, in both directions, over the same connection. This type of connection is useful, for example, when you create a shell in a running container from your local workstation and run commands in the container.</p>
+		<p>
+<figure>
+  <img src="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/12/ghostty-logo.jpg?resize=406%2C232&amp;ssl=1" alt="" />
+</figure>
+
+
+We’re seeing something of a terminal emulator renaissance of late, with developers eager to reimagine, rethink, and rewire the humble console to leverage modern hardware, GPU acceleration, containerised workflows, and (in some cases) AI/LLMs. Ghostty, a new open-source and cross-platform terminal application created by Mitchell Hashimoto (co-founder of HashiCorp) is the latest to join the fray. Hashimoto’s says he “set out to build a terminal emulator that was fast, feature-rich, and had a platform-native GUI while still being cross-platform.” The first public release materialised over Christmas, rather like a festive Dickensian spook seeking to give us a glimpse into the […]</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-1-31-streaming-transitions-from-spdy-to-websockets/">Read more...</a>
+			<a href="https://ghariib.ir/posts/ghostty-new-open-source-terminal-thats-spookily-good/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Kubernetes 1.32: Moving Volume Group Snapshots to Beta</a></h1>
+	<h1><a href="https://ghariib.ir/posts/global-elections-in-2024-internet-traffic-and-cyber-threat-trends/">Global elections in 2024: Internet traffic and cyber threat trends</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Volume group snapshots were introduced as an Alpha feature with the Kubernetes 1.27 release. The recent release of Kubernetes v1.32 moved that support to <strong>beta</strong>. The support for volume group snapshots relies on a set of extension APIs for group snapshots. These APIs allow users to take crash consistent snapshots for a set of volumes. Behind the scenes, Kubernetes uses a label selector to group multiple PersistentVolumeClaims for snapshotting. A key aim is to allow you restore that set of snapshots to new volumes and recover your workload based on a crash consistent recovery point.</p>
+		<p>Elections define the course of democracies (even as there are several types of democracies), and 2024 was a landmark year, with over 60 countries — plus the European Union — holding national elections, impacting half the world’s population. As highlighted in Pew Research’s global elections report, this was a year of “political disruption,” where the Internet was a relevant stage for both democratic engagement and cyber threats.</p>
+<p>At Cloudflare, with our presence in over 330 cities and 120 countries and interconnection with 12,500 networks, we’ve witnessed firsthand the digital impact of these elections. From monitoring Internet traffic patterns to mitigating cyberattacks, we’ve observed trends that reveal how elections increasingly play out online. As detailed in our just-published Cloudflare Impact report, we’ve also worked to protect media outlets, political campaigns, and help elections worldwide.</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Read more...</a>
+			<a href="https://ghariib.ir/posts/global-elections-in-2024-internet-traffic-and-cyber-threat-trends/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Kubernetes v1.31: kubeadm v1beta4</a></h1>
+	<h1><a href="https://ghariib.ir/posts/gnomes-new-image-viewer-adds-image-editing-features/">GNOME’s New Image Viewer Adds Image Editing Features</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>As part of the Kubernetes v1.31 release, <code>kubeadm</code> is adopting a new (v1beta4) version of its configuration file format. Configuration in the previous v1beta3 format is now formally deprecated, which means it&rsquo;s supported but you should migrate to v1beta4 and stop using the deprecated format. Support for v1beta3 configuration will be removed after a minimum of 3 Kubernetes minor releases.</p>
-<p>In this article, I&rsquo;ll walk you through key changes; I&rsquo;ll explain about the kubeadm v1beta4 configuration format, and how to migrate from v1beta3 to v1beta4.</p>
+		<p>
+<figure>
+  <img src="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/12/loupe-image-viewer-cropping.jpg?resize=406%2C232&amp;ssl=1" alt="" />
+</figure>
+
+
+Loupe (aka Image Viewer) is GNOME’s modern successor to the venerable Eye of GNOME has picked up its first batch of image editing features. The features in question were only recently merged upstream, aren’t finished, and not yet included in a stable build. But they’re an interesting addition that furthers the likelihood that Loupe could become the default image viewer on Ubuntu. At present, Ubuntu continues to use Eye of GNOME as the default tool for opening and browsing image files on desktop, despite Loupe having officially replaced it upstream in the GNOME project as a GNOME Core app. Loupe […]</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Read more...</a>
+			<a href="https://ghariib.ir/posts/gnomes-new-image-viewer-adds-image-editing-features/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Kubernetes v1.31: New Kubernetes CPUManager Static Policy: Distribute CPUs Across Cores</a></h1>
+	<h1><a href="https://ghariib.ir/posts/grinch-bots-strike-again-defending-your-holidays-from-cyber-threats/">Grinch Bots strike again: defending your holidays from cyber threats</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>In Kubernetes v1.31, we are excited to introduce a significant enhancement to CPU management capabilities: the <code>distribute-cpus-across-cores</code> option for the CPUManager static policy. This feature is currently in alpha and hidden by default, marking a strategic shift aimed at optimizing CPU utilization and improving system performance across multi-core processors.</p>
-<h2 id="understanding-the-feature">Understanding the feature</h2>
-<p>Traditionally, Kubernetes&rsquo; CPUManager tends to allocate CPUs as compactly as possible, typically packing them onto the fewest number of physical cores. However, allocation strategy matters, CPUs on the same physical host still share some resources of the physical core, such as the cache and execution units, etc.</p>
+		<h2 id="grinch-bots-are-still-stealing-christmas">Grinch Bots are still stealing Christmas</h2>
+<p>Back in 2021, we covered the antics of Grinch Bots and how the combination of proposed regulation and technology could prevent these malicious programs from stealing holiday cheer.</p>
+<p>Fast-forward to 2024 — the Stop Grinch Bots Act of 2021 has not passed, and bots are more active and powerful than ever, leaving businesses to fend off increasingly sophisticated attacks on their own. During Black Friday 2024, Cloudflare observed:</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Read more...</a>
+			<a href="https://ghariib.ir/posts/grinch-bots-strike-again-defending-your-holidays-from-cyber-threats/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Kubernetes v1.32 Adds A New CPU Manager Static Policy Option For Strict CPU Reservation</a></h1>
+	<h1><a href="https://ghariib.ir/posts/hajime-botnet-reaches-300000-hosts-with-no-malicious-functions/">Hajime Botnet Reaches 300,000 Hosts With No Malicious Functions</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>In Kubernetes v1.32, after years of community discussion, we are excited to introduce a <code>strict-cpu-reservation</code> option for the CPU Manager static policy. This feature is currently in alpha, with the associated policy hidden by default. You can only use the policy if you explicitly enable the alpha behavior in your cluster.</p>
-<h2 id="understanding-the-feature">Understanding the feature</h2>
-<p>The CPU Manager static policy is used to reduce latency or improve performance. The <code>reservedSystemCPUs</code> defines an explicit CPU set for OS system daemons and kubernetes system daemons. This option is designed for Telco/NFV type use cases where uncontrolled interrupts/timers may impact the workload performance. you can use this option to define the explicit cpuset for the system/kubernetes daemons as well as the interrupts/timers, so the rest CPUs on the system can be used exclusively for workloads, with less impact from uncontrolled interrupts/timers. More details of this parameter can be found on the Explicitly Reserved CPU List page.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Read more...</a>
+		<p>This is not the first IoT heavy botnet, Mirai takes that title, the interesting part is the Hajime botnet appears to be benign. So far no malicious functions have been detected in the codebase, other than the ability to replicate itself and block other malware, Hajime seems to have no DDoS or offensive mechanisms. Hajime […]</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>
@@ -189,7 +199,7 @@
 
 	<a href="/page/455/">Previous Page</a>
 
-456 of 479
+456 of 492
 
 	<a href="/page/457/">Next Page</a>
 
