@@ -40,29 +40,6 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2024-57878-linux-kernel-arm64-ptrace-fpmr-initialization-leak/">CVE-2024-57878 - Linux Kernel Arm64 Ptrace FPMR Initialization Leak</a></h1>
-	<b><time>12.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2024-57878<br>
-<strong>Published :</strong> Jan. 11, 2025, 3:15 p.m. | 1 day ago<br>
-<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
-<p>arm64: ptrace: fix partial SETREGSET for NT_ARM_FPMR</p>
-<p>Currently fpmr_set() doesn&rsquo;t initialize the temporary &lsquo;fpmr&rsquo; variable, and a SETREGSET call with a length of zero will leave this uninitialized. Consequently an arbitrary value will be written back to target-&gt;thread.uw.fpmr, potentially leaking up to 64 bits of memory from the kernel stack. The read is limited to a specific slot on the stack, and the issue does not provide a write mechanism.</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2024-57878-linux-kernel-arm64-ptrace-fpmr-initialization-leak/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
 	<h1><a href="https://ghariib.ir/posts/cve-2024-57879-qualcomm-bluetooth-linux-module-resource-leaking-vulnerability/">CVE-2024-57879 - Qualcomm Bluetooth Linux Module - Resource Leaking Vulnerability</a></h1>
 	<b><time>12.01.2025 00:00</time></b>
 	
@@ -267,6 +244,34 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 			<a href="https://ghariib.ir/posts/cve-2025-22598-wegia-cadastral-stored-cross-site-scripting-xss-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-22777-cvss-9-8-critical-security-alert-for-givewp-plugin-with-100000-active-installations/">CVE-2025-22777 (CVSS 9.8): Critical Security Alert for GiveWP Plugin with 100,000 Active Installations</a></h1>
+	<b><time>12.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<h3 id="cve-2025-22777-cvss-98-critical-security-alert-for-givewp-plugin-with-100000-active-installations">CVE-2025-22777 (CVSS 9.8): Critical Security Alert for GiveWP Plugin with 100,000 Active Installations</h3>
+<p>
+<figure>
+  <img src="https://upload.cvefeed.io/news/23649/thumbnail.jpg" alt="" />
+</figure>
+
+
+</p>
+<p>A severe vulnerability has been identified in the GiveWP plugin, one of WordPress’s most widely used tools for online donations and fundraising. Tracked as CVE-2025-22777, the flaw has a CVSS score of &hellip; <em>Read more</em></p>
+<p><strong>Published Date:</strong> Jan 12, 2025 (14 hours, 44 minutes ago)</p>
+<p>Vulnerabilities has been mentioned in this article.</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>

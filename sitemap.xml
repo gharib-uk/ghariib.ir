@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ghariib.ir/</loc>
-    <lastmod>2025-03-19T14:30:07+11:00</lastmod>
-  </url><url>
-    <loc>https://ghariib.ir/posts/</loc>
-    <lastmod>2025-03-19T14:30:07+11:00</lastmod>
-  </url><url>
-    <loc>https://ghariib.ir/posts/2025-03-19-risky-bulletin-google-buys-wiz-for-32-b/</loc>
-    <lastmod>2025-03-19T14:30:07+11:00</lastmod>
-  </url><url>
     <loc>https://ghariib.ir/posts/apple-inc-sent-you-a-payment-request-payoneer-invoices-other-microsoft-enabled-scams/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -1400,6 +1391,9 @@
     <loc>https://ghariib.ir/posts/get-up-to-speed-with-ai-using-enterprise-linux/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ghariib.ir/</loc>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://ghariib.ir/categories/ghost-emperor/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -2304,6 +2298,9 @@
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/postgresql-exploit/</loc>
+    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/powered-by-docker-streamlining-engineering-operations-as-a-platform-engineer/</loc>
