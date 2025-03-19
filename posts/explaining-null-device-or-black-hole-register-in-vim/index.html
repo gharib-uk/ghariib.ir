@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<style type=text/css>body{font-family:monospace;}</style>
+	<title>Explaining Null Device or Black Hole Register in Vim</title>
+	
+	
+	<link rel="stylesheet" href="/css/style.css">
+	
+	
+</head>
+<body>
+	<header>
+	==========================<br>
+	== <a href="https://ghariib.ir/">Gharib Personal Blog</a> ==<br>
+	==========================
+	<div style="float: right;">A Techi Personal Blog</div><br>
+	<p>
+	<nav>
+			<a href="/"><b>Start</b></a>.
+			
+			
+			<a href="/posts/"><b>Posts</b></a>.
+			
+			<a href="/categories/"><b>Categories</b></a>.
+			
+			<a href="/tags/"><b>Tags</b></a>.
+			
+	</nav>
+	</p>
+	
+</header>
+
+	
+	<main>
+		<article>
+			<h1>Explaining Null Device or Black Hole Register in Vim</h1>
+			<b><time>07.01.2025 00:00</time></b>
+		       
+
+			<div>
+				<p>The aim of this page📝 is to explain the concept of registers in Vim, particularly the black hole register, and its comparison to <code>/dev/null</code> in Bash. I am solving an incident where our design has something similar in event streaming context — we have a stream that works like a null device and we write data there in when it has to be written but it is just to discard it. In general, this is known as null device</p>
+<ul>
+<li>Vim has a special register called the black hole register.</li>
+<li>The black hole register discards data without storing it.</li>
+<li>Use <code>_</code> (underscore) to specify the black hole register.</li>
+<li>Example commands: <code>&quot;_d</code> (delete without storing), <code>&quot;_x</code> (delete character) or <code>&quot;_C&quot;</code> to change the whole line without yanking its contents to a register</li>
+<li>This concept is similar to redirecting to <code>/dev/null</code> in Bash.</li>
+<li><code>/dev/null</code> discards data without saving it.</li>
+</ul>
+<p>Example in Bash:</p>
+<pre tabindex="0"><code>echo &#34;This won&#39;t be seen&#34; &gt; /dev/null
+</code></pre><p>Example in Vim:</p>
+<pre tabindex="0"><code>&#34;_d
+&#34;_x
+&#34;_C
+</code></pre><h2 id="links">LINKS</h2>
+<ul>
+<li><a href="https://vimhelp.org/change.txt.html#copy-move">https://vimhelp.org/change.txt.html#copy-move</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/dev-null-in-linux">https://www.digitalocean.com/community/tutorials/dev-null-in-linux</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Dev/null">https://en.wikipedia.org/wiki/Dev/null</a></li>
+</ul>
+<p>Go to Source</p>
+
+			</div>
+		</article>
+	</main>
+<aside>
+	<div>
+		<div>
+			<h3>LATEST POSTS</h3>
+		</div>
+		<div>
+			<ul>
+				
+				<li><a href="/posts/a-visual-summary-of-sans-new2cyber-summit-2025/">A Visual Summary of SANS New2Cyber Summit 2025</a></li>
+				
+				<li><a href="/posts/advance-your-cybersecurity-career-how-to-use-tuition-reimbursement-for-sec406/">Advance Your Cybersecurity Career: How to Use Tuition Reimbursement for SEC406</a></li>
+				
+				<li><a href="/posts/continuous-penetration-testing-a-consultants-perspective/">Continuous Penetration Testing - A Consultant’s Perspective</a></li>
+				
+				<li><a href="/posts/desktop-4-39-smarter-ai-agent-docker-desktop-cli-in-ga-and-effortless-multi-platform-builds/">Desktop 4.39: Smarter AI Agent, Docker Desktop CLI in GA, and Effortless Multi-Platform Builds</a></li>
+				
+				<li><a href="/posts/docker-engine-v28-hardening-container-networking-by-default/">Docker Engine v28: Hardening Container Networking by Default</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</aside>
+
+
+	<footer>
+	<p>&copy; 2025 <a href="https://ghariib.ir/"><b>Alireza Gharib. All right reserved</b></a>.
+	<a href="https://github.com/Gharib110"><b>Github</b></a>.
+	</p>
+</footer>
+
+</body>
+</html>

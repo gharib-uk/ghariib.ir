@@ -7,11 +7,12 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Alireza Gharib. All right reserved</copyright>
+    <lastBuildDate>Fri, 09 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ghariib.ir/categories/dns-acme.sh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DNS and Certificate</title>
       <link>https://ghariib.ir/posts/dns/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/dns/</guid>
       <description>How to install dns server anc acquire TLS Certificate ?</description>
     </item>
