@@ -10,11 +10,95 @@
     <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ghariib.ir/categories/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>&lt;div&gt;Amazon&#39;s Big Spring Sale is next week, but these great deals are already live&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/amazons-big-spring-sale-is-next-week-but-these-great-deals-are-already-live/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/amazons-big-spring-sale-is-next-week-but-these-great-deals-are-already-live/</guid>
+      <description>&lt;p&gt;Grab some hot deals before the rush.&lt;/p&gt;&#xA;&lt;p&gt;If you&amp;rsquo;re unaware, Amazon is planning a big sale next week. It&amp;rsquo;s called the Big Spring Sale, and it&amp;rsquo;ll run from March 25th to the 31st. It&amp;rsquo;s a good time to browse the store and see if you can score a huge saving on the stuff you like.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&lt;div&gt;Auto-expanding aliases in Zsh&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/2025-zsh-autoexpand-aliases/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-zsh-autoexpand-aliases/</guid>
+      <description>&lt;p&gt;To avoid needless typing, the fish shell features command abbreviations to expand some words after pressing space. We can emulate such a feature with Zsh:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# Definition of abbrev-alias for auto-expanding aliases&#xA;typeset -ga _vbe_abbrevations&#xA;abbrev-alias() {&#xA;    alias $1&#xA;    _vbe_abbrevations+=(${1%%=*})&#xA;}&#xA;_vbe_zle-autoexpand() {&#xA;    local -a words; words=(${(z)LBUFFER})&#xA;    if (( ${​#_vbe_abbrevations[(r)${words[-1]}]} )); then&#xA;        zle _expand_alias&#xA;    fi&#xA;    zle magic-space&#xA;}&#xA;zle -N _vbe_zle-autoexpand&#xA;bindkey -M emacs &amp;#34; &amp;#34; _vbe_zle-autoexpand&#xA;bindkey -M isearch &amp;#34; &amp;#34; magic-space&#xA;&#xA;# Correct common typos&#xA;(( $+commands[git] )) &amp;amp;&amp;amp; abbrev-alias gti=git&#xA;(( $+commands[grep] )) &amp;amp;&amp;amp; abbrev-alias grpe=grep&#xA;(( $+commands[sudo] )) &amp;amp;&amp;amp; abbrev-alias suod=sudo&#xA;(( $+commands[ssh] )) &amp;amp;&amp;amp; abbrev-alias shs=ssh&#xA;&#xA;# Save a few keystrokes&#xA;(( $+commands[git] )) &amp;amp;&amp;amp; abbrev-alias gls=&amp;#34;git ls-files&amp;#34;&#xA;(( $+commands[ip] )) &amp;amp;&amp;amp; {&#xA;  abbrev-alias ip6=&amp;#39;ip -6&amp;#39;&#xA;  abbrev-alias ipb=&amp;#39;ip -brief&amp;#39;&#xA;}&#xA;&#xA;# Hard to remember options&#xA;(( $+commands[mtr] )) &amp;amp;&amp;amp; abbrev-alias mtrr=&amp;#39;mtr -wzbe&amp;#39;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Here is a demo where &lt;code&gt;gls&lt;/code&gt; is expanded to &lt;code&gt;git ls-files&lt;/code&gt; after pressing space:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&lt;div&gt;Crafting endless AS paths in BGP&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/2024-bgp-endless-aspath/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-bgp-endless-aspath/</guid>
+      <description>&lt;p&gt;Combining BGP confederations and AS override can potentially create a BGP routing loop, resulting in an indefinitely expanding AS path.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;BGP confederation&lt;/strong&gt; is a technique used to reduce the number of iBGP sessions and improve scalability in large autonomous systems (AS). It divides an AS into sub-ASes. Most eBGP rules apply between sub-ASes, except that next-hop, MED, and local preferences remain unchanged. The AS path length ignores contributions from confederation sub-ASes. BGP confederation is rarely used and BGP route reflection is typically preferred for scaling.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&lt;div&gt;Customize Caddy&#39;s plugins with Nix&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/2024-caddy-nix-plugins/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-caddy-nix-plugins/</guid>
+      <description>&lt;p&gt;Caddy is an open-source web server written in Go. It handles TLS certificates automatically and comes with a simple configuration syntax. Users can extend its functionality through plugins1 to add features like rate limiting, caching, and Docker integration.&lt;/p&gt;&#xA;&lt;p&gt;While &lt;em&gt;Caddy&lt;/em&gt; is available in Nixpkgs, adding extra plugins is not simple.2 The compilation process needs Internet access, which Nix denies during build to ensure reproducibility. When trying to build the following derivation using xcaddy, a tool for building Caddy with plugins, it fails with this error: &lt;code&gt;dial tcp: lookup proxy.golang.org on [::1]:53: connection refused&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&lt;div&gt;Fixing layout shifts caused by web fonts&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/2024-cls-webfonts/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-cls-webfonts/</guid>
+      <description>&lt;p&gt;In 2020, Google introduced Core Web Vitals metrics to measure some aspects of real-world user experience on the web. This blog has consistently achieved good scores for two of these metrics: Largest Contentful Paint and Interaction to Next Paint. However, optimizing the third metric, Cumulative Layout Shift, which measures unexpected layout changes, has been more challenging. Let’s face it: optimizing for this metric is not really useful for a site like this one. But getting a better score is always a good distraction. 💯&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&lt;div&gt;Offline PKI using 3 YubiKeys and an ARM single board computer&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/2025-offline-pki-yubikeys/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2025-offline-pki-yubikeys/</guid>
+      <description>&lt;p&gt;An offline PKI enhances security by physically isolating the certificate authority from network threats. A YubiKey is a low-cost solution to store a root certificate. You also need an air-gapped environment to operate the root CA.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://d2pzklc15kok91.cloudfront.net/images/3-yubikeys@1x.703a8bbdfe6815.jpg&#34; alt=&#34;PKI relying on a set of 3 YubiKeys: 2 for the root CA and 1 for the&#xA;intermediate CA.&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;Offline PKI backed up by 3 YubiKeys&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>&lt;div&gt;OpenCTF : Baby&#39;s First ROP&lt;/div&gt;</title>
       <link>https://ghariib.ir/posts/openctf-babys-first-rop/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/openctf-babys-first-rop/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Category:&lt;/strong&gt; Binary/Reverse&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Points:&lt;/strong&gt; 100&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;If this is your first time, it will be your first time. Available at 172.31.2.62:47802 - https://scoreboard.openctf.com/babys_first_rop-e0f4088e3b5a86cf3d388fac3bc070493c6f71c5&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;File Download:&lt;/strong&gt; babys_first_rop-e0f4088e3b5a86cf3d388fac3bc070493c6f71c5&lt;/p&gt;&#xA;&lt;h1 id=&#34;investigation&#34;&gt;Investigation&lt;/h1&gt;&#xA;&lt;p&gt;My initial investigation usually starts the same with pwn challenges. I like to start with running the &lt;code&gt;file&lt;/code&gt; command so that I get a high-level idea of what I’m working with.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$ file babys_first_rop-719f2fbc00e318076347df5eb215a20741fb29ca&#xA;babys_first_rop-719f2fbc00e318076347df5eb215a20741fb29ca: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=a92f66db1ba36b3e54041f5de948f19d9043aed1, not stripped&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ok, so it’s an x86-64 binary, not stripped, and dynamically linked. I next like to run checksec (included with &lt;code&gt;pwntools&lt;/code&gt;), as this will be useful information to keep in mind when looking for vulnerabilities and later building the exploit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>&lt;div&gt;Why content providers need IPv6&lt;/div&gt;</title>
+      <link>https://ghariib.ir/posts/2024-why-ipv6/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/2024-why-ipv6/</guid>
+      <description>&lt;p&gt;IPv4 is an expensive resource. However, many content providers are still IPv4-only. The most common reason is that IPv4 is here to stay and IPv6 is an additional complexity.1 This mindset may seem selfish, but there are compelling reasons for a content provider to enable IPv6, even when they have enough IPv4 addresses available for their needs.&lt;/p&gt;&#xA;&lt;p&gt;Disclaimer&lt;/p&gt;&#xA;&lt;p&gt;It’s been a while since this article has been in my drafts. I started it when I was working at Shadow, a content provider, while I now work for Free, an internet service provider.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 things that annoy me about ultrawide monitors (even though I love them)</title>
+      <link>https://ghariib.ir/posts/5-things-that-annoy-me-about-ultrawide-monitors-even-though-i-love-them/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/5-things-that-annoy-me-about-ultrawide-monitors-even-though-i-love-them/</guid>
+      <description>&lt;p&gt;Ultrawide monitors have been around for a while now, but they still have compatibility issues to live with.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve been an ultrawide monitor convert ever since the Nixeus EDG 34 landed on my desk for review around the end of 2019. I love the additional space for productivity and the immersiveness of games, but I&amp;rsquo;d be lying if I said it was all smooth sailing. The 21:9 aspect ratio has been around since LG launched the EA93 Series in 2012, but even the best ultrawide monitors still suffer from a common core of annoyances. To be fair, none of them are dealbreakers, and I&amp;rsquo;ll happily live with them for the extra real estate to put two browser windows side-by-side, but it&amp;rsquo;s worth knowing what you&amp;rsquo;re getting into when you decide to go for an ultrawide monitor.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>5 Ways to reduce eye strain while using your PC</title>
+      <link>https://ghariib.ir/posts/5-ways-to-reduce-eye-strain-while-using-your-pc/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/5-ways-to-reduce-eye-strain-while-using-your-pc/</guid>
+      <description>&lt;p&gt;Try these ideas to reduce eye strain while using your computer.&lt;/p&gt;&#xA;&lt;p&gt;Using a screen for extended durations is practically necessary for work and recreation. It usually takes a toll on your health and, most importantly, leads to eye strain and the associated discomfort of irritation, headaches, and dry eyes. While Windows 11 already has specific features to help reduce strain, you can take a few simple steps irrespective of the device you spend time staring at.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>6 of the best sculpting software you should use for 3D printing</title>
+      <link>https://ghariib.ir/posts/6-of-the-best-sculpting-software-you-should-use-for-3d-printing/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/6-of-the-best-sculpting-software-you-should-use-for-3d-printing/</guid>
+      <description>&lt;p&gt;These are the best sculpting software you should be using with your 3D printer.&lt;/p&gt;&#xA;&lt;p&gt;If you want to create highly detailed or organic 3D models, 3D sculpting is the best technique. Unlike other 3D design methods that rely on manipulating vertices, edges, and faces to shape the objects, sculpting allows for a more intuitive, brush-based approach, making it easier to achieve smooth, natural shapes and intricate details. This is why it’s the most recommended method of creating characters, figurines, jewelry designs, and organic objects like trees and rocks. You can use sculpting brushes and tools to manipulate the design through pushing, pulling, pinching, moving, and smoothing until you achieve the intended design.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>7 controversial Windows features that divided fans</title>
+      <link>https://ghariib.ir/posts/7-controversial-windows-features-that-divided-fans/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/7-controversial-windows-features-that-divided-fans/</guid>
+      <description>&lt;p&gt;These Windows features caused some uproar.&lt;/p&gt;&#xA;&lt;p&gt;This year is Microsoft&amp;rsquo;s 50th anniversary, and many are celebrating its contribution to the tech industry by looking back at some of its iconic operating systems and other achievements. While there&amp;rsquo;s no doubt about the company&amp;rsquo;s impact on the computing world with products like Windows, Microsoft Office, and Xbox gaming, it&amp;rsquo;s had its fair share of misses with products that didn&amp;rsquo;t resonate with customers.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A new monitor is the last PC upgrade on my list</title>
+      <link>https://ghariib.ir/posts/a-new-monitor-is-the-last-pc-upgrade-on-my-list/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/a-new-monitor-is-the-last-pc-upgrade-on-my-list/</guid>
+      <description>&lt;p&gt;Buying a new gaming monitor feels pointless to me&lt;/p&gt;&#xA;&lt;p&gt;When you hear the term PC upgrades, what do you imagine? — probably a GPU, CPU, SSD, RAM, or motherboard (in that order). At least, that&amp;rsquo;s how I think about PC upgrades. Although I haven&amp;rsquo;t made any major upgrades to my PC in almost 3 years, I never thought about upgrading my monitor in all that time. My existing monitor is an LG 27GL850, a 27&amp;quot; 1440p 144Hz IPS display that I purchased back in 2021.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Apple Disables Advanced Data Protection for iCloud in UK</title>
@@ -38,6 +122,13 @@
       <description>&lt;p&gt;&lt;strong&gt;Category:&lt;/strong&gt; Web&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Points:&lt;/strong&gt; 200&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Description:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;Our competitors at SeaQuell have uploaded their latest proprietary data to their employee area. We have already compromised their web developer and obtained the source code to their site, here: seaquell.py&#xA;&#xA;Host: a32fcd6eab2d811e784db0a6f99bb55a-829124630.eu-central-1.elb.amazonaws.com&#xA;&#xA;Port: 1589&#xA;&#xA;Seaquell.py&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&#34;note&#34;&gt;Note&lt;/h1&gt;&#xA;&lt;p&gt;The BSidesPDX organizers have made the source code for all of their challenges freely available so that you can run them at home and follow along. You can find more information here.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Day One is finally available on Windows</title>
+      <link>https://ghariib.ir/posts/day-one-is-finally-available-on-windows/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/day-one-is-finally-available-on-windows/</guid>
+      <description>&lt;p&gt;Day One is now available on Windows and anyone can try it for free.&lt;/p&gt;&#xA;&lt;p&gt;Journal apps on digital platforms are fairly popular, especially among people who want to keep a digitized record of their lives. A couple of years ago, Apple announced its built-in &lt;strong&gt;Journal&lt;/strong&gt; app for iOS, entering a competitive market which already features the likes of Everlog, Obsidian, and Day One. If you&amp;rsquo;re a customer of the last app mentioned in this list, you&amp;rsquo;ll be happy to hear that the digital journal has now made its way to Windows.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Debunking Six Myths of Cloud Native Security</title>
       <link>https://ghariib.ir/posts/debunking-six-myths-of-cloud-native-security/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
@@ -59,11 +150,39 @@
       <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.aquasec.com/hubfs/featured-gigaom-container-security-2025-blog-main-1200x628.jpg&#34; alt=&#34;GigaOm Radar: Aqua Leads in Container Security&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Securing containerized applications demands a multi-layered strategy that spans the entire lifecycle from development to production, a challenge Aqua has spent nearly a decade mastering. Aqua’s Container Security solution provides full lifecycle protection by identifying vulnerabilities early in the build phase, integrating acceptance gates in the CI/CD pipeline to minimize risks, and offering real-time runtime protection in production environments. With the Aqua Platform, organizations can secure container workloads across hybrid and multi-cloud environments, stop attacks as they happen, and maintain compliance, all without slowing development.&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Google’s budget-friendly Pixel 9a is finally here, and it comes with a bold new look</title>
+      <link>https://ghariib.ir/posts/googles-budget-friendly-pixel-9a-is-finally-here-and-it-comes-with-a-bold-new-look/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/googles-budget-friendly-pixel-9a-is-finally-here-and-it-comes-with-a-bold-new-look/</guid>
+      <description>&lt;p&gt;Google just announced the Pixel 9a, and it might have just outshined the iPhone 16e.&lt;/p&gt;&#xA;&lt;p&gt;While it hasn&amp;rsquo;t been too long since 2025 started, it&amp;rsquo;s clearly been a good (yet competitive) year for affordable smartphones. Exactly one month after the launch of Apple&amp;rsquo;s budget-friendly phone, the iPhone 16e, Google has finally launched the Pixel 9a. At first glance, the Pixel 9a definitely looks promising, and might as well just win this round, fair and square.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to set up VLAN trunking on your managed switch</title>
+      <link>https://ghariib.ir/posts/how-to-set-up-vlan-trunking-on-your-managed-switch/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/how-to-set-up-vlan-trunking-on-your-managed-switch/</guid>
+      <description>&lt;p&gt;VLAN trunking is the easiest way to pass VLAN traffic through multiple switches.&lt;/p&gt;&#xA;&lt;p&gt;As your home network expands, so do the burdens of administering the list of network appliances. Maybe you&amp;rsquo;ve expanded the number of wired devices in your network, and added additional managed network switches to segregate your house into VLANs for easier management and better security. The question then is how to get tagged VLAN traffic to the other endpoint devices in your network.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hundreds of Malicious Google Play-Hosted Apps Bypassed Android 13 Security With Ease</title>
+      <link>https://ghariib.ir/posts/hundreds-of-malicious-google-play-hosted-apps-bypassed-android-13-security-with-ease/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/hundreds-of-malicious-google-play-hosted-apps-bypassed-android-13-security-with-ease/</guid>
+      <description>&lt;p&gt;Bitdefender&amp;rsquo;s security researchers have identified a large-scale ad fraud campaign that deployed hundreds of malicious apps in the Google Play Store, resulting in more than 60 million downloads total. The apps display out-of-context ads and even try to persuade victims to give away credentials and credit card information in phishing attacks.&lt;/p&gt;&#xA;&lt;p&gt;The Google Play Store is often targeted by cybercriminals trying to upload malicious apps by bypassing existing protections. Google purges the store of suc&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Malware Forensic Analysis: Capturing What Attackers Leave Behind</title>
       <link>https://ghariib.ir/posts/malware-forensic-analysis-capturing-what-attackers-leave-behind/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/malware-forensic-analysis-capturing-what-attackers-leave-behind/</guid>
       <description>&lt;p&gt;&#xD;&#xA;&lt;figure&gt;&#xD;&#xA;  &lt;img src=&#34;https://blog.aquasec.com/hubfs/social-Malware-Forensic-Analysis-blog-1200x628-1.jpg&#34; alt=&#34;Malware Forensic Analysis: Capturing What Attackers Leave Behind&#34; /&gt;&#xD;&#xA;&lt;/figure&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;/p&gt;&#xA;&lt;p&gt;Every attack leaves a trail, but in containerized environments, this trail can evaporate before you even realize you have been attacked. These environments bring new challenges for security teams, including an expanding attack surface. Containers, while incredibly powerful, are short-lived, and attackers exploit this by moving quickly and covering their tracks. They often download and execute malware, then silently modify, or delete the files to erase evidence of their actions, making it nearly impossible to trace the original attack. Security teams are often left scrambling to piece together what happened.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NotebookLM can now generate Mind Maps, and studying will never be the same</title>
+      <link>https://ghariib.ir/posts/notebooklm-can-now-generate-mind-maps-and-studying-will-never-be-the-same/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/notebooklm-can-now-generate-mind-maps-and-studying-will-never-be-the-same/</guid>
+      <description>&lt;p&gt;Google NotebookLM is already an excellent AI tool for studying, and it just got better with Mind Maps.&lt;/p&gt;&#xA;&lt;p&gt;Frankly, most AI tools that students swear by aren’t all that great. Half the time, they generate inaccurate information, give incorrect answers, or overcomplicate things for no reason. NotebookLM doesn’t do any of that.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
       <title>NVIDIA Blackwell is Out: Should You Upgrade?</title>

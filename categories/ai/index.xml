@@ -80,6 +80,13 @@
       <description>&lt;p&gt;HashiCorp brings infrastructure provisioning that will help some IBM products run more smoothly in hybrid cloud environments.&lt;/p&gt;&#xA;&lt;p&gt;Go to Source&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Implementing Cryptography in AI Systems</title>
+      <link>https://ghariib.ir/posts/implementing-cryptography-in-ai-systems/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://ghariib.ir/posts/implementing-cryptography-in-ai-systems/</guid>
+      <description>&lt;p&gt;Interesting research: “How to Securely Implement Cryptography in Deep Neural Networks.”&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; The wide adoption of deep neural networks (DNNs) raises the question of how can we equip them with a desired cryptographic functionality (e.g, to decrypt an encrypted input, to verify that this input is authorized, or to hide a secure watermark in the output). The problem is that cryptographic primitives are typically designed to run on digital computers that use Boolean gates to map sequences of bits to sequences of bits, whereas DNNs are a special type of analog computer that uses linear mappings and ReLUs to map vectors of real numbers to vectors of real numbers. This discrepancy between the discrete and continuous computational models raises the question of what is the best way to implement standard cryptographic primitives as DNNs, and whether DNN implementations of secure cryptosystems remain secure in the new setting, in which an attacker can ask the DNN to process a message whose “bits” are arbitrary real numbers&amp;hellip;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>IT Leader’s Guide to Data Loss Prevention</title>
       <link>https://ghariib.ir/posts/it-leaders-guide-to-data-loss-prevention/</link>
       <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>

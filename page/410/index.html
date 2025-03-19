@@ -40,99 +40,11 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Kubernetes v1.31: New Kubernetes CPUManager Static Policy: Distribute CPUs Across Cores</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/introducing-the-android-xr-sdk-developer-preview/">Introducing the Android XR SDK Developer Preview</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>In Kubernetes v1.31, we are excited to introduce a significant enhancement to CPU management capabilities: the <code>distribute-cpus-across-cores</code> option for the CPUManager static policy. This feature is currently in alpha and hidden by default, marking a strategic shift aimed at optimizing CPU utilization and improving system performance across multi-core processors.</p>
-<h2 id="understanding-the-feature">Understanding the feature</h2>
-<p>Traditionally, Kubernetes&rsquo; CPUManager tends to allocate CPUs as compactly as possible, typically packing them onto the fewest number of physical cores. However, allocation strategy matters, CPUs on the same physical host still share some resources of the physical core, such as the cache and execution units, etc.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Kubernetes v1.32 Adds A New CPU Manager Static Policy Option For Strict CPU Reservation</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>In Kubernetes v1.32, after years of community discussion, we are excited to introduce a <code>strict-cpu-reservation</code> option for the CPU Manager static policy. This feature is currently in alpha, with the associated policy hidden by default. You can only use the policy if you explicitly enable the alpha behavior in your cluster.</p>
-<h2 id="understanding-the-feature">Understanding the feature</h2>
-<p>The CPU Manager static policy is used to reduce latency or improve performance. The <code>reservedSystemCPUs</code> defines an explicit CPU set for OS system daemons and kubernetes system daemons. This option is designed for Telco/NFV type use cases where uncontrolled interrupts/timers may impact the workload performance. you can use this option to define the explicit cpuset for the system/kubernetes daemons as well as the interrupts/timers, so the rest CPUs on the system can be used exclusively for workloads, with less impact from uncontrolled interrupts/timers. More details of this parameter can be found on the Explicitly Reserved CPU List page.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Kubernetes v1.32 sneak peek</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>As we get closer to the release date for Kubernetes v1.32, the project develops and matures. Features may be deprecated, removed, or replaced with better ones for the project&rsquo;s overall health.</p>
-<p>This blog outlines some of the planned changes for the Kubernetes v1.32 release, that the release team feels you should be aware of, for the continued maintenance of your Kubernetes environment and keeping up to date with the latest changes. Information listed below is based on the current status of the v1.32 release and may change before the actual release date.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Kubernetes v1.32: Memory Manager Goes GA</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>With Kubernetes 1.32, the memory manager has officially graduated to General Availability (GA), marking a significant milestone in the journey toward efficient and predictable memory allocation for containerized applications. Since Kubernetes v1.22, where it graduated to beta, the memory manager has proved itself reliable, stable and a good complementary feature for the CPU Manager.</p>
-<p>As part of kubelet&rsquo;s workload admission process, the memory manager provides topology hints to optimize memory allocation and alignment. This enables users to allocate exclusive memory for Pods in the Guaranteed QoS class. More details about the process can be found in the memory manager goes to beta blog.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Kubernetes v1.32: Penelope</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p><strong>Editors:</strong> Matteo Bianchi, Edith Puclla, William Rizzo, Ryota Sawada, Rashan Smith</p>
-<p>Announcing the release of Kubernetes v1.32: Penelope!</p>
-<p>In line with previous releases, the release of Kubernetes v1.32 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 44 enhancements in total. Of those enhancements, 13 have graduated to Stable, 12 are entering Beta, and 19 have entered in Alpha.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Kubernetes v1.32: QueueingHint Brings a New Possibility to Optimize Pod Scheduling</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The Kubernetes scheduler is the core component that selects the nodes on which new Pods run. The scheduler processes these new Pods <strong>one by one</strong>. Therefore, the larger your clusters, the more important the throughput of the scheduler becomes.</p>
-<p>Over the years, Kubernetes SIG Scheduling has improved the throughput of the scheduler in multiple enhancements. This blog post describes a major improvement to the scheduler in Kubernetes v1.32: a scheduling context element named <em>QueueingHint</em>. This page provides background knowledge of the scheduler and explains how QueueingHint improves scheduling throughput.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/lateral-movement-visual-studio-dte/">Lateral Movement – Visual Studio DTE</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>A lot of organizations have some sort of application development program and it is highly likely that developers will utilize Visual Studio for their development…</p>
-<p>Continue reading → Lateral Movement – Visual Studio DTE</p>
+		<p>The Android XR SDK, a new platform for building extended reality (XR) experiences on Android, is now available for devs to try, and to give feedback.</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -140,48 +52,148 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Life at Canonical: Victoria Antipova’s perspective as a new joiner in Product Marketing</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/is-nowhere-safe-from-ai-slop-lock-and-code-s05e27/">Is nowhere safe from AI slop? (Lock and Code S05E27)</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Canonical is continuously hiring new talent. Being a remote- first company, Canonical’s new joiners receive a unique onboarding experience. In their first weeks, they are introduced to the different departments and the various tools they use to work asynchronously across the globe. New hires develop a good understanding of the open-source technologies that the company deploys and supports such as Openstack, Kubernetes, Kubeflow and OpenSearch – in addition of course to Ubuntu, the world’s most famous OS, which they install on their laptops. </p>
+		<p><em>This week on the Lock and Code podcast…</em></p>
+<p>You can see it on X. You can see on Instagram. It’s flooding community pages on Facebook and filling up channels on YouTube. It’s called “AI slop” and it’s the fastest, laziest way to drive engagement.</p>
+<p>Like “click bait” before it (“You won’t believe what happens next,” reads the trickster headline), AI slop can be understood as the latest online tactic in getting eyeballs, clicks, shares, comments, and views. With this go-around, however, the methodology is turbocharged with generative AI tools like ChatGPT, Midjourney, and MetaAI, which can all churn out endless waves of images and text with little restrictions.</p>
 		
-			<a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Read more...</a>
+			<a href="https://ghariib.ir/posts/is-nowhere-safe-from-ai-slop-lock-and-code-s05e27/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/light-brite-turned-sci-fi-console-on-the-cheap/">Light Brite Turned Sci-Fi Console on the Cheap</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/iterm2-kan-door-kritieke-kwetsbaarheid-gevoelige-gegevens-lekken/">ITerm2 kan door kritieke kwetsbaarheid gevoelige gegevens lekken</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>
+		<h3 id="iterm2-kan-door-kritieke-kwetsbaarheid-gevoelige-gegevens-lekken">ITerm2 kan door kritieke kwetsbaarheid gevoelige gegevens lekken</h3>
+<p>
 <figure>
-  <img src="https://hackaday.com/wp-content/uploads/2025/01/briteprop_feat.jpg?w=800" alt="" />
+  <img src="https://upload.cvefeed.io/news/22158/thumbnail.jpg" alt="" />
 </figure>
 
 
 </p>
-<p>Generally, the projects featured on Hackaday actually <em>do</em> something. We won’t go as far as to say they are practical creations, but they usually have some kind of function other than to sit there and blink. But what if just sitting still and blinking away randomly is precisely what you want a piece of hardware to do?</p>
-<p>That was exactly the goal when [createscifi] set out to dress a Lite Brite up as a futuristic prop. On a technical level, this project is pretty much as simple as it gets. But we appreciated seeing some of the techniques brought to bear on this project, and perhaps more importantly, really like the channel’s overall goal of creating affordable sci-fi props using common components. We don’t plan on filming our own space epic anytime soon…but we like to know the option is there.</p>
-		
-			<a href="https://ghariib.ir/posts/light-brite-turned-sci-fi-console-on-the-cheap/">Read more...</a>
+<p>Een kritieke kwetsbaarheid in macOS terminal emulator iTerm2 zorgt ervoor dat gevoelige gegevens kunnen lekken, zo heeft ontwikkelaar George Nachman bekendgemaakt. Er is een nieuwe versie beschikbaar &hellip; <em>Read more</em></p>
+<p><strong>Published Date:</strong> Jan 03, 2025 (2 hours, 36 minutes ago)</p>
+<p>Vulnerabilities has been mentioned in this article.</p>
+<p>CVE-2025-22275</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/looking-back-a-tour-of-blog-posts-giant-swarm/">Looking back: a tour of blog posts » Giant Swarm</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/iterm2-patches-critical-security-vulnerability-exposing-user-input-and-output/">iTerm2 Patches Critical Security Vulnerability Exposing User Input and Output</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p><em>We’re embarking on an expedition through the archives of Giant Swarm’s blog.</em> </p>
-<p>We&rsquo;re dusting off our virtual time machines and donning our trusty Sherlock hats (aka looking at old links 😀) to decode the mysteries hidden within our old blog posts. But hold on, this isn&rsquo;t a mere nostalgia trip; we&rsquo;re on a quest to uncover nuggets of wisdom and bring back some forgotten treasures. In a world that hurtles forward at lightning speed, it&rsquo;s all too easy to forget the paths we&rsquo;ve walked. As we wander down memory lane, we&rsquo;ll catch glimpses of our growth and witness the winds of change that have shaped our journey. </p>
+		<h3 id="iterm2-patches-critical-security-vulnerability-exposing-user-input-and-output">iTerm2 Patches Critical Security Vulnerability Exposing User Input and Output</h3>
+<p>
+<figure>
+  <img src="https://upload.cvefeed.io/news/22088/thumbnail.jpg" alt="" />
+</figure>
+
+
+</p>
+<p>A critical security vulnerability has been discovered and patched in iTerm2, a popular terminal emulator for macOS. The flaw, present in versions 3.5.6 through 3.5.10, as well as beta versions of 3.5. &hellip; <em>Read more</em></p>
+<p><strong>Published Date:</strong> Jan 03, 2025 (3 hours, 10 minutes ago)</p>
+<p>Vulnerabilities has been mentioned in this article.</p>
+<p>CVE-2023-46301 CVE-2023-46300</p>
+<p>Go to Source</p>
 		
-			<a href="https://ghariib.ir/posts/looking-back-a-tour-of-blog-posts-giant-swarm/">Read more...</a>
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/jane-goodall-reasons-for-hope-starmus-highlights/">Jane Goodall: Reasons for hope | Starmus highlights</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The trailblazing scientist shares her reasons for hope in the fight against climate change and how we can tackle seemingly impossible problems and keep going in the face of adversity</p>
+<p>The trailblazing scientist shares her reasons for hope in the fight against climate change and how we can tackle seemingly impossible problems and keep going in the face of adversity</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/ldapnightmare-poc-exploit-crashes-lsass-and-reboots-windows-domain-controllers/">LDAPNightmare PoC Exploit Crashes LSASS and Reboots Windows Domain Controllers</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
+	
+	<div>
+		<h3 id="ldapnightmare-poc-exploit-crashes-lsass-and-reboots-windows-domain-controllers">LDAPNightmare PoC Exploit Crashes LSASS and Reboots Windows Domain Controllers</h3>
+<p>
+<figure>
+  <img src="https://upload.cvefeed.io/news/22136/thumbnail.jpg" alt="" />
+</figure>
+
+
+</p>
+<p>Windows Server / Threat Mitigation A proof-of-concept (PoC) exploit has been released for a now-patched security flaw impacting Windows Lightweight Directory Access Protocol (LDAP) that could trigger &hellip; <em>Read more</em></p>
+<p><strong>Published Date:</strong> Jan 03, 2025 (2 hours, 45 minutes ago)</p>
+<p>Vulnerabilities has been mentioned in this article.</p>
+<p>CVE-2024-49113 CVE-2024-49112</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/life-on-a-crooked-redline-analyzing-the-infamous-infostealers-backend/">Life on a crooked RedLine: Analyzing the infamous infostealer’s backend</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Following the takedown of RedLine Stealer by international authorities, ESET researchers are publicly releasing their research into the infostealer’s backend modules</p>
+<p>Following the takedown of RedLine Stealer by international authorities, ESET researchers are publicly releasing their research into the infostealer’s backend modules</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/live-webinar-north-koreas-secret-it-army-and-how-to-combat-it/">Live Webinar | North Korea&#39;s Secret IT Army and How to Combat It</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Post Content</p>
+<p>​DataBreachToday.com RSS Syndication</p>
+<p>​Read More</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/live-webinar-supercharge-your-servicenow-cmdb-with-complete-and-real-time-data/">Live Webinar | Supercharge Your ServiceNow CMDB with Complete and Real-Time Data</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Post Content</p>
+<p>​DataBreachToday.com RSS Syndication</p>
+<p>​Read More</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/looking-back-at-the-first-year-of-the-gemini-era/">Looking back at the first year of the Gemini era</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The range of family of Gemini models has expanded in the past year in response to developer needs, introducing faster and more cost-effective models, and enhancing tools in Google AI Studio.</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>
@@ -191,7 +203,7 @@
 
 	<a href="/page/409/">Previous Page</a>
 
-410 of 433
+410 of 479
 
 	<a href="/page/411/">Next Page</a>
 

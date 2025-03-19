@@ -40,79 +40,136 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kando-pie-menu-launcher-for-linux-windows-mac/">&lt;div&gt;Kando – Pie Menu Launcher for Linux, Windows &amp; Mac&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/fleet-1-44-is-here-with-new-ui-zig-language-support-and-more-enhancements/">Fleet 1.44 Is Here With New UI, Zig Language Support, and More Enhancements</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/dev">dev</a>
+	
+	<a href="/tags/developers">developers</a>
+	
+	<a href="/tags/development">development</a>
+	
+	<a href="/tags/jetbrains">jetbrains</a>
+	
+	<a href="/tags/software">software</a>
+	
+	<div>
+		<p>Explore our latest release, which introduces many new features designed to improve your development experience. You can update to this version using Toolbox App. Let’s take a closer look at the highlights. Download Fleet 1.44 New features Improvements Bug fixes We’ve also fixed several bugs: See the full release notes for more details about Fleet […]</p>
+<p>Explore our latest release, which introduces many new features designed to improve your development experience. You can update to this version using Toolbox App.</p>
+		
+			<a href="https://ghariib.ir/posts/fleet-1-44-is-here-with-new-ui-zig-language-support-and-more-enhancements/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/fluentd-how-to-use-a-parser-with-regular-expression-regexp/">Fluentd: How to Use a Parser With Regular Expression (regexp)</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/ai">ai</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<a href="/tags/soc">soc</a>
 	
 	<div>
 		<p>
 <figure>
-  <img src="https://ubuntuhandbook.org/wp-content/uploads/2024/12/kando-logo-250x250.webp" alt="" />
+  <img src="https://socprime.com/wp-content/uploads/Fluentd_regexp-400x234.jpg" alt="" />
 </figure>
 
 
 </p>
-<p>Remember GNOME Pie or Fly-Pie? There’s now a similar pie menu launcher for most Linux desktops as well as Windows and macOS.</p>
-<p>It’s Kando, a free open-source application written mostly in TypeScript programming language.</p>
-<p>With it, user can trigger a circular application launcher on desktop, then either use mouse clicks or draw gesture to launch apps, run custom scripts/commands, simulate shortcut key, or open files/websites.</p>
-<p><a href="https://ubuntuhandbook.org/wp-content/uploads/2024/12/kando-piemenu.mp4">https://ubuntuhandbook.org/wp-content/uploads/2024/12/kando-piemenu.mp4</a></p>
-<p>Kando is designed to be used with mouse, stylus, touch, or controller input. It works in Windows, macOS, and Linux with most desktop environments, such as GNOME, KDE, MATE, XFCE, and Cinnamon, though some (e.g., Cosmic and Niri) are so far not implemented.</p>
+<p>This guide explains configuring Fluentd to extract structured data from unstructured log messages using the parser plugin with a regular expression (regexp). If you need to extract specific fields, such as log_source and index, from a log message, you can do this as follows.</p>
+<p>Input Log:</p>
+<pre tabindex="0"><code>
+{
+  &#34;message&#34;: &#34;Log source &#39;WinCollect DSM - SRV-AD-001&#39; has stopped emitting events&#34;
+}
+</code></pre><p>Configuration:</p>
+<pre tabindex="0"><code>&lt;filter **&gt;
+  @type parser
+  key_name message
+  reserve_data true
+  &lt;parse&gt;
+    @type regexp
+    expression /&#39;(?&lt;log_source&gt;[^&#39;]+)s-s(?&lt;index&gt;[^&#39;]+)&#39;/
+  &lt;/parse&gt;
+&lt;/filter&gt;
+</code></pre><p><strong>Explanation</strong>:</p>
 		
-			<a href="https://ghariib.ir/posts/kando-pie-menu-launcher-for-linux-windows-mac/">Read more...</a>
+			<a href="https://ghariib.ir/posts/fluentd-how-to-use-a-parser-with-regular-expression-regexp/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-defender-xdr-demonstrates-100-detection-coverage-across-all-cyberattack-stages-in-the-2024-mitre-attck-evaluations-enterprise/">&lt;div&gt;Microsoft Defender XDR demonstrates 100% detection coverage across all cyberattack stages in the 2024 MITRE ATT&amp;CK® Evaluations: Enterprise​​&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/from-pwn2own-automotive-more-autel-maxicharger-vulnerabilities/">From Pwn2Own Automotive: More Autel Maxicharger Vulnerabilities</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<a href="/tags/zero_day">zero_day</a>
+	
+	<a href="/tags/zeroday">zeroday</a>
 	
 	<div>
-		<h2 id="delivering-industry-leading-detection-for-a-sixth-consecutive-year">Delivering industry-leading detection for a sixth consecutive year</h2>
-<p>For the sixth year in a row, Microsoft Defender XDR demonstrated industry-leading extended detection and response (XDR) capabilities in the independent <strong>MITRE ATT&amp;CK® Evaluations: Enterprise.</strong> The cyberattack used during the detection test highlights the importance of a unified XDR platform and showcases Defender XDR as a leading solution for securing your multi-operating system estate, with the following results:</p>
-<!-- raw HTML omitted -->
-<p>
-<figure>
-  <img src="https://www.microsoft.com/en-us/security/blog/wp-content/uploads/2024/12/Picture1-4-1024x576.webp" alt="Three charts showing Microsoft’s technique coverage across the three different attack scenarios for MITRE’s Detection test." />
-</figure>
-
-
-</p>
+		<p>This blog post highlights two additional vulnerabilities in the Autel Maxicharger that were exploited at Pwn2Own Automotive 2024. Details of the patches are also included.</p>
+<p>Autel has been informed and has deployed a firmware update (v1.35) to address both of these issues. If you want to read about other Autel bugs reported at Pwn2Own, you check out our earlier blog here.</p>
+<p><strong>The First Vulnerability: CVE-2024-23967 (ZDI-CAN-23230)</strong></p>
+<p>Researchers from Computest Sector 7 identified and exploited a stack-based buffer overflow in v1.32 of the Autel firmware. This vulnerability stems from the decoding of base64 encoded data that can be controlled by an attacker. The encoded data is decoded into a fixed-size stack buffer with no bounds checks, leading to a stack buffer overflow and remote code execution.</p>
 		
-			<a href="https://ghariib.ir/posts/microsoft-defender-xdr-demonstrates-100-detection-coverage-across-all-cyberattack-stages-in-the-2024-mitre-attck-evaluations-enterprise/">Read more...</a>
+			<a href="https://ghariib.ir/posts/from-pwn2own-automotive-more-autel-maxicharger-vulnerabilities/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/mixxx-2-5-0-released-it-now-runs-in-ios-web-browser/">&lt;div&gt;Mixxx 2.5.0 Released! It Now Runs in iOS &amp; Web Browser&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/from-trusted-platform-to-attack-vector-the-story-of-docusign-api-misuse/">From Trusted Platform to Attack Vector: The Story of DocuSign API Misuse</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
 	
 	<div>
-		<p>
-<figure>
-  <img src="https://ubuntuhandbook.org/wp-content/uploads/2022/02/mixxx-icon-250x250.webp" alt="" />
-</figure>
-
-
-</p>
-<p>Mixxx, the free and open-source DJ software, released new major 2.5.0 version today!</p>
-<p>The new release now uses <strong>Qt6 by default</strong> for its user interface, offering improved performance and enhanced compatibility with modern systems. Qt5 is still supported, but will be removed in the next 2.6 release series.</p>
-<p>Probably due to this change, Ubuntu 20.04 is no longer officially supported, though user can choose to use the Flatpak package run in sandbox environment.</p>
+		<p>In a concerning development within cybersecurity, attackers have been leveraging DocuSign’s API capabilities to send out fraudulent invoices that closely mimic genuine documents. These campaigns have been rising in frequency, with reports over the past five months highlighting a significant uptick in incidents. In the context of cybersecurity, the abuse of DocuSign’s API represents a significant shift away from traditional phishing methods. Conventional phishing attacks typically involve sending spoofed emails that mimic trusted brands to trick victims into clicking malicious links or entering sensitive data, such as login credentials. Email and anti-spam filters have evolved to detect and block these deceptive tactics effectively, making it more difficult for attackers to succeed using traditional methods.</p>
 		
-			<a href="https://ghariib.ir/posts/mixxx-2-5-0-released-it-now-runs-in-ios-web-browser/">Read more...</a>
+			<a href="https://ghariib.ir/posts/from-trusted-platform-to-attack-vector-the-story-of-docusign-api-misuse/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/mongoaudit-mongodb-auditing-pen-testing-tool/">&lt;div&gt;mongoaudit – MongoDB Auditing &amp; Pen-testing Tool&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/how-hackers-stole-taylor-swift-tickets-the-full-ticketmaster-breach-story/">How Hackers Stole Taylor Swift Tickets: The Full Ticketmaster Breach Story</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
 	
 	<div>
-		<p>mongoaudit is a CLI tool for MongoDB auditing of servers, detecting poor security settings and performing automated penetration testing. It is widely known that there are quite a few holes in MongoDB’s default configuration settings. This fact, combined with abundant lazy system administrators and developers, has led to what the press has called the MongoDB […]</p>
+		<p>In a series of unsettling developments, Ticketmaster, the global ticket sales and distribution company, has once again fallen victim to a major cybersecurity breach. This time, hackers claim to have obtained barcode data for hundreds of thousands of tickets to Taylor Swift’s Eras Tour and are demanding millions of dollars in ransom. This latest attack underscores a worrying trend of increasing sophistication and audacity in cybercrime targeting major corporations.</p>
+<h3 id="the-history-of-ticketmaster-hacks">The History of Ticketmaster Hacks</h3>
+<p>Ticketmaster has faced several cybersecurity incidents over the years. The most notable include:</p>
+		
+			<a href="https://ghariib.ir/posts/how-hackers-stole-taylor-swift-tickets-the-full-ticketmaster-breach-story/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/how-i-set-up-a-local-wiki-for-my-projects-using-obsidian/">How I set up a local wiki for my projects using Obsidian</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<div>
+		<p>My secret weapon for project mastery</p>
+<p>With random lists jotted down, forgotten deadlines, notes clinging to a monitor, and random files scattered across the desktop, managing a complex project can be challenging. Here is where I discovered the power of a local wiki, built right within my favorite tool – Obsidian.</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -120,32 +177,52 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/multiple-vulnerabilities-in-ctfd-versions/">&lt;div&gt;Multiple vulnerabilities in CTFd versions &lt;= 3.7.4&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/how-snowflake-hack-is-linked-to-santanderspain-chile-uruguay-and-ticketmaster-breaches-are-you-affected/">How Snowflake Hack is Linked to Santander(Spain, Chile, Uruguay) and Ticketmaster Breaches.Are You Affected?</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
 	
 	<div>
-		<h3 id="multiple-vulnerabilities-in-ctfd-versions--374">Multiple vulnerabilities in CTFd versions &lt;= 3.7.4</h3>
+		<p>In a significant cybersecurity incident, the threat actor group known as ShinyHunters has claimed responsibility for a data breach involving Santander Bank, allegedly selling data for 30 million customers. This breach, disclosed two weeks after unauthorized access was detected, has been linked to recent hacks of Snowflake accounts, which also implicated Ticketmaster.</p>
 <p>
 <figure>
-  <img src="https://upload.cvefeed.io/news/21645/thumbnail.jpg" alt="" />
+  <img src="https://www.exploitone.com/snews-up/2024/06/santander-hacked2.jpg" alt="" />
 </figure>
 
 
 </p>
-<p>Full Disclosure mailing list archives From: Blazej Adamczyk Date: Tue, 24 Dec 2024 12:28:40 +0100 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ Multiple vulnerabili &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Dec 31, 2024 (2 days, 5 hours ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
+<h4 id="shinyhunters-claims-santander-breach">ShinyHunters Claims Santander Breach</h4>
+<p>On May 31, 2024, ShinyHunters announced they were selling a massive trove of data allegedly stolen from Santander Bank, including personal information for 30 million customers and employees. The data also reportedly contains 28 million credit card numbers and 6 million account numbers. This claim came shortly after Spain’s largest bank, Santander, reported a data breach affecting customers in Chile, Spain, and Uruguay.</p>
+		
+			<a href="https://ghariib.ir/posts/how-snowflake-hack-is-linked-to-santanderspain-chile-uruguay-and-ticketmaster-breaches-are-you-affected/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/police-in-uk-us-charge-arrest-multiple-people-over-zeus-trojan-e-banking-fraud/">&lt;div&gt;Police In UK &amp; US Charge &amp; Arrest Multiple People Over Zeus Trojan E-banking Fraud&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/how-to-set-up-your-own-git-server-at-home-for-your-personal-projects/">How to set up your own Git server at home for your personal projects</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Zeus has been around for quite some time, we reported it about it initially back in 2009 when it was noted Zeus could evade anti-virus software. In more recent months it was noted that Zeus has become more focused and variations of Zeus were found to be targeting banks and financial organisations in specific geographic […]</p>
+		<p>Harness the immense power of Git for your home projects.</p>
+<p>Git is a fantastic version control system that every hobbyist and IT professional should be familiar with. While you could use a proprietary implementation like GitHub for your personal projects, you’re a bit limited in what functionality is available to you. In this guide, we’ll be covering how to set up Gitea, an open-source platform for self-hosting a Git repository. The reason why Gitea was chosen was simple: it’s lightweight, works in many environments, and is very simple to get up and running with.</p>
+		
+			<a href="https://ghariib.ir/posts/how-to-set-up-your-own-git-server-at-home-for-your-personal-projects/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/in-memoriam-dr-alan-solomon/">In memoriam: Dr Alan Solomon</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p>We were very sorry to learn of the passing of industry pioneer Dr Alan Solomon earlier this week.</p>
+<p>Read more</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -153,63 +230,15 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/ramnit-worm-stealing-facebook-account-passwords-e-mail-address-bank-details/">&lt;div&gt;Ramnit Worm Stealing Facebook Account Passwords, E-mail Address &amp;  Bank Details&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/in-memoriam-prof-ross-anderson/">In memoriam: Prof. Ross Anderson</a></h1>
+	<b><time>04.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
 	
 	<div>
-		<p>Oh look, another Facebook worm – this one seems pretty nasty and as usual it’s going for Facebook access details and then diving into banking credentials if it can find them. It’s mostly targeted at the UK though, worms of these type usually are geographically limited as they are targeting bank information – it’s better […]</p>
+		<p>We were very sorry to learn of the passing of Professor Ross Anderson a few days ago.</p>
+<p>Read more</p>
 <p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/virtual-vibes-mastering-the-art-of-company-culture-when-fully-remote-giant-swarm/">&lt;div&gt;Virtual vibes: mastering the art of company culture when fully remote &gt;&gt; Giant Swarm&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Since its inception in 2014, Giant Swarm has been 100% remote — not as an afterthought or a late-minute addendum but as part of its core (and I think very cool) founding philosophy. </p>
-<p>An ever-evolving philosophy that challenges the status quo and invites us to do things better and differently, all while not taking itself too seriously. As our VP People Anna noted, <em>“Being remote is just a form of organization. You need human structures and psychological safety regardless.&quot;</em></p>
-		
-			<a href="https://ghariib.ir/posts/virtual-vibes-mastering-the-art-of-company-culture-when-fully-remote-giant-swarm/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/what-is-autonomous-system-types-roles-asn-definition/">&lt;div&gt;What is Autonomous System? Types, Roles &amp; ASN Definition&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The Internet, a vast and intricate network of networks, relies on numerous underlying technologies and protocols to function seamlessly.</p>
-<p>The concept of an autonomous system (AS) is one critical component that enables the Internet to operate efficiently.</p>
-<p>In networking, an AS is a collection of IP prefixes under a single administrative domain that maintains a coherent routing policy.</p>
-<p>This article delves into the intricacies of autonomous systems, exploring their structure, functionality, types, and the protocols that facilitate their operation.</p>
-		
-			<a href="https://ghariib.ir/posts/what-is-autonomous-system-types-roles-asn-definition/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/whats-new-in-cloudflare-masque-now-powers-1-1-1-1-warp-apps-dex-now-generally-available-with-remote-captures/">&lt;div&gt;What’s new in Cloudflare: MASQUE now powers 1.1.1.1 &amp; WARP apps, DEX now generally available with Remote Captures&lt;/div&gt;</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>At Cloudflare, we are constantly innovating and launching new features and capabilities across our product portfolio. Today’s roundup blog post shares two exciting updates across our platform: our cross-platform 1.1.1.1 &amp; WARP applications (consumer) and device agents (Zero Trust)  now use MASQUE, a cutting-edge HTTP/3-based protocol, to secure your Internet connection. Additionally, DEX is now available for general availability.</p>
-<h2 id="faster-and-more-stable-our-1111--warp-apps-now-use-masque-by-default">Faster and more stable: our 1.1.1.1 &amp; WARP apps now use MASQUE by default</h2>
-<p>
-<figure>
-  <img src="https://cf-assets.www.cloudflare.com/zkvhlag99gkb/6CghJvmC5DBnhKLM36MY3O/ecf722a9d9b5a4e4a048afea06237749/image1.png" alt="" />
-</figure>
-
-
-</p>
-		
-			<a href="https://ghariib.ir/posts/whats-new-in-cloudflare-masque-now-powers-1-1-1-1-warp-apps-dex-now-generally-available-with-remote-captures/">Read more...</a>
 		
 	</div>
 </article>
@@ -219,7 +248,7 @@
 
 	<a href="/page/376/">Previous Page</a>
 
-377 of 433
+377 of 479
 
 	<a href="/page/378/">Next Page</a>
 

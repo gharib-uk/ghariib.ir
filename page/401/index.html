@@ -40,139 +40,170 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/enhancing-kubernetes-api-server-efficiency-with-api-streaming/">Enhancing Kubernetes API Server Efficiency with API Streaming</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-53834-android-sms-to-string-out-of-bounds-read-vulnerability/">CVE-2024-53834 - Android SMS to-string Out-of-Bounds Read Vulnerability</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Managing Kubernetes clusters efficiently is critical, especially as their size is growing. A significant challenge with large clusters is the memory overhead caused by <strong>list</strong> requests.</p>
-<p>In the existing implementation, the kube-apiserver processes <strong>list</strong> requests by assembling the entire response in-memory before transmitting any data to the client. But what if the response body is substantial, say hundreds of megabytes? Additionally, imagine a scenario where multiple <strong>list</strong> requests flood in simultaneously, perhaps after a brief network outage. While API Priority and Fairness has proven to reasonably protect kube-apiserver from CPU overload, its impact is visibly smaller for memory protection. This can be explained by the differing nature of resource consumption by a single API request - the CPU usage at any given time is capped by a constant, whereas memory, being uncompressible, can grow proportionally with the number of processed objects and is unbounded. This situation poses a genuine risk, potentially overwhelming and crashing any kube-apiserver within seconds due to out-of-memory (OOM) conditions. To better visualize the issue, let&rsquo;s consider the below graph.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-53834<br>
+<strong>Published :</strong> Jan. 3, 2025, 4:15 a.m. | 1 hour, 56 minutes ago<br>
+<strong>Description :</strong> In sms_DisplayHexDumpOfPrivacyBuffer of sms_Utilities.c, there is a possible out of bounds read due to an incorrect bounds check. This could lead to remote information disclosure with no additional execution privileges needed. User interaction is not needed for exploitation.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/enhancing-kubernetes-api-server-efficiency-with-api-streaming/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-53834-android-sms-to-string-out-of-bounds-read-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/enhancing-security-operations-with-ai-driven-log-analysis-a-path-to-cooperative-intelligence/">Enhancing Security Operations with AI-Driven Log Analysis: A Path to Cooperative Intelligence</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-53835-apache-biometric-bypass-privilege-escalation-vulnerability/">CVE-2024-53835 - Apache Biometric Bypass Privilege Escalation Vulnerability</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<h2 id="introduction">Introduction</h2>
-<p>Managing log data efficiently has become both a necessity and a challenge.<br>
-Log data, ranging from network traffic and access records to application errors, is essential to cybersecurity operations,<br>
-yet the sheer volume and complexity can easily overwhelm even the most seasoned analysts. AI-driven log analysis promises<br>
-to lighten this burden by automating initial data reviews and detecting anomalies. But beyond automation, an ideal AI<br>
-solution should foster a partnership with analysts, supporting and enhancing their intuitive insights.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-53835<br>
+<strong>Published :</strong> Jan. 3, 2025, 4:15 a.m. | 1 hour, 56 minutes ago<br>
+<strong>Description :</strong> there is a possible biometric bypass due to an unusual root cause. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/enhancing-security-operations-with-ai-driven-log-analysis-a-path-to-cooperative-intelligence/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-53835-apache-biometric-bypass-privilege-escalation-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/enhancing-security-managing-browser-and-email-client-plugins-with-gpo-in-active-directory/">Enhancing Security: Managing Browser and Email Client Plugins with GPO in Active Directory</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-53836-w-bravo-communication-wbrc-out-of-bounds-write-vulnerability/">CVE-2024-53836 - W-Bravo Communication WBRC Out-of-Bounds Write Vulnerability</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Controlling and managing plugins across various browsers and email clients is crucial for maintaining a secure enterprise environment. This blog post will explore how to effectively manage these plugins using Group Policy Objects (GPOs) in an Active Directory (AD) setting, aligning with the Center for Internet Security (CIS) Critical Security Controls Version 8.</p>
-<h2 id="the-importance-of-plugin-management">The Importance of Plugin Management</h2>
-<p>CIS Control 2: Inventory and Control of Software Assets emphasizes the need to actively manage all software on the network. This includes plugins for browsers like Internet Explorer, Edge, Chrome, Firefox, and email clients such as Outlook, which can be potential vectors for security breaches if left unmanaged.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-53836<br>
+<strong>Published :</strong> Jan. 3, 2025, 4:15 a.m. | 1 hour, 56 minutes ago<br>
+<strong>Description :</strong> In wbrc_bt_dev_write of wb_regon_coordinator.c, there is a possible out of bounds write due to a buffer overflow. This could lead to local escalation of privilege with System execution privileges needed. User interaction is not needed for exploitation.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/enhancing-security-managing-browser-and-email-client-plugins-with-gpo-in-active-directory/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-53836-w-bravo-communication-wbrc-out-of-bounds-write-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/european-banks-seeing-new-wave-of-atm-skimming/">European Banks Seeing New Wave Of ATM Skimming</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-53838-samsung-exynos-video-api-out-of-bounds-write-vulnerability/">CVE-2024-53838 - Samsung Exynos Video API Out-of-Bounds Write Vulnerability</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>ATM hacking and skimming were often in the news a few years back, but since the banks ramped up the security on ATM machines – including anti-skimming devices – ATM fraud activities seemed to drop off. Remember the Pro ATM Hacker ‘Chao’ Gives Out ATM Hacking Tips and a bunch of people getting busted not […]</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-53838<br>
+<strong>Published :</strong> Jan. 3, 2025, 4:15 a.m. | 1 hour, 56 minutes ago<br>
+<strong>Description :</strong> In Exynos_parsing_user_data_registered_itu_t_t35 of VendorVideoAPI.cpp, there is a possible out of bounds write due to an incorrect bounds check. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2024-53838-samsung-exynos-video-api-out-of-bounds-write-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/everything-you-need-to-know-about-web-shells/">Everything You Need To Know About Web Shells</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-53840-venezuela-biometrics-extractables-fingerprint-extraction/">CVE-2024-53840 - Venezuela Biometrics Extractables Fingerprint Extraction</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>So let’s talk about Web Shells, something many of us are already familiar with, but to level the field – what is a web shell? A web shell is a script that can be uploaded to a web server to enable remote administration of the machine. Infected web servers can be either Internet-facing or internal […]</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-53840<br>
+<strong>Published :</strong> Jan. 3, 2025, 4:15 a.m. | 1 hour, 56 minutes ago<br>
+<strong>Description :</strong> there is a possible biometric bypass due to an unusual root cause. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2024-53840-venezuela-biometrics-extractables-fingerprint-extraction/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/evil-corp-cyber-criminals-group-identity-exposed-along-with-lockbit-affiliate/">Evil Corp Cyber Criminals Group Identity Exposed Along with Lockbit Affiliate</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-53841-google-android-confused-deputy-permission-bypass-vulnerability/">CVE-2024-53841 - Google Android Confused Deputy Permission Bypass Vulnerability</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Authorities in the UK, US, and Australia have sanctioned sixteen individuals linked to Evil Corp, a group once considered the pinnacle of global cyber threats.</p>
-<p>This move exposes their connections to the Russian state and other infamous ransomware groups, including LockBit. The National Crime Agency(NCA) also shared the news on Social Platform X.</p>
-<!-- raw HTML omitted -->
-<h2 id="unveiling-the-faces-behind-evil-corp"><strong>Unveiling the Faces Behind Evil Corp</strong></h2>
-<p>The National Crime Agency (NCA) has played a pivotal role in unraveling the complex web of Evil Corp’s operations.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-53841<br>
+<strong>Published :</strong> Jan. 3, 2025, 4:15 a.m. | 1 hour, 56 minutes ago<br>
+<strong>Description :</strong> In startListeningForDeviceStateChanges, there is a possible Permission Bypass due to a confused deputy. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/evil-corp-cyber-criminals-group-identity-exposed-along-with-lockbit-affiliate/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-53841-google-android-confused-deputy-permission-bypass-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/evilabigail-automated-evil-maid-attack-for-linux/">EvilAbigail – Automated Evil Maid Attack For Linux</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56411-phpspreadsheet-xss-in-hyperlink-base/">CVE-2024-56411 - PhpSpreadsheet XSS in Hyperlink Base</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>EvilAbigail is a Python-based tool that allows you run an automated Evil Maid attack on Linux systems, this is the Initrd encrypted root fs attack. An Evil Maid attack is a type of attack that targets a computer device that has been shut down and left unattended. An Evil Maid attack is characterized by the […]</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-56411<br>
+<strong>Published :</strong> Jan. 3, 2025, 6:15 p.m. | 45 minutes ago<br>
+<strong>Description :</strong> PhpSpreadsheet is a PHP library for reading and writing spreadsheet files. Versions prior to 3.7.0, 2.3.5, 2.1.6, and 1.29.7 have a cross-site scripting (XSS) vulnerability of the hyperlink base in the HTML page header. The HTML page is formed without sanitizing the hyperlink base. Versions 3.7.0, 2.3.5, 2.1.6, and 1.29.7 contain a patch for the issue.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2024-56411-phpspreadsheet-xss-in-hyperlink-base/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/evolve-apac-2024-key-insights/">Evolve APAC 2024: Key Insights</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56412-phpspreadsheet-cross-site-scripting-xss-bypass-vulnerability/">CVE-2024-56412 - PhpSpreadsheet Cross-Site Scripting (XSS) Bypass Vulnerability</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Discover key insights from Evolve APAC 2024 on building skills, career growth, and tackling cybersecurity challenges with expert advice.</p>
-<p>The post Evolve APAC 2024: Key Insights appeared first on OffSec.</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-56412<br>
+<strong>Published :</strong> Jan. 3, 2025, 6:15 p.m. | 45 minutes ago<br>
+<strong>Description :</strong> PhpSpreadsheet is a PHP library for reading and writing spreadsheet files. Versions prior to 3.7.0, 2.3.5, 2.1.6, and 1.29.7 are vulnerable to bypass of the cross-site scripting sanitizer using the javascript protocol and special characters. An attacker can use special characters, so that the library processes the javascript protocol with special characters and generates an HTML link. Versions 3.7.0, 2.3.5, 2.1.6, and 1.29.7 contain a patch for the issue.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2024-56412-phpspreadsheet-cross-site-scripting-xss-bypass-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/example-cnf-automating-the-deployment-of-dpdk-based-network-functions-on-openshift-with-fault-tolerance/">Example-CNF: Automating the deployment of DPDK-based network functions on OpenShift with fault tolerance</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56514-karmada-tarslip-vulnerability-allows-file-system-tampering/">CVE-2024-56514 - Karmada TarSlip Vulnerability Allows File System Tampering</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Network optimization with Data Plane Development Kit (DPDK) and Single Root Input/Output Virtualization (SR-IOV) is widely supported and adopted in Kubernetes and Red Hat OpenShift. In this article, we will present a means of automatically deploying an open source Cloud-Native Network Function (CNF), called Example-CNF, in order to test particular Telco-related configurations and scenarios, leveraging DPDK&rsquo;s capabilities within containerized environments.</p>
-<p>Example-CNF is a workload to exercise both DPDK and SR-IOV technologies for Telco setups. The project is composed of several Kubernetes operators built with open source toolkits, such as Operator SDK, using Red Hat Universal Base Images (UBI) images pushed to Quay.io, deploying two main components:</p>
+		<p><strong>CVE ID :</strong> CVE-2024-56514<br>
+<strong>Published :</strong> Jan. 3, 2025, 5:15 p.m. | 1 hour, 45 minutes ago<br>
+<strong>Description :</strong> Karmada is a Kubernetes management system that allows users to run cloud-native applications across multiple Kubernetes clusters and clouds. Prior to version 1.12.0, both in karmadactl and karmada-operator, it is possible to supply a filesystem path, or an HTTP(s) URL to retrieve the custom resource definitions(CRDs) needed by Karmada. The CRDs are downloaded as a gzipped tarfile and are vulnerable to a TarSlip vulnerability. An attacker able to supply a malicious CRD file into a Karmada initialization could write arbitrary files in arbitrary paths of the filesystem. From Karmada version 1.12.0, when processing custom CRDs files, CRDs archive verification is utilized to enhance file system robustness. A workaround is available. Someone who needs to set flag `&ndash;crd` to customize the CRD files required for Karmada initialization when using `karmadactl init` to set up Karmada can manually inspect the CRD files to check whether they contain sequences such as `../` that would alter file paths, to determine if they potentially include malicious files. When using karmada-operator to set up Karmada, one must upgrade one&rsquo;s karmada-operator to one of the fixed versions.<br>
+<strong>Severity:</strong> 0.0 | NA<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/example-cnf-automating-the-deployment-of-dpdk-based-network-functions-on-openshift-with-fault-tolerance/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-56514-karmada-tarslip-vulnerability-allows-file-system-tampering/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/exe2powershell-convert-exe-to-bat-files/">exe2powershell – Convert EXE to BAT Files</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-9140-moxa-cellular-routers-and-network-security-appliances-os-command-injection-vulnerability/">CVE-2024-9140 - Moxa Cellular Routers and Network Security Appliances OS Command Injection Vulnerability</a></h1>
+	<b><time>03.01.2025 00:00</time></b>
 	
 	<div>
-		<p>exe2powershell is used to convert EXE to BAT files, the previously well known tool for this was exe2bat, this is a version for modern Windows. This will convert any binary file (*.exe) to a BAT file, the resulting BAT file contains only echo commands followed by a PowerShell command to re-create the original binary file. […]</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-9140<br>
+<strong>Published :</strong> Jan. 3, 2025, 9:15 a.m. | 1 hour, 1 minute ago<br>
+<strong>Description :</strong> Moxa’s cellular routers, secure routers, and network security appliances are affected by a critical vulnerability, CVE-2024-9140. This vulnerability allows OS command injection due to improperly restricted commands, potentially enabling attackers to execute arbitrary code. This poses a significant risk to the system’s security and functionality.<br>
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2024-9140-moxa-cellular-routers-and-network-security-appliances-os-command-injection-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
@@ -182,7 +213,7 @@ solution should foster a partnership with analysts, supporting and enhancing the
 
 	<a href="/page/400/">Previous Page</a>
 
-401 of 433
+401 of 479
 
 	<a href="/page/402/">Next Page</a>
 
