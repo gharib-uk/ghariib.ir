@@ -40,187 +40,197 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-soc-dfir-teams-prevent-ransomware-threats-in-healthcare-a-case-study-on-interlock-ransomware/">How SOC/DFIR Teams Prevent Ransomware Threats in Healthcare – A Case Study on Interlock Ransomware</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Ransomware attacks targeting the healthcare sector have become increasingly challenging to manage due to financial losses and the risks posed to patient safety and operational continuity.</p>
-<p>Researchers at <strong>ANR.RUN analyze</strong> the impact of ransomware threats in healthcare, using the notorious Interlock ransomware group as a case study focus is on how ANY.RUN’s advanced tools, including its Interactive Sandbox and Threat Intelligence (TI) Lookup, enable organizations to detect, analyze, and mitigate such attacks.</p>
-		
-			<a href="https://ghariib.ir/posts/how-soc-dfir-teams-prevent-ransomware-threats-in-healthcare-a-case-study-on-interlock-ransomware/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-check-which-tables-contain-data-in-a-database/">How to Check Which Tables Contain Data in a Database</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>When managing a database, it&rsquo;s often useful to identify which tables contain data. This can help with troubleshooting, maintenance, or simply understanding the database&rsquo;s structure and usage. Here’s how to check for tables with data across different relational database management systems (RDBMS).</p>
-<h2 id="for-postgresql"><strong>For PostgreSQL</strong></h2>
-<p>In PostgreSQL, you can dynamically generate a query to check row counts for all tables within a schema using <code>pg_catalog.pg_tables</code>:</p>
-<h3 id="using-a-plpgsql-block">Using a PL/pgSQL Block:</h3>
-<pre tabindex="0"><code>DO $$
-DECLARE
-    tbl RECORD;
-BEGIN
-    FOR tbl IN
-        SELECT schemaname, tablename
-        FROM pg_catalog.pg_tables
-        WHERE schemaname = &#39;public&#39;  -- Change schema if needed
-    LOOP
-        EXECUTE format(
-            &#39;SELECT COUNT(*) AS row_count, &#39;&#39;%I&#39;&#39; AS table_name FROM %I.%I&#39;,
-            tbl.tablename, tbl.schemaname, tbl.tablename
-        );
-    END LOOP;
-END $$;
-</code></pre><p>This script loops through all tables in the <code>public</code> schema and outputs the row count for each table.</p>
-		
-			<a href="https://ghariib.ir/posts/how-to-check-which-tables-contain-data-in-a-database/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-clear-apt-cache-and-free-up-disk-space/">How to Clear APT Cache and Free Up Disk Space</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The APT cache stores downloaded package files on your system. Over time, this cache can take up significant disk space. How do you clear the apt cache? You simply use this apt clean command option:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>apt clean
-</span></span></code></pre></div><p>Clearing the APT cache is a simple way to free up space while keeping your system running smoothly.</p>
-<h2 id="clear-apache-cache-step-by-step-guide">Clear Apache Cache: Step by Step Guide</h2>
-<h3 id="step-1-check-disk-space-usage">Step 1: Check Disk Space Usage</h3>
-<p>Before clearing the APT cache, check how much disk space is currently used by the cache.</p>
-		
-			<a href="https://ghariib.ir/posts/how-to-clear-apt-cache-and-free-up-disk-space/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-implement-devops-using-kubernetes/">How to implement devops using kubernetes?</a></h1>
+	<h1><a href="https://ghariib.ir/posts/how-to-use-devops-for-anomaly-detection/">How to Use DevOps for Anomaly Detection?</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
 		<p>
 <figure>
-  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-47.png" alt="" />
+  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-56-1024x521.png" alt="" />
 </figure>
 
 
 </p>
-<p>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. In the context of DevOps, Kubernetes plays a crucial role in enabling continuous integration, continuous delivery, and infrastructure management. By managing containers across multiple environments, Kubernetes ensures that applications are scalable, resilient, and easily maintainable—key aspects of any DevOps workflow.</p>
-<p>This post explores how to implement DevOps practices using Kubernetes, highlighting the major features that make Kubernetes an ideal platform for automating DevOps processes and streamlining the development lifecycle.</p>
+<p>Anomaly detection is the process of identifying unusual patterns or behaviors in system performance, application logs, or user interactions that deviate from expected norms. Detecting these anomalies in real time is crucial in a DevOps environment where speed, reliability, and continuous delivery are prioritized. Anomalies, if not detected promptly, can lead to system failures, performance degradation, or security breaches.</p>
+<p>DevOps practices, which emphasize automation, continuous feedback, and collaboration, provide a solid foundation for integrating anomaly detection into every stage of the software development lifecycle. By leveraging DevOps tools and practices, teams can quickly identify and address anomalies before they impact the user experience or business operations. This post will explore how DevOps can be used for anomaly detection, its major features, and practical ways to implement it.</p>
 		
-			<a href="https://ghariib.ir/posts/how-to-implement-devops-using-kubernetes/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-manage-python-dependencies-in-ansible-execution-environments/">How to manage Python dependencies in Ansible execution environments</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Ansible execution environments provide a runtime for Red Hat Ansible Automation Platform that includes all of the necessary tooling in a single atomic package. Ansible, as an automation tool, relies on Python as its underlying programming language. Not only is Python integral to the core of Ansible, but its use is widespread and can be found throughout the Ansible ecosystem, including Ansible execution environments. As a result, how Python content is managed directly impacts how an execution environment is constructed and operates at runtime. This article will explore the various ways that Python can be managed in Ansible execution environments, including considerations that apply to a variety of operating environments.</p>
-		
-			<a href="https://ghariib.ir/posts/how-to-manage-python-dependencies-in-ansible-execution-environments/">Read more...</a>
+			<a href="https://ghariib.ir/posts/how-to-use-devops-for-anomaly-detection/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-migrate-to-sase-and-zero-trust-kaspersky-official-blog/">How to migrate to SASE and zero trust | Kaspersky official blog</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/data_breaches">data_breaches</a>
-	
-	<a href="/tags/infostealers">infostealers</a>
-	
-	<a href="/tags/linux">linux</a>
-	
-	<a href="/tags/malware">malware</a>
-	
-	<a href="/tags/privacy">privacy</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/siem">siem</a>
-	
-	<div>
-		<p>SASE components: ZTNA, CASB CSWG, NGFW, SD-WAN, and how they improve network security</p>
-<p>The traditional network security model — with a secure perimeter and encrypted channels for external access to that perimeter — is coming apart at the seams. Cloud services and remote working have challenged the very notion of “perimeter”, while the primary method of accessing the perimeter — VPN — has in recent years become a prime attack vector for intruders. Many high-profile hacks began by exploiting vulnerabilities in VPN solutions: CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893 in Ivanti Connect Secure, and CVE-2023-4966 in Citrix solutions. By compromising a VPN server, which needs to be accessible online, intruders gain privileged access to an enterprise’s internal network and plenty of scope for covert attack development.</p>
-		
-			<a href="https://ghariib.ir/posts/how-to-migrate-to-sase-and-zero-trust-kaspersky-official-blog/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-name-version-and-reference-container-images/">How to name, version, and reference container images</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>In my time working in the software industry, I have encountered recurring issues involving versioning. Which version scheme should we use for project X? When should we bump the major version? Is this pull request a breaking change? We want to cut a new release, but what should the next version be?</p>
-<p>Versioning schemes communicate new features, bug fixes, and even breaking changes to our users. Some schemes are like a contract with users, giving them guarantees for types of version changes. For instance, a major version bump from version 2.4 to 3.0 usually implies a breaking change and a substantial new functionality. Consumers of software (e.g., Linux distributions) can decide when and how to use the new versions. </p>
-		
-			<a href="https://ghariib.ir/posts/how-to-name-version-and-reference-container-images/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-protect-and-secure-your-data-in-10-ways/">How to Protect and Secure Your Data in 10 Ways</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Use this comprehensive list of strategies to help you safeguard your company&rsquo;s data from threats and data breaches.</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-setup-monitoring-devops/">How to setup monitoring devops?</a></h1>
+	<h1><a href="https://ghariib.ir/posts/how-to-use-devops-for-business-operations/">How to use DevOps for Business Operations?</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
 		<p>
 <figure>
-  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-50-1024x543.png" alt="" />
+  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-58.png" alt="" />
 </figure>
 
 
 </p>
-<p>Monitoring is a critical aspect of DevOps that allows teams to ensure the health, performance, and availability of applications and infrastructure. Effective monitoring helps DevOps teams quickly identify issues, optimize performance, and ensure that software is deployed and delivered efficiently. With the fast-paced and automated nature of DevOps, continuous monitoring ensures that any problems are detected early, allowing for quick remediation.</p>
-<p>This post will explore how to set up monitoring in a DevOps environment, detailing the tools and features required for a comprehensive monitoring setup and how these features contribute to the efficiency of DevOps workflows.</p>
+<p>DevOps, a combination of development and operations practices, is primarily known for its impact on software development and IT infrastructure. However, its principles of collaboration, automation, continuous integration, and continuous delivery can also be applied to business operations. Integrating DevOps into business operations allows companies to streamline workflows, enhance productivity, and deliver higher value to customers with greater speed and reliability.</p>
+<p>This post will explore how DevOps can be used for business operations, highlighting its core features and the impact on improving efficiency, decision-making, and overall business agility.</p>
 		
-			<a href="https://ghariib.ir/posts/how-to-setup-monitoring-devops/">Read more...</a>
+			<a href="https://ghariib.ir/posts/how-to-use-devops-for-business-operations/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-use-1password-a-guide-for-beginners/">How to Use 1Password: A Guide for Beginners</a></h1>
+	<h1><a href="https://ghariib.ir/posts/how-to-use-devops-for-capacity-management/">How to use devops for capacity management?</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Learn how to use 1Password to securely store and manage your passwords. This step-by-step guide will help you get started.</p>
+		<p>
+<figure>
+  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-60-1024x579.png" alt="" />
+</figure>
+
+
+</p>
+<p>Capacity management is the process of ensuring that an IT infrastructure can handle current and future workload demands. This involves monitoring, planning, and optimizing resources like servers, storage, and network bandwidth. In a DevOps environment, capacity management is essential for maintaining performance, scalability, and cost efficiency, particularly in cloud-native and containerized environments.</p>
+<p>DevOps principles, such as automation, continuous monitoring, and collaboration, align perfectly with the goals of capacity management. By using DevOps practices to automate resource provisioning, monitor system health, and predict future needs, organizations can ensure that their infrastructure is always aligned with business requirements and user demands.</p>
+		
+			<a href="https://ghariib.ir/posts/how-to-use-devops-for-capacity-management/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/how-to-use-devops-for-devsecops/">How to use DevOps for DevSecOps?</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>
+<figure>
+  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-52-1024x550.png" alt="" />
+</figure>
+
+
+</p>
+<p>In any software development or DevOps environment, <strong>scope management</strong> (or descoping) is an essential part of ensuring that the project is delivered on time, within budget, and aligns with business objectives. Descoping involves adjusting the scope of a project—either by removing non-essential features, prioritizing key requirements, or shifting resources—to make sure the development process stays on track without sacrificing quality or user experience.</p>
+<p>DevOps plays a significant role in <strong>descoping</strong> by leveraging its core principles: collaboration, automation, continuous feedback, and continuous delivery. These principles help DevOps teams quickly identify areas of scope that may not align with business goals or technical constraints, allowing them to make adjustments in real time without slowing down the development lifecycle. By embracing DevOps practices, teams can maintain agility and ensure that only the most valuable features make it to production.</p>
+		
+			<a href="https://ghariib.ir/posts/how-to-use-devops-for-devsecops/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/how-to-use-devops-for-itsm/">How to use devops for ITSM?</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>
+<figure>
+  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-54.png" alt="" />
+</figure>
+
+
+</p>
+<p>IT Service Management (ITSM) focuses on the delivery and management of IT services to meet the needs of businesses and end-users. It includes processes like incident management, problem management, change management, and service request management. While ITSM ensures the quality and efficiency of IT services, <strong>DevOps</strong> emphasizes collaboration, automation, and continuous improvement.</p>
+<p>Integrating DevOps into ITSM creates a synergy that enhances service delivery, automates key workflows, and accelerates the response to incidents and changes. DevOps principles can improve the efficiency of ITSM processes by enabling faster resolution times, proactive management of incidents, and better alignment of IT services with business needs. This post will explore how DevOps can be used to enhance ITSM, with a focus on its major features and practical implementation.</p>
+		
+			<a href="https://ghariib.ir/posts/how-to-use-devops-for-itsm/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/how-to-utilize-cpu-offloads-to-increase-storage-efficiency/">How to utilize CPU offloads to increase storage efficiency</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<h2 id="canonical-ceph-with-intel-quick-assist-technology-qat">Canonical Ceph with IntelⓇ Quick Assist Technology (QAT)</h2>
+<!-- raw HTML omitted -->
+<p>
+<figure>
+  <img src="https://res.cloudinary.com/canonical/image/fetch/f_auto,q_auto,fl_sanitize,c_fill,w_1920,h_1307/https://ubuntu.com/wp-content/uploads/c9b9/v2osk-0tBBEPYqGco-unsplash.jpg" alt="" />
+</figure>
+
+
+</p>
+<!-- raw HTML omitted -->
+<p>Photo by v2osk on Unsplash</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>When storing large amounts of data, the cost ($) to store each gigabyte (GB) is the typical measure used to gauge the efficiency of the storage system. The biggest driver of storage cost is the protection method used.  It is common to protect data by either having multiple replicas within the storage system or by using erasure coding to create data chunks and parity chunks to reduce the raw storage consumed, albeit at the cost of higher CPU utilisation.</p>
+		
+			<a href="https://ghariib.ir/posts/how-to-utilize-cpu-offloads-to-increase-storage-efficiency/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/hundreds-of-fake-reddit-sites-push-lumma-stealer-malware/">Hundreds of fake Reddit sites push Lumma Stealer malware</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>
+<figure>
+  <img src="https://lifeboat.com/blog.images/hundreds-of-fake-reddit-sites-push-lumma-stealer-malware.jpg" alt="" />
+</figure>
+
+
+</p>
+<p>Hackers are distributing close to 1,000 web pages mimicking Reddit and the WeTransfer file sharing service that lead to downloading the Lumma Stealer malware.</p>
+<p>On the fake pages, the threat actor is abusing the Reddit brand by showing a fake discussion thread on a specific topic. The thread creator asks for help to download a specific tool, another user offers to help by uploading it to WeTransfer and sharing the link, and a third thanks him to make everything appear legitimate.</p>
+		
+			<a href="https://ghariib.ir/posts/hundreds-of-fake-reddit-sites-push-lumma-stealer-malware/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/identifying-and-responding-to-investment-scams/">Identifying and Responding to Investment Scams</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Investment scams are a growing problem. Modern cybercriminals are increasingly using this technique to swindle money out of unsuspecting victims. It’s easy to understand why: investment scams are remarkably effective. Research from Barclays even found that they accounted for a staggering 33% of all money lost to scammers in 2023. It’s clear then that many people don’t know how to identify an investment scam. This is understandable, as techniques differ slightly from more traditional phishing scams and, in recent years, have become increasingly sophisticated. With this fact in mind, this&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/identifying-and-responding-to-investment-scams/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/industry-optimism-grows-as-tsa-proposes-balanced-cybersecurity-measures/">Industry Optimism Grows as TSA Proposes Balanced Cybersecurity Measures</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The Transportation Security Administration (TSA) has proposed new rules requiring those under its jurisdiction to follow specific cyber risk management (CRM) requirements, report cybersecurity incidents in a certain timeframe, and address physical security concerns. This is positive news for the transportation industry, as hundreds of attacks have been leveled against the sector. These attacks have the potential to impact the supply chain, create chaos, and endanger human lives. TSA&rsquo;s notice of proposed rulemaking (NPRM) &ldquo;continues TSA&rsquo;s commitment to performance-based requirements and builds&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/industry-optimism-grows-as-tsa-proposes-balanced-cybersecurity-measures/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/introducing-ghostgpt-the-new-cybercrime-ai-used-by-hackers/">Introducing GhostGPT—The New Cybercrime AI Used By Hackers</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>
+<figure>
+  <img src="https://lifeboat.com/blog.images/introducing-ghostgpt-the-new-cybercrime-ai-used-by-hackers3.jpg" alt="" />
+</figure>
+
+
+</p>
+<p>This malicious AI chatbot is being used by hackers to create malware and attack your data—here’s what you need to know about GhostGPT.</p>
+<p>Read more | &gt;</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -231,7 +241,7 @@ END $$;
 
 	<a href="/page/67/">Previous Page</a>
 
-68 of 424
+68 of 423
 
 	<a href="/page/69/">Next Page</a>
 
