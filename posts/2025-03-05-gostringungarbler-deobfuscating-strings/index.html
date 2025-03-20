@@ -51,7 +51,7 @@
 <p>Garble&rsquo;s string encryption, while relatively straightforward, significantly hinders static analysis. In this blog post, we&rsquo;ll detail garble’s string transformations and the process of automatically deobfuscating them.</p>
 <p>We&rsquo;re also introducing GoStringUngarbler, a command-line tool written in Python that automatically decrypts strings found in garble-obfuscated Go binaries. This tool can streamline the reverse engineering process by producing a deobfuscated binary with all strings recovered and shown in plain text, thereby simplifying static analysis, malware detection, and classification.</p>
 <p>aside_block</p>
-<p>&lt;ListValue: [StructValue([(&rsquo;title&rsquo;, &lsquo;Get GoStringUngarbler!&rsquo;), (&lsquo;body&rsquo;, &lt;wagtail.rich_text.RichText object at 0x3e770f5b0f10&gt;), (&lsquo;btn_text&rsquo;, &lsquo;Download now&rsquo;), (&lsquo;href&rsquo;, &lsquo;<a href="https://github.com/mandiant/gostringungarbler')">https://github.com/mandiant/gostringungarbler')</a>, (&lsquo;image&rsquo;, None)])]&gt;</p>
+<p>&lt;ListValue: [StructValue([(&rsquo;title&rsquo;, &lsquo;Get GoStringUngarbler!&rsquo;), (&lsquo;body&rsquo;, &lt;wagtail.rich_text.RichText object at 0x3e1bb251c7c0&gt;), (&lsquo;btn_text&rsquo;, &lsquo;Download now&rsquo;), (&lsquo;href&rsquo;, &lsquo;<a href="https://github.com/mandiant/gostringungarbler')">https://github.com/mandiant/gostringungarbler')</a>, (&lsquo;image&rsquo;, None)])]&gt;</p>
 <h2 id="garble-obfuscating-compiler">Garble Obfuscating Compiler</h2>
 <p>Before detailing the GoStringUngarbler tool, we want to briefly explain how the garble compiler modifies the build process of Go binaries. By wrapping around the official Go compiler, garble performs transformations on the source code during compilation through Abstract Syntax Tree (AST) manipulation using Go’s <a href="https://pkg.go.dev/go/ast">go/ast</a> library. Here, the obfuscating compiler modifies program elements to obfuscate the produced binary while preserving the semantic integrity of the program. Once transformed by garble, the program’s AST is fed back into the Go compilation pipeline, producing an executable that is harder to reverse engineer and analyze statically. </p>
 <p>While garble can apply a variety of transformations to the source code, this blog post will focus on its &ldquo;literal&rdquo; transformations. When garble is executed with the <code>-literals</code> flag, it transforms all literal strings in the source code and imported Go libraries into an obfuscated form. Each string is encoded and wrapped behind a decrypting function, thwarting static string analysis. </p>
@@ -582,15 +582,15 @@ ret                                        ; return the decrypted string
 		<div>
 			<ul>
 				
+				<li><a href="/posts/2025-03-20-srsly-risky-biz-chinas-mss-gets-persona/">Srsly Risky Biz Chinas MSS gets personal</a></li>
+				
+				<li><a href="/posts/2025-03-19-risky-bulletin-google-buys-wiz-for-32-b/">Risky Bulletin Google buys Wiz for 32 billion</a></li>
+				
 				<li><a href="/posts/apple-inc-sent-you-a-payment-request-payoneer-invoices-other-microsoft-enabled-scams/">“Apple Inc sent you a payment request” Payoneer invoices; other Microsoft-enabled scams</a></li>
 				
 				<li><a href="/posts/glasses-that-transcribe-text-to-audio/">“Glasses” That Transcribe Text To Audio</a></li>
 				
 				<li><a href="/posts/5-best-linux-centos-replacement-options-alternatives/">&lt;div&gt;5 Best Linux CentOS Replacement Options &amp; Alternatives&lt;/div&gt;</a></li>
-				
-				<li><a href="/posts/a-week-in-security-march-10-march-16/">&lt;div&gt;A week in security (March 10 – March 16)&lt;/div&gt;</a></li>
-				
-				<li><a href="/posts/a-week-in-security-march-3-march-9/">&lt;div&gt;A week in security (March 3 – March 9)&lt;/div&gt;</a></li>
 				
 			</ul>
 		</div>

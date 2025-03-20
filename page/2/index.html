@@ -40,6 +40,78 @@
 		
 		
 			<article>
+	<h1><a href="https://ghariib.ir/posts/2025-zsh-autoexpand-aliases/">&lt;div&gt;Auto-expanding aliases in Zsh&lt;/div&gt;</a></h1>
+	<b><time>19.03.2025 00:00</time></b>
+	
+	<div>
+		<p>To avoid needless typing, the fish shell features command abbreviations to expand some words after pressing space. We can emulate such a feature with Zsh:</p>
+<pre tabindex="0"><code># Definition of abbrev-alias for auto-expanding aliases
+typeset -ga _vbe_abbrevations
+abbrev-alias() {
+    alias $1
+    _vbe_abbrevations+=(${1%%=*})
+}
+_vbe_zle-autoexpand() {
+    local -a words; words=(${(z)LBUFFER})
+    if (( ${​#_vbe_abbrevations[(r)${words[-1]}]} )); then
+        zle _expand_alias
+    fi
+    zle magic-space
+}
+zle -N _vbe_zle-autoexpand
+bindkey -M emacs &#34; &#34; _vbe_zle-autoexpand
+bindkey -M isearch &#34; &#34; magic-space
+
+# Correct common typos
+(( $+commands[git] )) &amp;&amp; abbrev-alias gti=git
+(( $+commands[grep] )) &amp;&amp; abbrev-alias grpe=grep
+(( $+commands[sudo] )) &amp;&amp; abbrev-alias suod=sudo
+(( $+commands[ssh] )) &amp;&amp; abbrev-alias shs=ssh
+
+# Save a few keystrokes
+(( $+commands[git] )) &amp;&amp; abbrev-alias gls=&#34;git ls-files&#34;
+(( $+commands[ip] )) &amp;&amp; {
+  abbrev-alias ip6=&#39;ip -6&#39;
+  abbrev-alias ipb=&#39;ip -brief&#39;
+}
+
+# Hard to remember options
+(( $+commands[mtr] )) &amp;&amp; abbrev-alias mtrr=&#39;mtr -wzbe&#39;
+</code></pre><p>Here is a demo where <code>gls</code> is expanded to <code>git ls-files</code> after pressing space:</p>
+		
+			<a href="https://ghariib.ir/posts/2025-zsh-autoexpand-aliases/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/automating-agile-workflows-with-the-gitlab-triage-gem/">&lt;div&gt;Automating Agile workflows with the gitlab-triage gem&lt;/div&gt;</a></h1>
+	<b><time>19.03.2025 00:00</time></b>
+	
+	<a href="/tags/development">development</a>
+	
+	<a href="/tags/git">git</a>
+	
+	<a href="/tags/github">github</a>
+	
+	<a href="/tags/gitlab">gitlab</a>
+	
+	<a href="/tags/software">software</a>
+	
+	<div>
+		<p><em>Welcome to our &ldquo;Getting started with GitLab&rdquo; series, where we help newcomers get familiar with the GitLab DevSecOps platform.</em></p>
+<p>This post dives into the <code>gitlab-triage</code> gem, a powerful tool that lets you create bots to automate your Agile workflow. Say goodbye to manual tasks and hello to streamlined efficiency.</p>
+<h2 id="why-automate-your-workflow">Why automate your workflow?</h2>
+<p>Efficiency is key in software development. Automating repetitive tasks like triaging issues and merge requests frees up valuable time for your team to focus on what matters most: building amazing software.</p>
+		
+			<a href="https://ghariib.ir/posts/automating-agile-workflows-with-the-gitlab-triage-gem/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
 	<h1><a href="https://ghariib.ir/posts/beautifying-our-ui-enhancing-gitlabs-deployment-experience/">&lt;div&gt;Beautifying our UI: Enhancing GitLab&#39;s deployment experience&lt;/div&gt;</a></h1>
 	<b><time>19.03.2025 00:00</time></b>
 	
@@ -222,37 +294,11 @@
 </article>
 
 		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cloud-native-predictions-for-2025-giant-swarm/">&lt;div&gt;Cloud native predictions for 2025 &gt;&gt; Giant Swarm&lt;/div&gt;</a></h1>
-	<b><time>19.03.2025 00:00</time></b>
-	
-	<div>
-		<p><em>Or better yet, listen to the Giant Conversations predictions episode here!</em> </p>
-<p>Writing predictions is an interesting exercise (I&rsquo;ve been doing this since 2017). You&rsquo;re trying to spot patterns in the present that hint at what&rsquo;s coming next while also sharing what you&rsquo;ve learned from watching the industry evolve. It&rsquo;s part wishlist, part magic, part science. It&rsquo;s not just about being right (though that&rsquo;s always nice); it&rsquo;s about understanding where things are heading and why.</p>
-		
-			<a href="https://ghariib.ir/posts/cloud-native-predictions-for-2025-giant-swarm/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cracking-giteas-pbkdf2-password-hashes/">&lt;div&gt;Cracking Gitea&#39;s PBKDF2 Password Hashes&lt;/div&gt;</a></h1>
-	<b><time>19.03.2025 00:00</time></b>
-	
-	<div>
-		<p>Cracking Gitea&rsquo;s PBKDF2 Password Hashes</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
 		<div>
 
 	<a href="/">Previous Page</a>
 
-2 of 492
+2 of 496
 
 	<a href="/page/3/">Next Page</a>
 

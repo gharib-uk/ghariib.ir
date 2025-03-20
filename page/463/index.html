@@ -40,6 +40,67 @@
 		
 		
 			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-fine-grained-supplementalgroups-control/">Kubernetes 1.31: Fine-grained SupplementalGroups control</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>This blog discusses a new feature in Kubernetes 1.31 to improve the handling of supplementary groups in containers within Pods.</p>
+<h2 id="motivation-implicit-group-memberships-defined-in-etcgroup-in-the-container-image">Motivation: Implicit group memberships defined in <code>/etc/group</code> in the container image</h2>
+<p>Although this behavior may not be popular with many Kubernetes cluster users/admins, kubernetes, by default, <em>merges</em> group information from the Pod with information defined in <code>/etc/group</code> in the container image.</p>
+<p>Let&rsquo;s see an example, below Pod specifies <code>runAsUser=1000</code>, <code>runAsGroup=3000</code> and <code>supplementalGroups=4000</code> in the Pod&rsquo;s security context.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-1-31-fine-grained-supplementalgroups-control/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/">Kubernetes 1.31: Pod Failure Policy for Jobs Goes GA</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>This post describes <em>Pod failure policy</em>, which graduates to stable in Kubernetes 1.31, and how to use it in your Jobs.</p>
+<h2 id="about-pod-failure-policy">About Pod failure policy</h2>
+<p>When you run workloads on Kubernetes, Pods might fail for a variety of reasons. Ideally, workloads like Jobs should be able to ignore transient, retriable failures and continue running to completion.</p>
+<p>To allow for these transient failures, Kubernetes Jobs include the <code>backoffLimit</code> field, which lets you specify a number of Pod failures that you&rsquo;re willing to tolerate during Job execution. However, if you set a large value for the <code>backoffLimit</code> field and rely solely on this field, you might notice unnecessary increases in operating costs as Pods restart excessively until the backoffLimit is met.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-1-31-pod-failure-policy-for-jobs-goes-ga/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-1-31-streaming-transitions-from-spdy-to-websockets/">Kubernetes 1.31: Streaming Transitions from SPDY to WebSockets</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>In Kubernetes 1.31, by default kubectl now uses the WebSocket protocol instead of SPDY for streaming.</p>
+<p>This post describes what these changes mean for you and why these streaming APIs matter.</p>
+<h2 id="streaming-apis-in-kubernetes">Streaming APIs in Kubernetes</h2>
+<p>In Kubernetes, specific endpoints that are exposed as an HTTP or RESTful interface are upgraded to streaming connections, which require a streaming protocol. Unlike HTTP, which is a request-response protocol, a streaming protocol provides a persistent connection that&rsquo;s bi-directional, low-latency, and lets you interact in real-time. Streaming protocols support reading and writing data between your client and the server, in both directions, over the same connection. This type of connection is useful, for example, when you create a shell in a running container from your local workstation and run commands in the container.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-1-31-streaming-transitions-from-spdy-to-websockets/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Kubernetes 1.32: Moving Volume Group Snapshots to Beta</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Volume group snapshots were introduced as an Alpha feature with the Kubernetes 1.27 release. The recent release of Kubernetes v1.32 moved that support to <strong>beta</strong>. The support for volume group snapshots relies on a set of extension APIs for group snapshots. These APIs allow users to take crash consistent snapshots for a set of volumes. Behind the scenes, Kubernetes uses a label selector to group multiple PersistentVolumeClaims for snapshotting. A key aim is to allow you restore that set of snapshots to new volumes and recover your workload based on a crash consistent recovery point.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
 	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Kubernetes v1.31: kubeadm v1beta4</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
@@ -126,72 +187,11 @@
 </article>
 
 		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Kubernetes v1.32: QueueingHint Brings a New Possibility to Optimize Pod Scheduling</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The Kubernetes scheduler is the core component that selects the nodes on which new Pods run. The scheduler processes these new Pods <strong>one by one</strong>. Therefore, the larger your clusters, the more important the throughput of the scheduler becomes.</p>
-<p>Over the years, Kubernetes SIG Scheduling has improved the throughput of the scheduler in multiple enhancements. This blog post describes a major improvement to the scheduler in Kubernetes v1.32: a scheduling context element named <em>QueueingHint</em>. This page provides background knowledge of the scheduler and explains how QueueingHint improves scheduling throughput.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/lateral-movement-visual-studio-dte/">Lateral Movement – Visual Studio DTE</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>A lot of organizations have some sort of application development program and it is highly likely that developers will utilize Visual Studio for their development…</p>
-<p>Continue reading → Lateral Movement – Visual Studio DTE</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Life at Canonical: Victoria Antipova’s perspective as a new joiner in Product Marketing</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Canonical is continuously hiring new talent. Being a remote- first company, Canonical’s new joiners receive a unique onboarding experience. In their first weeks, they are introduced to the different departments and the various tools they use to work asynchronously across the globe. New hires develop a good understanding of the open-source technologies that the company deploys and supports such as Openstack, Kubernetes, Kubeflow and OpenSearch – in addition of course to Ubuntu, the world’s most famous OS, which they install on their laptops. </p>
-		
-			<a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/light-brite-turned-sci-fi-console-on-the-cheap/">Light Brite Turned Sci-Fi Console on the Cheap</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://hackaday.com/wp-content/uploads/2025/01/briteprop_feat.jpg?w=800" alt="" />
-</figure>
-
-
-</p>
-<p>Generally, the projects featured on Hackaday actually <em>do</em> something. We won’t go as far as to say they are practical creations, but they usually have some kind of function other than to sit there and blink. But what if just sitting still and blinking away randomly is precisely what you want a piece of hardware to do?</p>
-<p>That was exactly the goal when [createscifi] set out to dress a Lite Brite up as a futuristic prop. On a technical level, this project is pretty much as simple as it gets. But we appreciated seeing some of the techniques brought to bear on this project, and perhaps more importantly, really like the channel’s overall goal of creating affordable sci-fi props using common components. We don’t plan on filming our own space epic anytime soon…but we like to know the option is there.</p>
-		
-			<a href="https://ghariib.ir/posts/light-brite-turned-sci-fi-console-on-the-cheap/">Read more...</a>
-		
-	</div>
-</article>
-
-		
 		<div>
 
 	<a href="/page/462/">Previous Page</a>
 
-463 of 492
+463 of 496
 
 	<a href="/page/464/">Next Page</a>
 

@@ -2,6 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ghariib.ir/</loc>
+    <lastmod>2025-03-20T13:47:15+11:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/</loc>
+    <lastmod>2025-03-20T13:47:15+11:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2025-03-20-srsly-risky-biz-chinas-mss-gets-persona/</loc>
+    <lastmod>2025-03-20T13:47:15+11:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2025-03-19-risky-bulletin-google-buys-wiz-for-32-b/</loc>
+    <lastmod>2025-03-19T14:30:07+11:00</lastmod>
+  </url><url>
     <loc>https://ghariib.ir/posts/apple-inc-sent-you-a-payment-request-payoneer-invoices-other-microsoft-enabled-scams/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -1391,9 +1403,6 @@
     <loc>https://ghariib.ir/posts/get-up-to-speed-with-ai-using-enterprise-linux/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ghariib.ir/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ghariib.ir/categories/ghost-emperor/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -2300,9 +2309,6 @@
     <loc>https://ghariib.ir/posts/postgresql-exploit/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://ghariib.ir/posts/</loc>
-    <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://ghariib.ir/posts/powered-by-docker-streamlining-engineering-operations-as-a-platform-engineer/</loc>
     <lastmod>2025-03-19T00:00:00+00:00</lastmod>
   </url><url>
@@ -3161,6 +3167,9 @@
     <loc>https://ghariib.ir/posts/2025-03-07-risky-bulletin-us-indicts-i-soon-and-ap/</loc>
     <lastmod>2025-03-07T13:23:01+11:00</lastmod>
   </url><url>
+    <loc>https://ghariib.ir/posts/2025-03-06-blocking-russian-ips/</loc>
+    <lastmod>2025-03-06T23:42:30+00:00</lastmod>
+  </url><url>
     <loc>https://ghariib.ir/posts/2025-03-06-srsly-risky-biz-starlink-an-internet-li/</loc>
     <lastmod>2025-03-06T14:07:47+11:00</lastmod>
   </url><url>
@@ -3205,6 +3214,12 @@
   </url><url>
     <loc>https://ghariib.ir/posts/2025-02-23-sponsored-nucleus-security-on-asset-cor/</loc>
     <lastmod>2025-02-24T08:43:51+11:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/authorbookcomputer-securitycyber-securitycybersecuritydragonoshackinghackrfinfosecnetwork-securitypentestingprivacyraspberry-piredteamsdrsecuritytechnology/</loc>
+    <lastmod>2025-02-21T18:42:35+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2025-02-21-tactical-wireless-security-using-dragon/</loc>
+    <lastmod>2025-02-21T18:42:35+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/2025-02-21-risky-bulletin-blackbasta-implodes-inte/</loc>
     <lastmod>2025-02-21T12:33:36+11:00</lastmod>
@@ -19478,6 +19493,12 @@
     <loc>https://ghariib.ir/posts/zimbra-remote-command-execution-vulnerability-cve-2024-45519-exploit-poc-released/</loc>
     <lastmod>2025-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ghariib.ir/posts/2024-12-30-new-book-tactical-wireless-security/</loc>
+    <lastmod>2024-12-30T18:17:36+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/pentestingbookcybersecuritydragonoshackinghackrfkali-linuxrtl-sdrsdrtechnologywifiwireless/</loc>
+    <lastmod>2024-12-30T18:17:36+00:00</lastmod>
+  </url><url>
     <loc>https://ghariib.ir/posts/2024-12-27-strela-stealer-attack-detection-new-mal/</loc>
     <lastmod>2024-12-27T12:18:37+00:00</lastmod>
   </url><url>
@@ -19525,6 +19546,9 @@
   </url><url>
     <loc>https://ghariib.ir/posts/2024-12-08-sponsored-proofpoint-on-the-rise-of-cli/</loc>
     <lastmod>2024-12-09T09:24:20+11:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-12-07-sending-email-using-curl/</loc>
+    <lastmod>2024-12-07T17:00:35+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/2024-12-05-risky-biz-news-salt-typhoons-telco-hack/</loc>
     <lastmod>2024-12-06T10:44:59+11:00</lastmod>
@@ -19708,6 +19732,72 @@
   </url><url>
     <loc>https://ghariib.ir/categories/vps-vpn-vds-email-domain/</loc>
     <lastmod>2024-09-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/appsecblueteamhttp-floodsafelineweb-application-firewallwebsecurity/</loc>
+    <lastmod>2024-09-24T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-24-safeline---serve-as-a-reverse-proxy-to-/</loc>
+    <lastmod>2024-09-24T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/golangpolydropundetectablewtfyandex/</loc>
+    <lastmod>2024-09-23T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-23-polydrop---a-byosi-bring-your-own-scrip/</loc>
+    <lastmod>2024-09-23T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/automationcybersecurityhackingpentestingreconnaissancesecatorsecurity-toolsvulnerability-scanners/</loc>
+    <lastmod>2024-09-22T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-22-secator---the-pentesters-swiss-knife/</loc>
+    <lastmod>2024-09-22T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/damn-vulnerable-drone---an-intentionally-vulnerable-drone-hacking-simulator-based-on-the-popular-ardupilot/mavlink-architectureproviding-a-realistic-environment-for-hands-on-drone-hacking/</loc>
+    <lastmod>2024-09-21T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-21-damn-vulnerable-drone---an-intentionall/</loc>
+    <lastmod>2024-09-21T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-20-file-unpumper---tool-that-can-be-used-t/</loc>
+    <lastmod>2024-09-20T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/file-unpumpermalwaremetadataoperationspackersrust/</loc>
+    <lastmod>2024-09-20T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-19-mass-assigner---simple-tool-made-to-pro/</loc>
+    <lastmod>2024-09-19T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/mass-assignerparameterpython3vulnerabilities/</loc>
+    <lastmod>2024-09-19T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-18-imperius---make-an-linux-kernel-rootkit/</loc>
+    <lastmod>2024-09-18T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/imperiuslkmrootkitscan/</loc>
+    <lastmod>2024-09-18T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-17-byosi---evade-edrs-the-simple-way-by-no/</loc>
+    <lastmod>2024-09-17T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/byosiedr-bypassedr-evasionpowershellredteamrestrictionsscanscriptingwindows/</loc>
+    <lastmod>2024-09-17T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/obfuscationobfuscatorpowershellpsobfresearchscripts/</loc>
+    <lastmod>2024-09-16T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-16-psobf---powershell-obfuscator/</loc>
+    <lastmod>2024-09-16T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/forensicshiddenkernellinuxlkmmodtracerrootkit/</loc>
+    <lastmod>2024-09-15T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-15-modtracer---modtracer-finds-hidden-linu/</loc>
+    <lastmod>2024-09-15T08:30:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-09-14-dockerspy---dockerspy-searches-for-imag/</loc>
+    <lastmod>2024-09-14T12:22:00-03:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/dockerspyosintregexrepositoriesresearchsecretsuncovervulnerabilitiesvulnerability/</loc>
+    <lastmod>2024-09-14T12:22:00-03:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/categories/mastodon-federation/</loc>
     <lastmod>2024-09-10T00:00:00+00:00</lastmod>
@@ -20003,6 +20093,12 @@
     <loc>https://ghariib.ir/posts/sniproxy/</loc>
     <lastmod>2024-07-28T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://ghariib.ir/categories/cyber-warcyber-espionagecyber-securitycybersecuritycyberwarfarehackershackingmalwarered-teamrussiasecuritytechnology/</loc>
+    <lastmod>2024-07-27T00:54:28+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-07-27-russian-apt-hackers-a-look-inside-russi/</loc>
+    <lastmod>2024-07-27T00:54:28+00:00</lastmod>
+  </url><url>
     <loc>https://ghariib.ir/posts/osint13/</loc>
     <lastmod>2024-07-27T00:00:00+00:00</lastmod>
   </url><url>
@@ -20011,6 +20107,102 @@
   </url><url>
     <loc>https://ghariib.ir/categories/pentest-penetrationtest/</loc>
     <lastmod>2024-07-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-26-ashok---a-osint-recon-tool-aka-swiss-ar/</loc>
+    <lastmod>2024-06-26T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/ashokbanner-grabbingcmsdetectergithubreconlinkextractornmap-scanningrecon-toolssubdomain-finder/</loc>
+    <lastmod>2024-06-26T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/bugbountycloud-securitycloudbruteinfosecpentest-toolpentestingredteamvultr/</loc>
+    <lastmod>2024-06-25T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-25-cloudbrute---awesome-cloud-enumerator/</loc>
+    <lastmod>2024-06-25T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-24-hfinger---fingerprinting-http-requests/</loc>
+    <lastmod>2024-06-24T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/hfingernetwork-analysispcappythonreportingsandboxtshark/</loc>
+    <lastmod>2024-06-24T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/scriptingvulnerabilitiesvulnerabilityvulnerablevulnnodeapp/</loc>
+    <lastmod>2024-06-23T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-23-vulnnodeapp---a-vulnerable-nodejs-appli/</loc>
+    <lastmod>2024-06-23T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/terraformvulnerablexmgoat/</loc>
+    <lastmod>2024-06-22T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-22-xmgoat---composed-of-xm-cyber-terraform/</loc>
+    <lastmod>2024-06-22T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-21-extrude---analyse-binaries-for-missing-/</loc>
+    <lastmod>2024-06-21T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/extrudenxportable-executablerelro/</loc>
+    <lastmod>2024-06-21T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/advsimbokubokuloadercobaltstrikeredteamreflectiveloaderspoofingsyscallsuserlandwindows/</loc>
+    <lastmod>2024-06-20T11:41:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-20-bokuloader---a-proof-of-concept-cobalt-/</loc>
+    <lastmod>2024-06-20T11:41:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/exploitationinfosecobfuscatorpentestpentest-toolredteamshell-obfuscatevolana/</loc>
+    <lastmod>2024-06-19T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-19-volana---shell-command-obfuscation-to-a/</loc>
+    <lastmod>2024-06-19T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-18-cyberchef---the-cyber-swiss-army-knife-/</loc>
+    <lastmod>2024-06-18T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/cyberchefdata-analysisdata-manipulationhashingparsing/</loc>
+    <lastmod>2024-06-18T08:30:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/lsass-dumpmimikatznativedumppypykatzredteam-toolssecurity-toolsundocumentedwindows/</loc>
+    <lastmod>2024-06-16T13:16:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-16-nativedump---dump-lsass-using-only-nati/</loc>
+    <lastmod>2024-06-16T13:16:00-04:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-06-06-long-range-hacking-with-lora/</loc>
+    <lastmod>2024-06-06T00:06:13+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/uncategorizedcomputer-securitycyber-securitycyber-warcybersecurityhackinglinuxloranetwork-securitypentestingraspberrypisecurity/</loc>
+    <lastmod>2024-06-06T00:06:13+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/categories/dronesaicyber-securitycyber-wardronerussiatechnologyukraine/</loc>
+    <lastmod>2024-05-31T22:18:14+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2024-05-31-game-of-drones-the-use-of-drones-in-mod/</loc>
+    <lastmod>2024-05-31T22:18:14+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2023-08-27-skiffcom-emails-various-privacy-failure/</loc>
+    <lastmod>2023-08-27T15:43:17+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2021-11-10-self-building-and-executing-dockerfiles/</loc>
+    <lastmod>2021-11-10T20:30:52+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2020-10-25-sandbox-rust-development-with-rust-anal/</loc>
+    <lastmod>2020-10-25T12:47:18+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2020-10-17-manage-firewall-from-dockerised-nodejs/</loc>
+    <lastmod>2020-10-17T14:25:31+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2019-10-04-nginx-restic-backend/</loc>
+    <lastmod>2019-10-04T17:50:15+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2018-12-24-twitter-to-rss-with-google-cloud-functi/</loc>
+    <lastmod>2018-12-24T13:41:57+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2017-10-03-gpg-agent-forwarding/</loc>
+    <lastmod>2017-10-03T06:27:06+00:00</lastmod>
+  </url><url>
+    <loc>https://ghariib.ir/posts/2017-08-05-keybase-browser-extension-insecure/</loc>
+    <lastmod>2017-08-05T10:26:45+00:00</lastmod>
   </url><url>
     <loc>https://ghariib.ir/posts/2011-09-14-dropping-executables-with-powershell/</loc>
     <lastmod>2011-09-14T18:51:00-04:00</lastmod>

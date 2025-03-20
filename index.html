@@ -40,6 +40,41 @@
 		
 		
 			<article>
+	<h1><a href="https://ghariib.ir/posts/2025-03-20-srsly-risky-biz-chinas-mss-gets-persona/">Srsly Risky Biz Chinas MSS gets personal</a></h1>
+	<b><time>20.03.2025 13:47</time></b>
+	
+	<div>
+		<h1 id="srsly-risky-biz-chinas-mss-gets-personal">Srsly Risky Biz Chinas MSS gets personal</h1>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>They also discuss Russia’s ‘shadow war’ sabotage campaign across Europe. The Russian campaign mostly relies on traditional sabotage and finding local proxies to throw bombs. But it does make sense for Western governments to respond with destructive cyber operations.</p>
+<p>This episode is also available on <a href="https://youtu.be/Umj3OpozCdY">Youtube</a>.</p>
+<h3 id="show-notes">Show notes</h3>
+<ul>
+<li><a href="https://www.csis.org/analysis/russias-shadow-war-against-west">CSIS report on Russia&rsquo;s &lsquo;Shadow War&rsquo;</a></li>
+</ul>
+<!-- raw HTML omitted -->
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/2025-03-19-risky-bulletin-google-buys-wiz-for-32-b/">Risky Bulletin Google buys Wiz for 32 billion</a></h1>
+	<b><time>19.03.2025 14:30</time></b>
+	
+	<div>
+		<h1 id="risky-bulletin-google-buys-wiz-for-32-billion">Risky Bulletin Google buys Wiz for 32 billion</h1>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h3 id="show-notes">Show notes</h3>
+<!-- raw HTML omitted -->
+		
+	</div>
+</article>
+
+		
+			<article>
 	<h1><a href="https://ghariib.ir/posts/apple-inc-sent-you-a-payment-request-payoneer-invoices-other-microsoft-enabled-scams/">“Apple Inc sent you a payment request” Payoneer invoices; other Microsoft-enabled scams</a></h1>
 	<b><time>19.03.2025 00:00</time></b>
 	
@@ -193,81 +228,9 @@
 </article>
 
 		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/2025-zsh-autoexpand-aliases/">&lt;div&gt;Auto-expanding aliases in Zsh&lt;/div&gt;</a></h1>
-	<b><time>19.03.2025 00:00</time></b>
-	
-	<div>
-		<p>To avoid needless typing, the fish shell features command abbreviations to expand some words after pressing space. We can emulate such a feature with Zsh:</p>
-<pre tabindex="0"><code># Definition of abbrev-alias for auto-expanding aliases
-typeset -ga _vbe_abbrevations
-abbrev-alias() {
-    alias $1
-    _vbe_abbrevations+=(${1%%=*})
-}
-_vbe_zle-autoexpand() {
-    local -a words; words=(${(z)LBUFFER})
-    if (( ${​#_vbe_abbrevations[(r)${words[-1]}]} )); then
-        zle _expand_alias
-    fi
-    zle magic-space
-}
-zle -N _vbe_zle-autoexpand
-bindkey -M emacs &#34; &#34; _vbe_zle-autoexpand
-bindkey -M isearch &#34; &#34; magic-space
-
-# Correct common typos
-(( $+commands[git] )) &amp;&amp; abbrev-alias gti=git
-(( $+commands[grep] )) &amp;&amp; abbrev-alias grpe=grep
-(( $+commands[sudo] )) &amp;&amp; abbrev-alias suod=sudo
-(( $+commands[ssh] )) &amp;&amp; abbrev-alias shs=ssh
-
-# Save a few keystrokes
-(( $+commands[git] )) &amp;&amp; abbrev-alias gls=&#34;git ls-files&#34;
-(( $+commands[ip] )) &amp;&amp; {
-  abbrev-alias ip6=&#39;ip -6&#39;
-  abbrev-alias ipb=&#39;ip -brief&#39;
-}
-
-# Hard to remember options
-(( $+commands[mtr] )) &amp;&amp; abbrev-alias mtrr=&#39;mtr -wzbe&#39;
-</code></pre><p>Here is a demo where <code>gls</code> is expanded to <code>git ls-files</code> after pressing space:</p>
-		
-			<a href="https://ghariib.ir/posts/2025-zsh-autoexpand-aliases/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/automating-agile-workflows-with-the-gitlab-triage-gem/">&lt;div&gt;Automating Agile workflows with the gitlab-triage gem&lt;/div&gt;</a></h1>
-	<b><time>19.03.2025 00:00</time></b>
-	
-	<a href="/tags/development">development</a>
-	
-	<a href="/tags/git">git</a>
-	
-	<a href="/tags/github">github</a>
-	
-	<a href="/tags/gitlab">gitlab</a>
-	
-	<a href="/tags/software">software</a>
-	
-	<div>
-		<p><em>Welcome to our &ldquo;Getting started with GitLab&rdquo; series, where we help newcomers get familiar with the GitLab DevSecOps platform.</em></p>
-<p>This post dives into the <code>gitlab-triage</code> gem, a powerful tool that lets you create bots to automate your Agile workflow. Say goodbye to manual tasks and hello to streamlined efficiency.</p>
-<h2 id="why-automate-your-workflow">Why automate your workflow?</h2>
-<p>Efficiency is key in software development. Automating repetitive tasks like triaging issues and merge requests frees up valuable time for your team to focus on what matters most: building amazing software.</p>
-		
-			<a href="https://ghariib.ir/posts/automating-agile-workflows-with-the-gitlab-triage-gem/">Read more...</a>
-		
-	</div>
-</article>
-
-		
 		<div>
 
-1 of 492
+1 of 496
 
 	<a href="/page/2/">Next Page</a>
 
