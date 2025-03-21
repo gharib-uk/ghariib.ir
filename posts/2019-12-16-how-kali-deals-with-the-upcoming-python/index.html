@@ -43,9 +43,9 @@
 
 			<div>
 				<h1 id="how-kali-deals-with-the-upcoming-python-2-end-of-life">How Kali deals with the upcoming Python 2 End-of-Life</h1>
-<p><a href="https://www.kali.org/blog/python-2-end-of-life/images/python-2-end-of-life-b.jpg">https://www.kali.org/blog/python-2-end-of-life/images/python-2-end-of-life-b.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/python-2-end-of-life/images/python-2-end-of-life-b.jpg">https://www.kali.org/blog/python-2-end-of-life/images/python-2-end-of-life-b.jpg</a></p>
+<p>Five years ago, the Python developers announced that they will stop supporting Python 2 in 2020. For a long time, nobody cared and Python 3 adoption was slow. But things have changed a lot lately as the deadline is right around the corner (1st January). Debian is removing Python 2 support Debian</p>
+<p>Five years ago, the Python developers announced that they will <a href="https://pythonclock.org/">stop supporting Python 2 in 2020</a>. For a long time, nobody cared and Python 3 adoption was slow. But things have changed a lot lately as the deadline is right around the corner (1st January).</p>
 <h2 id="debian-is-removing-python-2-support">Debian is removing Python 2 support</h2>
 <p>Debian is planning to get rid of <a href="https://wiki.debian.org/Python/2Removal">Python 2 entirely for their next stable release</a> so they are progressively getting rid of Python 2 code. They filed release critical bugs on leaf packages (i.e. packages without reverse dependencies) asking them to be ported to Python 3. If the Python 3 port is not happening soon enough, these packages will be removed from <a href="https://wiki.debian.org/DebianTesting">Debian Testing</a> <em>(which is what Kali is based on)</em>.</p>
 <h2 id="consequences-for-kali">Consequences for Kali</h2>
@@ -78,7 +78,6 @@
 <p>If one of your favorite applications appears among the <a href="https://gitlab.com/groups/kalilinux/-/issues?label_name%5B%5D=Project%3A%3APy2Removal">affected Kali packages</a> or among the <a href="https://bugs.debian.org/cgi-bin/pkgreport.cgi?tag=py2removal;users=debian-python@lists.debian.org;maint=team%2Bpkg-security@tracker.debian.org">affected packages from Debian’s pkg-security team</a>, then you should review its situation and possibly help the upstream developer(s) by submitting a pull request adding Python 3 support. Even if upstream is not very active, we will be able to merge your changes in Kali and keep the package for longer until upstream becomes active again.</p>
 <p>If you don’t have the coding skills required for this, you can still try to find a Python 3 fork/patch written by someone else and point it out to us in the corresponding GitLab issue or Debian bug report. Or, tell the developers how much you like their application and that you would like to continue to make use of it, so they should port over to Python 3.</p>
 <h4 id="source"><a href="https://www.kali.org/blog/python-2-end-of-life/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

@@ -45,10 +45,9 @@
 	
 	<div>
 		<h1 id="kali-linux-in-the-windows-app-store">Kali Linux in the Windows App Store</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-in-the-windows-app-store/images/kali-windows-app-2018.jpg">https://www.kali.org/blog/kali-linux-in-the-windows-app-store/images/kali-windows-app-2018.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>While running Kali on Windows has a few drawbacks to running it natively (such as the lack of raw socket support), it does bring in some very interesting possibilities, such as extending your security toolkit to include a whole bunch of command line tools that are present in Kali. We will update our blog with more news and updates regarding the development of this app as it’s released.</p>
+<p><a href="https://www.kali.org/blog/kali-linux-in-the-windows-app-store/images/kali-windows-app-2018.jpg">https://www.kali.org/blog/kali-linux-in-the-windows-app-store/images/kali-windows-app-2018.jpg</a></p>
+<p>No, really…this isn’t clickbait. For the past few weeks, we’ve been working with the Microsoft WSL team to get Kali Linux introduced into the Microsoft App Store as an official WSL distribution and today we’re happy to announce the availability of the “Kali Linux” Windows application. For Windows 10 users,</p>
+<p>No, really…this isn’t clickbait. For the past few weeks, we’ve been working with the Microsoft WSL team to get Kali Linux introduced into the Microsoft App Store as an official WSL distribution and today we’re happy to <a href="https://blogs.msdn.microsoft.com/commandline/2018/03/05/kali-linux-for-wsl/">announce</a> the availability of the “Kali Linux” Windows application. For Windows 10 users, this means you can simply enable WSL, <a href="https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07">search for Kali</a> in the Windows store, and install it with a single click. This is especially exciting news for penetration testers and security professionals who have limited toolsets due to enterprise compliance standards.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-03-05-kali-linux-in-the-windows-app-store/">Read more...</a>
 		
@@ -62,18 +61,8 @@
 	
 	<div>
 		<h1 id="dc416-introduction-to-64-bit-linux-exploit-development-vuln03-solution">DC416 Introduction to 64-bit Linux Exploit Development vuln03 Solution</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Before getting started, you may want to refer to the slides and cheatsheets that were provided in the workshop for reference. You can find those <a href="https://github.com/superkojiman/dc416-exploitdev-intro">here</a>.</p>
-<p>Let’s start by running the binary to see what it does:</p>
-<p>
-<figure>
-  <img src="/images/2018-02-23/00.png" alt="" />
-</figure>
-
-
-</p>
-<p>Running it with and without arguments results in the same output being printed. Let’s run it with ltrace now and see if we can get some more information:</p>
+<p>I had an awesome time presenting a workshop on an introduction to Linux binary exploitation at Defcon Toronto. As part of the workshop, I sent attendees home with a challenge binary called vuln03 to be solved at their own time using the information they learned. vuln03 came with a SUID</p>
+<p>I had an awesome time presenting a workshop on an introduction to Linux binary exploitation at Defcon Toronto. As part of the workshop, I sent attendees home with a challenge binary called vuln03 to be solved at their own time using the information they learned. vuln03 came with a SUID root version called rootme that would pop a rootshell if correctly exploited. This is a writeup on how to reverse engineer this binary and figure out how to exploit it. If you’re stuck trying to solve it, or if you’ve solved it and just want to compare notes, keep reading!</p>
 		
 			<a href="https://ghariib.ir/posts/2018-02-23-dc416-introduction-to-64-bit-linux-expl/">Read more...</a>
 		
@@ -87,9 +76,8 @@
 	
 	<div>
 		<h1 id="signal-foundation">Signal Foundation</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Since then, we’ve made some progress. We’ve built a service used by millions, and software used by billions. The stories that make it back to us and keep us going are the stories of people discovering each other in moments where they found they could speak freely over Signal, of people falling in love over Signal, of people organizing ambitious plans over Signal. When we ask friends who at their workplace is on Signal and they respond “every C-level executive, and the kitchen staff.” When we receive a subpoena for user data and have nothing to send back but a blank sheet of paper. When we catch that glimpse of “Signal blue” on a metro commuter’s phone and smile.</p>
+<p>Long before we knew that it would be called Signal, we knew what we wanted it to be. Instead of teaching the rest of the world cryptography, we wanted to see if we could develop</p>
+<p>Long before we knew that it would be called Signal, we knew what we wanted it to be. Instead of teaching the rest of the world cryptography, we wanted to see if we could develop cryptography that worked for the rest of the world. At the time, the industry consensus was largely that encryption and cryptography would remain unusable, but we started Signal with the idea that private communication could be simple.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-02-21-signal-foundation/">Read more...</a>
 		
@@ -103,17 +91,9 @@
 	
 	<div>
 		<h1 id="kali-linux-20181-release">Kali Linux 20181 Release</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-2018-1-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2018-1-release/images/kali-release.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<h4 id="kernel-updated-to-414">Kernel Updated to 4.14</h4>
-<p>Kali Linux 2018.1 has a shiny new 4.14.12 kernel. New kernels always have a lot of new features and the 4.14 kernel is no exception, although two new features really stand out.</p>
-<ul>
-<li><strong><em>AMD Secure Memory Encryption Support</em></strong> - Secure Memory Encryption is a feature that will be in newer AMD processors that enables automatic encryption and decryption of DRAM. The addition of this features means that systems will no longer (in theory) be vulnerable to <a href="https://en.wikipedia.org/wiki/Cold_boot_attack">cold-boot attacks</a> because, even with physical access, the memory will be not be readable.</li>
-<li><strong><em>Increased Memory Limits</em></strong> - Current (and older) 64-bit processors have a limit of 64 TB of physical address space and 256 TB of virtual address space (VAS), which was sufficient for more than a decade but with some server hardware shipping with 64 TB of memory, the limits have been reached. Fortunately, upcoming processors will enable <a href="https://lwn.net/Articles/717293/">5-level paging</a>, support for which is included in the 4.14 kernel. In short, this means that these new processors will support 4 PB of physical memory and 128 PB of virtual memory. That’s right, <em>petabytes</em>.</li>
-</ul>
-<h4 id="package-updates">Package Updates</h4>
-<p>In addition to the updated kernel, we have also upgraded a number of packages, including <a href="https://www.kali.org/tools/zaproxy/">zaproxy</a>, <a href="https://github.com/securesocketfunneling/ssf">secure-socket-funneling</a>, <a href="https://www.kali.org/tools/pixiewps/">pixiewps</a>, <a href="https://www.kali.org/tools/seclists/">seclists</a>, <a href="https://www.kali.org/tools/burpsuite/">burpsuite</a>, <a href="https://dbeaver.io/">dbeaver</a>, and <a href="https://www.kali.org/tools/reaver/">reaver</a>. If you already have a Kali installation, you can easily get the latest version of these tools along with everything else that has been updated:</p>
+<p><a href="https://www.kali.org/blog/kali-linux-2018-1-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2018-1-release/images/kali-release.jpg</a></p>
+<p>Welcome to our first release of 2018, Kali Linux 2018.1. This fine release contains all updated packages and bug fixes since our 2017.3 release last November. This release wasn’t without its challenges–from the Meltdown and Spectre excitement (patches will be in the 4.15 kernel) to a couple of other nasty</p>
+<p>Welcome to our first release of 2018, Kali Linux 2018.1. This fine release contains all <a href="https://bugs.kali.org/changelog_page.php">updated packages and bug fixes</a> since our <a href="https://www.kali.org/blog/kali-linux-2017-3-release/">2017.3 release</a> last November. This release wasn’t without its challenges–from the <a href="https://meltdownattack.com/">Meltdown and Spectre</a> excitement (patches will be in the 4.15 kernel) to a couple of other <a href="https://bugs.kali.org/view.php?id=4483">nasty</a> <a href="https://bugs.kali.org/view.php?id=4488">bugs</a>, we had our work cut out for us but we prevailed in time to deliver this latest and greatest version for your installation pleasure.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-02-06-kali-linux-20181-release/">Read more...</a>
 		
@@ -127,9 +107,10 @@
 	
 	<div>
 		<h1 id="your-journey-starts-here">Your Journey Starts Here</h1>
-<p><a href="https://www.kali.org/blog/your-kali-training-journey-starts-here/images/kali-training-journey.jpg">https://www.kali.org/blog/your-kali-training-journey-starts-here/images/kali-training-journey.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/your-kali-training-journey-starts-here/images/kali-training-journey.jpg">https://www.kali.org/blog/your-kali-training-journey-starts-here/images/kali-training-journey.jpg</a></p>
+<p>“Whether you’re new to the fight, or a seasoned pro, don’t stop training…” This statement, like the video that introduced it, has real punch. We did this on purpose to get you fired up, excited about your training, and to kickstart your journey. If it worked, and you’re in the fight,</p>
+<blockquote>
+<p><strong>“Whether you’re new to the fight, or a seasoned pro, don’t stop training…”</strong></p></blockquote>
 <p>This statement, like the video that introduced it, has real punch. We did this on purpose to get you fired up, excited about your training, and to kickstart your journey. If it worked, and you’re in the fight, welcome aboard! If you haven’t jumped in for whatever reason, we want to introduce you to the plethora of resources we’ve made available to help you master Kali Linux, the penetration testing distribution.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-01-30-your-journey-starts-here/">Read more...</a>
@@ -144,12 +125,17 @@
 	
 	<div>
 		<h1 id="signal-partners-with-microsoft-to-bring-end-to-end-encryption-to-skype">Signal partners with Microsoft to bring end-to-end encryption to Skype</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>In collaboration with Signal, Microsoft is introducing a Private Conversations feature in Skype, powered by Signal Protocol. Read more&hellip;</p>
+<p>
+<figure>
+  <img src="/blog/images/skype-header.jpg" alt="Skype displaying a Private Conversation acceptance screen." />
+</figure>
+
+
+</p>
 <p>In collaboration with Signal, Microsoft is introducing a <a href="https://go.skype.com/privateconversations">Private Conversations</a> feature in Skype, powered by Signal Protocol.</p>
 <p><a href="https://signal.org/blog/skype-partnership/"><em>Read more&hellip;</em></a></p>
 <h4 id="source"><a href="https://signal.org/blog/skype-partnership/">Source</a></h4>
-<!-- raw HTML omitted -->
 		
 	</div>
 </article>
@@ -161,10 +147,9 @@
 	
 	<div>
 		<h1 id="kali-on-the-windows-subsystem-for-linux">Kali on the Windows Subsystem for Linux</h1>
-<p><a href="https://www.kali.org/blog/kali-on-the-windows-subsystem-for-linux/images/kali-on-windows-10-kali-post.jpg">https://www.kali.org/blog/kali-on-the-windows-subsystem-for-linux/images/kali-on-windows-10-kali-post.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>We’re always on the prowl for novel environments to run Kali on, and with the introduction of the <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">Windows Subsystem for Linux</a> (WSL) in Windows 10, new and exciting possibilities have surfaced. After all, if the WSL can support Ubuntu, it shouldn’t be too hard to incorporate another Debian-like distribution, right? This is especially true with the <a href="https://github.com/RoliSoft/WSL-Distribution-Switcher"><strong>Windows Subsystem for Linux Distribution Switcher</strong></a> utility.</p>
+<p><a href="https://www.kali.org/blog/kali-on-the-windows-subsystem-for-linux/images/kali-on-windows-10-kali-post.jpg">https://www.kali.org/blog/kali-on-the-windows-subsystem-for-linux/images/kali-on-windows-10-kali-post.jpg</a></p>
+<p>Update : This post is outdated. For a better way of getting Kali Linux on Windows 10, install Kali Linux from the App store. We’re always on the prowl for novel environments to run Kali on, and with the introduction of the Windows Subsystem for Linux (WSL) in Windows 10, new</p>
+<p><strong>Update</strong> : <strong>This post is outdated.</strong> <strong>For a better way of getting Kali Linux on Windows 10, install</strong> <a href="https://www.kali.org/blog/kali-linux-in-the-windows-app-store/">Kali Linux from the App store</a>.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-01-10-kali-on-the-windows-subsystem-for-linux/">Read more...</a>
 		
@@ -178,15 +163,9 @@
 	
 	<div>
 		<h1 id="kali-linux-20173-release">Kali Linux 20173 Release</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-2017-3-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2017-3-release/images/kali-release.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<ul>
-<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=eef914a9eb5eb83e60eb498315a491cd1edc13a1">CIFS now uses SMB 3.0 by default</a></li>
-<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=e08ac99fa2a25626f573cfa377ef3ddedf2cfe8f">EXT4 directories can now contain 2 billion entries instead of the old 10 million limit</a></li>
-<li><a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=3c4d7559159bfe1e3b94df3a657b2cda3a34e218">TLS support is now built into the kernel itself</a></li>
-</ul>
-<p>In addition to the new kernel and all of the updates and fixes we pull from Debian, we have also updated our packages for <a href="https://www.kali.org/tools/reaver/">Reaver</a>, <a href="https://www.kali.org/tools/pixiewps/">PixieWPS</a>, <a href="https://www.kali.org/tools/burpsuite/">Burp Suite</a>, <a href="https://www.kali.org/docs/tools/removed-tools/">Cuckoo</a>, <a href="https://www.kali.org/tools/set/">The Social Engineering Toolkit</a>, and more. Take a look at the <a href="https://bugs.kali.org/changelog_page.php">Kali Changelog</a> to see what else has been updated in this release, or read on to see what else is new.</p>
+<p><a href="https://www.kali.org/blog/kali-linux-2017-3-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2017-3-release/images/kali-release.jpg</a></p>
+<p>We are pleased to announce the immediate availability of Kali Linux 2017.3, which includes all patches, fixes, updates, and improvements since our last release. In this release, the kernel has been updated to 4.13.10 and it includes some notable improvements: CIFS now uses SMB 3.0 by default EXT4 directories can now contain</p>
+<p>We are pleased to announce the immediate availability of <a href="https://www.kali.org/get-kali/">Kali Linux 2017.3</a>, which includes all patches, fixes, updates, and improvements since our <a href="https://www.kali.org/blog/kali-linux-2017-2-release/">last release</a>. In this release, the kernel has been updated to 4.13.10 and it includes some notable improvements:</p>
 		
 			<a href="https://ghariib.ir/posts/2017-11-21-kali-linux-20173-release/">Read more...</a>
 		
@@ -200,10 +179,9 @@
 	
 	<div>
 		<h1 id="configuring-and-tuning-openvas-in-kali-linux">Configuring and Tuning OpenVAS in Kali Linux</h1>
-<p><a href="https://www.kali.org/blog/configuring-and-tuning-openvas-in-kali-linux/images/tuning-openvas-kali.jpg">https://www.kali.org/blog/configuring-and-tuning-openvas-in-kali-linux/images/tuning-openvas-kali.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>Vulnerability scanners often have a poor reputation, primarily because their role and purpose is misunderstood. Vulnerability scanners scan for vulnerabilities–they are not magical exploit machines and should be one of many sources of <a href="https://www.kali.org/tools/kali-meta/#kali-tools-information-gathering">information</a> used in an assessment. Blindly running a vulnerability scanner against a target will almost certainly end in disappointment and woe, with dozens (or even hundreds) of low-level or uninformative results.</p>
+<p><a href="https://www.kali.org/blog/configuring-and-tuning-openvas-in-kali-linux/images/tuning-openvas-kali.jpg">https://www.kali.org/blog/configuring-and-tuning-openvas-in-kali-linux/images/tuning-openvas-kali.jpg</a></p>
+<p>Users often request the addition of vulnerability scanners to Kali, most notably the ones that begin with “N”, but due to licensing constraints, we do not include them in the distribution. Fortunately, Kali includes the very capable OpenVAS, which is free and Open-source. Although we briefly covered OpenVAS in the</p>
+<p>Users often request the addition of vulnerability scanners to Kali, most notably the ones that begin with “N”, but due to licensing constraints, we do not include them in the distribution. Fortunately, Kali includes the very capable <a href="https://www.openvas.org/">OpenVAS</a>, which is free and Open-source. Although we briefly <a href="https://www.kali.org/blog/openvas-vulnerability-scanning/">covered OpenVAS in the past</a>, we decided to devote a more thorough post to its setup and how to use it more effectively.</p>
 		
 			<a href="https://ghariib.ir/posts/2017-11-15-configuring-and-tuning-openvas-in-kali-/">Read more...</a>
 		
@@ -217,10 +195,15 @@
 	
 	<div>
 		<h1 id="expanding-signal-gif-search">Expanding Signal GIF search</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>Today’s Signal beta for iOS includes support for animated GIF search. Signal iOS has long supported sending and receiving GIFs, but today’s beta adds support for browsing and searching popular GIFs from within Signal. We previously</p>
+<p>
+<figure>
+  <img src="/blog/images/giphy-ios-header.jpg" alt="Signal for iOS displaying GIF search results" />
+</figure>
+
+
+</p>
 <p>Today’s Signal beta for iOS includes support for animated GIF search. Signal iOS has long supported sending and receiving GIFs, but today’s beta adds support for browsing and searching popular GIFs from within Signal.</p>
-<p>We <a href="/blog/giphy-experiment">previously announced</a> experimental support for animated GIF search in Signal Android, which we’re now bringing to iOS, along with some privacy updates to the process.</p>
 		
 			<a href="https://ghariib.ir/posts/2017-11-01-expanding-signal-gif-search/">Read more...</a>
 		

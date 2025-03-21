@@ -43,9 +43,9 @@
 
 			<div>
 				<h1 id="kali-linux-20182-release">Kali Linux 20182 Release</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg</a></p>
+<p>This Kali release is the first to include the Linux 4.15 kernel, which includes the x86 and x64 fixes for the much-hyped Spectre and Meltdown vulnerabilities. It also includes much better support for AMD GPUs and support for AMD Secure Encrypted Virtualization, which allows for encrypting virtual machine memory such</p>
+<p>This Kali release is the first to include the Linux 4.15 kernel, which includes the x86 and x64 fixes for the much-hyped <a href="https://meltdownattack.com/">Spectre and Meltdown</a> vulnerabilities. It also includes much <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f6705bf959efac87bca76d40050d342f1d212587">better support for AMD GPUs</a> and support for <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=33e63acc119d15c2fac3e3775f32d1ce7a01021b">AMD Secure Encrypted Virtualization</a>, which allows for encrypting virtual machine memory such that even the hypervisor can’t access it.</p>
 <h3 id="easier-metasploit-script-access">Easier Metasploit Script Access</h3>
 <p>If you spend any significant amount of time writing exploits, you are undoubtedly familiar with the various Metasploit scripts that are available, such as <strong><em>pattern_create</em></strong>, <strong><em>pattern_offset</em></strong>, <strong><em>nasm_shell</em></strong>, etc. You are likely also aware that all of these helpful scripts are tucked away under <em>/usr/share/metasploit-framework/tools/exploit/</em>, which makes them more than a little difficult to make use of. Fortunately, as of <em>metasploit-framework_4.16.34-0kali2</em>, you can now make use of all these scripts directly as we have included links to all of them in the PATH, each of them prepended with <strong><em>msf-</em></strong>:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>root@kali:~# msf-&lt;tab&gt;
@@ -66,7 +66,6 @@
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>root@kali:~# apt update &amp;&amp; apt full-upgrade
 </span></span></code></pre></div><p>As always, if you encounter any bugs at all, we implore you to open a report on our <a href="https://bugs.kali.org/main_page.php">bug tracker</a>. We can’t fix what we don’t know about.</p>
 <h4 id="source"><a href="https://www.kali.org/blog/kali-linux-2018-2-release/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

@@ -45,27 +45,9 @@
 	
 	<div>
 		<h1 id="kali-linux-20212-release-kaboxer-kali-tweaks-bleeding-edge-privileged-ports">Kali Linux 20212 Release Kaboxer Kali-Tweaks Bleeding-Edge Privileged Ports</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-2021-2-release/images/banner-2021.2-release.jpg">https://www.kali.org/blog/kali-linux-2021-2-release/images/banner-2021.2-release.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>A quick summary of the <a href="https://bugs.kali.org/changelog_page.php">changelog</a> since the <a href="https://www.kali.org/blog/kali-linux-2021-1-release/">2021.1 release from February 2021</a> is:</p>
-<ul>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#introducing-kaboxer-v10-again">Releasing Kaboxer v1.0</a></strong> - Introducing Kali Applications Boxer v1.0! Applications in containers</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#releasing-kali-tweaks-v10">Releasing Kali-Tweaks v1.0</a></strong> - Our way to make it easier to configure Kali Linux to your taste</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#refreshed-bleeding-edge-branc">Refreshed Bleeding-Edge branch</a></strong> - We did a complete make over for our backend that produces packages for the latest updates</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#disabled-privileged-ports">Disabled privileged ports</a></strong> - Opening a listener on ports 1024/TCP-UDP and below no longer requires super-user access</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#new-tools-in-kal">New tools added</a></strong> - Ghidra &amp; Visual Studio Code. Along with CloudBrute, Dirsearch, Feroxbuster, pacu, peirates, &amp; Quark-Engine</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#theme-enhancement">Theme enhancements</a></strong> - We added a way to quickly swap between double &amp; one-line terminal prompt and made Xfce4 Quick launch + file manager tweaks</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#desktop-wallpaper--login-background">Desktop wallpaper &amp; login background updates</a></strong> - Default images have changed with more to choose from</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#raspberry-pi-recharged">Raspberry Pi images recharged</a></strong> - RPi 400 fully supported, built-in bluetooth working, &amp; first-run wait time dramatically reduced</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#kali-nethunter-updates">Kali NetHunter support for Android 11</a></strong> - Android 11 support and various other improvements for our NetHunter platform</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#more-docker-supportparallels-supportbug-fixes">More Docker support</a></strong> - Now supporting ARM64 &amp; ARM v7 <em>(along with previous AMD64)</em></li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#more-docker-supportparallels-supportbug-fixes">Parallels support</a></strong> - Kali is fully supported for Apple M1 users who have Parallels</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-2-release/#more-docker-supportparallels-supportbug-fixes">Various bug fixes</a></strong> - Pkexec patched, Wireshark permissions, command-not-found issues, &amp; more accessibility features are all resolved</li>
-</ul>
-<hr>
-<h2 id="introducing-kaboxer-v10-again">Introducing Kaboxer v1.0 <em>(Again)</em></h2>
-<p>In case you missed it, we have previously covered <a href="https://pkg.kali.org/pkg/kaboxer">Kaboxer</a> in it’s own <a href="https://www.kali.org/blog/introducing-kaboxer/">dedicated blog post</a>, which goes into a lot more detail of why we love it so! For developers, this is a great new tool in the arsenal. Users will, hopefully, <strong>not realise that they are using it</strong>, only noticing that previously problematic tools now work correctly!</p>
+<p><a href="https://www.kali.org/blog/kali-linux-2021-2-release/images/banner-2021.2-release.jpg">https://www.kali.org/blog/kali-linux-2021-2-release/images/banner-2021.2-release.jpg</a></p>
+<p>Say hello to Kali Linux 2021.2! This release welcomes a mixture of new items as well as enhancements of existing features, and is ready to be downloaded (from our updated page) or upgraded if you have an existing Kali Linux installation. A quick summary of the changelog since the 2021.1 release</p>
+<p>Say hello to <strong>Kali Linux 2021.2</strong>! This release welcomes a mixture of new items as well as enhancements of existing features, and is ready to be <a href="https://www.kali.org/get-kali/">downloaded <em>(from our updated page)</em></a> <em>or <a href="https://www.kali.org/docs/general-use/updating-kali/">upgraded if you have an existing Kali Linux installation</a></em>.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-06-01-kali-linux-20212-release-kaboxer-kali-t/">Read more...</a>
 		
@@ -79,12 +61,9 @@
 	
 	<div>
 		<h1 id="kaboxer---kali-applications-boxer">Kaboxer - Kali Applications Boxer</h1>
-<p><a href="https://www.kali.org/blog/introducing-kaboxer/images/kaboxer-banner-v1.jpg">https://www.kali.org/blog/introducing-kaboxer/images/kaboxer-banner-v1.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<h2 id="tldr---what-is-this">TL;DR - What is this?</h2>
-<p><strong>What is the name about, Kaboxer?</strong> Kali Applications Boxer</p>
-<p><strong>What does that mean?</strong> Apps in containers, for packages (a way forward for applications that are hard to package properly). But instead of being stand alone containers, they are integrated into the standard Kali package management systems and can be installed/removed through standard apt commands.</p>
+<p><a href="https://www.kali.org/blog/introducing-kaboxer/images/kaboxer-banner-v1.jpg">https://www.kali.org/blog/introducing-kaboxer/images/kaboxer-banner-v1.jpg</a></p>
+<p>On and off for the last 18 months we have been working on Kaboxer, and just before Kali 2021.1, it is ready to say “Hello World” (then it will start shipping you applications). TL;DR - What is this? What is the name about, Kaboxer? Kali Applications Boxer What does that mean? Apps in</p>
+<p>On and off for the last 18 months we have been working on <strong>Kaboxer</strong>, and just before Kali 2021.1, it is ready to say “Hello World” <em>(then it will start shipping you applications)</em>.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-05-25-kaboxer---kali-applications-boxer/">Read more...</a>
 		
@@ -98,16 +77,9 @@
 	
 	<div>
 		<h1 id="ampere-hardware-kali-linux">Ampere Hardware Kali Linux</h1>
-<p><a href="https://www.kali.org/blog/ampere/images/ampere.jpg">https://www.kali.org/blog/ampere/images/ampere.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>At <a href="https://www.kali.org/">Kali Linux</a>, one of the things which is important to us, is that we prefer not having to cross-compile our ARM binaries that we ship in our Kali packages. There are various reasons as to why, some of them are:</p>
-<ul>
-<li>With a huge list of packages, like the one we are maintaining <em>(<a href="https://www.kali.org/docs/policy/penetration-testing-tools-policy/">600+</a> at the time of writing)</em>, there will be a certain small percent that are not ready to be cross-compiled.</li>
-<li>We want to be able to run the upstream test suites as part of the build, and in many case the testing software assumes that you can natively run the binaries that you just built.</li>
-<li>We believe in “dogfooding” - we create an Operating System, that works on ARM. We want to use the OS, and the tools in it. We do this on <strong>ARM systems for our day-to-day work</strong>.</li>
-</ul>
-<p>We reached out to Ampere to see if they would be able to help us out. We soon realised they have the same mindset as we do, <strong>ARM is the way forward</strong>. When developing Kali Linux, we treat <strong>ARM devices as “first class citizens”</strong>, just like we do with our “desktop” images <em>(amd64/i386)</em>. There are many advantages to ARM, such as using <strong>less power</strong> <em>(which means they don’t need cooling)</em>, <strong>lighter</strong> <em>(handy when traveling to be on site or mailing devices to be a drop box)</em> and <strong>cheaper devices</strong> <em>(client doesn’t have to return the device!)</em>. These make <strong>really small form factor devices</strong> - which for doing penetration testing or red team exercises on site, expands the possibilities of where to hide various devices <em>(imagination is the only limitation)</em>. This is why we try and give the same user experience regardless of the platform you are using Kali on. <em>This is why we have pre-generated images and build scripts for as many different devices as possible</em></p>
+<p><a href="https://www.kali.org/blog/ampere/images/ampere.jpg">https://www.kali.org/blog/ampere/images/ampere.jpg</a></p>
+<p>When Ampere partnered with Debian, this caught our eye. We were aware that our current ARM cloud provider was soon ending support for arm64 servers (which we use for our build daemons). At Kali Linux, one of the things which is important to us, is that we prefer not having to</p>
+<p>When <a href="https://amperecomputing.com/">Ampere</a> partnered with <a href="https://www.debian.org/News/2020/20200616">Debian</a>, this caught our eye. We were aware that our current ARM cloud provider was soon ending support for arm64 servers <em>(which we use for our build daemons)</em>.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-05-05-ampere-hardware-kali-linux/">Read more...</a>
 		
@@ -121,10 +93,14 @@
 	
 	<div>
 		<h1 id="the-instagram-ads-facebook-wont-show-you">The Instagram ads Facebook wont show you</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Companies like Facebook aren’t building technology for you, they’re building technology for your data. They collect everything they can from FB, Instagram, and WhatsApp in order to sell visibility into people and their lives.</p>
-<p>This isn’t exactly a secret, but the full picture is hazy to most – dimly concealed within complex, opaquely-rendered systems and fine print designed to be scrolled past. The way most of the internet works today would be considered intolerable if translated into comprehensible real world analogs, but it endures because it is invisible.</p>
+<p>Companies like Facebook aren’t building technology for you, they’re building technology for your data. They collect everything they can from FB, Instagram, and WhatsApp in order to sell visibility into people and their lives. This</p>
+<p>
+<figure>
+  <img src="/blog/images/ig-pilates.png" alt="You got this ad because you&rsquo;re a newlywed pilates instructor and you&rsquo;re cartoon crazy. This ad used your location to see you&rsquo;re in La Jolla. You&rsquo;re into parenting blogs and thinking about LGBTQ adoption." />
+</figure>
+
+
+</p>
 		
 			<a href="https://ghariib.ir/posts/2021-05-04-the-instagram-ads-facebook-wont-show-yo/">Read more...</a>
 		
@@ -138,18 +114,8 @@
 	
 	<div>
 		<h1 id="cyber-apocalypse-ctf-2021-pwn-solutions">Cyber Apocalypse CTF 2021 Pwn Solutions</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>For anyone wondering what tools I used:</p>
-<ul>
-<li><a href="https://github.com/superkojiman/pwnbox">pwnbox</a> for a Docker test environment.</li>
-<li><a href="https://github.com/Gallopsled/pwntools">pwntools</a> for writing the exploits.</li>
-<li><a href="https://github.com/pwndbg/pwndbg">pwndbg</a> with <code>gdb</code> for debugging.</li>
-<li><a href="https://cutter.re/">Cutter</a> with Ghidra’s decompiler for reverse engineering.</li>
-</ul>
-<h2 id="controller">Controller</h2>
-<p>This binary challenge includes a copy of <code>libc.so.6</code> and is compiled with Full RELRO and NX.</p>
-<p>When executed, the binary will ask the user to enter two numbers, and to select from a mathematical operation that will either add, subtract, multiple, or divide the numbers. As long as either of the numbers are not greater than 69, the operation succeeds and the result is printed back to the user. If either of the numbers are greater than 69, the binary exits.</p>
+<p>HackTheBox ran the Cyber Apocalypse CTF over a five day period. There were a lot of different challenges, but I joined for the sole purpose of just solving the Pwn category during my free time. Of the five challenges in the Pwn category, I solved four challenges during the CTF,</p>
+<p>HackTheBox ran the Cyber Apocalypse CTF over a five day period. There were a lot of different challenges, but I joined for the sole purpose of just solving the Pwn category during my free time. Of the five challenges in the Pwn category, I solved four challenges during the CTF, and solved the last one the day after the CTF ended. I’ve listed my solution to all five challenges in this post.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-04-26-cyber-apocalypse-ctf-2021-pwn-solutions/">Read more...</a>
 		
@@ -163,9 +129,8 @@
 	
 	<div>
 		<h1 id="exploiting-vulnerabilities-in-cellebrite-ufed-and-physical-analyzer-from-an-apps-perspective">Exploiting vulnerabilities in Cellebrite UFED and Physical Analyzer from an apps perspective</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Their products have often been linked to the persecution of imprisoned journalists and activists around the world, but less has been written about what their software <em>actually does</em> or how it works. Let’s take a closer look. In particular, their software is often associated with bypassing security, so let’s take some time to examine the security of their own software.</p>
+<p>Cellebrite makes software to automate physically extracting and indexing data from mobile devices. They exist within the grey – where enterprise branding joins together with the larcenous to be called “digital intelligence.” Their customer</p>
+<p>Cellebrite makes software to automate physically extracting and indexing data from mobile devices. They exist within the grey – where enterprise branding joins together with the larcenous to be called “digital intelligence.” Their customer list has included authoritarian regimes in Belarus, Russia, Venezuela, and China; death squads in Bangladesh; military juntas in Myanmar; and those seeking to abuse and oppress in Turkey, UAE, and elsewhere. A few months ago, they <a href="https://signal.org/blog/cellebrite-and-clickbait/">announced that they added Signal support to their software</a>.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-04-21-exploiting-vulnerabilities-in-cellebrit/">Read more...</a>
 		
@@ -179,12 +144,10 @@
 	
 	<div>
 		<h1 id="update-on-beta-testing-payments-in-signal">Update on beta testing payments in Signal</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>This is not a future we are particularly excited about. At Signal, we want to help build a different kind of tech – where software is built for you rather than for your data – so these are trends that we watch warily.</p>
-<p><a href="https://signal.org/blog/update-on-beta-testing-payments/"><em>Read more&hellip;</em></a></p>
-<h4 id="source"><a href="https://signal.org/blog/update-on-beta-testing-payments/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>As the world stands today, the future of transaction privacy does not look great. The existing landscape is dominated by traditional credit companies, who over the past decade have been steadily pushing their networks</p>
+<p>As the world stands today, the future of transaction privacy does not look great. The existing landscape is dominated by traditional credit companies, who over the past decade have been steadily pushing their networks for increased access to user data. They (and their data customers) are on a track to getting SKU level data of every purchase everyone makes everywhere. There are other contenders, such as regional online payments networks (like Venmo in the US), but the data story there is similar.</p>
+		
+			<a href="https://ghariib.ir/posts/2021-04-13-update-on-beta-testing-payments-in-sign/">Read more...</a>
 		
 	</div>
 </article>
@@ -196,8 +159,14 @@
 	
 	<div>
 		<h1 id="help-us-test-payments-in-signal">Help us test payments in Signal</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>The latest Signal betas are rolling out today. Inside, you’ll find performance enhancements, a slew of bug fixes, improvements to the mute settings, and if you’re in the United Kingdom, you’ll see support for</p>
+<p>
+<figure>
+  <img src="/blog/images/payments_hero.jpg" alt="Payments hero image." />
+</figure>
+
+
+</p>
 <p>The latest Signal betas are rolling out today. Inside, you’ll find performance enhancements, a slew of bug fixes, improvements to the mute settings, and if you’re in the United Kingdom, you’ll see support for Signal Payments – a new feature that enables you to send and receive privacy focused payments as easily as sending or receiving a message. This is a beta feature in a <a href="https://support.signal.org/hc/en-us/articles/360007318471-How-do-I-join-Signal-s-beta-">beta build</a>, but for those in the United Kingdom living life on the edge, please help us test and give feedback.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-04-06-help-us-test-payments-in-signal/">Read more...</a>
@@ -212,21 +181,9 @@
 	
 	<div>
 		<h1 id="kali-linux-20211-release-command-not-found">Kali Linux 20211 Release Command-Not-Found</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-2021-1-release/images/banner-2021.1-release.jpg">https://www.kali.org/blog/kali-linux-2021-1-release/images/banner-2021.1-release.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>The summary of the <a href="https://bugs.kali.org/changelog_page.php">changelog</a> since the <a href="https://www.kali.org/blog/kali-linux-2020-4-release/">2020.4 release from November 2020</a> is:</p>
-<ul>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#xfce--kde-updates">Xfce 4.16</a></strong> - Our preferred and current default desktop environment has been updated and tweaked</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#xfce--kde-updates">KDE 5.20</a></strong> - Plasma also received a version bump</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#terminals-tweaks">Terminals</a></strong> - <code>mate-terminal</code>, <code>terminator</code> and <code>tilix</code> all had various work carried out on them</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#finding-commands-that-didnt-want-to-be-found">Command Not Found</a></strong> - A helping hand to say if a program needs to be installed</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#partnerships-with-tools-authors">Partnership with more tool authors</a></strong> - BC Security &amp; Joohoi have been producing great tools and we want to support them</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#new-tools-in-kali">New tools &amp; updates</a></strong> - Multiple new tools have been added to Kali and are ready for you</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#kali-nethunter-updates">Kali NetHunter</a></strong> - New BusyBox &amp; Rucky version, and boot-animation</li>
-<li><strong><a href="https://www.kali.org/blog/kali-linux-2021-1-release/#kali-arm-updates">Kali ARM</a></strong> - Preliminary support for Parallels on Apple Silicon (Apple M1) &amp; Raspberry Pi 400 (WiFi Support)</li>
-</ul>
-<p>The Kali project itself also has a couple different changes:</p>
+<p><a href="https://www.kali.org/blog/kali-linux-2021-1-release/images/banner-2021.1-release.jpg">https://www.kali.org/blog/kali-linux-2021-1-release/images/banner-2021.1-release.jpg</a></p>
+<p>Today we’re pushing out the first Kali Linux release of the year with Kali Linux 2021.1. This edition brings enhancements of existing features, and is ready to be downloaded or upgraded if you have an existing Kali Linux installation. The summary of the changelog since the 2020.4 release from November 2020</p>
+<p>Today we’re pushing out the first Kali Linux <a href="https://www.kali.org/releases/">release</a> of the year with <strong>Kali Linux 2021.1</strong>. This edition brings enhancements of existing features, and is ready to be <a href="https://www.kali.org/get-kali/">downloaded</a> or <a href="https://www.kali.org/docs/general-use/updating-kali/">upgraded <em>if you have an existing Kali Linux installation</em></a>.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-02-24-kali-linux-20211-release-command-not-fo/">Read more...</a>
 		
@@ -240,9 +197,8 @@
 	
 	<div>
 		<h1 id="help-users-in-iran-reconnect-to-signal">Help users in Iran reconnect to Signal</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>This new connection method is supported in the latest Signal Android beta release, and will be rolling out to production users in a few days. Our hope is that this will help many people in Iran start sending and receiving messages again while we continue to explore additional censorship circumvention techniques that will work there.</p>
+<p>Just over a week ago, we announced that Iranian censors had started blocking all Signal traffic in the country. As an interim solution to help people in Iran get connected again, we’ve added support</p>
+<p>Just over a week ago, <a href="https://twitter.com/signalapp/status/1353839763388649473">we announced</a> that Iranian censors had started blocking all Signal traffic in the country. As an interim solution to help people in Iran get connected again, we’ve added support in Signal for a <a href="https://github.com/signalapp/Signal-TLS-Proxy">simple TLS proxy</a> that is easy to set up, can be used to bypass the network block, and will securely route traffic to the Signal service.</p>
 		
 			<a href="https://ghariib.ir/posts/2021-02-04-help-users-in-iran-reconnect-to-signal/">Read more...</a>
 		

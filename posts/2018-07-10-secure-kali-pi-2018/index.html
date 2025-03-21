@@ -43,9 +43,9 @@
 
 			<div>
 				<h1 id="secure-kali-pi-2018">Secure Kali Pi 2018</h1>
-<p><a href="https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg">https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg">https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg</a></p>
+<p>We have covered how to create secure “throw-away hack boxes” using the Raspberry Pi before, but we thought it was time to go back and take a look at the process again. With all the new Raspberry Pi models and Kali changes from when we last covered this, we found</p>
+<p>We have covered how to create secure “throw-away hack boxes” using the Raspberry Pi <a href="https://www.kali.org/docs/arm/raspberry-pi-with-luks-full-disk-encryption/">before</a>, but we thought it was time to go back and take a look at the process again. With all the new Raspberry Pi models and Kali changes from when we last covered this, we found the old process was in need of some updating.</p>
 <p>As a review, what we are trying to accomplish is to create a standalone “leave behind” device that, when discovered, does not make it easy to figure out what you were doing. So we use the LUKS full disk encryption along with the LUKS Nuke capability to put this together. If you have a Raspberry Pi 3 Model B+, or really any other model or similar device, feel free to use the instructions below to set up your own secure system. This updated process is based on our previous documentation, and updated with some <a href="https://github.com/tothi/kali-rpi-luks-crypt">community</a> <a href="https://github.com/NicoHood/NicoHood.github.io/wiki/Raspberry-Pi-Encrypt-Root-Partition-Tutorial">suggestions</a>.</p>
 <h2 id="overview-of-the-process">Overview of the process</h2>
 <p>Before we dive into the tech of what we are going to try to accomplish, let’s take a quick look at our goals on setting up our Raspberry Pi 3 Model B+ (henceforth called “RPi”):</p>
@@ -167,7 +167,6 @@
 </span></span><span style="display:flex;"><span>cryptsetup luksAddNuke /dev/mmcblk0p2
 </span></span></code></pre></div><p>Now when we SSH in, we have one password we can enter to allow the SD card to unlock and continue the boot process, and another that destroys the LUKS header, making the data inaccessible. If you end up in a situation where you can’t retrieve the device, this option to burn the device could be very helpful. If you want to be really fancy, you could also combine this with <a href="https://web.archive.org/web/20210914172345/https://kali.training/topic/exercise-chapter-5-mid-course-project/">making the RPi into a wireless access point</a>, allowing you to remote in and unlock/nuke the system all through a wireless connection. This is very useful if you won’t have ongoing direct access to the network the RPi will be attached to.</p>
 <h4 id="source"><a href="https://www.kali.org/blog/secure-kali-pi-2018/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

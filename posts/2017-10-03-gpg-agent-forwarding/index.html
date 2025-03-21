@@ -43,8 +43,8 @@
 
 			<div>
 				<h1 id="gpg-agent-forwarding">GPG Agent Forwarding</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>I recently discovered that after upgrading my various Debian based devices, I’m now using a version of OpenSSH (&gt;=6.7) which supports GPG Agent Forwarding - <a href="https://wiki.gnupg.org/AgentForwarding">https://wiki.gnupg.org/AgentForwarding</a>. In Debian Stretch, systemd is involved with running gpg-agent and sockets are automatically created in /run/user/$UID/gnupg/ where $UID is the uid of the user you’re</p>
+<p>I recently discovered that after upgrading my various Debian based devices, I’m now using a version of OpenSSH (&gt;=6.7) which supports GPG Agent Forwarding - <a href="https://wiki.gnupg.org/AgentForwarding">https://wiki.gnupg.org/AgentForwarding</a>.</p>
 <p>In Debian Stretch, systemd is involved with running gpg-agent and sockets are automatically created in /run/user/$UID/gnupg/ where $UID is the uid of the user you’re using. So when I want to forward my gpg-agent to “server.example.com”, I just add the following to my ~/.ssh/config file:</p>
 <pre tabindex="0"><code>Host server server.example.com
     RemoteForward /run/user/$REMOTE_UID/gnupg/S.gpg-agent /run/user/$LOCAL_UID/gnupg/S.gpg-agent.extra
@@ -72,7 +72,6 @@
 
 </a></p>
 <h4 id="source"><a href="https://www.grepular.com/GPG_Agent_Forwarding">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

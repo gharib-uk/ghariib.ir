@@ -45,21 +45,8 @@
 	
 	<div>
 		<h1 id="blocking-russian-ips">Blocking Russian IPs</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<pre tabindex="0"><code># apt install libnginx-mod-http-geoip
-# echo &#34;geoip_country /usr/share/GeoIP/GeoIP.dat;&#34; &gt; /etc/nginx/conf.d/geoip.conf
-# cat &lt;&lt; EOF &gt; /etc/nginx/cc-block.conf
-if ($geoip_country_code3 = &#34;RUS&#34;) {
-    rewrite / /block-russia;
-}
-
-location /block-russia {
-    default_type text/plain;
-    return 200 &#39;Russian IPs are blocked here, due to your unjust and unprovoked War against Ukraine.&#39;;
-}
-EOF
-</code></pre><p>Now for each of the vhosts in /etc/conf.d/sites-enabled/ that you want to block access for, just add “include cc-block.conf;” inside the server block. Then of course, do an “nginx -t” to test your config and a “service nginx reload” to load the changes.</p>
+<p>You might run some websites behind Nginx on Debian 12 and you might find yourself wanting to block requests from Russian IPs. It’s trivial. Here’s how to do it: # apt install libnginx-mod-http-geoip # echo &ldquo;geoip_country /usr/share/GeoIP/GeoIP.dat;&rdquo; &gt; /etc/nginx/conf.d/geoip.conf # cat &lt;&lt; EOF &gt; /etc/nginx/cc-block.conf if ($geoip_country_code3 = &ldquo;RUS&rdquo;) { rewrite</p>
+<p>You might run some websites behind Nginx on Debian 12 and you might find yourself wanting to block requests from Russian IPs. It’s trivial. Here’s how to do it:</p>
 		
 			<a href="https://ghariib.ir/posts/2025-03-06-blocking-russian-ips/">Read more...</a>
 		
@@ -73,10 +60,10 @@ EOF
 	
 	<div>
 		<h1 id="book-talks-for-chasing-shadows-march-events">Book Talks for Chasing Shadows March Events</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="https://citizenlab.ca/2025/03/book-talks-for-chasing-shadows-march-events/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>Join The Citizen Lab’s Ron Deibert virtually or in person at one of these upcoming events to celebrate the release of his new book Chasing Shadows: Cyberespionage, Subversion, and the Global Fight for Democracy.   Event dates March 10, San Francisco Hosted by City Lights Bookstore Get tickets March 15,</p>
+<p>Join The Citizen Lab’s Ron Deibert virtually or in person at one of these upcoming events to celebrate the release of his new book Chasing Shadows: Cyberespionage, Subversion, and the Global Fight for Democracy.   Event dates March 10, San Francisco Hosted by City Lights Bookstore Get tickets March 15, Vancouver Hosted by the Vancouver&hellip; <a href="https://citizenlab.ca/2025/03/book-talks-for-chasing-shadows-march-events/" title="Read Book Talks for Chasing Shadows: March Events">Read more »</a></p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-book-talks-for-chasing-shadows-march-ev/">Read more...</a>
 		
 	</div>
 </article>
@@ -88,11 +75,10 @@ EOF
 	
 	<div>
 		<h1 id="womens-history-month-why-different-perspectives-in-cybersecurity-and-ai-matter-more-than-ever-before">Womens History Month Why different perspectives in cybersecurity and AI matter more than ever before</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>The post <a href="https://www.microsoft.com/en-us/security/blog/2025/03/06/womens-history-month-why-different-perspectives-in-cybersecurity-and-ai-matter-more-than-ever-before/">Women’s History Month: Why different perspectives in cybersecurity and AI matter more than ever before</a> appeared first on <a href="https://www.microsoft.com/en-us/security/blog">Microsoft Security Blog</a>.</p>
-<h4 id="source"><a href="https://www.microsoft.com/en-us/security/blog/2025/03/06/womens-history-month-why-different-perspectives-in-cybersecurity-and-ai-matter-more-than-ever-before/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>This Women’s History Month serves as a crucial moment for us to lead and continue to pave the way for a more inclusive future. I am truly honored to support my amazing women colleagues who continue to excel in their careers. Their diverse perspectives and talents are invaluable,</p>
+<p>This Women’s History Month serves as a crucial moment for us to lead and continue to pave the way for a more inclusive future. I am truly honored to support my amazing women colleagues who continue to excel in their careers. Their diverse perspectives and talents are invaluable, driving innovation and progress across various industries. I am proud to be a part of Microsoft Security, which is focused on building and nurturing an inclusive cybersecurity workforce and curating careers, tools, and resources that work for everyone. We recognize that this is what promotes business growth, strengthens global defenses, and enhances AI safety.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-womens-history-month-why-different-pers/">Read more...</a>
 		
 	</div>
 </article>
@@ -104,10 +90,10 @@ EOF
 	
 	<div>
 		<h1 id="silenced-by-surveillance-the-impacts-of-digital-transnational-repression-on-journalists-human-rights-defenders-and-dissidents-in-exile">Silenced by Surveillance The Impacts of Digital Transnational Repression on Journalists Human Rights Defenders and Dissidents in Exile</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="https://citizenlab.ca/2025/03/silenced-by-surveillance-the-impacts-of-digital-transnational-repression-on-journalists-human-rights-defenders-and-dissidents-in-exile/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>The Citizen Lab’s Siena Anstis and Ron Deibert examine the phenomenon of digital transnational repression in “Silenced by Surveillance: The Impacts of Digital Transnational Repression on Journalists, Human Rights Defenders, and Dissidents in Exile”, published by Knight First Amendment Institute at Columbia University. Read the essay here.</p>
+<p>The Citizen Lab’s Siena Anstis and Ron Deibert examine the phenomenon of digital transnational repression in “Silenced by Surveillance: The Impacts of Digital Transnational Repression on Journalists, Human Rights Defenders, and Dissidents in Exile”, published by Knight First Amendment Institute at Columbia University. Read the essay here.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-silenced-by-surveillance-the-impacts-of/">Read more...</a>
 		
 	</div>
 </article>
@@ -119,10 +105,10 @@ EOF
 	
 	<div>
 		<h1 id="book-release-transnational-repression-and-international-law-co-authored-by-siena-anstis">Book release Transnational Repression and International Law co-authored by Siena Anstis</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="https://citizenlab.ca/2025/03/book-release-transnational-repression-and-international-law/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>A new book co-authored by Siena Anstis, senior legal advisor at The Citizen Lab, is now available for purchase. Transnational Repression and International Law explores the rise of state-sponsored extraterritorial killings and the implications for international law. Order your copy here.</p>
+<p>A new book co-authored by Siena Anstis, senior legal advisor at The Citizen Lab, is now available for purchase. Transnational Repression and International Law explores the rise of state-sponsored extraterritorial killings and the implications for international law. Order your copy here.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-book-release-transnational-repression-a/">Read more...</a>
 		
 	</div>
 </article>
@@ -134,11 +120,10 @@ EOF
 	
 	<div>
 		<h1 id="malvertising-campaign-leads-to-info-stealers-hosted-on-github">Malvertising campaign leads to info stealers hosted on GitHub</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>The post <a href="https://www.microsoft.com/en-us/security/blog/2025/03/06/malvertising-campaign-leads-to-info-stealers-hosted-on-github/">Malvertising campaign leads to info stealers hosted on GitHub</a> appeared first on <a href="https://www.microsoft.com/en-us/security/blog">Microsoft Security Blog</a>.</p>
-<h4 id="source"><a href="https://www.microsoft.com/en-us/security/blog/2025/03/06/malvertising-campaign-leads-to-info-stealers-hosted-on-github/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>Microsoft detected a large-scale malvertising campaign in early December 2024 that impacted nearly one million devices globally. The attack originated from illegal streaming websites embedded with malvertising redirectors and ultimately redirected users to GitHub to deliver initial access payloads as the start of a modular and multi-stage attack chain. The</p>
+<p>Microsoft detected a large-scale malvertising campaign in early December 2024 that impacted nearly one million devices globally. The attack originated from illegal streaming websites embedded with malvertising redirectors and ultimately redirected users to GitHub to deliver initial access payloads as the start of a modular and multi-stage attack chain.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-malvertising-campaign-leads-to-info-ste/">Read more...</a>
 		
 	</div>
 </article>
@@ -150,11 +135,10 @@ EOF
 	
 	<div>
 		<h1 id="optimizing-incident-management-with-aiops-using-the-triangle-system">Optimizing incident management with AIOps using the Triangle System</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>The post <a href="https://azure.microsoft.com/en-us/blog/optimizing-incident-management-with-aiops-using-the-triangle-system/">Optimizing incident management with AIOps using the Triangle System</a> appeared first on <a href="https://azure.microsoft.com/en-us/blog">Microsoft Azure Blog</a>.</p>
-<h4 id="source"><a href="https://azure.microsoft.com/en-us/blog/optimizing-incident-management-with-aiops-using-the-triangle-system/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>In this blog, we’ll dive into how large language models, generative AI, and the Triangle System help us leverage automation and feedback loops for more efficient incident management. The post Optimizing incident management with AIOps using the Triangle System appeared first on Microsoft Azure Blog.</p>
+<p>In this blog, we’ll dive into how large language models, generative AI, and the Triangle System help us leverage automation and feedback loops for more efficient incident management.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-optimizing-incident-management-with-aio/">Read more...</a>
 		
 	</div>
 </article>
@@ -166,10 +150,10 @@ EOF
 	
 	<div>
 		<h1 id="zdi-25-111-trimble-sketchup-skp-file-parsing-uninitialized-variable-remote-code-execution-vulnerability">ZDI-25-111 Trimble SketchUp SKP File Parsing Uninitialized Variable Remote Code Execution Vulnerability</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="http://www.zerodayinitiative.com/advisories/ZDI-25-111/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are</p>
+<p>This vulnerability allows remote attackers to execute arbitrary code on affected installations of Trimble SketchUp. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file. The ZDI has assigned a CVSS rating of 7.8. The following CVEs are assigned: CVE-2025-2024.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-zdi-25-111-trimble-sketchup-skp-file-pa/">Read more...</a>
 		
 	</div>
 </article>
@@ -181,10 +165,10 @@ EOF
 	
 	<div>
 		<h1 id="zdi-can-25772-samsung">ZDI-CAN-25772 Samsung</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="http://www.zerodayinitiative.com/advisories/upcoming/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>A CVSS score 9.8 AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H severity vulnerability discovered by &lsquo;06fe5fd2bc53027c4a3b7e395af0b850e7b8a044&rsquo; was reported to the affected vendor on: 2025-03-06, 15 days ago. The vendor is given until 2025-07-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public</p>
+<p>A CVSS score 9.8 <a href="https://nvd.nist.gov/cvss.cfm?calculator&amp;version=3.0&amp;vector=AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H">AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H</a> severity vulnerability discovered by &lsquo;06fe5fd2bc53027c4a3b7e395af0b850e7b8a044&rsquo; was reported to the affected vendor on: 2025-03-06, 15 days ago. The vendor is given until 2025-07-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-zdi-can-25772-samsung/">Read more...</a>
 		
 	</div>
 </article>
@@ -196,10 +180,10 @@ EOF
 	
 	<div>
 		<h1 id="zdi-can-25800-samsung">ZDI-CAN-25800 Samsung</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="http://www.zerodayinitiative.com/advisories/upcoming/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>A CVSS score 7.3 AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L severity vulnerability discovered by &lsquo;06fe5fd2bc53027c4a3b7e395af0b850e7b8a044&rsquo; was reported to the affected vendor on: 2025-03-06, 15 days ago. The vendor is given until 2025-07-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public</p>
+<p>A CVSS score 7.3 <a href="https://nvd.nist.gov/cvss.cfm?calculator&amp;version=3.0&amp;vector=AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L">AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L</a> severity vulnerability discovered by &lsquo;06fe5fd2bc53027c4a3b7e395af0b850e7b8a044&rsquo; was reported to the affected vendor on: 2025-03-06, 15 days ago. The vendor is given until 2025-07-04 to publish a fix or workaround. Once the vendor has created and tested a patch we will coordinate the release of a public advisory.</p>
+		
+			<a href="https://ghariib.ir/posts/2025-03-06-zdi-can-25800-samsung/">Read more...</a>
 		
 	</div>
 </article>

@@ -43,9 +43,9 @@
 
 			<div>
 				<h1 id="how-to-nuke-your-encrypted-kali-installation">How to Nuke your Encrypted Kali Installation</h1>
-<p><a href="https://www.kali.org/blog/nuke-kali-linux-luks/images/kali-nuke-restore.jpg">https://www.kali.org/blog/nuke-kali-linux-luks/images/kali-nuke-restore.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/nuke-kali-linux-luks/images/kali-nuke-restore.jpg">https://www.kali.org/blog/nuke-kali-linux-luks/images/kali-nuke-restore.jpg</a></p>
+<p>There’s been a fair amount of discussion around the recently introduced LUKS nuke patch we added to the cryptsetup package in Kali Linux. We wanted to take this opportunity to better explain this feature, as well as demonstrate some useful approaches which are worthwhile getting to know. LUKS Nuke in a</p>
+<p>There’s been a <a href="https://www.reddit.com/r/netsec/comments/1ujsv4/emergency_self_destruction_of_luks_in_kali_linux/">fair amount of discussion</a> around the recently introduced <a href="https://www.kali.org/blog/emergency-self-destruction-luks-kali/">LUKS nuke patch</a> we added to the cryptsetup package in Kali Linux. We wanted to take this opportunity to better explain this feature, as well as demonstrate some useful approaches which are worthwhile getting to know.</p>
 <h3 id="luks-nuke-in-a-nutshell">LUKS Nuke in a Nutshell</h3>
 <p>As explained well By Michael Lee in his <a href="https://www.zdnet.com/article/developers-mull-adding-data-nuke-to-kali-linux/">ZDNet article</a>, when creating an encrypted LUKS container, a master key is generated at random. A passphrase is then used to encrypt the master key in turn. This process means that the passphrase is not directly coupled to the data. That is, if two sets of identical data are encrypted and the same passphrase used, the master keys remain unique to each set and cannot be swapped out. What this also means however, is that regardless of the passphrase used, if the master key is lost, recovering data is impossible. This process conveniently lends itself to being used as a nuke by deliberately wiping the keys.</p>
 <h3 id="example-use-case-of-luks-nuke">Example Use Case of LUKS Nuke</h3>
@@ -157,7 +157,6 @@
 </span></span><span style="display:flex;"><span>Key Slot 7: DISABLED
 </span></span></code></pre></div><p>Our slots are now restored. All we have to do is simply reboot and provide our normal LUKS password and the system is back to its original state.</p>
 <h4 id="source"><a href="https://www.kali.org/blog/nuke-kali-linux-luks/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

@@ -45,38 +45,8 @@
 	
 	<div>
 		<h1 id="ch4inrulz-hacking-challenge">Ch4inrulz hacking challenge</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>Enumeration time. As always I start with a full-on TCP portscan to see what shows up.</p>
-<pre tabindex="0"><code>PORT     STATE SERVICE VERSION
-21/tcp   open  ftp     vsftpd 2.3.5
-|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
-| ftp-syst:
-|   STAT:
-| FTP server status:
-|      Connected to 172.16.27.143
-|      Logged in as ftp
-|      TYPE: ASCII
-|      No session bandwidth limit
-|      Session timeout in seconds is 300
-|      Control connection is plain text
-|      Data connections will be plain text
-|      At session startup, client count was 3
-|      vsFTPd 2.3.5 - secure, fast, stable
-|_End of status
-22/tcp   open  ssh     OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)
-| ssh-hostkey:
-|   1024 d4:f8:c1:55:92:75:93:f7:7b:65:dd:2b:94:e8:bb:47 (DSA)
-|   2048 3d:24:ea:4f:a2:2a:ca:63:b7:f4:27:0f:d9:17:03:22 (RSA)
-|_  256 e2:54:a7:c7:ef:aa:8c:15:61:20:bd:aa:72:c0:17:88 (ECDSA)
-80/tcp   open  http    Apache httpd 2.2.22 ((Ubuntu))
-|_http-server-header: Apache/2.2.22 (Ubuntu)
-|_http-title: FRANK&#39;s Website | Under development
-8011/tcp open  http    Apache httpd 2.2.22 ((Ubuntu))
-|_http-server-header: Apache/2.2.22 (Ubuntu)
-|_http-title: Site doesn&#39;t have a title (text/html).
-MAC Address: 00:0C:29:F7:4D:66 (VMware)
-</code></pre><p>FTP was open, but it turned out to be a dead end. Port 80 and 8011 were bit more promising. Both were running Apache, so I fired up Nikto, but nothing of interest showed up. I decided to do a directory and file scan to see if anything interesting turned up. I’ve gotten quite fond of <a href="https://github.com/OJ/gobuster">gobuster</a> (gr33tz <a href="https://twitter.com/TheColonial">OJ</a>!) for this sort of thing now.</p>
+<p>I had some extra free time this weekend so I picked a random boot2root from VulnHub. The lucky challenger was ch4inrulz, a boot2root made for Jordan’s Top Hacker 2018 CTF. The difficulty level is rated as intermediate. Perfect, let’s-a-go as Mario’s are wont to say. Enumeration time. As always I start</p>
+<p>I had some extra free time this weekend so I picked a random boot2root from VulnHub. The lucky challenger was <a href="https://www.vulnhub.com/entry/ch4inrulz-101,247/">ch4inrulz</a>, a boot2root made for Jordan’s Top Hacker 2018 CTF. The difficulty level is rated as intermediate. Perfect, let’s-a-go as Mario’s are wont to say.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-08-19-ch4inrulz-hacking-challenge/">Read more...</a>
 		
@@ -90,67 +60,8 @@ MAC Address: 00:0C:29:F7:4D:66 (VMware)
 	
 	<div>
 		<h1 id="wakanda-hacking-challenge">Wakanda hacking challenge</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>I started off by using netdiscover to find the IP address of the VM, which turned out to be 192.168.56.102. A quick port scan returned two ports of interest; 80 and 3333:</p>
-<pre tabindex="0"><code>root@kali:~/pwn# onetwopunch.sh -t target.txt -p tcp -n &#39;-sV -A&#39; -i eth0
-                             _                                          _       _
-  ___  _ __   ___           | |___      _____    _ __  _   _ _ __   ___| |__   / \
- / _ \| &#39;_ \ / _ \          | __\ \ /\ / / _ \  | &#39;_ \| | | | &#39;_ \ / __| &#39;_ \ /  /
-| (_) | | | |  __/ ᕦ(ò_óˇ)ᕤ | |_ \ V  V / (_) | | |_) | |_| | | | | (__| | | /\_/
- \___/|_| |_|\___|           \__| \_/\_/ \___/  | .__/ \__,_|_| |_|\___|_| |_\/
-                                                |_|
-                                                                   by superkojiman
-
-[+] Protocol : tcp
-[+] Interface: eth0
-[+] Nmap opts: -sV -A
-[+] Targets  : target.txt
-[+] Scanning 192.168.56.102 for tcp ports...
-[+] Obtaining all open TCP ports using unicornscan...
-[+] unicornscan -i eth0 -mT 192.168.56.102:a -l /root/.onetwopunch/udir/192.168.56.102-tcp.txt
-[*] TCP ports for nmap to scan: 80,111,3333,57976,
-[+] nmap -e eth0 -sV -A -oX /root/.onetwopunch/ndir/192.168.56.102-tcp.xml -oG /root/.onetwopunch/ndir/192.168.56.102-tcp.grep -p 80,111,3333,57976, 192.168.56.102
-Starting Nmap 7.70 ( https://nmap.org ) at 2018-08-10 23:21 EDT
-Nmap scan report for 192.168.56.102
-Host is up (0.00050s latency).
-
-PORT      STATE SERVICE VERSION
-80/tcp    open  http    Apache httpd 2.4.10 ((Debian))
-|_http-server-header: Apache/2.4.10 (Debian)
-|_http-title: Vibranium Market
-111/tcp   open  rpcbind 2-4 (RPC #100000)
-| rpcinfo:
-|   program version   port/proto  service
-|   100000  2,3,4        111/tcp  rpcbind
-|   100000  2,3,4        111/udp  rpcbind
-|   100024  1          57976/tcp  status
-|_  100024  1          59389/udp  status
-3333/tcp  open  ssh     OpenSSH 6.7p1 Debian 5+deb8u4 (protocol 2.0)
-| ssh-hostkey:
-|   1024 1c:98:47:56:fc:b8:14:08:8f:93:ca:36:44:7f:ea:7a (DSA)
-|   2048 f1:d5:04:78:d3:3a:9b:dc:13:df:0f:5f:7f:fb:f4:26 (RSA)
-|   256 d8:34:41:5d:9b:fe:51:bc:c6:4e:02:14:5e:e1:08:c5 (ECDSA)
-|_  256 0e:f5:8d:29:3c:73:57:c7:38:08:6d:50:84:b6:6c:27 (ED25519)
-57976/tcp open  status  1 (RPC #100024)
-MAC Address: 08:00:27:3C:1E:DB (Oracle VirtualBox virtual NIC)
-Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
-Device type: general purpose
-Running: Linux 3.X|4.X
-OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
-OS details: Linux 3.2 - 4.9
-Network Distance: 1 hop
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
-
-TRACEROUTE
-HOP RTT     ADDRESS
-1   0.50 ms 192.168.56.102
-
-OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-Nmap done: 1 IP address (1 host up) scanned in 26.49 seconds
-[+] Scans completed
-[+] Results saved to /root/.onetwopunch
-</code></pre><p>Looks like SSH was running on port 3333 instead of the default 22. I didn’t have any user credentials at this point, and I hate bruteforcing SSH, so I turned my attention to port 80. This was a web server:</p>
+<p>It’s been a while since I’ve played with a VulnHub boot2root. Several new ones were recently pushed out, and having some free time on my hands, I decided to give Wakanda a go. This VM contains three flags and was listed as having an intermediate difficulty level. Challenge accepted! I started</p>
+<p>It’s been a while since I’ve played with a VulnHub boot2root. Several new ones were recently pushed out, and having some free time on my hands, I decided to give <a href="https://www.vulnhub.com/entry/wakanda-1,251/">Wakanda</a> a go. This VM contains three flags and was listed as having an intermediate difficulty level. Challenge accepted!</p>
 		
 			<a href="https://ghariib.ir/posts/2018-08-10-wakanda-hacking-challenge/">Read more...</a>
 		
@@ -164,10 +75,9 @@ Nmap done: 1 IP address (1 host up) scanned in 26.49 seconds
 	
 	<div>
 		<h1 id="build-kali-with-live-build-on-debian-based-systems">Build Kali with Live-Build on Debian Based Systems</h1>
-<p><a href="https://www.kali.org/blog/build-kali-with-live-build-on-debian-based-systems/images/kali-livebuild-debian-1.jpg">https://www.kali.org/blog/build-kali-with-live-build-on-debian-based-systems/images/kali-livebuild-debian-1.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>One roadblock of live-build has always been the fact that you need a Kali system to build a Kali system. The reason for this is that small changes in both the original debootstrap and live-build packages are needed for building a Kali ISO. In Kali, these changes are already included, however in most <a href="https://wiki.debian.org/Derivatives/">Debian derivatives</a>, some gentle massaging is needed to get our ISOs to build.</p>
+<p><a href="https://www.kali.org/blog/build-kali-with-live-build-on-debian-based-systems/images/kali-livebuild-debian-1.jpg">https://www.kali.org/blog/build-kali-with-live-build-on-debian-based-systems/images/kali-livebuild-debian-1.jpg</a></p>
+<p>We use live-build to create our official Kali releases and we encourage users to jump in and build their own customized versions of Kali whenever we can. Our documentation of the process is one of the most popular items on our documentation site, and the Kali Dojo also revolves around</p>
+<p>We use live-build to create our official Kali releases and we encourage users to jump in and build their own customized versions of Kali whenever we can. Our <a href="https://www.kali.org/docs/development/live-build-a-custom-kali-iso/">documentation of the process</a> is one of the most popular items on our <a href="https://www.kali.org/docs/">documentation site</a>, and the Kali Dojo also revolves around this topic. We love it and our users love it.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-07-18-build-kali-with-live-build-on-debian-ba/">Read more...</a>
 		
@@ -181,10 +91,9 @@ Nmap done: 1 IP address (1 host up) scanned in 26.49 seconds
 	
 	<div>
 		<h1 id="secure-kali-pi-2018">Secure Kali Pi 2018</h1>
-<p><a href="https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg">https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>As a review, what we are trying to accomplish is to create a standalone “leave behind” device that, when discovered, does not make it easy to figure out what you were doing. So we use the LUKS full disk encryption along with the LUKS Nuke capability to put this together. If you have a Raspberry Pi 3 Model B+, or really any other model or similar device, feel free to use the instructions below to set up your own secure system. This updated process is based on our previous documentation, and updated with some <a href="https://github.com/tothi/kali-rpi-luks-crypt">community</a> <a href="https://github.com/NicoHood/NicoHood.github.io/wiki/Raspberry-Pi-Encrypt-Root-Partition-Tutorial">suggestions</a>.</p>
+<p><a href="https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg">https://www.kali.org/blog/secure-kali-pi-2018/images/secure-kali-pi-2018-1.jpg</a></p>
+<p>We have covered how to create secure “throw-away hack boxes” using the Raspberry Pi before, but we thought it was time to go back and take a look at the process again. With all the new Raspberry Pi models and Kali changes from when we last covered this, we found</p>
+<p>We have covered how to create secure “throw-away hack boxes” using the Raspberry Pi <a href="https://www.kali.org/docs/arm/raspberry-pi-with-luks-full-disk-encryption/">before</a>, but we thought it was time to go back and take a look at the process again. With all the new Raspberry Pi models and Kali changes from when we last covered this, we found the old process was in need of some updating.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-07-10-secure-kali-pi-2018/">Read more...</a>
 		
@@ -198,14 +107,10 @@ Nmap done: 1 IP address (1 host up) scanned in 26.49 seconds
 	
 	<div>
 		<h1 id="installing-powershell-on-kali-linux">Installing PowerShell on Kali Linux</h1>
-<p><a href="https://www.kali.org/blog/installing-powershell-on-kali-linux/images/powershell-on-kali-linux-v3.jpg">https://www.kali.org/blog/installing-powershell-on-kali-linux/images/powershell-on-kali-linux-v3.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/installing-powershell-on-kali-linux/images/powershell-on-kali-linux-v3.jpg">https://www.kali.org/blog/installing-powershell-on-kali-linux/images/powershell-on-kali-linux-v3.jpg</a></p>
+<p>UPDATE NOV 2019 This post is out of date as of 2019 as powershell has been added to the primary repos. Just do a: apt update &amp;&amp; apt -y install powershell And you will have powershell on your system. Old Post You may already be aware that you can safely add external repositories to your</p>
+<h2 id="update-nov-2019"><strong>UPDATE NOV 2019</strong></h2>
 <p>This post is out of date as of 2019 as powershell has been added to the primary repos. Just do a:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>apt update <span style="color:#f92672">&amp;&amp;</span> apt -y install powershell
-</span></span></code></pre></div><p>And you will have powershell on your system.</p>
-<h3 id="old-post">Old Post</h3>
-<p>You may already be aware that you can safely <a href="https://www.kali.org/blog/advanced-package-management-in-kali-linux/">add external repositories to your Kali Linux installation</a> but you may not be aware that one of the many repositories available online includes one from Microsoft that includes <a href="https://github.com/PowerShell/PowerShell">PowerShell</a>. The repository is for Debian but its packages install perfectly well on Kali, as we will show in this post.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-06-06-installing-powershell-on-kali-linux/">Read more...</a>
 		
@@ -219,8 +124,8 @@ Nmap done: 1 IP address (1 host up) scanned in 26.49 seconds
 	
 	<div>
 		<h1 id="a-letter-from-amazon">A letter from Amazon</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>Last week, we received the following email from Amazon: From: [redacted], [redacted] &lt;[redacted]@amazon.com&gt; Subject: Notification of potential account suspension regarding AWS Service Terms Moxie, Yesterday AWS became aware of your GitHub and Hacker News/ycombinator posts describing how Signal</p>
+<p>Last week, we received the following email from Amazon:</p>
 <p>From: [redacted], [redacted] &lt;[redacted]@amazon.com&gt;<br>
 Subject: Notification of potential account suspension regarding AWS Service Terms</p>
 <p>Moxie,</p>
@@ -238,11 +143,9 @@ Subject: Notification of potential account suspension regarding AWS Service Term
 	
 	<div>
 		<h1 id="kali-linux-20182-release">Kali Linux 20182 Release</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<h3 id="easier-metasploit-script-access">Easier Metasploit Script Access</h3>
-<p>If you spend any significant amount of time writing exploits, you are undoubtedly familiar with the various Metasploit scripts that are available, such as <strong><em>pattern_create</em></strong>, <strong><em>pattern_offset</em></strong>, <strong><em>nasm_shell</em></strong>, etc. You are likely also aware that all of these helpful scripts are tucked away under <em>/usr/share/metasploit-framework/tools/exploit/</em>, which makes them more than a little difficult to make use of. Fortunately, as of <em>metasploit-framework_4.16.34-0kali2</em>, you can now make use of all these scripts directly as we have included links to all of them in the PATH, each of them prepended with <strong><em>msf-</em></strong>:</p>
+<p><a href="https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg">https://www.kali.org/blog/kali-linux-2018-2-release/images/kali-release.jpg</a></p>
+<p>This Kali release is the first to include the Linux 4.15 kernel, which includes the x86 and x64 fixes for the much-hyped Spectre and Meltdown vulnerabilities. It also includes much better support for AMD GPUs and support for AMD Secure Encrypted Virtualization, which allows for encrypting virtual machine memory such</p>
+<p>This Kali release is the first to include the Linux 4.15 kernel, which includes the x86 and x64 fixes for the much-hyped <a href="https://meltdownattack.com/">Spectre and Meltdown</a> vulnerabilities. It also includes much <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=f6705bf959efac87bca76d40050d342f1d212587">better support for AMD GPUs</a> and support for <a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=33e63acc119d15c2fac3e3775f32d1ce7a01021b">AMD Secure Encrypted Virtualization</a>, which allows for encrypting virtual machine memory such that even the hypervisor can’t access it.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-04-30-kali-linux-20182-release/">Read more...</a>
 		
@@ -256,17 +159,8 @@ Subject: Notification of potential account suspension regarding AWS Service Term
 	
 	<div>
 		<h1 id="stem-cyber-challenge-2018-keygenme">STEM Cyber Challenge 2018 Keygenme</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>I analyzed the binary using Binary Ninja and found 20 different checks in <code>main()</code>. Here’s what <code>check_1()</code> looks like:</p>
-<p>
-<figure>
-  <img src="/images/2018-04-21/01.png" alt="" />
-</figure>
-
-
-</p>
-<p>It basically does certain comparisons with different characters in our input along with some math thrown in. A condition is checked at the very and to determine if the check passed or failed. Obviously we want it to pass.</p>
+<p>I got a chance to play a bit of the STEM Cyber Challenge 2018 CTF over the weekend. This one is called keygenme, a 400 point reverse engineering challenge. Like its name suggests, the binary prompts for input and runs some checks on it to determine if it’s a valid</p>
+<p>I got a chance to play a bit of the STEM Cyber Challenge 2018 CTF over the weekend. This one is called keygenme, a 400 point reverse engineering challenge. Like its name suggests, the binary prompts for input and runs some checks on it to determine if it’s a valid key.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-04-21-stem-cyber-challenge-2018-keygenme/">Read more...</a>
 		
@@ -280,10 +174,10 @@ Subject: Notification of potential account suspension regarding AWS Service Term
 	
 	<div>
 		<h1 id="clients-shouldnt-peek-inside-access-tokens">Clients shouldnt peek inside access tokens</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="https://www.cloudidentity.com/blog/2018/04/20/clients-shouldnt-peek-inside-access-tokens/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>I am having a Twitter thread about why the Microsoft Graph- and only the Microsoft Graph- should be the one validating access tokens obtained by a client for calling the Microsoft Graph. However I am failing to explain that effectively in 240 chars quanta, so here I am – breaking</p>
+<p>I am having a Twitter thread about why the Microsoft Graph- and only the Microsoft Graph- should be the one validating access tokens obtained by a client for calling the Microsoft Graph. However I am failing to explain that effectively in 240 chars quanta, so here I am – breaking a ~7 months&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/2018-04-20-clients-shouldnt-peek-inside-access-tok/">Read more...</a>
 		
 	</div>
 </article>
@@ -295,11 +189,9 @@ Subject: Notification of potential account suspension regarding AWS Service Term
 	
 	<div>
 		<h1 id="finding-packages-for-kali-linux">Finding Packages for Kali Linux</h1>
-<p><a href="https://www.kali.org/blog/finding-packages-for-kali-linux/images/kali-advanced-package-management-2.jpg">https://www.kali.org/blog/finding-packages-for-kali-linux/images/kali-advanced-package-management-2.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<h3 id="apt-cache">apt-cache</h3>
-<p>Of the various interfaces available to search for packages, apt-cache is the most basic and rudimentary of them all. However, it is also the interface we tend to use most often because it is fast, easy, and efficient. By default, apt-cache searches for a given term in package names as well as their descriptions. For example, knowing that all <a href="https://www.kali.org/docs/general-use/metapackages/">Kali Linux metapackages</a> include ‘kali-linux’ in their names, we can easily search for all of them:</p>
+<p><a href="https://www.kali.org/blog/finding-packages-for-kali-linux/images/kali-advanced-package-management-2.jpg">https://www.kali.org/blog/finding-packages-for-kali-linux/images/kali-advanced-package-management-2.jpg</a></p>
+<p>In an earlier post, we covered Package Management in Kali Linux. With the ease of installation that APT provides, we have the choice amongst tens of thousands of packages but the downside is, we have tens of thousands of packages. Finding out what packages are available and finding the one(s)</p>
+<p>In an earlier post, we covered <a href="https://www.kali.org/blog/advanced-package-management-in-kali-linux/">Package Management in Kali Linux</a>. With the ease of installation that APT provides, we have the choice amongst tens of thousands of packages but the downside is, we have tens of thousands of packages. Finding out what packages are available and finding the one(s) we want can be a daunting task, particularly for newcomers to Linux. In this post, we will cover three utilities that can be used to search through the haystack and help you take advantage of the vast Open-source ecosystem.</p>
 		
 			<a href="https://ghariib.ir/posts/2018-04-17-finding-packages-for-kali-linux/">Read more...</a>
 		

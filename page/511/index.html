@@ -45,15 +45,9 @@
 	
 	<div>
 		<h1 id="the-great-non-free-firmware-transition">The great non-free-firmware transition</h1>
-<p><a href="https://www.kali.org/blog/non-free-firmware-transition/images/banner-non-free-firmware.jpg">https://www.kali.org/blog/non-free-firmware-transition/images/banner-non-free-firmware.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
-<p>Programmatically speaking:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>kali@kali:~$ sudo sed -i &#39;s/non-free$/non-free non-free-firmware/&#39; /etc/apt/sources.list
-</span></span></code></pre></div><hr>
-<p>Long story now.</p>
-<p>As you might know already, Kali Linux is a <a href="https://www.kali.org/docs/policy/kali-linux-relationship-with-debian/">Debian-based Linux distribution</a>. As such, it inherits a number of things from Debian, and in particular, the structure of the package repository.</p>
-<p>For anyone familiar with Kali, you already know that the package repository is split into different <em>archive areas</em> (also called <em>components</em>). Historically, there’s always been 3 components: <a href="https://http.kali.org/kali/dists/kali-rolling/"><code>main</code>, <code>contrib</code> and <code>non-free</code></a>. However, this changed last year, when <a href="https://www.debian.org/releases/bookworm/amd64/release-notes/ch-whats-new.en.html#archive-areas">Debian introduced a new component called <code>non-free-firmware</code></a>.</p>
+<p><a href="https://www.kali.org/blog/non-free-firmware-transition/images/banner-non-free-firmware.jpg">https://www.kali.org/blog/non-free-firmware-transition/images/banner-non-free-firmware.jpg</a></p>
+<p>TL;DR: Dear Kali user, when you have a moment, check your /etc/apt/sources.list, and add non-free-firmware if ever it’s missing. Programmatically speaking: kali@kali:~$ sudo sed -i &rsquo;s/non-free$/non-free non-free-firmware/&rsquo; /etc/apt/sources.list Long story now. As you might know already, Kali Linux is a Debian-based Linux distribution. As such, it inherits a number of things from Debian, and</p>
+<p>TL;DR: Dear Kali user, when you have a moment, check your <code>/etc/apt/sources.list</code>, and add <code>non-free-firmware</code> if ever it’s missing.</p>
 		
 			<a href="https://ghariib.ir/posts/2024-01-22-the-great-non-free-firmware-transition/">Read more...</a>
 		
@@ -67,10 +61,9 @@
 	
 	<div>
 		<h1 id="ivanti-connect-secure-exploited-to-install-cryptominers">Ivanti Connect Secure Exploited to Install Cryptominers</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>Our first-hand observations of how attackers leverage CVE-2023-46805 and CVE-2024-21887 to install cryptocurrency miners.</p>
+<p>Our first-hand observations of how attackers leverage CVE-2023-46805 and CVE-2024-21887 to install cryptocurrency miners.</p>
 <h4 id="source"><a href="https://www.greynoise.io/blog/ivanti-connect-secure-exploited-to-install-cryptominers">Source</a></h4>
-<!-- raw HTML omitted -->
 		
 	</div>
 </article>
@@ -82,10 +75,10 @@
 	
 	<div>
 		<h1 id="deep-dive-malware-hunter">Deep Dive Malware Hunter</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="https://blog.shodan.io/deep-dive-malware-hunter/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>There are many ways to track command &amp; control servers from bad guys but they often rely on looking for indicators in the service metadata (ex. certificate information). Around a decade ago we developed a novel technique to proactively find the infrastructure: Malware Hunter. Malware Hunter finds command &amp; control</p>
+<p>There are many ways to track command &amp; control servers from bad guys but they often rely on looking for indicators in the service metadata (ex. certificate information). Around a decade ago we developed a novel technique to proactively find the infrastructure: <a href="https://malware-hunter.shodan.io/">Malware Hunter</a>. Malware Hunter finds command &amp; control</p>
+		
+			<a href="https://ghariib.ir/posts/2024-01-14-deep-dive-malware-hunter/">Read more...</a>
 		
 	</div>
 </article>
@@ -97,18 +90,10 @@
 	
 	<div>
 		<h1 id="deep-dive-httpfavicon">Deep Dive httpfavicon</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<p>
-<figure>
-  <img src="https://blog.shodan.io/content/images/2024/01/Screenshot-from-2024-01-01-11-13-24.png" alt="" />
-</figure>
-
-
-</p>
-<p>They typically contain the logo of the company which gives them 2 functions:</p>
-<h4 id="source"><a href="https://blog.shodan.io/deep-dive-http-favicon/">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>Favicons are the small icons that you see in the browser tab next to the website title or in your bookmarks. For example, the Shodan logo on the left side of the browser tab is the favicon: They typically contain the logo of the company which gives them 2 functions:</p>
+<p><a href="https://en.wikipedia.org/wiki/Favicon">Favicons</a> are the small icons that you see in the browser tab next to the website title or in your bookmarks. For example, the Shodan logo on the left side of the browser tab is the favicon:</p>
+		
+			<a href="https://ghariib.ir/posts/2024-01-10-deep-dive-httpfavicon/">Read more...</a>
 		
 	</div>
 </article>
@@ -120,10 +105,9 @@
 	
 	<div>
 		<h1 id="cve-2022-1471-snakeyaml-deserialization-deep-dive">CVE-2022-1471 SnakeYAML Deserialization Deep Dive</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>Get an overview of SnakeYAML deserialization vulnerabilities (CVE-2022-1471) - how it works, why it works, and what it affects.</p>
+<p>Get an overview of SnakeYAML deserialization vulnerabilities (CVE-2022-1471) - how it works, why it works, and what it affects.</p>
 <h4 id="source"><a href="https://www.greynoise.io/blog/cve-2022-1471-snakeyaml-deserialization-deep-dive">Source</a></h4>
-<!-- raw HTML omitted -->
 		
 	</div>
 </article>
@@ -135,10 +119,9 @@
 	
 	<div>
 		<h1 id="spike-in-atlassian-exploitation-attempts-patching-is-crucial">Spike in Atlassian Exploitation Attempts Patching is Crucial</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>In the blog we discuss the importance of securing your Atlassian products, provide valuable insights on various IP activities, and offer friendly advice on proactive measures to protect your organization.</p>
+<p>In the blog we discuss the importance of securing your Atlassian products, provide valuable insights on various IP activities, and offer friendly advice on proactive measures to protect your organization.</p>
 <h4 id="source"><a href="https://www.greynoise.io/blog/spike-in-atlassian-exploitation-attempts-patching-is-crucial">Source</a></h4>
-<!-- raw HTML omitted -->
 		
 	</div>
 </article>
@@ -150,10 +133,9 @@
 	
 	<div>
 		<h1 id="weathering-2024-storm-watch-predictions-for-the-year-ahead">Weathering 2024 Storm Watch Predictions for the Year Ahead</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>See what predictions and hot takes our Storm Watch hosts have for 2024.</p>
+<p>See what predictions and hot takes our Storm Watch hosts have for 2024.</p>
 <h4 id="source"><a href="https://www.greynoise.io/blog/weathering-2024-storm-watch-predictions-for-the-year-ahead">Source</a></h4>
-<!-- raw HTML omitted -->
 		
 	</div>
 </article>
@@ -165,10 +147,10 @@
 	
 	<div>
 		<h1 id="mining-the-undiscovered-country-with-greynoise-eap-sensors-f5-big-ip-edition">Mining The Undiscovered Country With GreyNoise EAP Sensors F5 BIG-IP Edition</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="https://www.greynoise.io/blog/mining-the-undiscovered-country-with-greynoise-eap-sensors-f5-big-ip-edition">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>Discover the fascinating story of a GreyNoise researcher who found that attackers were using his demonstration code for a vulnerability instead of the real exploit. Explore the implications of this situation and learn about the importance of using accurate and up-to-date exploits in the cybersecurity community.</p>
+<p>Discover the fascinating story of a GreyNoise researcher who found that attackers were using his demonstration code for a vulnerability instead of the real exploit. Explore the implications of this situation and learn about the importance of using accurate and up-to-date exploits in the cybersecurity community.</p>
+		
+			<a href="https://ghariib.ir/posts/2023-12-14-mining-the-undiscovered-country-with-gr/">Read more...</a>
 		
 	</div>
 </article>
@@ -180,10 +162,10 @@
 	
 	<div>
 		<h1 id="a-day-in-the-life-of-a-greynoise-researcher-the-path-to-understanding-the-remote-code-execution-vulnerability-apache-cve-2023-50164-in-apache-struts2">A Day In The Life Of A GreyNoise Researcher The Path To Understanding The Remote Code Execution Vulnerability Apache CVE-2023-50164 in Apache Struts2</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<h4 id="source"><a href="https://www.greynoise.io/blog/a-day-in-the-life-of-a-greynoise-researcher-the-path-to-understanding-the-remote-code-execution-vulnerability-apache-cve-2023-50164-in-apache-struts2">Source</a></h4>
-<!-- raw HTML omitted -->
+<p>Discover what our amazing researcher Matthew Remacle uncovers as he investigates a new vulnerability in Apache Struts! This weakness enables attackers to remotely drop and call a web shell through a public interface.</p>
+<p>Discover what our amazing researcher Matthew Remacle uncovers as he investigates a new vulnerability in Apache Struts! This weakness enables attackers to remotely drop and call a web shell through a public interface.</p>
+		
+			<a href="https://ghariib.ir/posts/2023-12-13-a-day-in-the-life-of-a-greynoise-resear/">Read more...</a>
 		
 	</div>
 </article>
@@ -195,8 +177,8 @@
 	
 	<div>
 		<h1 id="trend-report-use-signal">Trend report Use Signal</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>New long-sleeve shirts and tote bags fresh from the Signal test kitchen: We build Signal for people all over the world. So, of course we wanted to reflect that same global outlook in our merch.</p>
+<p>New long-sleeve shirts and tote bags fresh from the Signal test kitchen:</p>
 <p><a href="https://shop.signal.org/">
 <figure>
   <img src="/blog/images/use-signal-header.png" alt="Two longsleeve shirts and a tote bag with stylized neon Signal logo and Cantonese characters reading &lsquo;你識路啦&rsquo;." />
@@ -205,9 +187,8 @@
 
 </a></p>
 <p>We build Signal for people <a href="/blog/signal-is-for-everyone/">all over the world</a>. So, of course we wanted to reflect that same global outlook in our merch.</p>
-<p><a href="https://signal.org/blog/trend-report-use-signal/"><em>Read more&hellip;</em></a></p>
-<h4 id="source"><a href="https://signal.org/blog/trend-report-use-signal/">Source</a></h4>
-<!-- raw HTML omitted -->
+		
+			<a href="https://ghariib.ir/posts/2023-12-13-trend-report-use-signal/">Read more...</a>
 		
 	</div>
 </article>

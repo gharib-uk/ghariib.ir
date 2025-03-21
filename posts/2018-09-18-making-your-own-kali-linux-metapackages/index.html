@@ -43,9 +43,9 @@
 
 			<div>
 				<h1 id="making-your-own-kali-linux-metapackages">Making your own Kali Linux Metapackages</h1>
-<p><a href="https://www.kali.org/blog/making-your-own-kali-linux-metapackages/images/kali-advanced-package-management-2.jpg">https://www.kali.org/blog/making-your-own-kali-linux-metapackages/images/kali-advanced-package-management-2.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/making-your-own-kali-linux-metapackages/images/kali-advanced-package-management-2.jpg">https://www.kali.org/blog/making-your-own-kali-linux-metapackages/images/kali-advanced-package-management-2.jpg</a></p>
+<p>One of the many useful things we can do with APT is create metapackages, which are effectively empty packages that declare a list of other packages as dependencies. Kali Linux includes metapackages for password cracking, software-defined radio, wireless, web applications, and more but if you have specific needs (like most</p>
+<p>One of the many useful things we can do with APT is create metapackages, which are effectively empty packages that declare a list of other packages as dependencies. Kali Linux includes metapackages for password cracking, software-defined radio, wireless, web applications, and more but if you have specific needs (like most people), it’s quick and easy to define your own metapackages, which we will show in this post.</p>
 <p>Before we begin, we need to install the <strong><em>devscripts</em></strong> package, which includes a number of tools and utilities for package management:</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-console" data-lang="console"><span style="display:flex;"><span>root@kali:~# apt install devscripts
 </span></span></code></pre></div><p>In Kali, all metapackages are defined in the appropriately named <strong><em>kali-meta</em></strong> package so we can clone and modify it to suit our needs:</p>
@@ -143,7 +143,6 @@
 </span></span><span style="display:flex;"><span>100 /var/lib/dpkg/status
 </span></span></code></pre></div><p>Just like that, we have our own metapackage that we can store on network share or some other location to quickly get our fresh Kali Linux installations set up and configured quickly.</p>
 <h4 id="source"><a href="https://www.kali.org/blog/making-your-own-kali-linux-metapackages/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

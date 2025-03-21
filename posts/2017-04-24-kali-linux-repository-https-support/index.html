@@ -43,9 +43,9 @@
 
 			<div>
 				<h1 id="kali-linux-repository-https-support">Kali Linux Repository HTTPS Support</h1>
-<p><a href="https://www.kali.org/blog/kali-linux-repository-https-support/images/kali-repo-https.jpg">https://www.kali.org/blog/kali-linux-repository-https-support/images/kali-repo-https.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/kali-linux-repository-https-support/images/kali-repo-https.jpg">https://www.kali.org/blog/kali-linux-repository-https-support/images/kali-repo-https.jpg</a></p>
+<p>A couple of weeks back we added more HTTPS support to our Kali infrastructure, and wanted to give our users some guidance and point out what’s new. While our Kali Linux download page (and shasums) has always been served via HTTPS, our mirror redirector has not. Now that we generate</p>
+<p>A couple of weeks back we added more HTTPS support to our Kali infrastructure, and wanted to give our users some guidance and point out what’s new. While our <a href="https://www.kali.org/get-kali/">Kali Linux download page</a> (and shasums) has always been served via HTTPS, our mirror redirector has not. Now that we generate weekly images, secure access to the mirror redirector has become crucial.</p>
 <h3 id="httpscdimagekaliorg"><a href="https://cdimage.kali.org">https://cdimage.kali.org</a></h3>
 <p>This is our Kali Image Mirror Redirector. This server accepts your download requests from our <a href="https://www.kali.org/get-kali/">official download page</a>, and then serves your requested file from the geographically closest mirror. This is also the download point for our <a href="https://cdimage.kali.org/kali-weekly/">Kali Weekly builds</a> - now with fresh and shiny HTTPS support. Hitting this redirector via HTTPS will redirect your request to an SSL enabled download server, while an unencrypted HTTP request will redirect to an HTTP enabled mirror. Where’s the catch? Not all donated mirrors support HTTPS, so choosing this transport may result in slower download speeds. Should downloading a Kali image over HTTP be a security concern? Not if you <a href="https://www.kali.org/docs/introduction/download-official-kali-linux-images/">GPG verify your downloaded image</a>.</p>
 <h3 id="httpshttpkaliorg"><a href="https://http.kali.org">https://http.kali.org</a></h3>
@@ -62,7 +62,6 @@
 </span></span><span style="display:flex;"><span>root@kali:~#
 </span></span></code></pre></div><p>As not all donated mirrors come with HTTPS support, shifting to the HTTPS transport may result in a less optimized mirror being selected for you, resulting in slower download speeds. As moving to an apt HTTPS transport <a href="https://askubuntu.com/questions/146108/how-to-use-https-with-apt-get">does not provide much extra security</a>, do so only if you feel you must!</p>
 <h4 id="source"><a href="https://www.kali.org/blog/kali-linux-repository-https-support/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

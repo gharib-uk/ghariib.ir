@@ -43,9 +43,9 @@
 
 			<div>
 				<h1 id="cracking-in-the-cloud-with-cuda-gpus">Cracking in the Cloud with CUDA GPUs</h1>
-<p><a href="https://www.kali.org/blog/cloud-cracking-with-cuda-gpu/images/kali-cuda-cracking-cloud.jpg">https://www.kali.org/blog/cloud-cracking-with-cuda-gpu/images/kali-cuda-cracking-cloud.jpg</a>
-<!-- raw HTML omitted --></p>
-<!-- raw HTML omitted -->
+<p><a href="https://www.kali.org/blog/cloud-cracking-with-cuda-gpu/images/kali-cuda-cracking-cloud.jpg">https://www.kali.org/blog/cloud-cracking-with-cuda-gpu/images/kali-cuda-cracking-cloud.jpg</a></p>
+<p>Due to increasing popularity of cloud-based instances for password cracking, we decided to focus our efforts into streamlining Kali’s approach. We’ve noticed that Amazon’s AWS P2-Series and Microsoft’s Azure NC-Series are focused on Windows and Ubuntu. The corresponding blog posts and guides followed suit. Although these instances are limited by</p>
+<p>Due to increasing popularity of cloud-based instances for password cracking, we decided to focus our efforts into streamlining Kali’s approach. We’ve noticed that Amazon’s AWS <a href="https://aws.amazon.com/ec2/instance-types/p2/">P2-Series</a> and Microsoft’s Azure <a href="https://azure.microsoft.com/en-us/blog/azure-n-series-general-availability-on-december-1/">NC-Series</a> are focused on Windows and Ubuntu. The corresponding blog posts and guides followed suit. Although these instances are limited by the NVIDIA Tesla K80’s hardware capabilities, the ability to quickly deploy a Kali instance with CUDA support is appealing.</p>
 <p>Installing proprietary graphics drivers has always been a source of frustration; fortunately, improvements in packaging have made this process much more seamless. Although we’ve done the work for you in the cloud offerings, we’d like to help simplify installation for your own use.</p>
 <h3 id="prerequisites">Prerequisites</h3>
 <p>First, you’ll need to ensure that your system is fully upgraded and that your card supports <a href="https://developer.nvidia.com/cuda-gpus">CUDA</a>. <strong>Note:</strong> GPUs with a <a href="https://developer.nvidia.com/cuda-gpus">CUDA compute capability</a> &gt; 5.0 are recommended, but GPUs with less will still work:</p>
@@ -128,7 +128,6 @@
 <h3 id="running-a-gpu-instance-in-aws">Running a GPU Instance in AWS</h3>
 <p>We’ve registered new CUDA enabled <a href="https://aws.amazon.com/marketplace/pp/B08LL91KKB">Kali Rolling images with Amazon</a> which work out of the box with P2 AWS images. With virtually no additional setup required, you can get up and running with a Kali GPU instance in less than 30 seconds. All you need to do is choose a P2 instance, and you’re ready to start cracking!</p>
 <h4 id="source"><a href="https://www.kali.org/blog/cloud-cracking-with-cuda-gpu/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>

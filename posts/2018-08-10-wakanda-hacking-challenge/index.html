@@ -43,8 +43,8 @@
 
 			<div>
 				<h1 id="wakanda-hacking-challenge">Wakanda hacking challenge</h1>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<p>It’s been a while since I’ve played with a VulnHub boot2root. Several new ones were recently pushed out, and having some free time on my hands, I decided to give Wakanda a go. This VM contains three flags and was listed as having an intermediate difficulty level. Challenge accepted! I started</p>
+<p>It’s been a while since I’ve played with a VulnHub boot2root. Several new ones were recently pushed out, and having some free time on my hands, I decided to give <a href="https://www.vulnhub.com/entry/wakanda-1,251/">Wakanda</a> a go. This VM contains three flags and was listed as having an intermediate difficulty level. Challenge accepted!</p>
 <p>I started off by using netdiscover to find the IP address of the VM, which turned out to be 192.168.56.102. A quick port scan returned two ports of interest; 80 and 3333:</p>
 <pre tabindex="0"><code>root@kali:~/pwn# onetwopunch.sh -t target.txt -p tcp -n &#39;-sV -A&#39; -i eth0
                              _                                          _       _
@@ -326,7 +326,6 @@ Congratulations You are Root!
 821ae63dbe0c573eff8b69d451fb21bc
 </code></pre><p>Wakanda forever!</p>
 <h4 id="source"><a href="http://blog.techorganic.com/2018/08/10/wakanda-hacking-challenge/">Source</a></h4>
-<!-- raw HTML omitted -->
 
 			</div>
 		</article>
