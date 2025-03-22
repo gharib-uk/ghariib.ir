@@ -40,63 +40,6 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/doubletrouble-1/">doubletrouble: 1</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>get flags</p>
-<p>difficulty: easy</p>
-<p>about vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.</p>
-<p>VulnHub</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/dripping-blues-1/">Dripping Blues: 1</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>get flags</p>
-<p>difficulty: easy</p>
-<p>about vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.</p>
-<p>VulnHub</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/egghunter-i-vulnserver-gmon/">Egghunter I - Vulnserver GMON</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Introduzione Una delle sfide durante la scrittura di un exploit è la gestione dello spazio che serve per inserire lo shellcode malevolo. Certe volte si trovano Stack Buffer Overflow, ma ci sono talmente pochi byte per l’inserimento dello shellcode che è necessario trovare un metodo alternativo. L’egghunter (letteralmente “cacciatore di uova”) è una piccola porzione di codice che, una volta inserito, andrà alla ricerca di una particolare stringa (l’uovo appunto) in tutta la memoria del programma.</p>
-		
-			<a href="https://ghariib.ir/posts/egghunter-i-vulnserver-gmon/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/egghunter-ii-freeftpd-1-0-10/">Egghunter II - freeFTPd 1.0.10</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Introduzione Secondo articolo della serie Egghunter Buffer Overflow, target freeFTPd 1.0.10 Altri post in questa serie: Egghunter I - Vulnserver GMON Egghunter II - freeFTPd 1.0.10 Egghunter III - Vulnserver KSTET Egghunter IV - TFTP Server 1.4 Egghunter V - Sysax 5.3 L’ordine non è casuale, se non viene spiegato qualche dettaglio è perchè è stato spiegato in articoli precedenti. Consiglio di partire dal primo e proseguire in ordine.</p>
-<p>Go to Source</p>
-		
-			<a href="https://ghariib.ir/posts/egghunter-ii-freeftpd-1-0-10/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
 	<h1><a href="https://ghariib.ir/posts/egghunter-iii-vulnserver-kstet/">Egghunter III - Vulnserver KSTET</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
@@ -173,6 +116,68 @@
 <p>For hints discord Server ( <a href="https://discord.gg/7asvAhCEhe">https://discord.gg/7asvAhCEhe</a> )</p>
 <p>VulnHub</p>
 <p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/empire-lupinone/">Empire: LupinOne</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Difficulty: Medium</p>
+<p>This box was created to be medium, but it can be hard if you get lost.</p>
+<p>CTF like box. You have to enumerate as much as you can.</p>
+<p>For hints discord Server ( <a href="https://discord.gg/7asvAhCEhe">https://discord.gg/7asvAhCEhe</a> )</p>
+<p>VulnHub</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/enforce-resource-configuration-to-control-access-to-new-features-with-aws/">Enforce resource configuration to control access to new features with AWS</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Establishing and maintaining an effective security and governance posture has never been more important for enterprises. This post explains how you, as a security administrator, can use Amazon Web Services (AWS) to enforce resource configurations in a manner that is designed to be secure, scalable, and primarily focused on feature gating.</p>
+<p>In this context, _feature gatin_g means that newly supported AWS features and configurations can’t be used unless you explicitly approve them. With feature gating, you maintain control over your AWS environment when new services and capabilities are introduced.</p>
+		
+			<a href="https://ghariib.ir/posts/enforce-resource-configuration-to-control-access-to-new-features-with-aws/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/enhancing-kubernetes-api-server-efficiency-with-api-streaming/">Enhancing Kubernetes API Server Efficiency with API Streaming</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Managing Kubernetes clusters efficiently is critical, especially as their size is growing. A significant challenge with large clusters is the memory overhead caused by <strong>list</strong> requests.</p>
+<p>In the existing implementation, the kube-apiserver processes <strong>list</strong> requests by assembling the entire response in-memory before transmitting any data to the client. But what if the response body is substantial, say hundreds of megabytes? Additionally, imagine a scenario where multiple <strong>list</strong> requests flood in simultaneously, perhaps after a brief network outage. While API Priority and Fairness has proven to reasonably protect kube-apiserver from CPU overload, its impact is visibly smaller for memory protection. This can be explained by the differing nature of resource consumption by a single API request - the CPU usage at any given time is capped by a constant, whereas memory, being uncompressible, can grow proportionally with the number of processed objects and is unbounded. This situation poses a genuine risk, potentially overwhelming and crashing any kube-apiserver within seconds due to out-of-memory (OOM) conditions. To better visualize the issue, let&rsquo;s consider the below graph.</p>
+		
+			<a href="https://ghariib.ir/posts/enhancing-kubernetes-api-server-efficiency-with-api-streaming/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/enhancing-security-operations-with-ai-driven-log-analysis-a-path-to-cooperative-intelligence/">Enhancing Security Operations with AI-Driven Log Analysis: A Path to Cooperative Intelligence</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<h2 id="introduction">Introduction</h2>
+<p>Managing log data efficiently has become both a necessity and a challenge.<br>
+Log data, ranging from network traffic and access records to application errors, is essential to cybersecurity operations,<br>
+yet the sheer volume and complexity can easily overwhelm even the most seasoned analysts. AI-driven log analysis promises<br>
+to lighten this burden by automating initial data reviews and detecting anomalies. But beyond automation, an ideal AI<br>
+solution should foster a partnership with analysts, supporting and enhancing their intuitive insights.</p>
+		
+			<a href="https://ghariib.ir/posts/enhancing-security-operations-with-ai-driven-log-analysis-a-path-to-cooperative-intelligence/">Read more...</a>
 		
 	</div>
 </article>

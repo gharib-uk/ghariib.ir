@@ -40,81 +40,6 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2024-57901-linux-kernel-af_packet-vlan-protocol-vulnerability/">CVE-2024-57901 - Linux Kernel af_packet VLAN Protocol Vulnerability</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2024-57901<br>
-<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
-<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
-<p>af_packet: fix vlan_get_protocol_dgram() vs MSG_PEEK</p>
-<p>Blamed commit forgot MSG_PEEK case, allowing a crash [1] as found by syzbot.</p>
-<p>Rework vlan_get_protocol_dgram() to not touch skb at all, so that it can be used from many cpus on the same skb.</p>
-<p>Add a const qualifier to skb argument.</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2024-57901-linux-kernel-af_packet-vlan-protocol-vulnerability/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2024-57902-linux-kernel-af_packet-vlan-get-tci-vulnerability/">CVE-2024-57902 - Linux Kernel af_packet: VLAN Get TCI Vulnerability</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2024-57902<br>
-<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
-<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
-<p>af_packet: fix vlan_get_tci() vs MSG_PEEK</p>
-<p>Blamed commit forgot MSG_PEEK case, allowing a crash [1] as found by syzbot.</p>
-<p>Rework vlan_get_tci() to not touch skb at all, so that it can be used from many cpus on the same skb.</p>
-<p>Add a const qualifier to skb argument.</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2024-57902-linux-kernel-af_packet-vlan-get-tci-vulnerability/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/cve-2024-57903-linux-kernel-so_reuseport-inet-socket-restriction-comic-book-bug/">CVE-2024-57903 - Linux kernel SO_REUSEPORT Inet Socket Restriction Comic Book Bug</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<p><strong>CVE ID :</strong> CVE-2024-57903<br>
-<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
-<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
-<p>net: restrict SO_REUSEPORT to inet sockets</p>
-<p>After blamed commit, crypto sockets could accidentally be destroyed from RCU call back, as spotted by zyzbot [1].</p>
-<p>Trying to acquire a mutex in RCU callback is not allowed.</p>
-<p>Restrict SO_REUSEPORT socket option to inet sockets.</p>
-		
-			<a href="https://ghariib.ir/posts/cve-2024-57903-linux-kernel-so_reuseport-inet-socket-restriction-comic-book-bug/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
 	<h1><a href="https://ghariib.ir/posts/cve-2025-0147-zoom-fixes-high-severity-security-flaw/">CVE-2025-0147: Zoom Fixes High-Severity Security Flaw</a></h1>
 	<b><time>15.01.2025 00:00</time></b>
 	
@@ -264,6 +189,72 @@ Visit the link for more details, such as CVSS details, affected products, timeli
 	
 	<div>
 		<p><strong>CVE ID :</strong> CVE-2025-21409<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21411-microsoft-windows-telephony-rce/">CVE-2025-21411 - Microsoft Windows Telephony RCE</a></h1>
+	<b><time>15.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-21411<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21413-windows-telephony-service-rce-vulnerability/">CVE-2025-21413 - Windows Telephony Service RCE Vulnerability</a></h1>
+	<b><time>15.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-21413<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21417-windows-telephony-service-remote-code-execution/">CVE-2025-21417 - Windows Telephony Service Remote Code Execution</a></h1>
+	<b><time>15.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-21417<br>
 <strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
 <strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
 <strong>Severity:</strong> 8.8 | HIGH<br>
