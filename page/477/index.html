@@ -40,113 +40,25 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Kubernetes v1.31: kubeadm v1beta4</a></h1>
+	<h1><a href="https://ghariib.ir/posts/example-cnf-automating-the-deployment-of-dpdk-based-network-functions-on-openshift-with-fault-tolerance/">Example-CNF: Automating the deployment of DPDK-based network functions on OpenShift with fault tolerance</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>As part of the Kubernetes v1.31 release, <code>kubeadm</code> is adopting a new (v1beta4) version of its configuration file format. Configuration in the previous v1beta3 format is now formally deprecated, which means it&rsquo;s supported but you should migrate to v1beta4 and stop using the deprecated format. Support for v1beta3 configuration will be removed after a minimum of 3 Kubernetes minor releases.</p>
-<p>In this article, I&rsquo;ll walk you through key changes; I&rsquo;ll explain about the kubeadm v1beta4 configuration format, and how to migrate from v1beta3 to v1beta4.</p>
+		<p>Network optimization with Data Plane Development Kit (DPDK) and Single Root Input/Output Virtualization (SR-IOV) is widely supported and adopted in Kubernetes and Red Hat OpenShift. In this article, we will present a means of automatically deploying an open source Cloud-Native Network Function (CNF), called Example-CNF, in order to test particular Telco-related configurations and scenarios, leveraging DPDK&rsquo;s capabilities within containerized environments.</p>
+<p>Example-CNF is a workload to exercise both DPDK and SR-IOV technologies for Telco setups. The project is composed of several Kubernetes operators built with open source toolkits, such as Operator SDK, using Red Hat Universal Base Images (UBI) images pushed to Quay.io, deploying two main components:</p>
 		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Read more...</a>
+			<a href="https://ghariib.ir/posts/example-cnf-automating-the-deployment-of-dpdk-based-network-functions-on-openshift-with-fault-tolerance/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Kubernetes v1.31: New Kubernetes CPUManager Static Policy: Distribute CPUs Across Cores</a></h1>
+	<h1><a href="https://ghariib.ir/posts/exe2powershell-convert-exe-to-bat-files/">exe2powershell – Convert EXE to BAT Files</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>In Kubernetes v1.31, we are excited to introduce a significant enhancement to CPU management capabilities: the <code>distribute-cpus-across-cores</code> option for the CPUManager static policy. This feature is currently in alpha and hidden by default, marking a strategic shift aimed at optimizing CPU utilization and improving system performance across multi-core processors.</p>
-<h2 id="understanding-the-feature">Understanding the feature</h2>
-<p>Traditionally, Kubernetes&rsquo; CPUManager tends to allocate CPUs as compactly as possible, typically packing them onto the fewest number of physical cores. However, allocation strategy matters, CPUs on the same physical host still share some resources of the physical core, such as the cache and execution units, etc.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Kubernetes v1.32 Adds A New CPU Manager Static Policy Option For Strict CPU Reservation</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>In Kubernetes v1.32, after years of community discussion, we are excited to introduce a <code>strict-cpu-reservation</code> option for the CPU Manager static policy. This feature is currently in alpha, with the associated policy hidden by default. You can only use the policy if you explicitly enable the alpha behavior in your cluster.</p>
-<h2 id="understanding-the-feature">Understanding the feature</h2>
-<p>The CPU Manager static policy is used to reduce latency or improve performance. The <code>reservedSystemCPUs</code> defines an explicit CPU set for OS system daemons and kubernetes system daemons. This option is designed for Telco/NFV type use cases where uncontrolled interrupts/timers may impact the workload performance. you can use this option to define the explicit cpuset for the system/kubernetes daemons as well as the interrupts/timers, so the rest CPUs on the system can be used exclusively for workloads, with less impact from uncontrolled interrupts/timers. More details of this parameter can be found on the Explicitly Reserved CPU List page.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Kubernetes v1.32 sneak peek</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>As we get closer to the release date for Kubernetes v1.32, the project develops and matures. Features may be deprecated, removed, or replaced with better ones for the project&rsquo;s overall health.</p>
-<p>This blog outlines some of the planned changes for the Kubernetes v1.32 release, that the release team feels you should be aware of, for the continued maintenance of your Kubernetes environment and keeping up to date with the latest changes. Information listed below is based on the current status of the v1.32 release and may change before the actual release date.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Kubernetes v1.32: Memory Manager Goes GA</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>With Kubernetes 1.32, the memory manager has officially graduated to General Availability (GA), marking a significant milestone in the journey toward efficient and predictable memory allocation for containerized applications. Since Kubernetes v1.22, where it graduated to beta, the memory manager has proved itself reliable, stable and a good complementary feature for the CPU Manager.</p>
-<p>As part of kubelet&rsquo;s workload admission process, the memory manager provides topology hints to optimize memory allocation and alignment. This enables users to allocate exclusive memory for Pods in the Guaranteed QoS class. More details about the process can be found in the memory manager goes to beta blog.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Kubernetes v1.32: Penelope</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p><strong>Editors:</strong> Matteo Bianchi, Edith Puclla, William Rizzo, Ryota Sawada, Rashan Smith</p>
-<p>Announcing the release of Kubernetes v1.32: Penelope!</p>
-<p>In line with previous releases, the release of Kubernetes v1.32 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 44 enhancements in total. Of those enhancements, 13 have graduated to Stable, 12 are entering Beta, and 19 have entered in Alpha.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Kubernetes v1.32: QueueingHint Brings a New Possibility to Optimize Pod Scheduling</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The Kubernetes scheduler is the core component that selects the nodes on which new Pods run. The scheduler processes these new Pods <strong>one by one</strong>. Therefore, the larger your clusters, the more important the throughput of the scheduler becomes.</p>
-<p>Over the years, Kubernetes SIG Scheduling has improved the throughput of the scheduler in multiple enhancements. This blog post describes a major improvement to the scheduler in Kubernetes v1.32: a scheduling context element named <em>QueueingHint</em>. This page provides background knowledge of the scheduler and explains how QueueingHint improves scheduling throughput.</p>
-		
-			<a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/lateral-movement-visual-studio-dte/">Lateral Movement – Visual Studio DTE</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>A lot of organizations have some sort of application development program and it is highly likely that developers will utilize Visual Studio for their development…</p>
-<p>Continue reading → Lateral Movement – Visual Studio DTE</p>
+		<p>exe2powershell is used to convert EXE to BAT files, the previously well known tool for this was exe2bat, this is a version for modern Windows. This will convert any binary file (*.exe) to a BAT file, the resulting BAT file contains only echo commands followed by a PowerShell command to re-create the original binary file. […]</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -154,34 +66,113 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Life at Canonical: Victoria Antipova’s perspective as a new joiner in Product Marketing</a></h1>
+	<h1><a href="https://ghariib.ir/posts/fall-2024-soc-1-2-and-3-reports-now-available-with-183-services-in-scope/">Fall 2024 SOC 1, 2, and 3 reports now available with 183 services in scope</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Canonical is continuously hiring new talent. Being a remote- first company, Canonical’s new joiners receive a unique onboarding experience. In their first weeks, they are introduced to the different departments and the various tools they use to work asynchronously across the globe. New hires develop a good understanding of the open-source technologies that the company deploys and supports such as Openstack, Kubernetes, Kubeflow and OpenSearch – in addition of course to Ubuntu, the world’s most famous OS, which they install on their laptops. </p>
+		<p>We continue to expand the scope of our assurance programs at Amazon Web Services (AWS) and are pleased to announce that the Fall 2024 System and Organization Controls (SOC) 1, 2, and 3 reports are now available. The reports cover 183 services over the 12-month period from October 1, 2023 to September 30, 2024, so that customers have a full year of assurance with the reports. These reports demonstrate our continuous commitment to adhere to the heightened expectations for cloud service providers.</p>
 		
-			<a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Read more...</a>
+			<a href="https://ghariib.ir/posts/fall-2024-soc-1-2-and-3-reports-now-available-with-183-services-in-scope/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/light-brite-turned-sci-fi-console-on-the-cheap/">Light Brite Turned Sci-Fi Console on the Cheap</a></h1>
+	<h1><a href="https://ghariib.ir/posts/fbi-backed-off-apple-in-iphone-cracking-case/">FBI Backed Off Apple In iPhone Cracking Case</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>
+		<p>So the big furore this week is because the FBI backed off Apple in the whole Apple vs the World privacy case regarding cracking the iPhone Passcode of the phone belonging to the San Bernardino gunman Syed Farook. If you’re not familiar with the case, catch up with it here: FBI–Apple encryption dispute. The latest […]</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/foundry-study-highlights-the-benefits-of-a-unified-security-platform-in-new-e-book/">Foundry study highlights the benefits of a unified security platform in new e-book</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Microsoft observes more than 600 million ransomware, phishing, and identity attacks each day.¹ One major theme from our analysis of these attacks is clear—organizations with integrated tools have better visibility and more holistic defense than those using a broader portfolio of point solutions. Microsoft wanted to test this observation outside of its own telemetry, hiring Foundry to conduct a survey of senior-level IT decision makers with a primary role in security management at organizations with 500 or more employees to see what they’re experiencing.</p>
+		
+			<a href="https://ghariib.ir/posts/foundry-study-highlights-the-benefits-of-a-unified-security-platform-in-new-e-book/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/frequent-freeloader-part-ii-russian-actor-secret-blizzard-using-tools-of-other-groups-to-attack-ukraine/">Frequent freeloader part II: Russian actor Secret Blizzard using tools of other groups to attack Ukraine</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>After co-opting the tools and infrastructure of another nation-state threat actor to facilitate espionage activities, as detailed in our last blog, Russian nation-state actor Secret Blizzard used those tools and infrastructure to compromise targets in Ukraine. Microsoft Threat Intelligence has observed that these campaigns consistently led to the download of Secret Blizzard’s custom malware, with the Tavdig backdoor creating the foothold to install their KazuarV2 backdoor.</p>
+<p>Between March and April 2024, Microsoft Threat Intelligence observed Secret Blizzard using the Amadey bot malware relating to cybercriminal activity that Microsoft tracks as Storm-1919 to download its backdoors to specifically selected target devices associated with the Ukrainian military. This was at least the second time since 2022 that Secret Blizzard has used a cybercrime campaign to facilitate a foothold for its own malware in Ukraine. Microsoft also assesses that in January 2024, Secret Blizzard used the backdoor of Storm-1837, a Russia-based threat actor that targets Ukrainian military drone pilots, to download the Tavdig and KazuarV2 backdoors on a target device in Ukraine.</p>
+		
+			<a href="https://ghariib.ir/posts/frequent-freeloader-part-ii-russian-actor-secret-blizzard-using-tools-of-other-groups-to-attack-ukraine/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/friday-five-december-20-2024/">Friday Five — December 20, 2024</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Forbes - Red Hat Details Vision For AI, Casts Foundations In GraniteIn the open source universe driven by Red Hat, the firm has now engineered the release of Red Hat Enterprise Linux AI, Red Hat’s foundation model platform for developing, testing and running generative artificial intelligence models for enterprise applications. Learn more The Next Platform - GenAI Races Ahead, But Enterprises Are Still At The Starting LineBut while AI research and development has pushed forward at breakneck speed, most enterprises are still not much beyond the starting line, according to Joe Fernandes, vic</p>
+		
+			<a href="https://ghariib.ir/posts/friday-five-december-20-2024/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/from-chatgpt-to-temu-ranking-top-internet-services-in-2024/">From ChatGPT to Temu: ranking top Internet services in 2024</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Since the late 1990s, millions have relied on the Internet for searching, communicating, shopping, and working, though 2.6 billion people (about 31% of the global population) still lack Internet access. Over the years, use of the Internet has evolved from email and static sites to social media, streaming, e-commerce, cloud tools, and more recently AI chatbots, reflecting its constant adaptation to users&rsquo; needs. This post explores how people interacted online in 2024, based on Cloudflare’s observations and a review of the year’s DNS trends.</p>
+		
+			<a href="https://ghariib.ir/posts/from-chatgpt-to-temu-ranking-top-internet-services-in-2024/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/from-deals-to-ddos-exploring-cyber-week-2024-internet-trends/">From deals to DDoS: exploring Cyber Week 2024 Internet trends</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>In 2024, Thanksgiving (November 28), Black Friday (November 29), and Cyber Monday (December 2) significantly impacted Internet traffic, similar to trends seen in 2023 and previous years. This year, Thanksgiving in the US drove a 20% drop in daily traffic compared to the previous week, with a notable 33% dip at 15:45 ET. In contrast, Black Friday and Cyber Monday drove traffic spikes. But how global is this trend, and do attacks increase during Cyber Week?</p>
+		
+			<a href="https://ghariib.ir/posts/from-deals-to-ddos-exploring-cyber-week-2024-internet-trends/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/from-fake-installers-to-stolen-credentials-decoding-the-legionloader-threat/">From Fake Installers to Stolen Credentials: Decoding the LegionLoader Threat</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<h3 id="from-fake-installers-to-stolen-credentials-decoding-the-legionloader-threat">From Fake Installers to Stolen Credentials: Decoding the LegionLoader Threat</h3>
+<p>
 <figure>
-  <img src="https://hackaday.com/wp-content/uploads/2025/01/briteprop_feat.jpg?w=800" alt="" />
+  <img src="https://upload.cvefeed.io/news/21870/thumbnail.jpg" alt="" />
 </figure>
 
 
 </p>
-<p>Generally, the projects featured on Hackaday actually <em>do</em> something. We won’t go as far as to say they are practical creations, but they usually have some kind of function other than to sit there and blink. But what if just sitting still and blinking away randomly is precisely what you want a piece of hardware to do?</p>
-<p>That was exactly the goal when [createscifi] set out to dress a Lite Brite up as a futuristic prop. On a technical level, this project is pretty much as simple as it gets. But we appreciated seeing some of the techniques brought to bear on this project, and perhaps more importantly, really like the channel’s overall goal of creating affordable sci-fi props using common components. We don’t plan on filming our own space epic anytime soon…but we like to know the option is there.</p>
-		
-			<a href="https://ghariib.ir/posts/light-brite-turned-sci-fi-console-on-the-cheap/">Read more...</a>
+<p>TRAC Labs has released an in-depth report on LegionLoader, a sophisticated downloader malware that has evolved significantly since its initial appearance in 2019. The malware, also tracked as Satacom, &hellip; <em>Read more</em></p>
+<p><strong>Published Date:</strong> Jan 02, 2025 (8 hours, 35 minutes ago)</p>
+<p>Vulnerabilities has been mentioned in this article.</p>
+<p>CVE-2024-12108 CVE-2024-38193</p>
 		
 	</div>
 </article>
@@ -191,7 +182,7 @@
 
 	<a href="/page/476/">Previous Page</a>
 
-477 of 556
+477 of 564
 
 	<a href="/page/478/">Next Page</a>
 

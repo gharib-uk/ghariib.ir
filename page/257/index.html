@@ -40,31 +40,102 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/mcafuse-open-source-mcafee-fde-decryption/">McAFuse - open source McAfee FDE decryption</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-57901-linux-kernel-af_packet-vlan-protocol-vulnerability/">CVE-2024-57901 - Linux Kernel af_packet VLAN Protocol Vulnerability</a></h1>
 	<b><time>15.01.2025 00:00</time></b>
 	
-	<a href="/tags/technology">technology</a>
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>This post is a <em>guest</em> post, where <strong>Andrea Canepa</strong> (<em>recently</em> graduated at University of Genoa, Computer Science) will explain his <strong>Master Thesis</strong>. The topic is <em>how to handle McAfee FDE acquisitions</em> when doing a DFIR investigations.</p>
-<p>Suppose that you&rsquo;re asked to perform a forensic investigation on a laptop where McAfee FDE is used: the company will provide you the xml file (McAfee ePO) with the decrypting key. How would you proceed?</p>
+		<p><strong>CVE ID :</strong> CVE-2024-57901<br>
+<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
+<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
+<p>af_packet: fix vlan_get_protocol_dgram() vs MSG_PEEK</p>
+<p>Blamed commit forgot MSG_PEEK case, allowing a crash [1] as found by syzbot.</p>
+<p>Rework vlan_get_protocol_dgram() to not touch skb at all, so that it can be used from many cpus on the same skb.</p>
+<p>Add a const qualifier to skb argument.</p>
 		
-			<a href="https://ghariib.ir/posts/mcafuse-open-source-mcafee-fde-decryption/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2024-57901-linux-kernel-af_packet-vlan-protocol-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-fixes-159-bugs-in-first-patch-tuesday-of-2025/">Microsoft fixes 159 bugs in first Patch Tuesday of 2025</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-57902-linux-kernel-af_packet-vlan-get-tci-vulnerability/">CVE-2024-57902 - Linux Kernel af_packet: VLAN Get TCI Vulnerability</a></h1>
 	<b><time>15.01.2025 00:00</time></b>
 	
-	<a href="/tags/patchconfiguration-management">patchconfiguration-management</a>
+	<a href="/tags/cve">cve</a>
 	
-	<a href="/tags/vulnerability-management">vulnerability-management</a>
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>The patch dump is the largest from Microsoft in over half a decade.</p>
+		<p><strong>CVE ID :</strong> CVE-2024-57902<br>
+<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
+<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
+<p>af_packet: fix vlan_get_tci() vs MSG_PEEK</p>
+<p>Blamed commit forgot MSG_PEEK case, allowing a crash [1] as found by syzbot.</p>
+<p>Rework vlan_get_tci() to not touch skb at all, so that it can be used from many cpus on the same skb.</p>
+<p>Add a const qualifier to skb argument.</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2024-57902-linux-kernel-af_packet-vlan-get-tci-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-57903-linux-kernel-so_reuseport-inet-socket-restriction-comic-book-bug/">CVE-2024-57903 - Linux kernel SO_REUSEPORT Inet Socket Restriction Comic Book Bug</a></h1>
+	<b><time>15.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2024-57903<br>
+<strong>Published :</strong> Jan. 15, 2025, 1:15 p.m. | 1 hour, 2 minutes ago<br>
+<strong>Description :</strong> In the Linux kernel, the following vulnerability has been resolved:</p>
+<p>net: restrict SO_REUSEPORT to inet sockets</p>
+<p>After blamed commit, crypto sockets could accidentally be destroyed from RCU call back, as spotted by zyzbot [1].</p>
+<p>Trying to acquire a mutex in RCU callback is not allowed.</p>
+<p>Restrict SO_REUSEPORT socket option to inet sockets.</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2024-57903-linux-kernel-so_reuseport-inet-socket-restriction-comic-book-bug/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-0147-zoom-fixes-high-severity-security-flaw/">CVE-2025-0147: Zoom Fixes High-Severity Security Flaw</a></h1>
+	<b><time>15.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<h3 id="cve-2025-0147-zoom-fixes-high-severity-security-flaw">CVE-2025-0147: Zoom Fixes High-Severity Security Flaw</h3>
+<p>
+<figure>
+  <img src="https://upload.cvefeed.io/news/24191/thumbnail.jpg" alt="" />
+</figure>
+
+
+</p>
+<p>Zoom has released six security bulletin addressing several vulnerabilities across its product ecosystem, ranging in severity from low to high. These vulnerabilities affect various platforms, including &hellip; <em>Read more</em></p>
+<p><strong>Published Date:</strong> Jan 15, 2025 (4 hours, 53 minutes ago)</p>
+<p>Vulnerabilities has been mentioned in this article.</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -72,7 +143,7 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-fixes-under-attack-privilege-escalation-holes-in-hyper-v/">Microsoft fixes under-attack privilege-escalation holes in Hyper-V</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21309-microsoft-windows-remote-desktop-services-remote-code-execution/">CVE-2025-21309 - Microsoft Windows Remote Desktop Services Remote Code Execution</a></h1>
 	<b><time>15.01.2025 00:00</time></b>
 	
 	<a href="/tags/cve">cve</a>
@@ -82,112 +153,11 @@
 	<a href="/tags/security">security</a>
 	
 	<div>
-		<h3 id="microsoft-fixes-under-attack-privilege-escalation-holes-in-hyper-v">Microsoft fixes under-attack privilege-escalation holes in Hyper-V</h3>
-<p>
-<figure>
-  <img src="https://upload.cvefeed.io/news/24167/thumbnail.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>Patch Tuesday The first Patch Tuesday of 2025 has seen Microsoft address three under-attack privilege-escalation flaws in its Hyper-V hypervisor, plus plenty more problems that deserve your attention. &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 15, 2025 (5 hours, 35 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
-<p>CVE-2025-21362 CVE-2025-21354 CVE-2025-21335 CVE-2025-21334 CVE-2025-21333 CVE-2025-21311 CVE-2025-21309 CVE-2025-21307 CVE-2025-21298 CVE-2025-21297 CVE-2025-21296 CVE-2025-21295 CVE-2025-21294 CVE-2025-21178 CVE-2025-21380 CVE-2025-21385</p>
-		
-			<a href="https://ghariib.ir/posts/microsoft-fixes-under-attack-privilege-escalation-holes-in-hyper-v/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-january-2025-patch-tuesday-8-zero-days-3-actively-exploited/">Microsoft January 2025 Patch Tuesday: 8 Zero-Days, 3 Actively Exploited</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/zero-day">zero-day</a>
-	
-	<div>
-		<h3 id="microsoft-january-2025-patch-tuesday-8-zero-days-3-actively-exploited">Microsoft January 2025 Patch Tuesday: 8 Zero-Days, 3 Actively Exploited</h3>
-<p>
-<figure>
-  <img src="https://upload.cvefeed.io/news/24135/thumbnail.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>Microsoft’s Patch Tuesday update for January 2025 patches 159 vulnerabilities, including eight zero-days, three of which are being actively exploited. The Microsoft January 2025 Patch Tuesday release &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 14, 2025 (8 hours, 59 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
-<p>CVE-2025-21395 CVE-2025-21366 CVE-2025-21365 CVE-2025-21364 CVE-2025-21362 CVE-2025-21354 CVE-2025-21335 CVE-2025-21334 CVE-2025-21333 CVE-2025-21329 CVE-2025-21328 CVE-2025-21315 CVE-2025-21314 CVE-2025-21309 CVE-2025-21308 CVE-2025-21299 CVE-2025-21298 CVE-2025-21292 CVE-2025-21275 CVE-2025-21269 CVE-2025-21268 CVE-2025-21219 CVE-2025-21210 CVE-2025-21189 CVE-2025-21186 CVE-2024-55591 CVE-2024-21893 CVE-2024-21887 CVE-2023-46805 CVE-2021-44228 CVE-2017-11882</p>
-		
-			<a href="https://ghariib.ir/posts/microsoft-january-2025-patch-tuesday-8-zero-days-3-actively-exploited/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-patch-tuesday-january-2025/">Microsoft Patch Tuesday- January 2025</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<div>
-		<h3 id="microsoft-patch-tuesday--january-2025">Microsoft Patch Tuesday- January 2025</h3>
-<p>
-<figure>
-  <img src="https://upload.cvefeed.io/news/24168/thumbnail.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>Microsoft released the January 2025 Patch Tuesday updates on January 14, 2025, focusing on addressing critical security vulnerabilities across various Microsoft products. This update cycle includes se &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 15, 2025 (5 hours, 25 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
-<p>CVE-2025-21395 CVE-2025-21366 CVE-2025-21362 CVE-2025-21354 CVE-2025-21335 CVE-2025-21334 CVE-2025-21333 CVE-2025-21311 CVE-2025-21309 CVE-2025-21308 CVE-2025-21307 CVE-2025-21298 CVE-2025-21275 CVE-2025-21186 CVE-2024-12398 CVE-2024-12847 CVE-2024-5594 CVE-2024-54498 CVE-2024-49415</p>
-		
-			<a href="https://ghariib.ir/posts/microsoft-patch-tuesday-january-2025/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-rings-in-2025-with-record-security-update/">Microsoft Rings in 2025 With Record Security Update</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/cve">cve</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/zero-day">zero-day</a>
-	
-	<div>
-		<h3 id="microsoft-rings-in-2025-with-record-security-update">Microsoft Rings in 2025 With Record Security Update</h3>
-<p>
-<figure>
-  <img src="https://upload.cvefeed.io/news/24145/thumbnail.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>Source: Elena11 via ShutterstockMicrosoft&rsquo;s January update contains patches for a record 159 vulnerabilities, including eight zero-day bugs, three of which attackers are already actively exploiting.Th &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 14, 2025 (8 hours, 12 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
-<p>CVE-2025-21395 CVE-2025-21366 CVE-2025-21335 CVE-2025-21334 CVE-2025-21333 CVE-2025-21311 CVE-2025-21308 CVE-2025-21307 CVE-2025-21298 CVE-2025-21275 CVE-2025-21186</p>
+		<p><strong>CVE ID :</strong> CVE-2025-21309<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:15 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Windows Remote Desktop Services Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.1 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -195,25 +165,7 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-shares-insights-from-red-teaming-100-genai-products/">Microsoft shares insights from red teaming 100 GenAI products</a></h1>
-	<b><time>15.01.2025 00:00</time></b>
-	
-	<a href="/tags/aiml">aiml</a>
-	
-	<a href="/tags/generative-ai">generative-ai</a>
-	
-	<a href="/tags/penetration-testing">penetration-testing</a>
-	
-	<div>
-		<p>In a whitepaper, the AI Red Team describes its methodology and offers guidance for security teams.</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/microsoft-happy-2025-heres-161-security-updates/">Microsoft: Happy 2025. Here’s 161 Security Updates</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21311-microsoft-windows-ntlm-privilege-escalation/">CVE-2025-21311 - Microsoft Windows NTLM Privilege Escalation</a></h1>
 	<b><time>15.01.2025 00:00</time></b>
 	
 	<a href="/tags/cve">cve</a>
@@ -222,21 +174,12 @@
 	
 	<a href="/tags/security">security</a>
 	
-	<a href="/tags/zero-day">zero-day</a>
-	
 	<div>
-		<h3 id="microsoft-happy-2025-heres-161-security-updates">Microsoft: Happy 2025. Here’s 161 Security Updates</h3>
-<p>
-<figure>
-  <img src="https://upload.cvefeed.io/news/24146/thumbnail.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>Microsoft today unleashed updates to plug a whopping 161 security vulnerabilities in Windows and related software, including three “zero-day” weaknesses that are already under active attack. Redmond’s &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 14, 2025 (8 hours, 18 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
-<p>CVE-2025-21395 CVE-2025-21366 CVE-2025-21335 CVE-2025-21334 CVE-2025-21333 CVE-2025-21311 CVE-2025-21298 CVE-2025-21210 CVE-2025-21186 CVE-2024-49142</p>
+		<p><strong>CVE ID :</strong> CVE-2025-21311<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:15 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Windows NTLM V1 Elevation of Privilege Vulnerability<br>
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -244,7 +187,7 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/microsofts-january-2025-patch-tuesday-fixes-159-vulnerabilities-including-10-critical-and-8-zero-days/">Microsoft’s January 2025 Patch Tuesday Fixes 159 Vulnerabilities, Including 10 Critical and 8 Zero-Days</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21339-windows-telephony-service-remote-code-execution/">CVE-2025-21339 - Windows Telephony Service Remote Code Execution</a></h1>
 	<b><time>15.01.2025 00:00</time></b>
 	
 	<a href="/tags/cve">cve</a>
@@ -253,51 +196,79 @@
 	
 	<a href="/tags/security">security</a>
 	
-	<a href="/tags/zero-day">zero-day</a>
-	
 	<div>
-		<h3 id="microsofts-january-2025-patch-tuesday-fixes-159-vulnerabilities-including-10-critical-and-8-zero-days">Microsoft’s January 2025 Patch Tuesday Fixes 159 Vulnerabilities, Including 10 Critical and 8 Zero-Days</h3>
-<p>
-<figure>
-  <img src="https://upload.cvefeed.io/news/24186/thumbnail.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>Microsoft delivers its first Patch Tuesday of 2025 with a robust security update addressing a wide range of vulnerabilities. With 159 issues patched, including 10 critical and 149 important ones, this &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 15, 2025 (5 hours, 20 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
-<p>CVE-2025-21395 CVE-2025-21366 CVE-2025-21362 CVE-2025-21354 CVE-2025-21335 CVE-2025-21334 CVE-2025-21333 CVE-2025-21311 CVE-2025-21309 CVE-2025-21308 CVE-2025-21307 CVE-2025-21298 CVE-2025-21297 CVE-2025-21296 CVE-2025-21295 CVE-2025-21294 CVE-2025-21275 CVE-2025-21186 CVE-2024-49138</p>
-		
-			<a href="https://ghariib.ir/posts/microsofts-january-2025-patch-tuesday-fixes-159-vulnerabilities-including-10-critical-and-8-zero-days/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2025-21339<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:15 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/mind-the-patch-gap-exploiting-an-io_uring-vulnerability-in-ubuntu/">Mind the Patch Gap: Exploiting an io_uring Vulnerability in Ubuntu</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21354-microsoft-excel-remote-code-execution-vulnerability/">CVE-2025-21354 - Microsoft Excel Remote Code Execution Vulnerability</a></h1>
 	<b><time>15.01.2025 00:00</time></b>
 	
-	<a href="/tags/define">define</a>
+	<a href="/tags/cve">cve</a>
 	
-	<a href="/tags/endif">endif</a>
+	<a href="/tags/cybersecurity">cybersecurity</a>
 	
-	<a href="/tags/exploit-techniques">exploit-techniques</a>
-	
-	<a href="/tags/ifdef">ifdef</a>
-	
-	<a href="/tags/vulnerability-analysis">vulnerability-analysis</a>
-	
-	<a href="/tags/zero-day">zero-day</a>
+	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>By Oriol Castejón</p>
-<h2 id="overview">Overview</h2>
-<p>This post discusses a use-after-free vulnerability, CVE-2024-0582, in io_uring in the Linux kernel. Despite the vulnerability being patched in the stable kernel in December 2023, it wasn’t ported to Ubuntu kernels for over two months, making it an easy 0day vector in Ubuntu during that time.</p>
-<p>In early January 2024, a Project Zero issue for a recently fixed <code>io_uring</code> use-after-free (UAF) vulnerability (CVE-2024-0582) was made public. It was apparent that the vulnerability allowed an attacker to obtain read and write access to a number of previously freed <em>pages</em>. This seemed to be a very powerful primitive: usually a UAF gets you access to a freed kernel <em>object</em>, not a whole page – or even better, multiple pages. As the Project Zero issue also described, it was clear that this vulnerability should be easily exploitable: if an attacker has total access to free pages, once these pages are returned to a slab cache to be reused, they will be able to modify any contents of any object allocated within these pages. In the more common situation, the attacker can modify only a certain type of object, and possibly only at certain offsets or with certain values.</p>
+		<p><strong>CVE ID :</strong> CVE-2025-21354<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Microsoft Excel Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.4 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
 		
-			<a href="https://ghariib.ir/posts/mind-the-patch-gap-exploiting-an-io_uring-vulnerability-in-ubuntu/">Read more...</a>
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21362-microsoft-excel-remote-code-execution-vulnerability/">CVE-2025-21362 - Microsoft Excel Remote Code Execution Vulnerability</a></h1>
+	<b><time>15.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-21362<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Microsoft Excel Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.4 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-21409-windows-telephony-service-rce/">CVE-2025-21409 - Windows Telephony Service RCE</a></h1>
+	<b><time>15.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-21409<br>
+<strong>Published :</strong> Jan. 14, 2025, 6:16 p.m. | 12 hours, 53 minutes ago<br>
+<strong>Description :</strong> Windows Telephony Service Remote Code Execution Vulnerability<br>
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>
@@ -307,7 +278,7 @@
 
 	<a href="/page/256/">Previous Page</a>
 
-257 of 556
+257 of 564
 
 	<a href="/page/258/">Next Page</a>
 

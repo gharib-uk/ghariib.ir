@@ -40,117 +40,13 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/issue-with-data-all-multiple-cves/">Issue with data.all (Multiple CVEs)</a></h1>
+	<h1><a href="https://ghariib.ir/posts/doubletrouble-1/">doubletrouble: 1</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>**Publication Date: 2024/11/8 4:00 PM PDT<br>
-**</p>
-<p>Data.all is an open source development framework to help customers build a data marketplace on AWS.</p>
-<p>We have identified the following issues within data.all version 1.0.0 through 2.6.0. On November 8, 2024, we released a fix and recommend customers upgrade to version 2.6.1 or later and ensure any forked or derivative code are patched to incorporate the new fixes.</p>
-<ul>
-<li>CVE-2024-52311 relates to an issue where data.all does not invalidate authentication token upon user logout.</li>
-<li>CVE-2024-52312 relates to an issue where data.all authenticated users can perform restricted operations against DataSets and Environments.</li>
-<li>CVE-2024-52313 relates to an issue where data.all authenticated users can obtain incorrect object level authorizations.</li>
-<li>CVE-2024-52314 relates to an issue where data.all admin user may access potentially sensitive data stored by producers via logs.</li>
-<li>CVE-2024-10953 relates to an issue where data.all authenticated users can perform mutating update operations on persisted notification records.</li>
-</ul>
-<p>References:</p>
-		
-			<a href="https://ghariib.ir/posts/issue-with-data-all-multiple-cves/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/issue-with-dynamodb-local-cve-2022-1471/">Issue with DynamoDB local - CVE-2022-1471</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p><strong>Publication Date: 2024/12/11 2:00PM PST</strong></p>
-<p>AWS is aware of CVE-2022-1471 in SnakeYaml software, included in DynamoDB local jar and Docker distributions from version 1.21 and version 2.0. If leveraged, this issue could allow an actor to perform remote code execution using the SnakeYaml&rsquo;s Constructor(), as the software does not restrict the types that can be instantiated during deserialization. AWS has found no evidence that this issue has been leveraged, however, customers should still take action. On November 6, 2024, we released a fix for this issue. Customers should upgrade DynamoDB local to the latest version: v1.25.1 and above, or 2.5.3 and above.</p>
-		
-			<a href="https://ghariib.ir/posts/issue-with-dynamodb-local-cve-2022-1471/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/issue-with-iam-supporting-multiple-mfa-devices/">Issue With IAM Supporting Multiple MFA Devices</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p><strong>Initial Publication Date: 04/25/2023 10:00AM EST</strong></p>
-<p>A security researcher recently reported an issue with AWS’s recently-released (November 16th, 2022) support for multiple multi-factor authentication (MFA) devices for IAM user principals. The reported issue could have potentially arisen only when the following three conditions were met: (1) An IAM user had possession of long-term access key (AK)/secret key (SK) credentials, (2) that IAM user had the privilege to add an MFA to their own identity without using an MFA, and (3) that IAM user’s overall access privileges beyond console sign-in had been configured by an administrator to be greater after adding the MFA. Under those narrow conditions, possession of AK/SK alone was equivalent to possession of AK/SK and a previously configured MFA.</p>
-		
-			<a href="https://ghariib.ir/posts/issue-with-iam-supporting-multiple-mfa-devices/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/issue-with-nvidia-container-toolkit-cve-2024-0132-cve-2024-0133/">Issue with NVIDIA Container Toolkit (CVE-2024-0132, CVE-2024-0133)</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>**Publication Date: 2024/10/01 6:35 PM PDT<br>
-**</p>
-<p>AWS is aware of CVE-2024-0132 and CVE-2024-0133, issues affecting the NVIDIA container toolkit 1.16. At this time, the following services require customer action. If we become aware of additional impact, we will update this bulletin.</p>
-<p>Amazon Elastic Container Service (Amazon ECS)</p>
-<p>Amazon ECS has released updated ECS GPU-optimized Amazon Machine Images (AMIs) with the patched NVIDIA container toolkit v1.16.2. We recommend that ECS customers update to these AMIs (or the latest available). Additional information on the ECS-optimized AMI is available at in our &ldquo;Amazon ECS-optimized Linux AMIs&rdquo; developer guide.</p>
-		
-			<a href="https://ghariib.ir/posts/issue-with-nvidia-container-toolkit-cve-2024-0132-cve-2024-0133/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/issue-with-pytorch-torchserve-cve-2024-35198-cve-2024-35199/">Issue with PyTorch TorchServe - CVE-2024-35198, CVE-2024-35199</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>**Publication Date: 2024/07/18 2:50 PM PDT<br>
-**</p>
-<p>AWS is aware of the issues described in CVE-2024-35198 and CVE-2024-35199 in PyTorch TorchServe versions 0.3.0 to 0.10.0. Customers using PyTorch inference Deep Learning Containers (DLC) through Amazon SageMaker are not affected.</p>
-<p>CVE-2024-35198 does not prevent a model from being downloaded into the model store if the URL contains characters such as &ldquo;..&rdquo; when TorchServe model registration API is called. Customers using PyTorch inference Deep Learning Containers (DLC) through Amazon SageMaker and Amazon Elastic Kubernetes Service (Amazon EKS) are not affected by this issue.</p>
-		
-			<a href="https://ghariib.ir/posts/issue-with-pytorch-torchserve-cve-2024-35198-cve-2024-35199/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/issue-with-redshift-jdbc-driver-python-connector-and-odbc-driver-cve-2024-12744-cve-2024-12745-cve-2024-12746/">Issue with RedShift JDBC Driver, Python Connector and ODBC Driver - (CVE-2024-12744, CVE-2024-12745, CVE-2024-12746)</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p><strong>Publication Date: 2024/12/24 10:00AM PST</strong></p>
-<p>AWS has identified the following issues within the Amazon Redshift JDBC Driver, Amazon Redshift Python Connector, and Amazon Redshift ODBC Driver. On December 23, 2024, we released a fix and recommend customers upgrade to the latest version to address these issues.</p>
-<ul>
-<li>The Amazon Redshift JDBC Driver, version 2.1.0.31, is affected by CVE-2024-12744, a SQL injection issue when utilizing the getSchemas, getTables, or getColumns Metadata APIs. This issue has been addressed in driver version 2.1.0.32. We recommend customers upgrade to the driver version 2.1.0.32 or revert to driver version 2.1.0.30.</li>
-<li>The Amazon Redshift Python Connector, version 2.1.4, is affected by CVE-2024-12745, a SQL injection issue when utilizing the get_schemas, get_tables, or get_columns Metadata APIs. This issue has been addressed in driver version 2.1.5. We recommend customers upgrade to the driver version 2.1.5 or revert to driver version 2.1.3.</li>
-<li>The Amazon Redshift ODBC Driver, version v2.1.5.0 (Windows or Linux), is affected by CVE-2024-12746, a SQL injection issue when utilizing the SQLTables or SQLColumns Metadata APIs. This issue has been addressed in driver version 2.1.6.0. We recommend customers upgrade to the driver version 2.1.6.0 or revert to driver version 2.1.4.0.</li>
-</ul>
-<p><strong>Affected versions:</strong> Amazon Redshift JDBC Driver, version 2.1.0.31; Amazon Redshift Python Connector, version 2.1.4; Amazon Redshift ODBC Driver, version v2.1.5.0.</p>
-		
-			<a href="https://ghariib.ir/posts/issue-with-redshift-jdbc-driver-python-connector-and-odbc-driver-cve-2024-12744-cve-2024-12745-cve-2024-12746/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/jangow-1-0-1/">Jangow: 1.0.1</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Difficulty: easy</p>
-<p>The secret to this box is enumeration! Inquiries <a href="mailto:jangow2021@gmail.com">jangow2021@gmail.com</a></p>
+		<p>get flags</p>
+<p>difficulty: easy</p>
+<p>about vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.</p>
 <p>VulnHub</p>
 <p>Go to Source</p>
 		
@@ -159,22 +55,14 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/javascript-arithmetic-is-awful/">JavaScript arithmetic is awful</a></h1>
+	<h1><a href="https://ghariib.ir/posts/dripping-blues-1/">Dripping Blues: 1</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>JavaScript arithmetic is awful</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/jsql-automatic-sql-injection-tool-in-java/">jSQL – Automatic SQL Injection Tool In Java</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>jSQL is an automatic SQL Injection tool written in Java, it’s lightweight and supports 23 kinds of database. It is free, open source and cross-platform (Windows, Linux, Mac OS X) and is easily available in Kali, Pentest Box, Parrot Security OS, ArchStrike or BlackArch Linux. Features of jSQL Java SQL Injection Tool Automatic injection of […]</p>
+		<p>get flags</p>
+<p>difficulty: easy</p>
+<p>about vm: tested and exported from virtualbox. dhcp and nested vtx/amdv enabled. you can contact me by email for troubleshooting or questions.</p>
+<p>VulnHub</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -182,13 +70,109 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/jumpstart-gitops-with-image-mode/">Jumpstart GitOps with image mode</a></h1>
+	<h1><a href="https://ghariib.ir/posts/egghunter-i-vulnserver-gmon/">Egghunter I - Vulnserver GMON</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>A year ago, I was introduced to image mode for Red Hat Enterprise Linux (RHEL). That introduction brought me back together with some folks I’d worked with in Project Atomic, and it proved that you could orchestrate the complete build and automation of an operating system using application pipelines. Finally, sysadmins can take advantage of the same build tools developers have.Image mode for RHEL enables you to use container tools to assemble operating system artifacts. GitHub happens to have all the required tooling: source control, a built-in container registry and pipeline tools in the for</p>
+		<p>Introduzione Una delle sfide durante la scrittura di un exploit è la gestione dello spazio che serve per inserire lo shellcode malevolo. Certe volte si trovano Stack Buffer Overflow, ma ci sono talmente pochi byte per l’inserimento dello shellcode che è necessario trovare un metodo alternativo. L’egghunter (letteralmente “cacciatore di uova”) è una piccola porzione di codice che, una volta inserito, andrà alla ricerca di una particolare stringa (l’uovo appunto) in tutta la memoria del programma.</p>
 		
-			<a href="https://ghariib.ir/posts/jumpstart-gitops-with-image-mode/">Read more...</a>
+			<a href="https://ghariib.ir/posts/egghunter-i-vulnserver-gmon/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/egghunter-ii-freeftpd-1-0-10/">Egghunter II - freeFTPd 1.0.10</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Introduzione Secondo articolo della serie Egghunter Buffer Overflow, target freeFTPd 1.0.10 Altri post in questa serie: Egghunter I - Vulnserver GMON Egghunter II - freeFTPd 1.0.10 Egghunter III - Vulnserver KSTET Egghunter IV - TFTP Server 1.4 Egghunter V - Sysax 5.3 L’ordine non è casuale, se non viene spiegato qualche dettaglio è perchè è stato spiegato in articoli precedenti. Consiglio di partire dal primo e proseguire in ordine.</p>
+<p>Go to Source</p>
+		
+			<a href="https://ghariib.ir/posts/egghunter-ii-freeftpd-1-0-10/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/egghunter-iii-vulnserver-kstet/">Egghunter III - Vulnserver KSTET</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Introduzione Terzo articolo della serie Egghunter Buffer Overflow, target Vulnserver. Altri post in questa serie: Egghunter I - Vulnserver GMON Egghunter II - freeFTPd 1.0.10 Egghunter III - Vulnserver KSTET Egghunter IV - TFTP Server 1.4 Egghunter V - Sysax 5.3 L’ordine non è casuale, se non viene spiegato qualche dettaglio è perchè è stato spiegato in articoli precedenti. Consiglio di partire dal primo e proseguire in ordine.</p>
+<p>Go to Source</p>
+		
+			<a href="https://ghariib.ir/posts/egghunter-iii-vulnserver-kstet/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/egghunter-iv-tftp-server-1-4/">Egghunter IV - TFTP Server 1.4</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Introduzione Quarto articolo della serie Egghunter Buffer Overflow, target TFTP Server 1.4 Altri post in questa serie: Egghunter I - Vulnserver GMON Egghunter II - freeFTPd 1.0.10 Egghunter III - Vulnserver KSTET Egghunter IV - TFTP Server 1.4 Egghunter V - Sysax 5.3 L’ordine non è casuale, se non viene spiegato qualche dettaglio è perchè è stato spiegato in articoli precedenti. Consiglio di partire dal primo e proseguire in ordine.</p>
+		
+			<a href="https://ghariib.ir/posts/egghunter-iv-tftp-server-1-4/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/egghunter-v-sysax-5-53/">Egghunter V - Sysax 5.53</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Introduzione Quinto articolo della serie Egghunter Buffer Overflow, target Sysax 5.53 Altri post in questa serie: Egghunter I - Vulnserver GMON Egghunter II - freeFTPd 1.0.10 Egghunter III - Vulnserver KSTET Egghunter IV - TFTP Server 1.4 Egghunter V - Sysax 5.3 L’ordine non è casuale, se non viene spiegato qualche dettaglio è perchè è stato spiegato in articoli precedenti. Consiglio di partire dal primo e proseguire in ordine.</p>
+<p>Go to Source</p>
+		
+			<a href="https://ghariib.ir/posts/egghunter-v-sysax-5-53/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/embedding-agile-culture-as-an-engagement-lead-in-japan/">Embedding agile culture as an engagement lead in Japan</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>In 2018, Red Hat launched our Open Innovation Labs in Japan. Through this program, our consulting team works directly with clients&rsquo; development teams, offering hands-on guidance in modern methodologies such as agile development and DevOps.We recently interviewed Yoshikazu Y., agile engagement lead and the head of Open Innovation Labs in Japan. Yoshikazu shared insights on the purpose of Open Innovation Labs, the appeal of working as an engagement lead, the ideal candidates their team is looking for, and current opportunities on the team. Red Hat: Tell us about your career history.Yoshikaz</p>
+		
+			<a href="https://ghariib.ir/posts/embedding-agile-culture-as-an-engagement-lead-in-japan/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/emea-blog-deutsche-telekom-red-hat-and-ibm-collaborate-on-successful-o-cloud-trial-for-open-ran/">EMEA Blog | Deutsche Telekom, Red Hat and IBM collaborate on successful O-Cloud trial for Open RAN</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The parties complete initial key phase for independent O-Cloud developmentOn its mission to become the leading digital service provider, Deutsche Telekom has pioneered open RAN since it co-founded the xRAN Forum in 2016, leading to the formation of the O-RAN Alliance in 2018. Deutsche Telekom’s goal is to establish multi-vendor O-RAN as a solution for high-power, large-scale macro network deployment as part of its network modernization activities in Europe.Deutsche Telekom has defined three key pillars in its O-RAN approach to support greater optionality, deployment flexibility and advanced</p>
+		
+			<a href="https://ghariib.ir/posts/emea-blog-deutsche-telekom-red-hat-and-ibm-collaborate-on-successful-o-cloud-trial-for-open-ran/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/empire-breakout/">Empire: Breakout</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Difficulty: Easy</p>
+<p>This box was created to be an Easy box, but it can be Medium if you get lost.</p>
+<p>For hints discord Server ( <a href="https://discord.gg/7asvAhCEhe">https://discord.gg/7asvAhCEhe</a> )</p>
+<p>VulnHub</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>
@@ -198,7 +182,7 @@
 
 	<a href="/page/474/">Previous Page</a>
 
-475 of 556
+475 of 564
 
 	<a href="/page/476/">Next Page</a>
 

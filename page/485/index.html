@@ -40,12 +40,126 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/persistence-visual-studio-code-extensions/">Persistence – Visual Studio Code Extensions</a></h1>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Kubernetes 1.32: Moving Volume Group Snapshots to Beta</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>It is not uncommon developers or users responsible to write code (i.e. detection engineers using Sigma) to utilize Visual Studio Code as their code editor.…</p>
-<p>Continue reading → Persistence – Visual Studio Code Extensions</p>
+		<p>Volume group snapshots were introduced as an Alpha feature with the Kubernetes 1.27 release. The recent release of Kubernetes v1.32 moved that support to <strong>beta</strong>. The support for volume group snapshots relies on a set of extension APIs for group snapshots. These APIs allow users to take crash consistent snapshots for a set of volumes. Behind the scenes, Kubernetes uses a label selector to group multiple PersistentVolumeClaims for snapshotting. A key aim is to allow you restore that set of snapshots to new volumes and recover your workload based on a crash consistent recovery point.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-1-32-moving-volume-group-snapshots-to-beta/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Kubernetes v1.31: kubeadm v1beta4</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>As part of the Kubernetes v1.31 release, <code>kubeadm</code> is adopting a new (v1beta4) version of its configuration file format. Configuration in the previous v1beta3 format is now formally deprecated, which means it&rsquo;s supported but you should migrate to v1beta4 and stop using the deprecated format. Support for v1beta3 configuration will be removed after a minimum of 3 Kubernetes minor releases.</p>
+<p>In this article, I&rsquo;ll walk you through key changes; I&rsquo;ll explain about the kubeadm v1beta4 configuration format, and how to migrate from v1beta3 to v1beta4.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-31-kubeadm-v1beta4/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Kubernetes v1.31: New Kubernetes CPUManager Static Policy: Distribute CPUs Across Cores</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>In Kubernetes v1.31, we are excited to introduce a significant enhancement to CPU management capabilities: the <code>distribute-cpus-across-cores</code> option for the CPUManager static policy. This feature is currently in alpha and hidden by default, marking a strategic shift aimed at optimizing CPU utilization and improving system performance across multi-core processors.</p>
+<h2 id="understanding-the-feature">Understanding the feature</h2>
+<p>Traditionally, Kubernetes&rsquo; CPUManager tends to allocate CPUs as compactly as possible, typically packing them onto the fewest number of physical cores. However, allocation strategy matters, CPUs on the same physical host still share some resources of the physical core, such as the cache and execution units, etc.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-31-new-kubernetes-cpumanager-static-policy-distribute-cpus-across-cores/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Kubernetes v1.32 Adds A New CPU Manager Static Policy Option For Strict CPU Reservation</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>In Kubernetes v1.32, after years of community discussion, we are excited to introduce a <code>strict-cpu-reservation</code> option for the CPU Manager static policy. This feature is currently in alpha, with the associated policy hidden by default. You can only use the policy if you explicitly enable the alpha behavior in your cluster.</p>
+<h2 id="understanding-the-feature">Understanding the feature</h2>
+<p>The CPU Manager static policy is used to reduce latency or improve performance. The <code>reservedSystemCPUs</code> defines an explicit CPU set for OS system daemons and kubernetes system daemons. This option is designed for Telco/NFV type use cases where uncontrolled interrupts/timers may impact the workload performance. you can use this option to define the explicit cpuset for the system/kubernetes daemons as well as the interrupts/timers, so the rest CPUs on the system can be used exclusively for workloads, with less impact from uncontrolled interrupts/timers. More details of this parameter can be found on the Explicitly Reserved CPU List page.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-adds-a-new-cpu-manager-static-policy-option-for-strict-cpu-reservation/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Kubernetes v1.32 sneak peek</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>As we get closer to the release date for Kubernetes v1.32, the project develops and matures. Features may be deprecated, removed, or replaced with better ones for the project&rsquo;s overall health.</p>
+<p>This blog outlines some of the planned changes for the Kubernetes v1.32 release, that the release team feels you should be aware of, for the continued maintenance of your Kubernetes environment and keeping up to date with the latest changes. Information listed below is based on the current status of the v1.32 release and may change before the actual release date.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-sneak-peek/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Kubernetes v1.32: Memory Manager Goes GA</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>With Kubernetes 1.32, the memory manager has officially graduated to General Availability (GA), marking a significant milestone in the journey toward efficient and predictable memory allocation for containerized applications. Since Kubernetes v1.22, where it graduated to beta, the memory manager has proved itself reliable, stable and a good complementary feature for the CPU Manager.</p>
+<p>As part of kubelet&rsquo;s workload admission process, the memory manager provides topology hints to optimize memory allocation and alignment. This enables users to allocate exclusive memory for Pods in the Guaranteed QoS class. More details about the process can be found in the memory manager goes to beta blog.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-memory-manager-goes-ga/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Kubernetes v1.32: Penelope</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p><strong>Editors:</strong> Matteo Bianchi, Edith Puclla, William Rizzo, Ryota Sawada, Rashan Smith</p>
+<p>Announcing the release of Kubernetes v1.32: Penelope!</p>
+<p>In line with previous releases, the release of Kubernetes v1.32 introduces new stable, beta, and alpha features. The consistent delivery of high-quality releases underscores the strength of our development cycle and the vibrant support from our community. This release consists of 44 enhancements in total. Of those enhancements, 13 have graduated to Stable, 12 are entering Beta, and 19 have entered in Alpha.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-penelope/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Kubernetes v1.32: QueueingHint Brings a New Possibility to Optimize Pod Scheduling</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The Kubernetes scheduler is the core component that selects the nodes on which new Pods run. The scheduler processes these new Pods <strong>one by one</strong>. Therefore, the larger your clusters, the more important the throughput of the scheduler becomes.</p>
+<p>Over the years, Kubernetes SIG Scheduling has improved the throughput of the scheduler in multiple enhancements. This blog post describes a major improvement to the scheduler in Kubernetes v1.32: a scheduling context element named <em>QueueingHint</em>. This page provides background knowledge of the scheduler and explains how QueueingHint improves scheduling throughput.</p>
+		
+			<a href="https://ghariib.ir/posts/kubernetes-v1-32-queueinghint-brings-a-new-possibility-to-optimize-pod-scheduling/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/lateral-movement-visual-studio-dte/">Lateral Movement – Visual Studio DTE</a></h1>
+	<b><time>02.01.2025 00:00</time></b>
+	
+	<div>
+		<p>A lot of organizations have some sort of application development program and it is highly likely that developers will utilize Visual Studio for their development…</p>
+<p>Continue reading → Lateral Movement – Visual Studio DTE</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -53,155 +167,13 @@
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/persistence-windows-setup-script/">Persistence – Windows Setup Script</a></h1>
+	<h1><a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Life at Canonical: Victoria Antipova’s perspective as a new joiner in Product Marketing</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>When the Windows Operating system is installed via a clean installation or via an upgrade, the Windows Setup binary is executed. The Windows setup allows…</p>
-<p>Continue reading → Persistence – Windows Setup Script</p>
-<p>Go to Source</p>
+		<p>Canonical is continuously hiring new talent. Being a remote- first company, Canonical’s new joiners receive a unique onboarding experience. In their first weeks, they are introduced to the different departments and the various tools they use to work asynchronously across the globe. New hires develop a good understanding of the open-source technologies that the company deploys and supports such as Openstack, Kubernetes, Kubeflow and OpenSearch – in addition of course to Ubuntu, the world’s most famous OS, which they install on their laptops. </p>
 		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/pfas-found-in-firefighter-gloves-hoods-and-wildland-gear/">PFAS Found in Firefighter Gloves, Hoods and Wildland Gear</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The amount of PFAS in each sample varied greatly, so it may be possible to design gear that reduces exposure.</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/poc-exploit-released-for-zero-click-vulnerability-cve-2024-49112-in-windows/">PoC Exploit Released for Zero-Click Vulnerability CVE-2024-49112 in Windows</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<h3 id="poc-exploit-released-for-zero-click-vulnerability-cve-2024-49112-in-windows">PoC Exploit Released for Zero-Click Vulnerability CVE-2024-49112 in Windows</h3>
-<p>
-<figure>
-  <img src="https://upload.cvefeed.io/news/21872/thumbnail.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>SafeBreach Labs revealed a zero-click vulnerability in the Windows Lightweight Directory Access Protocol (LDAP) service, dubbed “LDAP Nightmare”. This critical vulnerability, tracked as CVE-2024-49112 &hellip; <em>Read more</em></p>
-<p><strong>Published Date:</strong> Jan 02, 2025 (8 hours, 26 minutes ago)</p>
-<p>Vulnerabilities has been mentioned in this article.</p>
-<p>CVE-2024-12108 CVE-2024-49112</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/preparing-for-take-off-regulatory-perspectives-on-generative-ai-adoption-within-australian-financial-services/">Preparing for take-off: Regulatory perspectives on generative AI adoption within Australian financial services</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The Australian financial services regulator, the Australian Prudential Regulation Authority (APRA), has provided its most substantial guidance on generative AI to date in Member Therese McCarthy Hockey’s remarks to the AFIA Risk Summit 2024. The guidance gives a green light for banks, insurance companies, and superannuation funds to accelerate their adoption of this transformative technology, but reminded the financial services industry of the need for adequate guardrails to make sure that the benefits of generative AI don’t come at an unacceptable cost to the community.</p>
-		
-			<a href="https://ghariib.ir/posts/preparing-for-take-off-regulatory-perspectives-on-generative-ai-adoption-within-australian-financial-services/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/programming-ada-atomics-and-other-low-level-details/">Programming Ada: Atomics and Other Low-Level Details</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://hackaday.com/wp-content/uploads/2019/09/ProgrammingSystem.jpg?w=800" alt="" />
-</figure>
-
-
-</p>
-<p>Especially within the world of multi-threaded programming does atomic access become a crucial topic, as multiple execution contexts may seek to access the same memory locations at the same time. Yet the exact meaning of the word ‘atomic’ is also essential here, as there is in fact not just a single meaning of the word within the world of computer science. One type of atomic access refers merely to whether a single value can be written or read atomically (e.g. reading or writing a 32-bit integer on a 32-bit system versus a 16-bit system), whereas atomic operations are a whole other kettle of atomic fish.</p>
-		
-			<a href="https://ghariib.ir/posts/programming-ada-atomics-and-other-low-level-details/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/protect-your-site-with-a-doom-captcha/">Protect Your Site with a DOOM Captcha</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://hackaday.com/wp-content/uploads/2025/01/doom-captcha-featured.jpg?w=800" alt="" />
-</figure>
-
-
-</p>
-<p>We all know that “Can it run <em>DOOM</em>?” is the first question of a hardware hacker. The 1993 first person shooter from id Software defined an entire genre of games, and has since been made open source, appearing on almost everything. Everything, that is, except a Captcha, those annoying “Are you a human” tests where we’re all expected to do a search giant’s image classification for them. So here’s [Guillermo Rauch] with a <em>DOOM</em> captcha, in which you must gun down three bad guys to proceed.</p>
-		
-			<a href="https://ghariib.ir/posts/protect-your-site-with-a-doom-captcha/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/punkspider-a-web-vulnerability-search-engine/">PunkSPIDER –  A Web Vulnerability Search Engine</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>PunkSPIDER is a global-reaching web vulnerability search engine aimed at web applications. The goal is to allow the user to determine vulnerabilities in websites across the Internet quickly, easily, and intuitively. Please use PunkSPIDER responsibly. In simple terms, that means the authors have created a security scanner and the required architecture that can execute a […]</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/rally-racing-game-stunt-rally-3-3-added-3-new-tracks/">Rally Racing Game Stunt Rally 3.3 Added 3 New Tracks</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://ubuntuhandbook.org/wp-content/uploads/2025/01/stuntrally-icon-250x250.webp" alt="" />
-</figure>
-
-
-</p>
-<p>Stunt Rally, free open-source rally style racing game, updated to version 3.3 a few days ago with new features.</p>
-<p>Stunt Rally is a 3D racing game with Sci-Fi elements and own Track Editor. It features 232 tracks in 40 sceneries and 33 vehicles, allowing users to play either in single mode or multiplayer and split screen for up to 6 players.</p>
-<p>
-<figure>
-  <img src="https://ubuntuhandbook.org/wp-content/uploads/2025/01/stuntrally-700x438.webp" alt="" />
-</figure>
-
-
-</p>
-<p>The new 3.3 release added <strong>3 new tracks</strong>. They are:</p>
-		
-			<a href="https://ghariib.ir/posts/rally-racing-game-stunt-rally-3-3-added-3-new-tracks/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/recipe-for-efficient-development-simplify-collaboration-and-security-with-docker/">Recipe for Efficient Development: Simplify Collaboration and Security with Docker</a></h1>
-	<b><time>02.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Collaboration and security are essential for delivering high-quality applications in modern software development, especially in cloud-native environments. Developers navigate intricate workflows, connect diverse systems, and safeguard applications against emerging threats — all while maintaining velocity and efficiency.</p>
-<p>Think of development as preparing a multi-course meal in a high-pressure, professional kitchen, where precision, timing, and communication are critical. Each developer is a chef working on different parts of the dish, passing ingredients (code) along the way. When one part of the system encounters delays, it can ripple across the process, impacting the final result. Similarly, poor collaboration or security gaps can derail a project, causing delays and inefficiencies. </p>
-		
-			<a href="https://ghariib.ir/posts/recipe-for-efficient-development-simplify-collaboration-and-security-with-docker/">Read more...</a>
+			<a href="https://ghariib.ir/posts/life-at-canonical-victoria-antipovas-perspective-as-a-new-joiner-in-product-marketing/">Read more...</a>
 		
 	</div>
 </article>
@@ -211,7 +183,7 @@
 
 	<a href="/page/484/">Previous Page</a>
 
-485 of 556
+485 of 564
 
 	<a href="/page/486/">Next Page</a>
 

@@ -40,141 +40,150 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/enforce-resource-configuration-to-control-access-to-new-features-with-aws/">Enforce resource configuration to control access to new features with AWS</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56038/">CVE-2024-56038 - SendSMS Cross-Site Scripting (XSS)</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Establishing and maintaining an effective security and governance posture has never been more important for enterprises. This post explains how you, as a security administrator, can use Amazon Web Services (AWS) to enforce resource configurations in a manner that is designed to be secure, scalable, and primarily focused on feature gating.</p>
-<p>In this context, _feature gatin_g means that newly supported AWS features and configurations can’t be used unless you explicitly approve them. With feature gating, you maintain control over your AWS environment when new services and capabilities are introduced.</p>
-		
-			<a href="https://ghariib.ir/posts/enforce-resource-configuration-to-control-access-to-new-features-with-aws/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2024-56038<br>
+<strong>Published :</strong> Jan. 2, 2025, 10:15 a.m. | 16 minutes ago<br>
+<strong>Description :</strong> Improper Neutralization of Input During Web Page Generation (&lsquo;Cross-site Scripting&rsquo;) vulnerability in SendSMS allows Reflected XSS.This issue affects SendSMS: from n/a through 1.2.9.
+<strong>Severity:</strong> 7.1 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/enhancing-kubernetes-api-server-efficiency-with-api-streaming/">Enhancing Kubernetes API Server Efficiency with API Streaming</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56040/">CVE-2024-56040 - VibeThemes VibeBP Privilege Escalation Vulnerability</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Managing Kubernetes clusters efficiently is critical, especially as their size is growing. A significant challenge with large clusters is the memory overhead caused by <strong>list</strong> requests.</p>
-<p>In the existing implementation, the kube-apiserver processes <strong>list</strong> requests by assembling the entire response in-memory before transmitting any data to the client. But what if the response body is substantial, say hundreds of megabytes? Additionally, imagine a scenario where multiple <strong>list</strong> requests flood in simultaneously, perhaps after a brief network outage. While API Priority and Fairness has proven to reasonably protect kube-apiserver from CPU overload, its impact is visibly smaller for memory protection. This can be explained by the differing nature of resource consumption by a single API request - the CPU usage at any given time is capped by a constant, whereas memory, being uncompressible, can grow proportionally with the number of processed objects and is unbounded. This situation poses a genuine risk, potentially overwhelming and crashing any kube-apiserver within seconds due to out-of-memory (OOM) conditions. To better visualize the issue, let&rsquo;s consider the below graph.</p>
-		
-			<a href="https://ghariib.ir/posts/enhancing-kubernetes-api-server-efficiency-with-api-streaming/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2024-56040<br>
+<strong>Published :</strong> Dec. 31, 2024, 2:15 p.m. | 1 day, 20 hours ago<br>
+<strong>Description :</strong> Incorrect Privilege Assignment vulnerability in VibeThemes VibeBP allows Privilege Escalation.This issue affects VibeBP: from n/a through 1.9.9.4.1.
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/enhancing-security-operations-with-ai-driven-log-analysis-a-path-to-cooperative-intelligence/">Enhancing Security Operations with AI-Driven Log Analysis: A Path to Cooperative Intelligence</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56043/">CVE-2024-56043 - VibeThemes WPLMS Incorrect Privilege Assignment Privilege Escalation</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<h2 id="introduction">Introduction</h2>
-<p>Managing log data efficiently has become both a necessity and a challenge.<br>
-Log data, ranging from network traffic and access records to application errors, is essential to cybersecurity operations,<br>
-yet the sheer volume and complexity can easily overwhelm even the most seasoned analysts. AI-driven log analysis promises<br>
-to lighten this burden by automating initial data reviews and detecting anomalies. But beyond automation, an ideal AI<br>
-solution should foster a partnership with analysts, supporting and enhancing their intuitive insights.</p>
-		
-			<a href="https://ghariib.ir/posts/enhancing-security-operations-with-ai-driven-log-analysis-a-path-to-cooperative-intelligence/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2024-56043<br>
+<strong>Published :</strong> Dec. 31, 2024, 2:15 p.m. | 1 day, 20 hours ago<br>
+<strong>Description :</strong> Incorrect Privilege Assignment vulnerability in VibeThemes WPLMS allows Privilege Escalation.This issue affects WPLMS: from n/a through 1.9.9.
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/enhancing-security-managing-browser-and-email-client-plugins-with-gpo-in-active-directory/">Enhancing Security: Managing Browser and Email Client Plugins with GPO in Active Directory</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56044/">CVE-2024-56044 - VibeThemes WPLMS Authentication Bypass Vulnerability</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Controlling and managing plugins across various browsers and email clients is crucial for maintaining a secure enterprise environment. This blog post will explore how to effectively manage these plugins using Group Policy Objects (GPOs) in an Active Directory (AD) setting, aligning with the Center for Internet Security (CIS) Critical Security Controls Version 8.</p>
-<h2 id="the-importance-of-plugin-management">The Importance of Plugin Management</h2>
-<p>CIS Control 2: Inventory and Control of Software Assets emphasizes the need to actively manage all software on the network. This includes plugins for browsers like Internet Explorer, Edge, Chrome, Firefox, and email clients such as Outlook, which can be potential vectors for security breaches if left unmanaged.</p>
-		
-			<a href="https://ghariib.ir/posts/enhancing-security-managing-browser-and-email-client-plugins-with-gpo-in-active-directory/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2024-56044<br>
+<strong>Published :</strong> Dec. 31, 2024, 2:15 p.m. | 1 day, 20 hours ago<br>
+<strong>Description :</strong> Authentication Bypass Using an Alternate Path or Channel vulnerability in VibeThemes WPLMS allows Authentication Bypass.This issue affects WPLMS: from n/a through 1.9.9.
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/european-banks-seeing-new-wave-of-atm-skimming/">European Banks Seeing New Wave Of ATM Skimming</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56045/">CVE-2024-56045 - VibeThemes WPLMS Path Traversal Vulnerability</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>ATM hacking and skimming were often in the news a few years back, but since the banks ramped up the security on ATM machines – including anti-skimming devices – ATM fraud activities seemed to drop off. Remember the Pro ATM Hacker ‘Chao’ Gives Out ATM Hacking Tips and a bunch of people getting busted not […]</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-56045<br>
+<strong>Published :</strong> Dec. 31, 2024, 2:15 p.m. | 1 day, 20 hours ago<br>
+<strong>Description :</strong> Path Traversal: &lsquo;&hellip;/&hellip;//&rsquo; vulnerability in VibeThemes WPLMS allows Path Traversal.This issue affects WPLMS: from n/a before 1.9.9.5.
+<strong>Severity:</strong> 9.3 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/everything-you-need-to-know-about-web-shells/">Everything You Need To Know About Web Shells</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56060/">CVE-2024-56060 - PHP HTML Forms Cross-site Scripting (XSS)</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>So let’s talk about Web Shells, something many of us are already familiar with, but to level the field – what is a web shell? A web shell is a script that can be uploaded to a web server to enable remote administration of the machine. Infected web servers can be either Internet-facing or internal […]</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-56060<br>
+<strong>Published :</strong> Jan. 2, 2025, 10:15 a.m. | 16 minutes ago<br>
+<strong>Description :</strong> Improper Neutralization of Input During Web Page Generation (&lsquo;Cross-site Scripting&rsquo;) vulnerability in HTML Forms allows Reflected XSS.This issue affects HTML Forms: from n/a through 1.4.1.
+<strong>Severity:</strong> 7.1 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/evil-corp-cyber-criminals-group-identity-exposed-along-with-lockbit-affiliate/">Evil Corp Cyber Criminals Group Identity Exposed Along with Lockbit Affiliate</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56061/">CVE-2024-56061 - Webful Creations Computer Repair Shop Missing Authorization Privilege Escalation</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Authorities in the UK, US, and Australia have sanctioned sixteen individuals linked to Evil Corp, a group once considered the pinnacle of global cyber threats.</p>
-<p>This move exposes their connections to the Russian state and other infamous ransomware groups, including LockBit. The National Crime Agency(NCA) also shared the news on Social Platform X.</p>
-<!-- raw HTML omitted -->
-<h2 id="unveiling-the-faces-behind-evil-corp"><strong>Unveiling the Faces Behind Evil Corp</strong></h2>
-<p>The National Crime Agency (NCA) has played a pivotal role in unraveling the complex web of Evil Corp’s operations.</p>
-		
-			<a href="https://ghariib.ir/posts/evil-corp-cyber-criminals-group-identity-exposed-along-with-lockbit-affiliate/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2024-56061<br>
+<strong>Published :</strong> Dec. 31, 2024, 2:15 p.m. | 1 day, 20 hours ago<br>
+<strong>Description :</strong> Missing Authorization vulnerability in Webful Creations Computer Repair Shop allows Privilege Escalation.This issue affects Computer Repair Shop: from n/a through 3.8119.
+<strong>Severity:</strong> 8.8 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/evilabigail-automated-evil-maid-attack-for-linux/">EvilAbigail – Automated Evil Maid Attack For Linux</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56064/">CVE-2024-56064 - Azzaroco WP SuperBackup Unrestricted File Upload Vulnerability</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>EvilAbigail is a Python-based tool that allows you run an automated Evil Maid attack on Linux systems, this is the Initrd encrypted root fs attack. An Evil Maid attack is a type of attack that targets a computer device that has been shut down and left unattended. An Evil Maid attack is characterized by the […]</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-56064<br>
+<strong>Published :</strong> Dec. 31, 2024, 1:15 p.m. | 1 day, 21 hours ago<br>
+<strong>Description :</strong> Unrestricted Upload of File with Dangerous Type vulnerability in Azzaroco WP SuperBackup allows Upload a Web Shell to a Web Server.This issue affects WP SuperBackup: from n/a through 2.3.3.
+<strong>Severity:</strong> 10.0 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/evolve-apac-2024-key-insights/">Evolve APAC 2024: Key Insights</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56066/">CVE-2024-56066 - Inspry Agency Toolkit Missing Authorization Privilege Escalation</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Discover key insights from Evolve APAC 2024 on building skills, career growth, and tackling cybersecurity challenges with expert advice.</p>
-<p>The post Evolve APAC 2024: Key Insights appeared first on OffSec.</p>
-<p>Go to Source</p>
+		<p><strong>CVE ID :</strong> CVE-2024-56066<br>
+<strong>Published :</strong> Dec. 31, 2024, 2:15 p.m. | 1 day, 20 hours ago<br>
+<strong>Description :</strong> Missing Authorization vulnerability in Inspry Agency Toolkit allows Privilege Escalation.This issue affects Agency Toolkit: from n/a through 1.0.23.
+<strong>Severity:</strong> 9.8 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/example-cnf-automating-the-deployment-of-dpdk-based-network-functions-on-openshift-with-fault-tolerance/">Example-CNF: Automating the deployment of DPDK-based network functions on OpenShift with fault tolerance</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2024-56069/">CVE-2024-56069 - Azzaroco WP SuperBackup Cross-site Scripting Vulnerability</a></h1>
 	<b><time>02.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Network optimization with Data Plane Development Kit (DPDK) and Single Root Input/Output Virtualization (SR-IOV) is widely supported and adopted in Kubernetes and Red Hat OpenShift. In this article, we will present a means of automatically deploying an open source Cloud-Native Network Function (CNF), called Example-CNF, in order to test particular Telco-related configurations and scenarios, leveraging DPDK&rsquo;s capabilities within containerized environments.</p>
-<p>Example-CNF is a workload to exercise both DPDK and SR-IOV technologies for Telco setups. The project is composed of several Kubernetes operators built with open source toolkits, such as Operator SDK, using Red Hat Universal Base Images (UBI) images pushed to Quay.io, deploying two main components:</p>
-		
-			<a href="https://ghariib.ir/posts/example-cnf-automating-the-deployment-of-dpdk-based-network-functions-on-openshift-with-fault-tolerance/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2024-56069<br>
+<strong>Published :</strong> Jan. 2, 2025, 10:15 a.m. | 16 minutes ago<br>
+<strong>Description :</strong> Improper Neutralization of Input During Web Page Generation (&lsquo;Cross-site Scripting&rsquo;) vulnerability in Azzaroco WP SuperBackup allows Reflected XSS.This issue affects WP SuperBackup: from n/a through 2.3.3.
+<strong>Severity:</strong> 7.1 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
 	</div>
 </article>
@@ -184,7 +193,7 @@ solution should foster a partnership with analysts, supporting and enhancing the
 
 	<a href="/page/467/">Previous Page</a>
 
-468 of 556
+468 of 564
 
 	<a href="/page/469/">Next Page</a>
 
