@@ -40,222 +40,233 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/exploiting-exchange-powershell-after-proxynotshell-part-3-dll-loading-chain-for-rce/">Exploiting Exchange PowerShell After ProxyNotShell: Part 3 – DLL Loading Chain for RCE</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/zero_day">zero_day</a>
-	
-	<a href="/tags/zeroday">zeroday</a>
-	
-	<div>
-		<p>As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details.</p>
-<p>In this article, part 3 of the series, I describe a chain of 3 vulnerabilities that led to remote code execution:</p>
-<p>·       CVE-2023-36744 – Arbitrary File Write vulnerability<br>
-·       CVE-2023-36777 – Arbitrary File Read vulnerability<br>
-·       CVE-2023-36745 – Local DLL Loading vulnerability</p>
-		
-			<a href="https://ghariib.ir/posts/exploiting-exchange-powershell-after-proxynotshell-part-3-dll-loading-chain-for-rce/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/exploiting-exchange-powershell-after-proxynotshell-part-4-no-argument-constructor/">Exploiting Exchange PowerShell After ProxyNotShell: Part 4 – No Argument Constructor</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/zero_day">zero_day</a>
-	
-	<a href="/tags/zeroday">zeroday</a>
-	
-	<div>
-		<p>As you may know, I recently presented my Exchange-related talk during OffensiveCon 2024. This series of 4 blog posts is meant to supplement the talk and provide additional technical details.</p>
-<p>In this final part, I ’am going to describe the PowerShell Remoting <code>ConvertViaNoArgumentConstructor</code> conversion mechanism, which I underestimated at the beginning of my research. It allowed me to find 3 more vulnerabilities, even after the Exchange PowerShell attack surface had been significantly hardened by switching to a strict allow list of types. The vulnerabilities I found were:</p>
-		
-			<a href="https://ghariib.ir/posts/exploiting-exchange-powershell-after-proxynotshell-part-4-no-argument-constructor/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/fleet-1-44-is-here-with-new-ui-zig-language-support-and-more-enhancements/">Fleet 1.44 Is Here With New UI, Zig Language Support, and More Enhancements</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<a href="/tags/dev">dev</a>
-	
-	<a href="/tags/developers">developers</a>
-	
-	<a href="/tags/development">development</a>
-	
-	<a href="/tags/jetbrains">jetbrains</a>
-	
-	<a href="/tags/software">software</a>
-	
-	<div>
-		<p>Explore our latest release, which introduces many new features designed to improve your development experience. You can update to this version using Toolbox App. Let’s take a closer look at the highlights. Download Fleet 1.44 New features Improvements Bug fixes We’ve also fixed several bugs: See the full release notes for more details about Fleet […]</p>
-<p>Explore our latest release, which introduces many new features designed to improve your development experience. You can update to this version using Toolbox App.</p>
-		
-			<a href="https://ghariib.ir/posts/fleet-1-44-is-here-with-new-ui-zig-language-support-and-more-enhancements/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/fluentd-how-to-use-a-parser-with-regular-expression-regexp/">Fluentd: How to Use a Parser With Regular Expression (regexp)</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<a href="/tags/ai">ai</a>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/soc">soc</a>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://socprime.com/wp-content/uploads/Fluentd_regexp-400x234.jpg" alt="" />
-</figure>
-
-
-</p>
-<p>This guide explains configuring Fluentd to extract structured data from unstructured log messages using the parser plugin with a regular expression (regexp). If you need to extract specific fields, such as log_source and index, from a log message, you can do this as follows.</p>
-<p>Input Log:</p>
-<pre tabindex="0"><code>
-{
-  &#34;message&#34;: &#34;Log source &#39;WinCollect DSM - SRV-AD-001&#39; has stopped emitting events&#34;
-}
-</code></pre><p>Configuration:</p>
-<pre tabindex="0"><code>&lt;filter **&gt;
-  @type parser
-  key_name message
-  reserve_data true
-  &lt;parse&gt;
-    @type regexp
-    expression /&#39;(?&lt;log_source&gt;[^&#39;]+)s-s(?&lt;index&gt;[^&#39;]+)&#39;/
-  &lt;/parse&gt;
-&lt;/filter&gt;
-</code></pre><p><strong>Explanation</strong>:</p>
-		
-			<a href="https://ghariib.ir/posts/fluentd-how-to-use-a-parser-with-regular-expression-regexp/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/from-pwn2own-automotive-more-autel-maxicharger-vulnerabilities/">From Pwn2Own Automotive: More Autel Maxicharger Vulnerabilities</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/zero_day">zero_day</a>
-	
-	<a href="/tags/zeroday">zeroday</a>
-	
-	<div>
-		<p>This blog post highlights two additional vulnerabilities in the Autel Maxicharger that were exploited at Pwn2Own Automotive 2024. Details of the patches are also included.</p>
-<p>Autel has been informed and has deployed a firmware update (v1.35) to address both of these issues. If you want to read about other Autel bugs reported at Pwn2Own, you check out our earlier blog here.</p>
-<p><strong>The First Vulnerability: CVE-2024-23967 (ZDI-CAN-23230)</strong></p>
-<p>Researchers from Computest Sector 7 identified and exploited a stack-based buffer overflow in v1.32 of the Autel firmware. This vulnerability stems from the decoding of base64 encoded data that can be controlled by an attacker. The encoded data is decoded into a fixed-size stack buffer with no bounds checks, leading to a stack buffer overflow and remote code execution.</p>
-		
-			<a href="https://ghariib.ir/posts/from-pwn2own-automotive-more-autel-maxicharger-vulnerabilities/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/from-trusted-platform-to-attack-vector-the-story-of-docusign-api-misuse/">From Trusted Platform to Attack Vector: The Story of DocuSign API Misuse</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-424/">Weekly Update 424</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
 	
 	<a href="/tags/penetrationtesting">penetrationtesting</a>
 	
 	<div>
-		<p>In a concerning development within cybersecurity, attackers have been leveraging DocuSign’s API capabilities to send out fraudulent invoices that closely mimic genuine documents. These campaigns have been rising in frequency, with reports over the past five months highlighting a significant uptick in incidents. In the context of cybersecurity, the abuse of DocuSign’s API represents a significant shift away from traditional phishing methods. Conventional phishing attacks typically involve sending spoofed emails that mimic trusted brands to trick victims into clicking malicious links or entering sensitive data, such as login credentials. Email and anti-spam filters have evolved to detect and block these deceptive tactics effectively, making it more difficult for attackers to succeed using traditional methods.</p>
-		
-			<a href="https://ghariib.ir/posts/from-trusted-platform-to-attack-vector-the-story-of-docusign-api-misuse/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-hackers-stole-taylor-swift-tickets-the-full-ticketmaster-breach-story/">How Hackers Stole Taylor Swift Tickets: The Full Ticketmaster Breach Story</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<a href="/tags/penetrationtesting">penetrationtesting</a>
-	
-	<div>
-		<p>In a series of unsettling developments, Ticketmaster, the global ticket sales and distribution company, has once again fallen victim to a major cybersecurity breach. This time, hackers claim to have obtained barcode data for hundreds of thousands of tickets to Taylor Swift’s Eras Tour and are demanding millions of dollars in ransom. This latest attack underscores a worrying trend of increasing sophistication and audacity in cybercrime targeting major corporations.</p>
-<h3 id="the-history-of-ticketmaster-hacks">The History of Ticketmaster Hacks</h3>
-<p>Ticketmaster has faced several cybersecurity incidents over the years. The most notable include:</p>
-		
-			<a href="https://ghariib.ir/posts/how-hackers-stole-taylor-swift-tickets-the-full-ticketmaster-breach-story/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-i-set-up-a-local-wiki-for-my-projects-using-obsidian/">How I set up a local wiki for my projects using Obsidian</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<div>
-		<p>My secret weapon for project mastery</p>
-<p>With random lists jotted down, forgotten deadlines, notes clinging to a monitor, and random files scattered across the desktop, managing a complex project can be challenging. Here is where I discovered the power of a local wiki, built right within my favorite tool – Obsidian.</p>
-<p>Go to Source</p>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-snowflake-hack-is-linked-to-santanderspain-chile-uruguay-and-ticketmaster-breaches-are-you-affected/">How Snowflake Hack is Linked to Santander(Spain, Chile, Uruguay) and Ticketmaster Breaches.Are You Affected?</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
-	
-	<a href="/tags/penetrationtesting">penetrationtesting</a>
-	
-	<div>
-		<p>In a significant cybersecurity incident, the threat actor group known as ShinyHunters has claimed responsibility for a data breach involving Santander Bank, allegedly selling data for 30 million customers. This breach, disclosed two weeks after unauthorized access was detected, has been linked to recent hacks of Snowflake accounts, which also implicated Ticketmaster.</p>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
 <p>
 <figure>
-  <img src="https://www.exploitone.com/snews-up/2024/06/santander-hacked2.jpg" alt="" />
+  <img src="https://www.troyhunt.com/content/images/2024/11/Splash-Template@1x_1.jpg" alt="Weekly Update 424" />
 </figure>
 
 
 </p>
-<h4 id="shinyhunters-claims-santander-breach">ShinyHunters Claims Santander Breach</h4>
-<p>On May 31, 2024, ShinyHunters announced they were selling a massive trove of data allegedly stolen from Santander Bank, including personal information for 30 million customers and employees. The data also reportedly contains 28 million credit card numbers and 6 million account numbers. This claim came shortly after Spain’s largest bank, Santander, reported a data breach affecting customers in Chile, Spain, and Uruguay.</p>
+<p>I have really clear memories of listening to the Stack Overflow podcast in the late 2000&rsquo;s and hearing Jeff and Joel talk about the various challenges they were facing and the things they did to overcome them. I just suddenly thought of that when realising how long this week&rsquo;s video went for with no real plan other than to talk about our HIBP backlog. People seem to love this in the same way I loved listening to the guys a decade and a half ago. I&rsquo;ll do one of these with Stefan as well over the course of this month, let us know what you&rsquo;d like to hear about 😊</p>
 		
-			<a href="https://ghariib.ir/posts/how-snowflake-hack-is-linked-to-santanderspain-chile-uruguay-and-ticketmaster-breaches-are-you-affected/">Read more...</a>
+			<a href="https://ghariib.ir/posts/weekly-update-424/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-set-up-your-own-git-server-at-home-for-your-personal-projects/">How to set up your own Git server at home for your personal projects</a></h1>
-	<b><time>04.01.2025 00:00</time></b>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-425/">Weekly Update 425</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
 	
 	<div>
-		<p>Harness the immense power of Git for your home projects.</p>
-<p>Git is a fantastic version control system that every hobbyist and IT professional should be familiar with. While you could use a proprietary implementation like GitHub for your personal projects, you’re a bit limited in what functionality is available to you. In this guide, we’ll be covering how to set up Gitea, an open-source platform for self-hosting a Git repository. The reason why Gitea was chosen was simple: it’s lightweight, works in many environments, and is very simple to get up and running with.</p>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/11/Splash-Template.jpg" alt="Weekly Update 425" />
+</figure>
+
+
+</p>
+<p>This was a much longer than usual update, largely due to the amount of time spent discussing the Earth 2 incident. As I said in the video (many times!), the amount of attention this has garnered from both Earth 2 users and the company itself is incommensurate with the impact of the incident itself. It&rsquo;s a nothing-burger. Email addresses and usernames, that&rsquo;s it, and of course, their association with the service, which may lead to some very targeted spam or phishing attempts. It&rsquo;s still a breach by any reasonable definition of the term, but it should have been succinctly summarised and disclosed to impacted parties with everyone moving on with more important things in life a few moments later. And that&rsquo;s exactly what I&rsquo;m going to do right now 😊</p>
 		
-			<a href="https://ghariib.ir/posts/how-to-set-up-your-own-git-server-at-home-for-your-personal-projects/">Read more...</a>
+			<a href="https://ghariib.ir/posts/weekly-update-425/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-426/">Weekly Update 426</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/11/Splash-Template@1x_1-1.jpg" alt="Weekly Update 426" />
+</figure>
+
+
+</p>
+<p>I have absolutely no problem at all talking about the code I&rsquo;ve screwed up. Perhaps that&rsquo;s partly because after 3 decades of writing software (and doing some meaningful stuff along the way), I&rsquo;m not particularly concerned about showing my weaknesses. And this week, I screwed up a bunch of stuff; database queries that weren&rsquo;t resilient to SQL database scale changes, partially completed breach notifications I didn&rsquo;t notice until it was too late to easily fix, and some queries that performed so badly they crashed the entire breach notification process after loading the massive DemandScience incident. Fortunately, none of them had any impact of note, we fixed them all and re-ran processes, and now we&rsquo;re more resilient than ever 😄</p>
+		
+			<a href="https://ghariib.ir/posts/weekly-update-426/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-427/">Weekly Update 427</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/11/Splash-Template-1.jpg" alt="Weekly Update 427" />
+</figure>
+
+
+</p>
+<p>I was going to write about how much I&rsquo;ve enjoyed &ldquo;tinkering&rdquo; with the HIBP API, but somehow, that term doesn&rsquo;t really seem appropriate any more for a service of this scale. On the contrary, we&rsquo;re putting in huge amounts of effort to get this thing fast, stable, and sustainable. We could do the first two very easily just by throwing money at the cloud, but that makes the last one a bit hard. Besides, both Stefán and I do enjoy the challenge of optimising an increasingly large system to run on a shoestring and even though the days of &ldquo;a coffee a day of running costs&rdquo; are well behind us, arguably the cost per request (or some other usage-based metric) is better than ever. I hope you enjoy this chat between the two of us and as I say in the video, do please chime in with your thoughts and suggestions.</p>
+		
+			<a href="https://ghariib.ir/posts/weekly-update-427/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-428/">Weekly Update 428</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/12/Splash-Template.jpg" alt="Weekly Update 428" />
+</figure>
+
+
+</p>
+<p>I wouldn&rsquo;t say this is a list of my <em>favourite</em> breaches from this year as that&rsquo;s a bit of a disingenuous term, but oh boy were there some memorable ones. So many of the incidents I deal with are relatively benign in terms of either the data they expose or the nature of the service, but some of them this year were absolute zingers. This week, I&rsquo;m talking about the ones that really stuck out to me for one reason or another, here&rsquo;s the top 5:</p>
+		
+			<a href="https://ghariib.ir/posts/weekly-update-428/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-429/">Weekly Update 429</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/12/Splash-Template@1x_1.jpg" alt="Weekly Update 429" />
+</figure>
+
+
+</p>
+<p>A super quick intro today as I rush off to do the next very Dubai thing: drive a Lambo through the desert to go dirt bike riding before jumping in a Can-Am off-roader and then heading to the kart track for a couple of afternoon sessions. I post lots of pics to my Facebook account, and if none of that is interesting, here&rsquo;s this week&rsquo;s video on more infosec-related topics:</p>
+		
+			<a href="https://ghariib.ir/posts/weekly-update-429/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-430/">Weekly Update 430</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/12/Splash-Template-1.jpg" alt="Weekly Update 430" />
+</figure>
+
+
+</p>
+<p>I&rsquo;m back in Oslo! Writing this the day after recording, it feels like I couldn&rsquo;t be further from Dubai; the temperature starts with a minus, it&rsquo;s snowing and there&rsquo;s not a supercar in sight.</p>
+<p>Back on business, this week I&rsquo;m talking about the challenge of loading breaches and managing costs. A breach load immediately takes us from a very high percentage cache hit ratio on Cloudflare to zero. Consequently, our SQL costs skyrocket as the DB scales to support the load. Approximately 28 hours after loading the two breaches I mention in this week&rsquo;s update, we&rsquo;re still running a DB scale that&rsquo;s 350% larger than once we have a high cache hit ratio, and that <em>directly</em> hits my wallet. We need to work on this more because as I say in the video, I <em>really</em> don&rsquo;t like financial incentives that influence how breaches are handled, such as delaying them and bulking them together to reduce the impact of cache flush events like this. We&rsquo;ll give that more thought, I think there are a few ways to tackle this. For now, here&rsquo;s this week&rsquo;s video and some of the challenges we&rsquo;re facing:</p>
+		
+			<a href="https://ghariib.ir/posts/weekly-update-430/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-431/">Weekly Update 431</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/12/Splash-Template-2.jpg" alt="Weekly Update 431" />
+</figure>
+
+
+</p>
+<p>I fell waaay behind the normal video cadence this week, and I couldn&rsquo;t care less 😊 I mean c&rsquo;mon, would you rather be working or sitting here looking at this view after snowboarding through Christmas?!</p>
+<!-- raw HTML omitted -->
+<p>That said, Scott and I did carve out some time to chat about the, uh, &ldquo;colourful&rdquo; feedback he&rsquo;s had after finally putting a price on some Report URI features he&rsquo;d been giving away free for years. And there&rsquo;s more data breaches, of course, including a couple I loaded over the previous week that I think were particularly interesting. Enjoy this week&rsquo;s video, next week&rsquo;s will be a 2024 wrap-up from somewhere much, much sunnier 😎</p>
+		
+			<a href="https://ghariib.ir/posts/weekly-update-431/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/weekly-update-432/">Weekly Update 432</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/12/Splash-Template@1x_1-1.jpg" alt="Weekly Update 432" />
+</figure>
+
+
+</p>
+<p>There&rsquo;s a certain irony to the Bluesky situation where people are pushing back when I include links to X. Now, where have we seen this sort of behaviour before? 🤔 When I&rsquo;m relying on content that only appears on that platform to add context to a data breach in HIBP <em>and</em> that content is freely accessible from within the native Bluesky app (without needing an X account), we&rsquo;re out of reasonable excuses for the negativity. And if &ldquo;because Elon&rdquo; is the sole reason and someone is firm enough in their convictions on that, there&rsquo;s a very easy solution 🙂</p>
+		
+			<a href="https://ghariib.ir/posts/weekly-update-432/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/welcoming-the-armenian-government-to-have-i-been-pwned/">Welcoming the Armenian Government to Have I Been Pwned</a></h1>
+	<b><time>05.01.2025 00:00</time></b>
+	
+	<a href="/tags/penetrationtesting">penetrationtesting</a>
+	
+	<div>
+		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
+<p>
+<figure>
+  <img src="https://www.troyhunt.com/content/images/2024/10/Artboard-1.png" alt="Welcoming the Armenian Government to Have I Been Pwned" />
+</figure>
+
+
+</p>
+<p>Today, we&rsquo;re happy to welcome the 37th government to have full and free access to domain searches of their gov domains in Have I Been Pwned, Armenia. Armenia&rsquo;s National Computer Incident Response Team AM-CERT now joins three dozen other national counterparts in gaining visibility into how data breaches impact their national interests.</p>
+		
+			<a href="https://ghariib.ir/posts/welcoming-the-armenian-government-to-have-i-been-pwned/">Read more...</a>
 		
 	</div>
 </article>
@@ -265,7 +276,7 @@
 
 	<a href="/page/403/">Previous Page</a>
 
-404 of 564
+404 of 576
 
 	<a href="/page/405/">Next Page</a>
 

@@ -40,80 +40,67 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/this-week-in-security-clamav-the-amd-leak-and-the-unencrypted-power-grid/">This Week in Security: ClamAV, The AMD Leak, and The Unencrypted Power Grid</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-23222-deepin-dde-api-proxy-root-privilege-escalation/">CVE-2025-23222 - Deepin dde-api-proxy Root Privilege Escalation</a></h1>
 	<b><time>25.01.2025 00:00</time></b>
 	
-	<div>
-		<p>
-<figure>
-  <img src="https://hackaday.com/wp-content/uploads/2016/01/darkarts.jpg?w=800" alt="" />
-</figure>
-
-
-</p>
-<p>Cisco’s ClamAV has a heap-based buffer overflow in its OLE2 file scanning. That’s a big deal, because ClamAV is used to scan file attachments on incoming emails. All it takes to trigger the vulnerability is to send a malicious file through an email system that uses ClamAV.</p>
-<p>The exact vulnerability is a string termination check that can fail to trigger, leading to a buffer over-read. That’s a lot better than a buffer overflow while writing to memory. That detail is why this vulnerability is strictly a Denial of Service problem. The memory read results in process termination, presumably a segfault for reading protected memory. There are Proof of Concepts (PoCs) available, but so far no reports of the vulnerability being used in the wild.</p>
-		
-			<a href="https://ghariib.ir/posts/this-week-in-security-clamav-the-amd-leak-and-the-unencrypted-power-grid/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/twist-and-shout-faster-memory-checking-arguments-via-one-hot-addressing-and-increments/">Twist and Shout: Faster memory checking arguments via one-hot addressing and increments</a></h1>
-	<b><time>25.01.2025 00:00</time></b>
+	<a href="/tags/cve">cve</a>
 	
-	<a href="/tags/cryptography">cryptography</a>
+	<a href="/tags/cybersecurity">cybersecurity</a>
 	
 	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>ePrint Report: <strong>Twist and Shout: Faster memory checking arguments via one-hot addressing and increments</strong><br>
-<em>Srinath Setty, Justin Thaler</em></p>
-<p>A memory checking argument enables a prover to prove to a verifier that it is correctly processing reads and writes to memory. They are used widely in modern SNARKs, especially in zkVMs, where the prover proves the correct execution of a CPU including the correctness of memory operations.</p>
-<p>We describe a new approach for memory checking, which we call the method of one-hot addressing and increments. We instantiate this method via two different families of protocols, called Twist and Shout. Twist supports read/write memories, while Shout targets read-only memories (also known as lookup arguments). Both Shout and Twist have logarithmic verifier costs. Unlike prior works, these protocols do not invoke &ldquo;grand product&rdquo; or &ldquo;grand sum&rdquo; arguments.</p>
+		<p><strong>CVE ID :</strong> CVE-2025-23222<br>
+<strong>Published :</strong> Jan. 24, 2025, 5:15 p.m. | 13 hours, 3 minutes ago<br>
+<strong>Description :</strong> An issue was discovered in Deepin dde-api-proxy through 1.0.19 in which unprivileged users can access D-Bus services as root. Specifically, dde-api-proxy runs as root and forwards messages from arbitrary local users to legacy D-Bus methods in the actual D-Bus services, and the actual D-Bus services don&rsquo;t know about the proxy situation (they believe that root is asking them to do things). Consequently several proxied methods, that shouldn&rsquo;t be accessible to non-root users, are accessible to non-root users. In situations where Polkit is involved, the caller would be treated as admin, resulting in a similar escalation of privileges.<br>
+<strong>Severity:</strong> 8.4 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 		
-			<a href="https://ghariib.ir/posts/twist-and-shout-faster-memory-checking-arguments-via-one-hot-addressing-and-increments/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/ubuntu-24-04-2-arrives-feb-13-with-linux-kernel-6-11/">Ubuntu 24.04.2 Arrives Feb 13 with Linux Kernel 6.11</a></h1>
-	<b><time>25.01.2025 00:00</time></b>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/04/ubuntu-2404-hero.jpg?resize=406%2C232&amp;ssl=1" alt="Laptop on a desk with Ubuntu 24.04 running on it" />
-</figure>
-
-
-Ubuntu 24.04.2 LTS is scheduled for release on February 13th – in time for Valentines Day, aww. Canonical’s Florent Jacquet shares the date on the Ubuntu Developer mailing list today along with a note to developers to be mindful of their package uploads to noble in the coming weeks. As a result, if you’re using the latest long-term support release you may notice a slightly drop-off in the number of non-essential updates Software Updater bugs you to install between now and February 13. This allow devs to create a snapshot and test it properly. Ubuntu point releases rarely deliver new […]</p>
-		
-			<a href="https://ghariib.ir/posts/ubuntu-24-04-2-arrives-feb-13-with-linux-kernel-6-11/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2025-23222-deepin-dde-api-proxy-root-privilege-escalation/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/unsecured-tunneling-protocols-expose-4-2-million-hosts-including-vpns-and-routers/">Unsecured Tunneling Protocols Expose 4.2 Million Hosts, Including VPNs and Routers</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-24359-asteval-arbitary-code-execution-vulnerability/">CVE-2025-24359 - ASTEVAL Arbitary Code Execution Vulnerability</a></h1>
 	<b><time>25.01.2025 00:00</time></b>
 	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
 	<div>
-		<p>
-<figure>
-  <img src="https://lifeboat.com/blog.images/unsecured-tunneling-protocols-expose-4-2-million-hosts-including-vpns-and-routers2.jpg" alt="" />
-</figure>
+		<p><strong>CVE ID :</strong> CVE-2025-24359<br>
+<strong>Published :</strong> Jan. 24, 2025, 5:15 p.m. | 13 hours, 3 minutes ago<br>
+<strong>Description :</strong> ASTEVAL is an evaluator of Python expressions and statements. Prior to version 1.0.6, if an attacker can control the input to the `asteval` library, they can bypass asteval&rsquo;s restrictions and execute arbitrary Python code in the context of the application using the library. The vulnerability is rooted in how `asteval` performs handling of `FormattedValue` AST nodes. In particular, the `on_formattedvalue` value uses the dangerous format method of the str class. The code allows an attacker to manipulate the value of the string used in the dangerous call `fmt.format(__fstring__=val)`. This vulnerability can be exploited to access protected attributes by intentionally triggering an `AttributeError` exception. The attacker can then catch the exception and use its `obj` attribute to gain arbitrary access to sensitive or protected object properties. Version 1.0.6 fixes this issue.<br>
+<strong>Severity:</strong> 8.4 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2025-24359-asteval-arbitary-code-execution-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
 
-
-</p>
-<!-- raw HTML omitted -->
-<p>4.2M hosts, including VPNs and routers, face risks from unencrypted tunneling protocols like GRE6 enabling DDoS.</p>
-<p>Read more | &gt;</p>
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-24650-themefic-tourfic-unrestricted-upload-of-file-with-dangerous-type-vulnerability/">CVE-2025-24650 - Themefic Tourfic Unrestricted Upload of File with Dangerous Type Vulnerability</a></h1>
+	<b><time>25.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-24650<br>
+<strong>Published :</strong> Jan. 24, 2025, 6:15 p.m. | 12 hours, 2 minutes ago<br>
+<strong>Description :</strong> Unrestricted Upload of File with Dangerous Type vulnerability in Themefic Tourfic allows Upload a Web Shell to a Web Server. This issue affects Tourfic: from n/a through 2.15.3.
+<strong>Severity:</strong> 9.1 | CRITICAL<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
 <p>Go to Source</p>
 		
 	</div>
@@ -121,115 +108,123 @@ Ubuntu 24.04.2 LTS is scheduled for release on February 13th – in time for Val
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/unveiling-privacy-risks-in-quantum-optimization-services/">Unveiling Privacy Risks in Quantum Optimization Services</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-24669-serped-sql-injection-vulnerability/">CVE-2025-24669 - SERPed SQL Injection Vulnerability</a></h1>
 	<b><time>25.01.2025 00:00</time></b>
 	
-	<a href="/tags/cryptography">cryptography</a>
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
 	
 	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>ePrint Report: <strong>Unveiling Privacy Risks in Quantum Optimization Services</strong><br>
-<em>Mateusz Leśniak, Michał Wroński, Ewa Syta, Mirosław Kutyłowski</em></p>
-<p>As cloud-based quantum computing services, such as those offered by D-Wave, become more popular for practical applications, privacy-preserving methods (such as obfuscation) are essential to address data security, privacy, and legal compliance concerns. Several efficient obfuscation methods have been proposed, which do not increase the time complexity of solving the obfuscated problem, for quantum optimization problems. These include {em sign reversing}, {em variable permutation}, and the combination of both methods assumed to provide greater protection. Unfortunately, sign reversing has already been shown to be insecure.</p>
-		
-			<a href="https://ghariib.ir/posts/unveiling-privacy-risks-in-quantum-optimization-services/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/urgent-patch-now-critical-zero-day-cve-2025-23006-targets-sonicwall-sma-appliances/">Urgent: Patch Now! Critical Zero-Day CVE-2025-23006 Targets SonicWall SMA Appliances</a></h1>
-	<b><time>25.01.2025 00:00</time></b>
-	
-	<div>
-		<p>CVE-2025-23006 is a critical zero-day vulnerability affecting SonicWall Secure Mobile Access (SMA) 1000 series appliances. This vulnerability, categorized as a deserialization of untrusted data flaws, resides within the Appliance Management Console (AMC) and Central Management Console (CMC). Exploited by remote attackers without requiring authentication, this vulnerability allows for executing arbitrary code on the affected devices, […]</p>
-<p>The post Urgent: Patch Now! Critical Zero-Day CVE-2025-23006 Targets SonicWall SMA Appliances appeared first on SecPod Blog.</p>
-		
-			<a href="https://ghariib.ir/posts/urgent-patch-now-critical-zero-day-cve-2025-23006-targets-sonicwall-sma-appliances/">Read more...</a>
+		<p><strong>CVE ID :</strong> CVE-2025-24669<br>
+<strong>Published :</strong> Jan. 24, 2025, 6:15 p.m. | 12 hours, 2 minutes ago<br>
+<strong>Description :</strong> Improper Neutralization of Special Elements used in an SQL Command (&lsquo;SQL Injection&rsquo;) vulnerability in SERPed SERPed.net allows SQL Injection. This issue affects SERPed.net: from n/a through 4.4.
+<strong>Severity:</strong> 8.5 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/venture-capitals-key-role-in-driving-global-cyber-resilience/">Venture Capital’s Key Role In Driving Global Cyber Resilience</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-24672-codepeople-form-builder-cp-sql-injection-vulnerability/">CVE-2025-24672 - CodePeople Form Builder CP SQL Injection Vulnerability</a></h1>
 	<b><time>25.01.2025 00:00</time></b>
 	
-	<div>
-		<h6 id="this-week-in-cybersecurity-from-the-editors-at-cybercrime-magazine"><em>This week in cybersecurity from the editors at Cybercrime Magazine</em></h6>
-<p><em>
-<figure>
-  <img src="http://cybersecurityventures.com/wp-content/uploads/2020/09/icon-rss.png" alt="" />
-</figure>
-
-
-–Read the Full WEF Story</em></p>
-<p>Sausalito, Calif. – Jan. 24, 2025</p>
-<p>With the financial toll of cybersecurity incidents expected to reach $10.5 trillion by 2025, according to Cybersecurity Ventures, the need for robust cyber resilience has never been more urgent.</p>
-<p>Cyber resilience can be best achieved by addressing gaps in emerging and niche technologies, such as machine learning security and operational technology security, which are often underinvested in and diversifying technology stacks to eliminate single points of failure, posits a trio of thought leaders in a recent World Economic Forum (WEF) story.</p>
-		
-			<a href="https://ghariib.ir/posts/venture-capitals-key-role-in-driving-global-cyber-resilience/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/verification-efficient-homomorphic-signatures-for-verifiable-computation-over-data-streams/">Verification-efficient Homomorphic Signatures for Verifiable Computation over Data Streams</a></h1>
-	<b><time>25.01.2025 00:00</time></b>
+	<a href="/tags/cve">cve</a>
 	
-	<a href="/tags/cryptography">cryptography</a>
+	<a href="/tags/cybersecurity">cybersecurity</a>
 	
 	<a href="/tags/security">security</a>
 	
 	<div>
-		<p>ePrint Report: <strong>Verification-efficient Homomorphic Signatures for Verifiable Computation over Data Streams</strong><br>
-<em>Gaspard Anthoine, Daniele Cozzo, Dario Fiore</em></p>
-<p>Homomorphic signatures for NP (HSNP) allow proving that a signed value is the result of a non-deterministic computation on signed inputs. At CCS'22, Fiore and Tucker introduced HSNP, showed how to use them for verifying arbitrary computations on data streams, and proposed a generic HSNP construction obtained by efficiently combining zkSNARKs with linearly homomorphic signatures (LHS), namely those supporting linear functions. Their proposed LHS however suffered from an high verification cost. In this work we propose an efficient LHS that significantly improves on previous work in terms of verification time. Using the modular approach of Fiore and Tucker, this yields a verifier-efficient HSNP. We show that the HSNP instantiated with our LHS is particularly suited to the case when the data is taken from consecutive samples, which captures important use cases including sliding window statistics such as variances, histograms and stock market predictions.</p>
+		<p><strong>CVE ID :</strong> CVE-2025-24672<br>
+<strong>Published :</strong> Jan. 24, 2025, 6:15 p.m. | 12 hours, 2 minutes ago<br>
+<strong>Description :</strong> Improper Neutralization of Special Elements used in an SQL Command (&lsquo;SQL Injection&rsquo;) vulnerability in CodePeople Form Builder CP allows SQL Injection. This issue affects Form Builder CP: from n/a through 1.2.41.
+<strong>Severity:</strong> 8.5 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
 		
-			<a href="https://ghariib.ir/posts/verification-efficient-homomorphic-signatures-for-verifiable-computation-over-data-streams/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/vivaldi-7-1-delivers-speed-dial-buffs-new-search-engine/">Vivaldi 7.1 Delivers Speed Dial Buffs, New Search Engine</a></h1>
-	<b><time>25.01.2025 00:00</time></b>
-	
-	<div>
-		<p>
-<figure>
-  <img src="https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/09/vivaldi-snap-1.jpg?resize=406%2C232&amp;ssl=1" alt="Vivaldi browser logo" />
-</figure>
-
-
-Vivaldi web browser has just released its first major update of the year – a corker it is, too! Fans of the Chromium-based browser—though Vivaldi Technologies doesn’t appear to be part of the new Linux Foundation-led Supporters of Chromium Browsers project—will discover a bunch of improvements to the Dashboard feature Vivaldi 7.0 delivered. A new weather widget can be added to see current conditions and hourly and weekly weather forecasts for custom locations, plus the ability to set a preferred temperate, precipitation and wind speed unit (celsius, mm, and mph ftw). Keeping things scandi-cool, the Norway-based browser makes use of […]</p>
-		
-			<a href="https://ghariib.ir/posts/vivaldi-7-1-delivers-speed-dial-buffs-new-search-engine/">Read more...</a>
+			<a href="https://ghariib.ir/posts/cve-2025-24672-codepeople-form-builder-cp-sql-injection-vulnerability/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/weekly-update-436/">Weekly Update 436</a></h1>
+	<h1><a href="https://ghariib.ir/posts/cve-2025-24728-yannick-lefebvre-bug-library-sql-injection-vulnerability/">CVE-2025-24728 - Yannick Lefebvre Bug Library SQL Injection Vulnerability</a></h1>
+	<b><time>25.01.2025 00:00</time></b>
+	
+	<a href="/tags/cve">cve</a>
+	
+	<a href="/tags/cybersecurity">cybersecurity</a>
+	
+	<a href="/tags/security">security</a>
+	
+	<div>
+		<p><strong>CVE ID :</strong> CVE-2025-24728<br>
+<strong>Published :</strong> Jan. 24, 2025, 6:15 p.m. | 12 hours, 2 minutes ago<br>
+<strong>Description :</strong> Improper Neutralization of Special Elements used in an SQL Command (&lsquo;SQL Injection&rsquo;) vulnerability in Yannick Lefebvre Bug Library allows Blind SQL Injection. This issue affects Bug Library: from n/a through 2.1.4.
+<strong>Severity:</strong> 8.5 | HIGH<br>
+Visit the link for more details, such as CVSS details, affected products, timeline, and more&hellip;</p>
+<p>Go to Source</p>
+		
+			<a href="https://ghariib.ir/posts/cve-2025-24728-yannick-lefebvre-bug-library-sql-injection-vulnerability/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/data-structures-level-up-conquer-advanced-concepts-without-losing-your-mind/">Data Structures Level Up: Conquer Advanced Concepts Without Losing Your Mind</a></h1>
 	<b><time>25.01.2025 00:00</time></b>
 	
 	<div>
-		<p><strong>Presently sponsored by:</strong> Report URI: Guarding you from rogue JavaScript! Don’t get pwned; get real-time alerts &amp; prevent breaches #SecureYourSite</p>
-<p>
-<figure>
-  <img src="https://www.troyhunt.com/content/images/2025/01/Splash-Template-1.jpg" alt="Weekly Update 436" />
-</figure>
-
-
-</p>
-<p>We&rsquo;re heading back to London! And making a trip to Reykjavik. And Dublin. I talked about us considering this in the video yesterday, and just before publishing this post, we pulled the trigger and booked the tickets. The plan is to pretty much repeat the US and Canada trip we did in September and spend the time meeting up with some of the law enforcement agencies and various other organisations we&rsquo;ve been working with over the years. As I say in the video, if you&rsquo;re in one of these locations and are in a position to stand up a meetup or user group session, I&rsquo;d love to hear from you. Europe is a hell of a long way to go so we do want to make the most of the travel, stand by for more plans as they emerge.</p>
+		<blockquote>
+<p>“Data structures are like tools in a toolbox—master the advanced ones, and you’ll be building solutions that others can only dream of. Just remember, even the best carpenter starts with a few bent nails.” - <strong>Hardik Gayner</strong></p></blockquote>
+<p>So, you’ve decided to dive into advanced data structures, huh? Congratulations! You’re either a masochist or someone who genuinely enjoys the challenge of bending your brain into new shapes. Either way, let’s embark on this journey together, and I promise, we’ll keep the tears to a minimum (or at least try).</p>
 		
-			<a href="https://ghariib.ir/posts/weekly-update-436/">Read more...</a>
+			<a href="https://ghariib.ir/posts/data-structures-level-up-conquer-advanced-concepts-without-losing-your-mind/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/enhanced-runtime-monitoring-for-ecs-with-amazon-guardduty/">Enhanced Runtime Monitoring for ECS with Amazon GuardDuty</a></h1>
+	<b><time>25.01.2025 00:00</time></b>
+	
+	<div>
+		<p>With the majority of our applications now being cloud-native and containerized, ensuring security has become paramount. While static security measures, such as image scanning with Amazon Inspector, play a crucial role, monitoring container security during runtime is equally important. This is where ECS Runtime Monitoring with Amazon GuardDuty comes into play. GuardDuty Runtime Monitoring, now over a year in general availability, has proven its effectiveness in detecting runtime security threats across EC2 instances, ECS Clusters, and EKS Clusters. In this blog, we&rsquo;ll walk through enabling runtime monitoring for your ECS Cluster, generating GuardDuty findings, and setting up alerts for both runtime monitoring health and GuardDuty Findings to enhance your security posture.</p>
+		
+			<a href="https://ghariib.ir/posts/enhanced-runtime-monitoring-for-ecs-with-amazon-guardduty/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/enterprise-juniper-routers-subjected-to-malware-campaign/">Enterprise Juniper routers subjected to malware campaign</a></h1>
+	<b><time>25.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Installation of the malware in targeted routers facilitates the deployment of a cd00r variant scanning for five network signals, which when received triggers reverse shell creation on the local file system, enabling device takeover, data exfiltration, and additional malware compromise, according to an investigation by Black Lotus Labs researchers.</p>
+<p>Go to Source</p>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/friday-five-january-24-2025/">Friday Five — January 24, 2025</a></h1>
+	<b><time>25.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Registration for Red Hat Summit and AnsibleFest is now openRed Hat Summit and AnsibleFest is back, bringing IT professionals, enterprise leaders, partners, and open source enthusiasts together. Registration is open now to join us in Boston, MA on May 19-22. Learn more Red Hat Introduces Kubernetes-Native Connectivity Management with Red Hat Connectivity LinkRed Hat Connectivity Link is now available, providing a unified solution that simplifies and enhances application connectivity, management and security capabilities across the hybrid cloud. Learn more InfoWorld - Red Hat offers OpenShift Vi</p>
+		
+			<a href="https://ghariib.ir/posts/friday-five-january-24-2025/">Read more...</a>
 		
 	</div>
 </article>
@@ -239,7 +234,7 @@ Vivaldi web browser has just released its first major update of the year – a c
 
 	<a href="/page/170/">Previous Page</a>
 
-171 of 564
+171 of 576
 
 	<a href="/page/172/">Next Page</a>
 

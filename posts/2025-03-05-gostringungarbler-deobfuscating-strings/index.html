@@ -51,7 +51,7 @@
 <p>Garble&rsquo;s string encryption, while relatively straightforward, significantly hinders static analysis. In this blog post, we&rsquo;ll detail garble’s string transformations and the process of automatically deobfuscating them.</p>
 <p>We&rsquo;re also introducing GoStringUngarbler, a command-line tool written in Python that automatically decrypts strings found in garble-obfuscated Go binaries. This tool can streamline the reverse engineering process by producing a deobfuscated binary with all strings recovered and shown in plain text, thereby simplifying static analysis, malware detection, and classification.</p>
 <p>aside_block</p>
-<p>&lt;ListValue: [StructValue([(&rsquo;title&rsquo;, &lsquo;Get GoStringUngarbler!&rsquo;), (&lsquo;body&rsquo;, &lt;wagtail.rich_text.RichText object at 0x3e3f0daf2e50&gt;), (&lsquo;btn_text&rsquo;, &lsquo;Download now&rsquo;), (&lsquo;href&rsquo;, &lsquo;<a href="https://github.com/mandiant/gostringungarbler')">https://github.com/mandiant/gostringungarbler')</a>, (&lsquo;image&rsquo;, None)])]&gt;</p>
+<p>&lt;ListValue: [StructValue([(&rsquo;title&rsquo;, &lsquo;Get GoStringUngarbler!&rsquo;), (&lsquo;body&rsquo;, &lt;wagtail.rich_text.RichText object at 0x3e89343f2220&gt;), (&lsquo;btn_text&rsquo;, &lsquo;Download now&rsquo;), (&lsquo;href&rsquo;, &lsquo;<a href="https://github.com/mandiant/gostringungarbler')">https://github.com/mandiant/gostringungarbler')</a>, (&lsquo;image&rsquo;, None)])]&gt;</p>
 <h2 id="garble-obfuscating-compiler">Garble Obfuscating Compiler</h2>
 <p>Before detailing the GoStringUngarbler tool, we want to briefly explain how the garble compiler modifies the build process of Go binaries. By wrapping around the official Go compiler, garble performs transformations on the source code during compilation through Abstract Syntax Tree (AST) manipulation using Go’s <a href="https://pkg.go.dev/go/ast">go/ast</a> library. Here, the obfuscating compiler modifies program elements to obfuscate the produced binary while preserving the semantic integrity of the program. Once transformed by garble, the program’s AST is fed back into the Go compilation pipeline, producing an executable that is harder to reverse engineer and analyze statically. </p>
 <p>While garble can apply a variety of transformations to the source code, this blog post will focus on its &ldquo;literal&rdquo; transformations. When garble is executed with the <code>-literals</code> flag, it transforms all literal strings in the source code and imported Go libraries into an obfuscated form. Each string is encoded and wrapped behind a decrypting function, thwarting static string analysis. </p>
@@ -582,15 +582,15 @@ ret                                        ; return the decrypted string
 		<div>
 			<ul>
 				
-				<li><a href="/posts/2025-03-22-indiana-health-systems-unite-to-help-sm/">Indiana health systems unite to help smaller providers tackle cybersecurity</a></li>
+				<li><a href="/posts/2025-03-22-cve-2025-2618---d-link-dap-1620-heap-ba/">CVE-2025-2618 - D-Link DAP-1620 Heap-Based Buffer Overflow Vulnerability</a></li>
 				
-				<li><a href="/posts/2025-03-22-cve-2025-2577---bitspecter-suite-for-wo/">CVE-2025-2577 - Bitspecter Suite for WordPress Stored XSS</a></li>
+				<li><a href="/posts/2025-03-22-cve-2025-2619---d-link-dap-1620-stack-b/">CVE-2025-2619 - D-Link DAP-1620 Stack-Based Buffer Overflow Vulnerability</a></li>
 				
-				<li><a href="/posts/2025-03-22-cve-2025-1971---wordpress-export-and-im/">CVE-2025-1971 - WordPress Export and Import Users and Customers Plugin PHP Object Injection Vulnerability</a></li>
+				<li><a href="/posts/2025-03-22-cve-2025-2186---funnelkit-woocommerce-s/">CVE-2025-2186 - FunnelKit WooCommerce SQL Injection</a></li>
 				
-				<li><a href="/posts/2025-03-22-cve-2025-1972---wordpress-export-import/">CVE-2025-1972 - WordPress Export Import Users and Customers Plugin Remote File Deletion Vulnerability</a></li>
+				<li><a href="/posts/2025-03-22-cve-2025-2617---yangyouwang-crud-cross-/">CVE-2025-2617 - Yangyouwang Crud Cross-Site Scripting Vulnerability</a></li>
 				
-				<li><a href="/posts/2025-03-22-cve-2025-1973---wordpress-export-and-im/">CVE-2025-1973 - WordPress Export and Import Users and Customers Path Traversal</a></li>
+				<li><a href="/posts/2025-03-22-cve-2025-26796---apache-oozie-cross-sit/">CVE-2025-26796 - Apache Oozie Cross-site Scripting Vulnerability</a></li>
 				
 			</ul>
 		</div>

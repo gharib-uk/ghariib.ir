@@ -40,198 +40,160 @@
 		
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-open-source-is-shaping-the-future-of-innovation/">How open-source is shaping the future of innovation</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p><strong>Open-source technology</strong> has significantly shaped how industries approach complex technical challenges and foster innovation. It has expanded beyond software to impact hardware and systems design, opening up new pathways for researchers, engineers, and tech enthusiasts to develop advanced solutions. This collective approach fuels innovation and contributes to sustainable development by creating accessible, adaptable tools that solve real-world problems at scale.</p>
-<h2 id="ai-awards--summit-2025-enter-the-ai-awards-and-be-a-part-of-the-future">
-<figure>
-  <img src="https://www.softwaretestingnews.co.uk/wp-content/uploads/2024/11/AI-webpost-1.jpg" alt="AI Awards &amp; Summit 2025: Enter the AI Awards and be a part of the future." />
-</figure>
-
-
-</h2>
-<h2 id="democratising-open-source-technology-and-science"><strong>Democratising open-source technology and science</strong></h2>
-<p>Open-source technology fundamentally changes how we access and utilise high-tech tools. Traditionally, advanced instruments like oscilloscopes, signal generators, and spectrum analysers were accessible primarily to well-funded research labs. With open-source tools such as Red Pitaya’s “pocket lab,” engineers and students can now access powerful measurement and testing capabilities in a compact, cost-effective format. This allows universities, startups, and even independent researchers and enthusiasts to innovate without being restricted by cost or proprietary limitations.</p>
-		
-			<a href="https://ghariib.ir/posts/how-open-source-is-shaping-the-future-of-innovation/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-soc-dfir-teams-prevent-ransomware-threats-in-healthcare-a-case-study-on-interlock-ransomware/">How SOC/DFIR Teams Prevent Ransomware Threats in Healthcare – A Case Study on Interlock Ransomware</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>Ransomware attacks targeting the healthcare sector have become increasingly challenging to manage due to financial losses and the risks posed to patient safety and operational continuity.</p>
-<p>Researchers at <strong>ANR.RUN analyze</strong> the impact of ransomware threats in healthcare, using the notorious Interlock ransomware group as a case study focus is on how ANY.RUN’s advanced tools, including its Interactive Sandbox and Threat Intelligence (TI) Lookup, enable organizations to detect, analyze, and mitigate such attacks.</p>
-		
-			<a href="https://ghariib.ir/posts/how-soc-dfir-teams-prevent-ransomware-threats-in-healthcare-a-case-study-on-interlock-ransomware/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-check-which-tables-contain-data-in-a-database/">How to Check Which Tables Contain Data in a Database</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>When managing a database, it&rsquo;s often useful to identify which tables contain data. This can help with troubleshooting, maintenance, or simply understanding the database&rsquo;s structure and usage. Here’s how to check for tables with data across different relational database management systems (RDBMS).</p>
-<h2 id="for-postgresql"><strong>For PostgreSQL</strong></h2>
-<p>In PostgreSQL, you can dynamically generate a query to check row counts for all tables within a schema using <code>pg_catalog.pg_tables</code>:</p>
-<h3 id="using-a-plpgsql-block">Using a PL/pgSQL Block:</h3>
-<pre tabindex="0"><code>DO $$
-DECLARE
-    tbl RECORD;
-BEGIN
-    FOR tbl IN
-        SELECT schemaname, tablename
-        FROM pg_catalog.pg_tables
-        WHERE schemaname = &#39;public&#39;  -- Change schema if needed
-    LOOP
-        EXECUTE format(
-            &#39;SELECT COUNT(*) AS row_count, &#39;&#39;%I&#39;&#39; AS table_name FROM %I.%I&#39;,
-            tbl.tablename, tbl.schemaname, tbl.tablename
-        );
-    END LOOP;
-END $$;
-</code></pre><p>This script loops through all tables in the <code>public</code> schema and outputs the row count for each table.</p>
-		
-			<a href="https://ghariib.ir/posts/how-to-check-which-tables-contain-data-in-a-database/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-clear-apt-cache-and-free-up-disk-space/">How to Clear APT Cache and Free Up Disk Space</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<div>
-		<p>The APT cache stores downloaded package files on your system. Over time, this cache can take up significant disk space. How do you clear the apt cache? You simply use this apt clean command option:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>apt clean
-</span></span></code></pre></div><p>Clearing the APT cache is a simple way to free up space while keeping your system running smoothly.</p>
-<h2 id="clear-apache-cache-step-by-step-guide">Clear Apache Cache: Step by Step Guide</h2>
-<h3 id="step-1-check-disk-space-usage">Step 1: Check Disk Space Usage</h3>
-<p>Before clearing the APT cache, check how much disk space is currently used by the cache.</p>
-		
-			<a href="https://ghariib.ir/posts/how-to-clear-apt-cache-and-free-up-disk-space/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-implement-devops-using-kubernetes/">How to implement devops using kubernetes?</a></h1>
+	<h1><a href="https://ghariib.ir/posts/bitcoin-will-reach-100k-before-trump-takes-office/">Bitcoin will reach $100k before Trump takes office</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
 		<p>
 <figure>
-  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-47.png" alt="" />
+  <img src="https://devopsonline.co.uk/wp-content/uploads/2024/11/AI-webpost-1.jpg" alt="" />
 </figure>
 
 
 </p>
-<p>Kubernetes is an open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications. In the context of DevOps, Kubernetes plays a crucial role in enabling continuous integration, continuous delivery, and infrastructure management. By managing containers across multiple environments, Kubernetes ensures that applications are scalable, resilient, and easily maintainable—key aspects of any DevOps workflow.</p>
-<p>This post explores how to implement DevOps practices using Kubernetes, highlighting the major features that make Kubernetes an ideal platform for automating DevOps processes and streamlining the development lifecycle.</p>
+<p>As Donald Trump heads back to the White House, a University of Sussex professor who has been successfully predicting bitcoin (BTC) prices since 2021, is forecasting unprecedented highs which may breach $100k per token.</p>
+<p>Prof Carol Alexander of the University of Sussex Business School says bitcoin’s rapid rise in the immediate wake of the US election is likely to continue before Trump’s inauguration on 20th January 2025. She also believes the lesser-known currencies ether (ETH) and dogecoin (DOGE) will keep moving in the same direction, especially with the latter’s links to key Trump ally Elon Musk.</p>
 		
-			<a href="https://ghariib.ir/posts/how-to-implement-devops-using-kubernetes/">Read more...</a>
+			<a href="https://ghariib.ir/posts/bitcoin-will-reach-100k-before-trump-takes-office/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-manage-python-dependencies-in-ansible-execution-environments/">How to manage Python dependencies in Ansible execution environments</a></h1>
+	<h1><a href="https://ghariib.ir/posts/bridging-the-ai-skills-gap-red-hats-collaboration-with-teens-in-ai/">Bridging the AI Skills gap: Red Hat’s collaboration with Teens in AI</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Ansible execution environments provide a runtime for Red Hat Ansible Automation Platform that includes all of the necessary tooling in a single atomic package. Ansible, as an automation tool, relies on Python as its underlying programming language. Not only is Python integral to the core of Ansible, but its use is widespread and can be found throughout the Ansible ecosystem, including Ansible execution environments. As a result, how Python content is managed directly impacts how an execution environment is constructed and operates at runtime. This article will explore the various ways that Python can be managed in Ansible execution environments, including considerations that apply to a variety of operating environments.</p>
+		<p>AI has rapidly become integral to business operations and shows no signs of slowing down. In a recent Red Hat survey, more than three quarters of respondents said preparing for AI adoption was a top driver for their cloud growth in 2025. This rapid growth of interest and adoption of AI technologies brings challenges. That same research showed that 71% of IT managers said AI was one of the top skills gaps they will have over the next 12-18 months that will likely limit their cloud adoption ambitions.As we look to the year ahead and even beyond, we must consider how we address some of those unde</p>
 		
-			<a href="https://ghariib.ir/posts/how-to-manage-python-dependencies-in-ansible-execution-environments/">Read more...</a>
-		
-	</div>
-</article>
-
-		
-			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-migrate-to-sase-and-zero-trust-kaspersky-official-blog/">How to migrate to SASE and zero trust | Kaspersky official blog</a></h1>
-	<b><time>29.01.2025 00:00</time></b>
-	
-	<a href="/tags/cybersecurity">cybersecurity</a>
-	
-	<a href="/tags/data_breaches">data_breaches</a>
-	
-	<a href="/tags/infostealers">infostealers</a>
-	
-	<a href="/tags/linux">linux</a>
-	
-	<a href="/tags/malware">malware</a>
-	
-	<a href="/tags/privacy">privacy</a>
-	
-	<a href="/tags/security">security</a>
-	
-	<a href="/tags/siem">siem</a>
-	
-	<div>
-		<p>SASE components: ZTNA, CASB CSWG, NGFW, SD-WAN, and how they improve network security</p>
-<p>The traditional network security model — with a secure perimeter and encrypted channels for external access to that perimeter — is coming apart at the seams. Cloud services and remote working have challenged the very notion of “perimeter”, while the primary method of accessing the perimeter — VPN — has in recent years become a prime attack vector for intruders. Many high-profile hacks began by exploiting vulnerabilities in VPN solutions: CVE-2023-46805, CVE-2024-21887 and CVE-2024-21893 in Ivanti Connect Secure, and CVE-2023-4966 in Citrix solutions. By compromising a VPN server, which needs to be accessible online, intruders gain privileged access to an enterprise’s internal network and plenty of scope for covert attack development.</p>
-		
-			<a href="https://ghariib.ir/posts/how-to-migrate-to-sase-and-zero-trust-kaspersky-official-blog/">Read more...</a>
+			<a href="https://ghariib.ir/posts/bridging-the-ai-skills-gap-red-hats-collaboration-with-teens-in-ai/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-name-version-and-reference-container-images/">How to name, version, and reference container images</a></h1>
+	<h1><a href="https://ghariib.ir/posts/building-a-culture-of-security-aws-partners-with-the-bbc/">Building a culture of security: AWS partners with the BBC</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
-		<p>In my time working in the software industry, I have encountered recurring issues involving versioning. Which version scheme should we use for project X? When should we bump the major version? Is this pull request a breaking change? We want to cut a new release, but what should the next version be?</p>
-<p>Versioning schemes communicate new features, bug fixes, and even breaking changes to our users. Some schemes are like a contract with users, giving them guarantees for types of version changes. For instance, a major version bump from version 2.4 to 3.0 usually implies a breaking change and a substantial new functionality. Consumers of software (e.g., Linux distributions) can decide when and how to use the new versions. </p>
+		<p>Cybersecurity isn’t just about technology—it’s about people. That’s why Amazon Web Services (AWS) partnered with the BBC to explore the human side of cybersecurity in our latest article, <em>The Human Side of Cybersecurity: Building a Culture of Security</em>, available on the BBC website.</p>
+<p>In the piece, we spotlight the AWS Security Guardians program and how it helps security enable your business, not slow it down. Through the program, teams are provided tools, resources, and guidance to help address security concerns at every step of development. This enables developers to make the right decisions and embed security deeper in their solutions. Using our approach with their Security Champions initiative, the Commonwealth Bank of Australia shared how the program has helped transform their company culture and give ownership of services and security directly to their teams.</p>
 		
-			<a href="https://ghariib.ir/posts/how-to-name-version-and-reference-container-images/">Read more...</a>
+			<a href="https://ghariib.ir/posts/building-a-culture-of-security-aws-partners-with-the-bbc/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-protect-and-secure-your-data-in-10-ways/">How to Protect and Secure Your Data in 10 Ways</a></h1>
+	<h1><a href="https://ghariib.ir/posts/building-trust-foundations-of-security-safety-and-transparency-in-ai/">Building trust: Foundations of security, safety and transparency in AI</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
-		<p>Use this comprehensive list of strategies to help you safeguard your company&rsquo;s data from threats and data breaches.</p>
-<p>Go to Source</p>
+		<p>This blog is an adaptation of a Red Hat research paper of the same name (Bestavros, Chen, Fox, Mollett Sidhpurwala, 2024). You may access the full paper here.As publicly available artificial intelligence (AI) models rapidly evolve, so do the potential security and safety implications, which calls for a greater understanding of their risks and vulnerabilities. To develop a foundation for standardized security, safety and transparency in the development and operation of AI models–as well as their open ecosystems and communities–we must change how we’re approaching current challenges, such</p>
+		
+			<a href="https://ghariib.ir/posts/building-trust-foundations-of-security-safety-and-transparency-in-ai/">Read more...</a>
 		
 	</div>
 </article>
 
 		
 			<article>
-	<h1><a href="https://ghariib.ir/posts/how-to-setup-monitoring-devops/">How to setup monitoring devops?</a></h1>
+	<h1><a href="https://ghariib.ir/posts/bureaucrats-ordered-to-go-back-to-work/">Bureaucrats Ordered to Go Back to Work</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The offices where Washington D.C.’s bureaucrats work were largely empty on Monday, January 20, 2025, as Donald Trump was inaugurated as U.S. President for the second time.</p>
+<p>But they weren’t empty for the inauguration. Because that Monday coincided with the Martin Luther King Jr. Day federal holiday, most U.S. government employees had a paid day off work.</p>
+<p>But then, many of the federal government’s buildings continued to sit empty on Tuesday, January 21, and again on Wednesday, Thursday, and Friday.</p>
+		
+			<a href="https://ghariib.ir/posts/bureaucrats-ordered-to-go-back-to-work/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/c-suite-leaders-embrace-platformization-for-security-success/">C-Suite Leaders Embrace Platformization for Security Success</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Businesses are facing a significant challenge – security fragmentation and complexity are getting in the way of results. The IBM Institute for Business Value in collaboration with Palo Alto Networks conducted the study, <em>Capturing the cybersecurity dividend: how security platforms generate business value</em>. The research found 52% of surveyed executives identified complexity as the biggest impediment to their security operations. With the average organization managing 83 different security solutions from 29 vendors, the struggle to keep security operations streamlined and effective is real.</p>
+		
+			<a href="https://ghariib.ir/posts/c-suite-leaders-embrace-platformization-for-security-success/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/changes-to-provisioning-azure-devops-projects-using-the-azure-devops-demo-generator/">Changes to provisioning Azure DevOps projects using the Azure DevOps Demo Generator</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>The Azure DevOps Demo Generator is a tool that allows you to create projects in your Azure DevOps organization, complete with pre-filled sample content. This includes source code, work items, iterations, service connections, and build and release pipelines, all based on a template you select.</p>
+<p>Starting <strong>February 28, 2025</strong>, we are eliminating the need for us to authenticate on your behalf. This update will give you greater control over creating new projects and ensure a more secure process. Instead of the previous authentication process, you will run the ADOGenerator project as a console application or executable (.exe) file to create projects in your Azure DevOps organization.</p>
+		
+			<a href="https://ghariib.ir/posts/changes-to-provisioning-azure-devops-projects-using-the-azure-devops-demo-generator/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/check-point-software-champions-data-privacy-on-international-data-protection-day/">Check Point Software champions data privacy on International Data Protection Day</a></h1>
 	<b><time>29.01.2025 00:00</time></b>
 	
 	<div>
 		<p>
 <figure>
-  <img src="https://www.bestdevops.com/wp-content/uploads/2025/01/image-50-1024x543.png" alt="" />
+  <img src="https://blog.checkpoint.com/wp-content/uploads/2024/07/featured-image-default-c-800x400-1.jpg" alt="" />
 </figure>
 
 
 </p>
-<p>Monitoring is a critical aspect of DevOps that allows teams to ensure the health, performance, and availability of applications and infrastructure. Effective monitoring helps DevOps teams quickly identify issues, optimize performance, and ensure that software is deployed and delivered efficiently. With the fast-paced and automated nature of DevOps, continuous monitoring ensures that any problems are detected early, allowing for quick remediation.</p>
-<p>This post will explore how to set up monitoring in a DevOps environment, detailing the tools and features required for a comprehensive monitoring setup and how these features contribute to the efficiency of DevOps workflows.</p>
+<p>In recognition of International Data Protection Day, Check Point Software has underscored the critical importance of data privacy as a strategic priority for organizations worldwide. No longer merely a compliance obligation, data privacy has become a competitive advantage, reinforcing customer trust, enabling innovation, and enhancing operational resilience. “In today’s digital world, privacy is not just about compliance—it’s about trust,” said Mark Weir, regional director for the UK &amp; Ireland at Check Point Software Technologies. “Organizations that prioritize data privacy gain a significant advantage, not just in regulatory adherence, but in fostering customer confidence, ensuring business continuity, and driving sustainable growth.” The […]</p>
 		
-			<a href="https://ghariib.ir/posts/how-to-setup-monitoring-devops/">Read more...</a>
+			<a href="https://ghariib.ir/posts/check-point-software-champions-data-privacy-on-international-data-protection-day/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cisa-releases-seven-industrial-control-systems-advisories/">CISA Releases Seven Industrial Control Systems Advisories</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>CISA released seven Industrial Control Systems (ICS) advisories on January 28, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.</p>
+<ul>
+<li>ICSA-25-028-01 B&amp;R Automation Runtime</li>
+<li>ICSA-25-028-02 Schneider Electric Power Logic</li>
+<li>ICSA-25-028-03 Rockwell Automation FactoryTalk</li>
+<li>ICSA-25-028-04 Rockwell Automation FactoryTalk</li>
+<li>ICSA-25-028-05 Rockwell Automation DataMosaix Private Cloud</li>
+<li>ICSA-25-028-06 Schneider Electric RemoteConnect and SCADAPack x70 Utilities</li>
+<li>ICSMA-24-352-01 BD Diagnostic Solutions Products (Update A)</li>
+</ul>
+<p>CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.</p>
+		
+			<a href="https://ghariib.ir/posts/cisa-releases-seven-industrial-control-systems-advisories/">Read more...</a>
+		
+	</div>
+</article>
+
+		
+			<article>
+	<h1><a href="https://ghariib.ir/posts/cloud-ransomware-developments-the-risks-of-customer-managed-keys/">Cloud Ransomware Developments | The Risks of Customer-Managed Keys</a></h1>
+	<b><time>29.01.2025 00:00</time></b>
+	
+	<div>
+		<p>Learn how to protect against the abuse of AWS Server-Side Encryption with Customer-Provided Keys (SSE-C) in ransomware campaigns.</p>
+<p>Ransomware actors are increasingly abusing native cloud features to target critical data. A recent threat actor campaign, as detailed in the Halcyon blog, was observed abusing Amazon Web Services (AWS) Server-Side Encryption with Customer-Provided Keys (SSE-C). By encrypting S3 objects with their own keys, attackers render data irretrievable, abusing AWS features and services through the use of stolen credentials in an attempt to simplify their efforts with less infrastructure to manage.</p>
+		
+			<a href="https://ghariib.ir/posts/cloud-ransomware-developments-the-risks-of-customer-managed-keys/">Read more...</a>
 		
 	</div>
 </article>
@@ -241,7 +203,7 @@ END $$;
 
 	<a href="/page/142/">Previous Page</a>
 
-143 of 564
+143 of 576
 
 	<a href="/page/144/">Next Page</a>
 
