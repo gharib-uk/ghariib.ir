@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gharib Personal Blog</title>
+    <title>Alireza Gharib Personal Blog</title>
     <link>https://ghariib.ir/</link>
-    <description>Recent content on Gharib Personal Blog</description>
+    <description>Recent content on Alireza Gharib Personal Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <copyright>Alireza Gharib. All right reserved</copyright>
     <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://ghariib.ir/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -365,6 +364,13 @@
       <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://ghariib.ir/posts/common-vpn-protocols/</guid>
       <description>How to install and use Common VPN Protocols ?!</description>
+    </item>
+    <item>
+      <title>README</title>
+      <link>https://ghariib.ir/readme/</link>
+      <pubDate>Sun, 28 Jul 2024 11:14:56 +0330</pubDate>
+      <guid>https://ghariib.ir/readme/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/ellerbrock/open-source-badges/&#34;&gt;&lt;img src=&#34;https://badges.frapsoft.com/os/v1/open-source.svg?v=103&#34; alt=&#34;Open Source Love svg1&#34;&gt;&lt;/a&gt;&#xA;&lt;a href=&#34;https://golang.org/&#34;&gt;&lt;img src=&#34;https://img.shields.io/badge/--00ADD8?logo=go&amp;amp;logoColor=ffffff&#34; alt=&#34;Go&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;📄 Know about my experiences and Skills &lt;a href=&#34;https://drive.google.com/file/d/1cNKpwsf1C8zOJToAetc2lZER_J3-49YY/view?usp=drivesdk&#34;&gt;My Online CV&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Greetings !</title>
